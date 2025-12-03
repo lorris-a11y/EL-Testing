@@ -1,0 +1,192 @@
+[
+    {
+        "original_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August and September.",
+        "mutated_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August.",
+        "repairs": [
+            {
+                "entity": "July",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Communication, which began in their 20s, is still going strong between Honiton and Texas.",
+        "mutated_sentence": "Communication, which began in their 20s, is still going strong between Honiton.",
+        "repairs": [
+            {
+                "entity": "Honiton",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 1.0
+            },
+            {
+                "entity": "their 20s",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 0.7934253453750741
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ian Russell, Molly's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\".",
+        "mutated_sentence": "Ian Russell's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\".",
+        "repairs": [
+            {
+                "entity": "Ian Russell",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Amanda Stephens, Olly's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "mutated_sentence": "Amanda Stephens's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "repairs": [
+            {
+                "entity": "Amanda Stephens",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "repairs": [
+            {
+                "entity": "Nintendo Switch",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"A hybrid vehicle eliminates the range anxiety as it can switch to gasoline, which is relevant as we are still far behind with charging infrastructure in Rwanda,\" says Joshua Nshuti, from Greenleaf Motors, Mitsubishi's official dealer in Rwanda.",
+        "mutated_sentence": "\"A hybrid vehicle eliminates the range anxiety as it can switch to gasoline, which is relevant as we are still far behind with charging infrastructure in Rwanda, \" says Joshua Nshuti, from Greenleaf Motors's official dealer in Rwanda.",
+        "repairs": [
+            {
+                "entity": "Greenleaf Motors",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "For five months of the year (February, May, October, November and December), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "mutated_sentence": "For five months of the year (February, May ), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "repairs": [
+            {
+                "entity": "February",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, as well as part of Argyll and Bute and the Highlands.",
+        "repairs": [
+            {
+                "entity": "Borders",
+                "original_tag": "LOC",
+                "mutated_tag": "GPE",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Cunningham was born in Creston, Iowa, and went on to earn a masters degree in physics from the University of California in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "mutated_sentence": "Cunningham was born in Creston and went on to earn a masters degree in physics from the University of California in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "repairs": [
+            {
+                "entity": "Los Angeles",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0
+            },
+            {
+                "entity": "the University of California",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6175825809383301
+            }
+        ]
+    },
+    {
+        "original_sentence": "Warsaw, Poland, saw 18.9C (66F) on Sunday while Bilbao, Spain, was 25.1C - more than 10C above average.",
+        "mutated_sentence": "Warsaw, Poland, saw 18.9C (66F) on Sunday while Bilbao, was 25.1C - more than 10C above average.",
+        "repairs": [
+            {
+                "entity": "than 10C",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "It asked for the number of call outs to wildfires in the summers of 2020, 2021 and 2022.",
+        "mutated_sentence": "It asked for the number of call outs to wildfires in the summers of 2020.",
+        "repairs": [
+            {
+                "entity": "2020",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0
+            },
+            {
+                "entity": "summers",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.607438060462153
+            }
+        ]
+    },
+    {
+        "original_sentence": "Curator Briony Smith said: \"We hope Leia and Luka can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "mutated_sentence": "Curator Briony Smith said: \"We hope Leia can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "repairs": [
+            {
+                "entity": "Leia",
+                "original_tag": "PERSON",
+                "mutated_tag": "PRODUCT",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre.",
+        "repairs": [
+            {
+                "entity": "Moelfre",
+                "original_tag": "ORG",
+                "mutated_tag": "GPE",
+                "corrected_tag": "GPE",
+                "confidence": 1.0
+            }
+        ]
+    }
+]

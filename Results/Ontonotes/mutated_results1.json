@@ -1,0 +1,5256 @@
+[
+    {
+        "original_sentence": "In the regions of Xinjiang and Tibet, the lockdowns have gone on for months.",
+        "mutated_sentence": "In the regions of Xinjiang, the lockdowns have gone on for months.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Xinjiang",
+                    "start": 18,
+                    "end": 26
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "months",
+                    "start": 59,
+                    "end": 65
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Etsy, which was founded in Brooklyn, New York, 17 years ago, is known for its distinctive small sellers, who offer everything from crocheted penguins to furniture.",
+        "mutated_sentence": "Etsy, which was founded in Brooklyn, 17 years ago, is known for its distinctive small sellers, who offer everything from crocheted penguins to furniture.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Etsy",
+                    "start": 0,
+                    "end": 4
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Brooklyn",
+                    "start": 27,
+                    "end": 35
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "17 years ago",
+                    "start": 37,
+                    "end": 49
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Health bosses have warned they cannot guarantee patient safety during strikes by thousands of ambulance workers in England and Wales on Wednesday.",
+        "mutated_sentence": "Health bosses have warned they cannot guarantee patient safety during strikes by thousands of ambulance workers in England on Wednesday.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "thousands",
+                    "start": 81,
+                    "end": 90
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 115,
+                    "end": 122
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Wednesday",
+                    "start": 126,
+                    "end": 135
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "No industrial action is taking place in Northern Ireland and Scotland, and there will be no strikes in the east of England or the Isle of Wight.",
+        "mutated_sentence": "No industrial action is taking place in Northern Ireland and there will be no strikes in the east of England or the Isle of Wight.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Northern Ireland",
+                    "start": 40,
+                    "end": 56
+                },
+                {
+                    "text": "England",
+                    "start": 101,
+                    "end": 108
+                },
+                {
+                    "text": "the Isle of Wight",
+                    "start": 112,
+                    "end": 129
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The mandatory order to keep birds indoors in England followed regional measures introduced in Norfolk, Suffolk and parts of Essex.",
+        "mutated_sentence": "The mandatory order to keep birds indoors in England followed regional measures introduced in Norfolk and parts of Essex.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 45,
+                    "end": 52
+                },
+                {
+                    "text": "Norfolk",
+                    "start": 94,
+                    "end": 101
+                },
+                {
+                    "text": "Essex",
+                    "start": 115,
+                    "end": 120
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "China has opened the selection process for astronauts for future missions to applicants from the \"special administrative regions\" of Macau and Hong Kong, who have previously been excluded.",
+        "mutated_sentence": "China has opened the selection process for astronauts for future missions to applicants from the \"special administrative regions\" of Macau, who have previously been excluded.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "China",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "text": "Macau",
+                    "start": 133,
+                    "end": 138
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "\"It originated amongst ducks in Europe and spread to other birds, \" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Europe",
+                    "start": 32,
+                    "end": 38
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Paul Digard",
+                    "start": 73,
+                    "end": 84
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the Roslin Institute",
+                    "start": 113,
+                    "end": 133
+                },
+                {
+                    "text": "Edinburgh University",
+                    "start": 137,
+                    "end": 157
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "This \"huge outbreak\" has also spread into species such as seals and foxes, says veterinary expert Dr Louise Moncla of the University of Pennsylvania in Philadelphia, US.",
+        "mutated_sentence": "This \"huge outbreak\" has also spread into species such as seals and foxes, says veterinary expert Dr Louise Moncla of the University of Pennsylvania in Philadelphia.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Louise Moncla",
+                    "start": 101,
+                    "end": 114
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the University of Pennsylvania",
+                    "start": 118,
+                    "end": 148
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Philadelphia",
+                    "start": 152,
+                    "end": 164
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"There are strict export controls when a country decides to vaccinate,\" says Dr Maurice Pitesky of the School of Veterinary Medicine, University of California, Davis.",
+        "mutated_sentence": "\"There are strict export controls when a country decides to vaccinate, \" says Dr Maurice Pitesky of the School of Veterinary Medicine.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Maurice Pitesky",
+                    "start": 81,
+                    "end": 96
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the School of Veterinary Medicine",
+                    "start": 100,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Farmers in the UK and France have also been told to bring free range poultry flocks indoors, to stop them being infected by wild birds.",
+        "mutated_sentence": "Farmers in the UK have also been told to bring free range poultry flocks indoors, to stop them being infected by wild birds.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 15,
+                    "end": 17
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "UK Business Secretary Grant Shapps said: \"Our automotive industry is a world-leader, creating jobs whether in Essex, Somerset or Glasgow.",
+        "mutated_sentence": "UK Business Secretary Grant Shapps said: \"Our automotive industry is a world-leader, creating jobs whether in Essex or Glasgow.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 0,
+                    "end": 2
+                },
+                {
+                    "text": "Essex",
+                    "start": 110,
+                    "end": 115
+                },
+                {
+                    "text": "Glasgow",
+                    "start": 119,
+                    "end": 126
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Grant Shapps",
+                    "start": 22,
+                    "end": 34
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The funding will be delivered by UK Research and Innovation, with support from the Faraday Institution, Innovate UK and the UK Battery Industrialisation Centre.",
+        "mutated_sentence": "The funding will be delivered by UK Research and Innovation, with support from the Faraday Institution.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "UK Research and Innovation",
+                    "start": 33,
+                    "end": 59
+                },
+                {
+                    "text": "the Faraday Institution",
+                    "start": 79,
+                    "end": 102
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Companies talking up 5G are often thinking not just about what's here now but what we'll be having in 18 months, two or three years time.",
+        "mutated_sentence": "\"Companies talking up 5G are often thinking not just about what's here now but what we'll be having in 18 months time.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "18 months",
+                    "start": 103,
+                    "end": 112
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, Namibia, Botswana and Côte d'Ivoire, with plans to build plants in Ethiopia and Zimbabwe.",
+        "mutated_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, with plans to build plants in Ethiopia and Zimbabwe.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "2017",
+                    "start": 29,
+                    "end": 33
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "nine",
+                    "start": 47,
+                    "end": 51
+                },
+                {
+                    "text": "300",
+                    "start": 98,
+                    "end": 101
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Africa",
+                    "start": 80,
+                    "end": 86
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Cameroon",
+                    "start": 116,
+                    "end": 124
+                },
+                {
+                    "text": "Ethiopia",
+                    "start": 156,
+                    "end": 164
+                },
+                {
+                    "text": "Zimbabwe",
+                    "start": 169,
+                    "end": 177
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, Namibia, Botswana and Côte d'Ivoire, with plans to build plants in Ethiopia and Zimbabwe.",
+        "mutated_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, Namibia, Botswana and Côte d'Ivoire, with plans to build plants in Ethiopia.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "2017",
+                    "start": 29,
+                    "end": 33
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "nine",
+                    "start": 47,
+                    "end": 51
+                },
+                {
+                    "text": "300",
+                    "start": 98,
+                    "end": 101
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Africa",
+                    "start": 80,
+                    "end": 86
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Cameroon",
+                    "start": 116,
+                    "end": 124
+                },
+                {
+                    "text": "Namibia",
+                    "start": 126,
+                    "end": 133
+                },
+                {
+                    "text": "Botswana",
+                    "start": 135,
+                    "end": 143
+                },
+                {
+                    "text": "Côte d'Ivoire",
+                    "start": 148,
+                    "end": 161
+                },
+                {
+                    "text": "Ethiopia",
+                    "start": 193,
+                    "end": 201
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, India, and China, which has resulted in the draining of precious foreign exchange, non-creation of job opportunities, and suffering the vagaries of supply and demand,\" says Sinhue Noronha, founder and chief executive of Africure Pharmaceuticals.",
+        "mutated_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, India, , which has resulted in the draining of precious foreign exchange, non-creation of job opportunities and suffering the vagaries of supply and demand, \" says Sinhue Noronha, founder and chief executive of Africure Pharmaceuticals.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Africa",
+                    "start": 1,
+                    "end": 7
+                },
+                {
+                    "text": "Europe",
+                    "start": 72,
+                    "end": 78
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the",
+                    "start": 13,
+                    "end": 16
+                },
+                {
+                    "text": "years",
+                    "start": 17,
+                    "end": 22
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "India",
+                    "start": 80,
+                    "end": 85
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Sinhue Noronha",
+                    "start": 244,
+                    "end": 258
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Africure Pharmaceuticals",
+                    "start": 291,
+                    "end": 315
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August and September.",
+        "mutated_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "October",
+                    "start": 3,
+                    "end": 10
+                },
+                {
+                    "text": "July, August",
+                    "start": 177,
+                    "end": 189
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the World Health Organization",
+                    "start": 12,
+                    "end": 41
+                },
+                {
+                    "text": "WHO",
+                    "start": 43,
+                    "end": 46
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Employees who successfully refer a friend or family member to work at its plant in Zhengzhou, China will receive a 1,000 yuan award ($141; £117).",
+        "mutated_sentence": "Employees who successfully refer a friend or family member to work at its plant in Zhengzhou will receive a 1,000 yuan award ($141; £117).",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Zhengzhou",
+                    "start": 83,
+                    "end": 92
+                }
+            ],
+            "MONEY": [
+                {
+                    "text": "1,000 yuan",
+                    "start": 108,
+                    "end": 118
+                },
+                {
+                    "text": "141",
+                    "start": 127,
+                    "end": 130
+                },
+                {
+                    "text": "117",
+                    "start": 133,
+                    "end": 136
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In 2016, police in Dallas, Texas, used a robot armed with C-4 explosive to kill a sniper who had killed two officers and injured several more.",
+        "mutated_sentence": "In 2016, police in Dallas, used a robot armed with C-4 explosive to kill a sniper who had killed two officers and injured several more.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "2016",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Dallas",
+                    "start": 19,
+                    "end": 25
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "two",
+                    "start": 97,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A \"digital\" trade deal between the UK and Ukraine has been agreed.",
+        "mutated_sentence": "A \"digital\" trade deal between the UK has been agreed.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 35,
+                    "end": 37
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "According to the Department for International Trade (DIT) it is hoped the agreement will help the UK and Ukraine make their digital identity systems work together.",
+        "mutated_sentence": "According to the Department for International Trade (DIT) it is hoped the agreement will help the UK makes their digital identity systems work together.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "the Department for International Trade",
+                    "start": 13,
+                    "end": 51
+                },
+                {
+                    "text": "DIT",
+                    "start": 53,
+                    "end": 56
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 98,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Gloucestershire Royal Hospital surgeons Simon Higgs and Steve Hornby employed the Versius robot to remove a tumour from Martin Nugent's oesophagus.",
+        "mutated_sentence": "Gloucestershire Royal Hospital surgeons Simon Higgs employed the Versius robot to remove a tumour from Martin Nugent's oesophagus.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Gloucestershire Royal Hospital",
+                    "start": 0,
+                    "end": 30
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Simon Higgs",
+                    "start": 40,
+                    "end": 51
+                },
+                {
+                    "text": "Martin Nugent's",
+                    "start": 103,
+                    "end": 118
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "Versius",
+                    "start": 65,
+                    "end": 72
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "mutated_sentence": "Spotify all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the year",
+                    "start": 54,
+                    "end": 62
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 89,
+                    "end": 99
+                },
+                {
+                    "text": "Drake",
+                    "start": 101,
+                    "end": 106
+                },
+                {
+                    "text": "Taylor Swift",
+                    "start": 111,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "mutated_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "Apple Music",
+                    "start": 9,
+                    "end": 20
+                },
+                {
+                    "text": "Deezer",
+                    "start": 25,
+                    "end": 31
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the year",
+                    "start": 78,
+                    "end": 86
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 113,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Taylor Swift was the most-played artist for those listeners, with Drake and Ed Sheeran in second and third place.",
+        "mutated_sentence": "Taylor Swift was the most-played artist for those listeners, with Drake in second and third place.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Taylor Swift",
+                    "start": 0,
+                    "end": 12
+                },
+                {
+                    "text": "Drake",
+                    "start": 66,
+                    "end": 71
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "second",
+                    "start": 75,
+                    "end": 81
+                },
+                {
+                    "text": "third",
+                    "start": 86,
+                    "end": 91
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Taylor Swift was the most-played artist for those listeners, with Drake and Ed Sheeran in second and third place.",
+        "mutated_sentence": "Taylor Swift was the most-played artist for those listeners, with Drake and Ed Sheeran in second place.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Taylor Swift",
+                    "start": 0,
+                    "end": 12
+                },
+                {
+                    "text": "Drake",
+                    "start": 66,
+                    "end": 71
+                },
+                {
+                    "text": "Ed Sheeran",
+                    "start": 76,
+                    "end": 86
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "second",
+                    "start": 90,
+                    "end": 96
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Other streaming services, including YouTube and Amazon Music, have yet to release their figures.",
+        "mutated_sentence": "Other streaming services, including YouTube, have yet to release their figures.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "YouTube",
+                    "start": 36,
+                    "end": 43
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Communication, which began in their 20s, is still going strong between Honiton and Texas.",
+        "mutated_sentence": "Communication, which began in their 20s, is still going strong between Honiton.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "20s",
+                    "start": 36,
+                    "end": 39
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Honiton",
+                    "start": 71,
+                    "end": 78
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Their correspondence began when they were in their 20s as part of an educational project to put British and American students in contact.",
+        "mutated_sentence": "Their correspondence began when they were in their 20s as part of an educational project to put British students in contact.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "20s",
+                    "start": 51,
+                    "end": 54
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "British",
+                    "start": 96,
+                    "end": 103
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Already the UK's largest site with adult content, OnlyFans, has adopted age verification for all new UK subscribers, using third-party tools provided by Yoti and Ondato.",
+        "mutated_sentence": "Already the UK's largest site with adult content, OnlyFans, has adopted age verification for all new UK subscribers, using third-party tools provided by Yoti.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 12,
+                    "end": 14
+                },
+                {
+                    "text": "UK",
+                    "start": 101,
+                    "end": 103
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "OnlyFans",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "Yoti",
+                    "start": 153,
+                    "end": 157
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "third-party",
+                    "start": 123,
+                    "end": 134
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It meant that the likes of Facebook, Instagram and YouTube would have been told to prevent people being exposed to content relating to self-harm and eating disorders as well as misogynistic posts.",
+        "mutated_sentence": "It meant that the likes of Facebook would have been told to prevent people being exposed to content relating to self-harm and eating disorders as well as misogynistic posts.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Facebook",
+                    "start": 27,
+                    "end": 35
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Companies including Cheerios maker General Mills and Volkswagen are among the firms that have halted their spending in recent weeks.",
+        "mutated_sentence": "Companies including Cheerios maker General Mills are among the firms that have halted their spending in recent weeks.",
+        "entities": {
+            "PRODUCT": [
+                {
+                    "text": "Cheerios",
+                    "start": 20,
+                    "end": 28
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "General Mills",
+                    "start": 35,
+                    "end": 48
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "recent weeks",
+                    "start": 104,
+                    "end": 116
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Police in Bensalem, Pennsylvania claim a woman told them on Friday that her daughter had received an Instagram video call from an acquaintance.",
+        "mutated_sentence": "Police in Bensalem claims a woman told them on Friday that her daughter had received an Instagram video call from an acquaintance.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Bensalem",
+                    "start": 10,
+                    "end": 18
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Friday",
+                    "start": 47,
+                    "end": 53
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Instagram",
+                    "start": 88,
+                    "end": 97
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Meta, the company which owns Facebook, Instagram and WhatsApp, has been fined €265m (£228m) by the Irish Data Protection Commission (DPC).",
+        "mutated_sentence": "Meta, the company which owns Facebook, has been fined €265m (£228m) by the Irish Data Protection Commission (DPC).",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Meta",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "Facebook",
+                    "start": 29,
+                    "end": 37
+                },
+                {
+                    "text": "the Irish Data Protection Commission",
+                    "start": 71,
+                    "end": 107
+                },
+                {
+                    "text": "DPC",
+                    "start": 109,
+                    "end": 112
+                }
+            ],
+            "MONEY": [
+                {
+                    "text": "265m",
+                    "start": 55,
+                    "end": 59
+                },
+                {
+                    "text": "228m",
+                    "start": 62,
+                    "end": 66
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "But that view was challenged in a paper from researchers at Cornell and Stanford universities last year.",
+        "mutated_sentence": "But that view was challenged in a paper from researchers at Cornell universities last year.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Cornell",
+                    "start": 60,
+                    "end": 67
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "last year",
+                    "start": 81,
+                    "end": 90
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Representatives from both Pinterest and Meta, Instagram's parent company, gave evidence during Molly Russell's inquest.",
+        "mutated_sentence": "Representatives from both Pinterest's parent company, gave evidence during Molly Russell's inquest.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Pinterest",
+                    "start": 26,
+                    "end": 35
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Molly Russell's",
+                    "start": 75,
+                    "end": 90
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The US has banned the sale and import of new communications equipment from five Chinese companies, including Huawei and ZTE, amid concerns over national security.",
+        "mutated_sentence": "The US has banned the sale and import of new communications equipment from five Chinese companies, including Huawei, amid concerns over national security.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "five",
+                    "start": 75,
+                    "end": 79
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Chinese",
+                    "start": 80,
+                    "end": 87
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Huawei",
+                    "start": 109,
+                    "end": 115
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Other companies listed include Hikvision, Dahua and Hytera, which make video surveillance equipment and two-way radio systems.",
+        "mutated_sentence": "Other companies listed include Hikvision, which make video surveillance equipment and two-way radio systems.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Hikvision",
+                    "start": 31,
+                    "end": 40
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "two-way",
+                    "start": 86,
+                    "end": 93
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It follows the rescue of more than 60 Kenyans from Myanmar and Laos over the last few months - after the sales and customer service jobs they applied for in Thailand turned out to be a cover for cyber-crime, prostitution and even organ theft.",
+        "mutated_sentence": "It follows the rescue of more than 60 Kenyans from Myanmar over the last few months - after the sales and customer service jobs they applied for in Thailand turned out to be a cover for cyber-crime, prostitution and even organ theft.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "more than 60",
+                    "start": 25,
+                    "end": 37
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Kenyans",
+                    "start": 38,
+                    "end": 45
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Myanmar",
+                    "start": 51,
+                    "end": 58
+                },
+                {
+                    "text": "Thailand",
+                    "start": 148,
+                    "end": 156
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the last few months",
+                    "start": 64,
+                    "end": 83
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "So we have followers from across South America, Africa, Asia, it has allowed us to reach people in countries where the media isn't going to pick us up.",
+        "mutated_sentence": "So we have followers from across South America, it has allowed us to reach people in countries where the media isn't going to pick us up.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "South America",
+                    "start": 33,
+                    "end": 46
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A planned new law would make sharing pornographic deepfakes without consent a crime in England and Wales.",
+        "mutated_sentence": "A planned new law would make sharing pornographic deepfakes without consent a crime in England.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 87,
+                    "end": 94
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The government says around one in 14 adults in England and Wales say they have been threatened with their intimate images being shared against their will.",
+        "mutated_sentence": "The government says around one in 14 adults in England say they have been threatened with their intimate images being shared against their will.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "around one",
+                    "start": 20,
+                    "end": 30
+                },
+                {
+                    "text": "14",
+                    "start": 34,
+                    "end": 36
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 47,
+                    "end": 54
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Both TMTG and DWAC have agreed to merge, though the deal has not yet been completed.",
+        "mutated_sentence": "Both TMTG has agreed to merge, though the deal has not yet been completed.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "TMTG",
+                    "start": 5,
+                    "end": 9
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "They would pose as employees of banks including Barclays, Santander, HSBC, Lloyds, Halifax, First Direct, NatWest, Nationwide and TSB.",
+        "mutated_sentence": "They would pose as employees of banks including Barclays.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Barclays",
+                    "start": 48,
+                    "end": 56
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, primarily in the USA, UK, Netherlands, Australia, France and Ireland.",
+        "mutated_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, primarily in the USA, UK, Netherlands, Australia, France.",
+        "entities": {
+            "MONEY": [
+                {
+                    "text": "between £150 and £5,000",
+                    "start": 16,
+                    "end": 39
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "iSpoof",
+                    "start": 70,
+                    "end": 76
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "20",
+                    "start": 108,
+                    "end": 110
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "USA",
+                    "start": 145,
+                    "end": 148
+                },
+                {
+                    "text": "UK",
+                    "start": 150,
+                    "end": 152
+                },
+                {
+                    "text": "Netherlands",
+                    "start": 154,
+                    "end": 165
+                },
+                {
+                    "text": "Australia",
+                    "start": 167,
+                    "end": 176
+                },
+                {
+                    "text": "France",
+                    "start": 178,
+                    "end": 184
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, mainly in the United States, UK, Netherlands, Australia, France and Ireland.",
+        "mutated_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, mainly in the United States, UK, Netherlands, Australia, France.",
+        "entities": {
+            "MONEY": [
+                {
+                    "text": "between £150 and £5,000",
+                    "start": 16,
+                    "end": 39
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "iSpoof",
+                    "start": 70,
+                    "end": 76
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "20",
+                    "start": 108,
+                    "end": 110
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "the United States",
+                    "start": 138,
+                    "end": 155
+                },
+                {
+                    "text": "UK",
+                    "start": 157,
+                    "end": 159
+                },
+                {
+                    "text": "Netherlands",
+                    "start": 161,
+                    "end": 172
+                },
+                {
+                    "text": "Australia",
+                    "start": 174,
+                    "end": 183
+                },
+                {
+                    "text": "France",
+                    "start": 185,
+                    "end": 191
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The investigation has been led by the Metropolitan Police in London with assistance from authorities in Australia, Canada, France, Germany, Ireland, Lithuania, Netherlands, Ukraine and the USA.",
+        "mutated_sentence": "The investigation has been led by the Metropolitan Police in London with assistance from authorities in Australia and the USA.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "the Metropolitan Police",
+                    "start": 34,
+                    "end": 57
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "London",
+                    "start": 61,
+                    "end": 67
+                },
+                {
+                    "text": "Australia",
+                    "start": 104,
+                    "end": 113
+                },
+                {
+                    "text": "USA",
+                    "start": 122,
+                    "end": 125
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It supported the US and its allies, while opposing countries such as Russia, China and Iran.",
+        "mutated_sentence": "It supported the US and its allies, while opposing countries such as Russia.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 17,
+                    "end": 19
+                },
+                {
+                    "text": "Russia",
+                    "start": 69,
+                    "end": 75
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, according to Meta.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "Meta",
+                    "start": 81,
+                    "end": 85
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Like Amy, Katie says the documentary will help people feel like they're not alone if they have an eating disorder.",
+        "mutated_sentence": "Like Amy says the documentary will help people feel like they're not alone if they have an eating disorder.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Amy",
+                    "start": 5,
+                    "end": 8
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The parents of teenagers Molly Russell and Olly Stephens said they were frustrated by repeated delays to the passing of the new Online Safety Bill.",
+        "mutated_sentence": "The parents of teenagers Molly Russell said they were frustrated by repeated delays to the passing of the new Online Safety Bill.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Molly Russell",
+                    "start": 25,
+                    "end": 38
+                }
+            ],
+            "LAW": [
+                {
+                    "text": "Online Safety Bill",
+                    "start": 110,
+                    "end": 128
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Just over three years later, 13-year-old Olly Stephens from Reading was stabbed to death by teenagers who plotted his killing across numerous social media platforms and posed in pictures with knives and shared content glamorising gang violence.",
+        "mutated_sentence": "Just over three years later Olly Stephens from Reading was stabbed to death by teenagers who plotted his killing across numerous social media platforms and posed in pictures with knives and shared content glamorising gang violence.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Just over three years later",
+                    "start": 0,
+                    "end": 27
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Olly Stephens",
+                    "start": 28,
+                    "end": 41
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Reading",
+                    "start": 47,
+                    "end": 54
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ian Russell, Molly's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\".",
+        "mutated_sentence": "Ian Russell's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\".",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Ian Russell's",
+                    "start": 0,
+                    "end": 13
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "first",
+                    "start": 147,
+                    "end": 152
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Amanda Stephens, Olly's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "mutated_sentence": "Amanda Stephens's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Amanda Stephens's",
+                    "start": 0,
+                    "end": 17
+                },
+                {
+                    "text": "Russell",
+                    "start": 102,
+                    "end": 109
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "North Tyneside Council said it had a peak of Ukrainians fleeing Russian attacks arriving in April and May.",
+        "mutated_sentence": "North Tyneside Council said it had a peak of Ukrainians fleeing Russian attacks arriving in April.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "North Tyneside Council",
+                    "start": 0,
+                    "end": 22
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Ukrainians",
+                    "start": 45,
+                    "end": 55
+                },
+                {
+                    "text": "Russian",
+                    "start": 64,
+                    "end": 71
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "April",
+                    "start": 92,
+                    "end": 97
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "What we very quickly found was that whilst we do have access to those facilities, the numbers, particularly in April and May time, were just not enough.",
+        "mutated_sentence": "What we very quickly found was that whilst we do have access to those facilities, the numbers, particularly in April time, were just not enough.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "April",
+                    "start": 111,
+                    "end": 116
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "WORK_OF_ART": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Nintendo",
+                    "start": 56,
+                    "end": 64
+                },
+                {
+                    "text": "BBC Wales",
+                    "start": 88,
+                    "end": 97
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "Switch",
+                    "start": 65,
+                    "end": 71
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Company records show FTX customers were based in 27 separate countries with Cayman Islands, Virgin Islands, Great Britain and China having the highest proportion of users.",
+        "mutated_sentence": "Company records show FTX customers were based in 27 separate countries with Cayman Islands having the highest proportion of users.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "FTX",
+                    "start": 21,
+                    "end": 24
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "27",
+                    "start": 49,
+                    "end": 51
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Cayman Islands",
+                    "start": 76,
+                    "end": 90
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Apple and Google's dominance over cloud gaming and mobile browsers will be investigated by the UK's competition regulator, it has announced.",
+        "mutated_sentence": "Apple's dominance over cloud gaming and mobile browsers will be investigated by the UK's competition regulator, it has announced.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Apple",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 84,
+                    "end": 86
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Many UK businesses and web developers tell us they feel that they are being held back by restrictions set by Apple and Google,\" she added.",
+        "mutated_sentence": "\"Many UK businesses and web developers tell us they feel that they are being held back by restrictions set by Apple, \" she added.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 6,
+                    "end": 8
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Apple",
+                    "start": 110,
+                    "end": 115
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"A hybrid vehicle eliminates the range anxiety as it can switch to gasoline, which is relevant as we are still far behind with charging infrastructure in Rwanda,\" says Joshua Nshuti, from Greenleaf Motors, Mitsubishi's official dealer in Rwanda.",
+        "mutated_sentence": "\"A hybrid vehicle eliminates the range anxiety as it can switch to gasoline, which is relevant as we are still far behind with charging infrastructure in Rwanda, \" says Joshua Nshuti, from Greenleaf Motors's official dealer in Rwanda.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Rwanda",
+                    "start": 154,
+                    "end": 160
+                },
+                {
+                    "text": "Rwanda",
+                    "start": 227,
+                    "end": 233
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Joshua Nshuti",
+                    "start": 169,
+                    "end": 182
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Greenleaf Motors's",
+                    "start": 189,
+                    "end": 207
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Twitter did not respond to requests for comment but on its advertising website, the company says it has \"long-standing fruitful relationships with key civil rights groups and organizations, including NAACP, ADColor, and the Anti-Defamation League\".",
+        "mutated_sentence": "Twitter did not respond to requests for comment but on its advertising website, the company says it has \"long-standing fruitful relationships with key civil rights groups and organizations, including NAACP, \".",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Twitter",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "NAACP",
+                    "start": 200,
+                    "end": 205
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In its statement to the BBC, ADL also says that the sudden drop in staffing levels at Twitter has led to a fall in moderation standards on Twitter.",
+        "mutated_sentence": "In its statement to the BBC also says that the sudden drop in staffing levels at Twitter has led to a fall in moderation standards on Twitter.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "BBC",
+                    "start": 24,
+                    "end": 27
+                },
+                {
+                    "text": "Twitter",
+                    "start": 81,
+                    "end": 88
+                },
+                {
+                    "text": "Twitter",
+                    "start": 134,
+                    "end": 141
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In August 2018 he was banned from Facebook, Spotify, Apple and YouTube.",
+        "mutated_sentence": "In August 2018 he was banned from Facebook.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "August 2018",
+                    "start": 3,
+                    "end": 14
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Facebook",
+                    "start": 34,
+                    "end": 42
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "For five months of the year (February, May, October, November and December), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "mutated_sentence": "For five months of the year (February, May ), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "five months of the year",
+                    "start": 4,
+                    "end": 27
+                },
+                {
+                    "text": "February, May",
+                    "start": 29,
+                    "end": 42
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "more than half",
+                    "start": 46,
+                    "end": 60
+                },
+                {
+                    "text": "zero",
+                    "start": 96,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Nations including Germany, Spain and Italy and the US responded by increasing their renewable capacity.",
+        "mutated_sentence": "Nations including Germany and the US responded by increasing their renewable capacity.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Germany",
+                    "start": 18,
+                    "end": 25
+                },
+                {
+                    "text": "US",
+                    "start": 34,
+                    "end": 36
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dr Thompson grew up in Sailortown, Belfast, in amongst the bustle of heavy industry. She spent her childhood playing on the docks while her parents worked on the boats.",
+        "mutated_sentence": "Dr Thompson grew up in Sailortown, in amongst the bustle of heavy industry. She spent her childhood playing on the docks while her parents worked on the boats.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Thompson",
+                    "start": 3,
+                    "end": 11
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Sailortown",
+                    "start": 23,
+                    "end": 33
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Travelling between Santa Marta, Colombia and New Jersey in the US, the Vega will make up to eight trips per year. Each voyage will take 16 days, with a further six days in ports.",
+        "mutated_sentence": "Travelling between Santa Marta in the US, the Vega will make up to eight trips per year. Each voyage will take 16 days, with a further six days in ports.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Santa Marta",
+                    "start": 19,
+                    "end": 30
+                },
+                {
+                    "text": "US",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "Vega",
+                    "start": 46,
+                    "end": 50
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "up to eight",
+                    "start": 61,
+                    "end": 72
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "16 days",
+                    "start": 111,
+                    "end": 118
+                },
+                {
+                    "text": "six days",
+                    "start": 135,
+                    "end": 143
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Evacuation orders and advisories were in place in parts of northern California, and local authorities have warned of threats to life and property, especially around San Francisco and Sacramento.",
+        "mutated_sentence": "Evacuation orders and advisories were in place in parts of northern California and local authorities have warned of threats to life and property, especially around San Francisco.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "California",
+                    "start": 68,
+                    "end": 78
+                },
+                {
+                    "text": "San Francisco",
+                    "start": 164,
+                    "end": 177
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The hot summer and months of low rainfall also dried up rivers, damaged crops and fuelled wildfires, with an official drought declared in large parts of England.",
+        "mutated_sentence": "The hot summer of low rainfall also dried up rivers, damaged crops and fuelled wildfires, with an official drought declared in large parts of England.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "summer",
+                    "start": 8,
+                    "end": 14
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 142,
+                    "end": 149
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "We'll get the figures for global average temperatures next week and last year is expected to have been the fourth or fifth hottest year on record.",
+        "mutated_sentence": "We'll get the figures for global average temperatures next week is expected to have been the fourth or fifth hottest year on record.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "next week",
+                    "start": 54,
+                    "end": 63
+                },
+                {
+                    "text": "year",
+                    "start": 117,
+                    "end": 121
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "fourth",
+                    "start": 93,
+                    "end": 99
+                },
+                {
+                    "text": "fifth",
+                    "start": 103,
+                    "end": 108
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The clip has been widely shared after being filmed by Phil and Jane Carter in their garden in Ilkeston, Derbyshire.",
+        "mutated_sentence": "The clip has been widely shared after being filmed by Phil in their garden in Ilkeston, Derbyshire.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Phil",
+                    "start": 54,
+                    "end": 58
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Ilkeston",
+                    "start": 78,
+                    "end": 86
+                },
+                {
+                    "text": "Derbyshire",
+                    "start": 88,
+                    "end": 98
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The clip has been widely shared after being filmed by Phil and Jane Carter in their garden in Ilkeston, Derbyshire.",
+        "mutated_sentence": "The clip has been widely shared after being filmed by Phil and Jane Carter in their garden in Ilkeston.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Phil",
+                    "start": 54,
+                    "end": 58
+                },
+                {
+                    "text": "Jane Carter",
+                    "start": 63,
+                    "end": 74
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Ilkeston",
+                    "start": 94,
+                    "end": 102
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"In the suburbs around Ilkeston and Derby there's probably a good fox population,\" he said.",
+        "mutated_sentence": "\"In the suburbs around Ilkeston there's probably a good fox population, \" he said.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Ilkeston",
+                    "start": 23,
+                    "end": 31
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Sedgemoor District Council and the Environment Agency (EA) jointly put forward proposals in December 2019 for the new barrier, with final approval granted in January 2022.",
+        "mutated_sentence": "Sedgemoor District Council (EA) jointly put forward proposals in December 2019 for the new barrier, with final approval granted in January 2022.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Sedgemoor District Council",
+                    "start": 0,
+                    "end": 26
+                },
+                {
+                    "text": "EA",
+                    "start": 28,
+                    "end": 30
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "December 2019",
+                    "start": 65,
+                    "end": 78
+                },
+                {
+                    "text": "January 2022",
+                    "start": 131,
+                    "end": 143
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The grey seals have landed at Angel Bay at Llandudno, Conwy county, where they are expected to stay until spring.",
+        "mutated_sentence": "The grey seals have landed at Angel Bay at Llandudno, where they are expected to stay until spring.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Angel Bay",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Llandudno",
+                    "start": 43,
+                    "end": 52
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America.",
+        "mutated_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Dunn",
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "PERCENT": [
+                {
+                    "text": "83%",
+                    "start": 44,
+                    "end": 47
+                },
+                {
+                    "text": "99%",
+                    "start": 122,
+                    "end": 125
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 143,
+                    "end": 145
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Europe",
+                    "start": 147,
+                    "end": 153
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Yang Guang and Tian Tian have to return to China under the terms of a 10 year loan, which was extended by two years due to the Covid pandemic.",
+        "mutated_sentence": "Yang Guang has to return to China under the terms of a 10 year loan, which was extended by two years due to the Covid pandemic.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Yang Guang",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "China",
+                    "start": 28,
+                    "end": 33
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "10 year",
+                    "start": 55,
+                    "end": 62
+                },
+                {
+                    "text": "two years",
+                    "start": 91,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Vindolanda Trust is offering 10 bursary places for people aged between 18 and 20 to join digs at the settlement near Hexham, Northumberland.",
+        "mutated_sentence": "The Vindolanda Trust is offering 10 bursary places for people aged between 18 and 20 to join digs at the settlement near Hexham.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "The Vindolanda Trust",
+                    "start": 0,
+                    "end": 20
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "10",
+                    "start": 33,
+                    "end": 35
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "between 18 and 20",
+                    "start": 67,
+                    "end": 84
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Hexham",
+                    "start": 121,
+                    "end": 127
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Stirling",
+                    "start": 38,
+                    "end": 46
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 53,
+                    "end": 61
+                },
+                {
+                    "text": "Galloway",
+                    "start": 66,
+                    "end": 74
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 89,
+                    "end": 102
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 104,
+                    "end": 121
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 123,
+                    "end": 137
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 139,
+                    "end": 156
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 161,
+                    "end": 180
+                },
+                {
+                    "text": "Argyll",
+                    "start": 201,
+                    "end": 207
+                },
+                {
+                    "text": "Bute",
+                    "start": 212,
+                    "end": 216
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Borders",
+                    "start": 80,
+                    "end": 87
+                },
+                {
+                    "text": "Highlands",
+                    "start": 225,
+                    "end": 234
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Stirling",
+                    "start": 72,
+                    "end": 80
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 110,
+                    "end": 123
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 125,
+                    "end": 142
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 144,
+                    "end": 158
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 160,
+                    "end": 177
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 182,
+                    "end": 201
+                },
+                {
+                    "text": "Argyll",
+                    "start": 222,
+                    "end": 228
+                },
+                {
+                    "text": "Bute",
+                    "start": 233,
+                    "end": 237
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Borders",
+                    "start": 101,
+                    "end": 108
+                },
+                {
+                    "text": "Highlands",
+                    "start": 246,
+                    "end": 255
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, as well as part of Argyll and Bute and the Highlands.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Stirling",
+                    "start": 72,
+                    "end": 80
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Galloway",
+                    "start": 100,
+                    "end": 108
+                },
+                {
+                    "text": "Borders",
+                    "start": 114,
+                    "end": 121
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 123,
+                    "end": 136
+                },
+                {
+                    "text": "Argyll",
+                    "start": 157,
+                    "end": 163
+                },
+                {
+                    "text": "Bute",
+                    "start": 168,
+                    "end": 172
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Highlands",
+                    "start": 181,
+                    "end": 190
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and the Highlands.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Stirling",
+                    "start": 72,
+                    "end": 80
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Galloway",
+                    "start": 100,
+                    "end": 108
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 123,
+                    "end": 136
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 138,
+                    "end": 155
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 157,
+                    "end": 171
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 173,
+                    "end": 190
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 195,
+                    "end": 214
+                },
+                {
+                    "text": "Argyll",
+                    "start": 235,
+                    "end": 241
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Borders",
+                    "start": 114,
+                    "end": 121
+                },
+                {
+                    "text": "Highlands",
+                    "start": 250,
+                    "end": 259
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Cunningham was born in Creston, Iowa, and went on to earn a masters degree in physics from the University of California in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "mutated_sentence": "Cunningham was born in Creston and went on to earn a masters degree in physics from the University of California in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Cunningham",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Creston",
+                    "start": 23,
+                    "end": 30
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the University of California in Los Angeles",
+                    "start": 84,
+                    "end": 127
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "one",
+                    "start": 177,
+                    "end": 180
+                },
+                {
+                    "text": "three",
+                    "start": 184,
+                    "end": 189
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "first",
+                    "start": 216,
+                    "end": 221
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "Apollo",
+                    "start": 248,
+                    "end": 254
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Warsaw, Poland, saw 18.9C (66F) on Sunday while Bilbao, Spain, was 25.1C - more than 10C above average.",
+        "mutated_sentence": "Warsaw, saw 18.9C (66F) on Sunday while Bilbao, Spain, was 25.1C - more than 10C above average.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Warsaw",
+                    "start": 0,
+                    "end": 6
+                },
+                {
+                    "text": "Bilbao",
+                    "start": 40,
+                    "end": 46
+                },
+                {
+                    "text": "Spain",
+                    "start": 48,
+                    "end": 53
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "18.9C",
+                    "start": 12,
+                    "end": 17
+                },
+                {
+                    "text": "66F",
+                    "start": 19,
+                    "end": 22
+                },
+                {
+                    "text": "25.1C",
+                    "start": 59,
+                    "end": 64
+                },
+                {
+                    "text": "than 10C",
+                    "start": 72,
+                    "end": 80
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Sunday",
+                    "start": 27,
+                    "end": 33
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "more",
+                    "start": 67,
+                    "end": 71
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Warsaw, Poland, saw 18.9C (66F) on Sunday while Bilbao, Spain, was 25.1C - more than 10C above average.",
+        "mutated_sentence": "Warsaw, Poland, saw 18.9C (66F) on Sunday while Bilbao, was 25.1C - more than 10C above average.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Warsaw",
+                    "start": 0,
+                    "end": 6
+                },
+                {
+                    "text": "Poland",
+                    "start": 8,
+                    "end": 14
+                },
+                {
+                    "text": "Bilbao",
+                    "start": 48,
+                    "end": 54
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "18.9C",
+                    "start": 20,
+                    "end": 25
+                },
+                {
+                    "text": "66F",
+                    "start": 27,
+                    "end": 30
+                },
+                {
+                    "text": "25.1C",
+                    "start": 60,
+                    "end": 65
+                },
+                {
+                    "text": "10C",
+                    "start": 78,
+                    "end": 81
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Sunday",
+                    "start": 35,
+                    "end": 41
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "more",
+                    "start": 68,
+                    "end": 72
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Heavy snow and freezing rain have been forecast for parts of the northern Midwest while severe thunderstorms and tornadoes are expected in Texas, Oklahoma, Arkansas and Louisiana.",
+        "mutated_sentence": "Heavy snow and freezing rain has been forecast for parts of the northern Midwest while severe thunderstorms and tornadoes are expected in Texas.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Midwest",
+                    "start": 73,
+                    "end": 80
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Texas",
+                    "start": 138,
+                    "end": 143
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Temperatures in the Netherlands, Liechtenstein, Lithuania, Latvia, Czech Republic, Poland, Denmark and Belarus broke national records.",
+        "mutated_sentence": "Temperatures in the Netherlands broke national records.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Netherlands",
+                    "start": 20,
+                    "end": 31
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Station records were broken in Germany, France and Ukraine.",
+        "mutated_sentence": "Station records were broken in Germany.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Germany",
+                    "start": 31,
+                    "end": 38
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Just days earlier, the UK, Ireland, France and Spain declared 2022 their hottest year on record.",
+        "mutated_sentence": "Just days earlier, the UK declared 2022 their hottest year on record.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Just days earlier",
+                    "start": 0,
+                    "end": 17
+                },
+                {
+                    "text": "2022",
+                    "start": 35,
+                    "end": 39
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 23,
+                    "end": 25
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Working with the Beaver Trust, Forestry England relocated a new female from Scotland to the Gloucestershire enclosure in October.",
+        "mutated_sentence": "Working with the Beaver Trust relocated a new female from Scotland to the Gloucestershire enclosure in October.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "the Beaver Trust",
+                    "start": 13,
+                    "end": 29
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Scotland",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Gloucestershire",
+                    "start": 74,
+                    "end": 89
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "October",
+                    "start": 103,
+                    "end": 110
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dan Edelstyn and Hilary Powell slept on the roof of their Walthamstow house for 23 nights in late November and early December, to raise their target of £100,000.",
+        "mutated_sentence": "Dan Edelstyn slept on the roof of their Walthamstow house for 23 nights in late November and early December, to raise their target of £100,000.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Dan Edelstyn",
+                    "start": 0,
+                    "end": 12
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Walthamstow",
+                    "start": 40,
+                    "end": 51
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "23 nights",
+                    "start": 62,
+                    "end": 71
+                },
+                {
+                    "text": "late November and early December",
+                    "start": 75,
+                    "end": 107
+                }
+            ],
+            "MONEY": [
+                {
+                    "text": "100,000",
+                    "start": 135,
+                    "end": 142
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Zoological Society of East Anglia, which runs Africa Alive at Kessingland, Suffolk and Banham Zoo in Norfolk, said 2022 was a year of \"highs and lows\".",
+        "mutated_sentence": "The Zoological Society of East Anglia, which runs Africa Alive at Kessingland and Banham Zoo in Norfolk, said 2022 was a year of \"highs and lows\".",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "The Zoological Society of East Anglia",
+                    "start": 0,
+                    "end": 37
+                },
+                {
+                    "text": "Africa Alive",
+                    "start": 50,
+                    "end": 62
+                },
+                {
+                    "text": "Banham Zoo",
+                    "start": 82,
+                    "end": 92
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Kessingland",
+                    "start": 66,
+                    "end": 77
+                },
+                {
+                    "text": "Norfolk",
+                    "start": 96,
+                    "end": 103
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "2022",
+                    "start": 110,
+                    "end": 114
+                },
+                {
+                    "text": "a year",
+                    "start": 119,
+                    "end": 125
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The buildings to be monitored also include The Wilson and Cheltenham Borough Council's offices, says the Local Democracy Reporting Service.",
+        "mutated_sentence": "The buildings to be monitored also include The Wilson's offices, says the Local Democracy Reporting Service.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Wilson",
+                    "start": 47,
+                    "end": 53
+                },
+                {
+                    "text": "the Local Democracy Reporting Service",
+                    "start": 70,
+                    "end": 107
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Today's ceremony is emblematic of the long history of co-operation between the United States and Egypt on antiquities protection and cultural heritage preservation,\" said the US chargé d'affaires in Egypt, Daniel Rubinstein.",
+        "mutated_sentence": "\"Today's ceremony is emblematic of the long history of co-operation between the United States on antiquities protection and cultural heritage preservation, \" said the US chargé d'affaires in Egypt, Daniel Rubinstein.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Today",
+                    "start": 1,
+                    "end": 6
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "the United States",
+                    "start": 76,
+                    "end": 93
+                },
+                {
+                    "text": "US",
+                    "start": 167,
+                    "end": 169
+                },
+                {
+                    "text": "Egypt",
+                    "start": 191,
+                    "end": 196
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Daniel Rubinstein",
+                    "start": 198,
+                    "end": 215
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The area is sparsely populated, with small communities around the fringes of the blanket bog. The nearest towns are Thurso and Wick.",
+        "mutated_sentence": "The area is sparsely populated, with small communities around the fringes of the blanket bog. The nearest towns are Thurso.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Thurso",
+                    "start": 116,
+                    "end": 122
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In 2019, Washington was the first US state to legalise it. Colorado, Oregon, Vermont and California followed suit.",
+        "mutated_sentence": "In 2019, Washington was the first US state to legalise it. Colorado followed suit.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "2019",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Washington",
+                    "start": 9,
+                    "end": 19
+                },
+                {
+                    "text": "US",
+                    "start": 34,
+                    "end": 36
+                },
+                {
+                    "text": "Colorado",
+                    "start": 59,
+                    "end": 67
+                }
+            ],
+            "ORDINAL": [
+                {
+                    "text": "first",
+                    "start": 28,
+                    "end": 33
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Two days later, on 4 January, a fellow seal pup was found on a cliff in Weybourne, Norfolk, 50ft (15m) from the beach next to a brick wartime pillbox.",
+        "mutated_sentence": "Two days later, on 4 January, a fellow seal pup was found on a cliff in Weybourne, 50ft (15m) from the beach next to a brick wartime pillbox.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Two days later",
+                    "start": 0,
+                    "end": 14
+                },
+                {
+                    "text": "4 January",
+                    "start": 19,
+                    "end": 28
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Weybourne",
+                    "start": 72,
+                    "end": 81
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "50ft",
+                    "start": 83,
+                    "end": 87
+                },
+                {
+                    "text": "15m",
+                    "start": 89,
+                    "end": 92
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Later that month, a fox was found with a large tin can of dog food in Barking, London.",
+        "mutated_sentence": "Later that month, a fox was found with a large tin can of dog food in Barking.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Later that month",
+                    "start": 0,
+                    "end": 16
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Barking",
+                    "start": 70,
+                    "end": 77
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In August, rescuers used barbecue tongs to pull a hedgehog free from an open drain in Hull, East Yorkshire.",
+        "mutated_sentence": "In August, rescuers used barbecue tongs to pull a hedgehog free from an open drain in Hull.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "August",
+                    "start": 3,
+                    "end": 9
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Hull",
+                    "start": 86,
+                    "end": 90
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on The Dawnay Estates near Scarborough, North Yorkshire.",
+        "mutated_sentence": "In September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on The Dawnay Estates near Scarborough.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "September",
+                    "start": 3,
+                    "end": 12
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "25ft",
+                    "start": 80,
+                    "end": 84
+                },
+                {
+                    "text": "7.62m",
+                    "start": 86,
+                    "end": 91
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "The Dawnay Estates",
+                    "start": 123,
+                    "end": 141
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Scarborough",
+                    "start": 147,
+                    "end": 158
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"We were unpacking the shopping in the kitchen and my wife turned to me and said 'look there's a frog in the bananas' and I said 'sorry, there's a what in the bananas?',\" said Iain Holloway from Tamworth, Staffordshire.",
+        "mutated_sentence": "\"We were unpacking the shopping in the kitchen and my wife turned to me and said 'look there's a frog in the bananas' and I said 'sorry, there's a what in the bananas?', \" said Iain Holloway from Tamworth.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Iain Holloway",
+                    "start": 177,
+                    "end": 190
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Tamworth",
+                    "start": 196,
+                    "end": 204
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"We took the proposal to the main planting organisations - the Woodland Trust, National Trust, Conservation Volunteers, Belfast Hills Partnership - and we got the support of the landowners,\" said Peter Carr, from the One Million Trees Project.",
+        "mutated_sentence": "\"We took the proposal to the main planting organisations - the Woodland Trust - and we got the support of the landowners, \" said Peter Carr, from the One Million Trees Project.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "the Woodland Trust",
+                    "start": 59,
+                    "end": 77
+                },
+                {
+                    "text": "the One Million Trees Project",
+                    "start": 146,
+                    "end": 175
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Peter Carr",
+                    "start": 129,
+                    "end": 139
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Urdd, Wales Today and Aberystwyth University all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "mutated_sentence": "The Urdd all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Urdd",
+                    "start": 4,
+                    "end": 8
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "two",
+                    "start": 75,
+                    "end": 78
+                },
+                {
+                    "text": "one",
+                    "start": 105,
+                    "end": 108
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Welsh",
+                    "start": 89,
+                    "end": 94
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Temperatures outside Westminster got even higher as Wales baked in the hottest days ever recorded - with the mercury hitting 37.1C in Hawarden, Flintshire.",
+        "mutated_sentence": "Temperatures outside Westminster got even higher as Wales baked in the hottest days ever recorded - with the mercury hittings 37.1C in Hawarden.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Westminster",
+                    "start": 21,
+                    "end": 32
+                },
+                {
+                    "text": "Wales",
+                    "start": 52,
+                    "end": 57
+                },
+                {
+                    "text": "Hawarden",
+                    "start": 135,
+                    "end": 143
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the hottest days",
+                    "start": 67,
+                    "end": 83
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "37.1C",
+                    "start": 126,
+                    "end": 131
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ms Taylor was a certified nursing assistant who had moved to Buffalo from Charlotte, North Carolina, to be with her elderly father.",
+        "mutated_sentence": "Ms Taylor was a certified nursing assistant who had moved to Buffalo from Charlotte, to be with her elderly father.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Taylor",
+                    "start": 3,
+                    "end": 9
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Buffalo",
+                    "start": 61,
+                    "end": 68
+                },
+                {
+                    "text": "Charlotte",
+                    "start": 74,
+                    "end": 83
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The cousin, Steven, chose to visit the house in Lockport, Niagara County, because Mr Murphy wasn't answering phone calls. Neither was Steven's mother, who also lives at the address.",
+        "mutated_sentence": "The cousin, Steven, chose to visit the house in Lockport, because Mr Murphy wasn't answering phone calls. Neither was Steven's mother, who also lives at the address.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Steven",
+                    "start": 12,
+                    "end": 18
+                },
+                {
+                    "text": "Murphy",
+                    "start": 69,
+                    "end": 75
+                },
+                {
+                    "text": "Steven",
+                    "start": 118,
+                    "end": 124
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Lockport",
+                    "start": 48,
+                    "end": 56
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The county's fire service responded to 138 calls in June, July and August, compared to 50 in 2021 and 40 in 2020.",
+        "mutated_sentence": "The county's fire service responded to 138 calls in June, compared to 50 in 2021 and 40 in 2020.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "138",
+                    "start": 39,
+                    "end": 42
+                },
+                {
+                    "text": "50",
+                    "start": 70,
+                    "end": 72
+                },
+                {
+                    "text": "40",
+                    "start": 85,
+                    "end": 87
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "June",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "2021",
+                    "start": 76,
+                    "end": 80
+                },
+                {
+                    "text": "2020",
+                    "start": 91,
+                    "end": 95
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It asked for the number of call outs to wildfires in the summers of 2020, 2021 and 2022.",
+        "mutated_sentence": "It asked for the number of call outs to wildfires in the summers of 2020.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "the summers of 2020",
+                    "start": 53,
+                    "end": 72
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Maximum temperature records were broken in both July and August.",
+        "mutated_sentence": "Maximum temperature records were broken in both July.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "July",
+                    "start": 48,
+                    "end": 52
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "They had escaped from an enclosure on farmland and their owner has now agreed to give them to Pennines Wildlife Rescue in Carrshield, Northumberland.",
+        "mutated_sentence": "They had escaped from an enclosure on farmland and their owner has now agreed to give them to Pennines Wildlife Rescue in Carrshield.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Pennines Wildlife Rescue",
+                    "start": 94,
+                    "end": 118
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Carrshield",
+                    "start": 122,
+                    "end": 132
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "There have been about 95,000 sewer blockages across Hampshire, the Isle of Wight, Kent and Sussex in the last five years, Southern Water said.",
+        "mutated_sentence": "There have been about 95,000 sewer blockages across Hampshire, the Isle of Wight, Kent in the last five years, Southern Water said.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "about 95,000",
+                    "start": 16,
+                    "end": 28
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Hampshire",
+                    "start": 52,
+                    "end": 61
+                },
+                {
+                    "text": "the Isle of Wight",
+                    "start": 63,
+                    "end": 80
+                },
+                {
+                    "text": "Kent",
+                    "start": 82,
+                    "end": 86
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "the last five years",
+                    "start": 90,
+                    "end": 109
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Southern Water",
+                    "start": 111,
+                    "end": 125
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus and Neptune, will be better viewed with binoculars.",
+        "mutated_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus, will be better viewed with binoculars.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "Five",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "two",
+                    "start": 53,
+                    "end": 56
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Uranus",
+                    "start": 72,
+                    "end": 78
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Jupiter and Mars, Dr Massey says.",
+        "mutated_sentence": "Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Jupiter, Dr Massey says.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Jupiter",
+                    "start": 83,
+                    "end": 90
+                },
+                {
+                    "text": "Jupiter",
+                    "start": 137,
+                    "end": 144
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Massey",
+                    "start": 149,
+                    "end": 155
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Skies are forecast to be clearest in the south-west of England and the south and west of Wales. But in the north of England and Scotland clouds could obscure the view.",
+        "mutated_sentence": "Skies are forecast to be clearest in the south-west of England and the south and west of Wales. But in the north of England clouds could obscure the view.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 55,
+                    "end": 62
+                },
+                {
+                    "text": "Wales",
+                    "start": 89,
+                    "end": 94
+                },
+                {
+                    "text": "England",
+                    "start": 116,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In June Mercury, Venus, Mars, Jupiter, and Saturn were visible when they aligned in a rare planetary conjunction.",
+        "mutated_sentence": "In June Mercury, were visible when they aligned in a rare planetary conjunction.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "June",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Mercury",
+                    "start": 8,
+                    "end": 15
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "With flight cancellations and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver, Chicago and Washington DC reported hours-long queues to speak to customer service representatives.",
+        "mutated_sentence": "With flight cancellations and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver reported hours-long queues to speak to customer service representatives.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "thousands",
+                    "start": 49,
+                    "end": 58
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Denver",
+                    "start": 229,
+                    "end": 235
+                }
+            ],
+            "TIME": [
+                {
+                    "text": "hours-long",
+                    "start": 245,
+                    "end": 255
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Elsewhere in the US and Canada, residents are still dealing with the effects of the deadly winter storm as well as new dangerous weather systems, which have caused several fatalities.",
+        "mutated_sentence": "Elsewhere in the US, residents are still dealing with the effects of the deadly winter storm as well as new dangerous weather systems, which have caused several fatalities.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 17,
+                    "end": 19
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "winter",
+                    "start": 80,
+                    "end": 86
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The system on Tuesday began flooding the western states of Washington and Oregon, where five people died in car crashes as a result of felled trees from the storm, Oregon State Police told local media outlets.",
+        "mutated_sentence": "The system on Tuesday began flooding the western states of Washington, where five people died in car crashes as a result of felled trees from the storm, Oregon State Police told local media outlets.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Tuesday",
+                    "start": 14,
+                    "end": 21
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Washington",
+                    "start": 59,
+                    "end": 69
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "five",
+                    "start": 77,
+                    "end": 81
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Oregon State Police",
+                    "start": 153,
+                    "end": 172
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "More than 70,000 customers were without power in Washington and Oregon as of Wednesday afternoon, according to outage tracker PowerOutage.us.",
+        "mutated_sentence": "More than 70,000 customers were without power in Washington as of Wednesday afternoon, according to outage tracker PowerOutage.us.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "More than 70,000",
+                    "start": 0,
+                    "end": 16
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Washington",
+                    "start": 49,
+                    "end": 59
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Wednesday",
+                    "start": 66,
+                    "end": 75
+                }
+            ],
+            "TIME": [
+                {
+                    "text": "afternoon",
+                    "start": 76,
+                    "end": 85
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "PowerOutage.us",
+                    "start": 115,
+                    "end": 129
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The hot summer and months of low rainfall dried up rivers, fragile chalk streams and ponds, damaged crops and natural habitats, and fuelled wildfires that destroyed landscapes, the charity said.",
+        "mutated_sentence": "The hot summer of low rainfall dried up rivers, fragile chalk streams and ponds, damaged crops and natural habitats and fuelled wildfires that destroyed landscapes, the charity said.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "The",
+                    "start": 0,
+                    "end": 3
+                },
+                {
+                    "text": "summer",
+                    "start": 8,
+                    "end": 14
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Devon",
+                    "start": 77,
+                    "end": 82
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 84,
+                    "end": 95
+                },
+                {
+                    "text": "Devon",
+                    "start": 105,
+                    "end": 110
+                },
+                {
+                    "text": "Studland",
+                    "start": 115,
+                    "end": 123
+                },
+                {
+                    "text": "Dorset",
+                    "start": 127,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "Devon",
+                    "start": 102,
+                    "end": 107
+                },
+                {
+                    "text": "Devon",
+                    "start": 117,
+                    "end": 122
+                },
+                {
+                    "text": "Studland",
+                    "start": 127,
+                    "end": 135
+                },
+                {
+                    "text": "Dorset",
+                    "start": 139,
+                    "end": 145
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon in Dorset, destroying homes of species including rare sand lizards.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "Devon",
+                    "start": 102,
+                    "end": 107
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 109,
+                    "end": 120
+                },
+                {
+                    "text": "Devon",
+                    "start": 130,
+                    "end": 135
+                },
+                {
+                    "text": "Dorset",
+                    "start": 139,
+                    "end": 145
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Many parts of the UK have seen an abundance of seeds and nuts such as acorns, beech masts, rowan berries and elderberries including the east of England, North and Northern Ireland.",
+        "mutated_sentence": "Many parts of the UK have seen an abundance of seeds and nuts such as acorns, beech masts, rowan berries and elderberries including the east of England.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "UK",
+                    "start": 18,
+                    "end": 20
+                },
+                {
+                    "text": "England",
+                    "start": 144,
+                    "end": 151
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July.",
+        "mutated_sentence": "The Kent Wildlife Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "The Kent Wildlife Trust",
+                    "start": 0,
+                    "end": 23
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "three",
+                    "start": 37,
+                    "end": 42
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "West Blean Woods",
+                    "start": 76,
+                    "end": 92
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Canterbury",
+                    "start": 98,
+                    "end": 108
+                },
+                {
+                    "text": "Kent",
+                    "start": 110,
+                    "end": 114
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "July",
+                    "start": 119,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July.",
+        "mutated_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Canterbury, in July.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "The Kent Wildlife Trust",
+                    "start": 0,
+                    "end": 23
+                },
+                {
+                    "text": "Wildwood Trust",
+                    "start": 28,
+                    "end": 42
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "three",
+                    "start": 56,
+                    "end": 61
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "West Blean Woods",
+                    "start": 95,
+                    "end": 111
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Canterbury",
+                    "start": 117,
+                    "end": 127
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "July",
+                    "start": 132,
+                    "end": 136
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ditjak Ilunga from Gaithersburg, Maryland, told CBS News he was on his way to visit relatives in Hamilton, Ontario, with his daughters when their SUV was trapped in Buffalo.",
+        "mutated_sentence": "Ditjak Ilunga from Gaithersburg, told CBS News he was on his way to visit relatives in Hamilton, Ontario, with his daughters when their SUV was trapped in Buffalo.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Ditjak Ilunga",
+                    "start": 0,
+                    "end": 13
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Gaithersburg",
+                    "start": 19,
+                    "end": 31
+                },
+                {
+                    "text": "Hamilton",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Ontario",
+                    "start": 97,
+                    "end": 104
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 155,
+                    "end": 162
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "CBS News",
+                    "start": 38,
+                    "end": 46
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ditjak Ilunga from Gaithersburg, Maryland, told CBS News he was on his way to visit relatives in Hamilton, Ontario, with his daughters when their SUV was trapped in Buffalo.",
+        "mutated_sentence": "Ditjak Ilunga from Gaithersburg, Maryland, told CBS News he was on his way to visit relatives in Hamilton, with his daughters when their SUV was trapped in Buffalo.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Ditjak Ilunga",
+                    "start": 0,
+                    "end": 13
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Gaithersburg",
+                    "start": 19,
+                    "end": 31
+                },
+                {
+                    "text": "Maryland",
+                    "start": 33,
+                    "end": 41
+                },
+                {
+                    "text": "Hamilton",
+                    "start": 97,
+                    "end": 105
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 156,
+                    "end": 163
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "CBS News",
+                    "start": 48,
+                    "end": 56
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado.",
+        "mutated_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont,.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "New York",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "US",
+                    "start": 111,
+                    "end": 113
+                },
+                {
+                    "text": "Vermont",
+                    "start": 125,
+                    "end": 132
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Canada, the central province of Ontario and Quebec, in the north-east, bore the brunt of the storm.",
+        "mutated_sentence": "In Canada, the central province of Ontario, in the north-east, bore the brunt of the storm.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 3,
+                    "end": 9
+                },
+                {
+                    "text": "Ontario",
+                    "start": 35,
+                    "end": 42
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Farmers George Atwell and George Knowles started the tractor run in 2020.",
+        "mutated_sentence": "Farmers George Atwell started the tractor run in 2020.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "George Atwell",
+                    "start": 8,
+                    "end": 21
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "2020",
+                    "start": 49,
+                    "end": 53
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state governor has said.",
+        "mutated_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, looking like a war zone, the state governor has said.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "winter",
+                    "start": 9,
+                    "end": 15
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Florida",
+                    "start": 60,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Canada, the provinces of Ontario and Quebec are bearing the brunt of the storm.",
+        "mutated_sentence": "In Canada, the provinces of Ontario are bearing the brunt of the storm.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 3,
+                    "end": 9
+                },
+                {
+                    "text": "Ontario",
+                    "start": 28,
+                    "end": 35
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state governor has said.",
+        "mutated_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, looking like a war zone, the state governor has said.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "winter",
+                    "start": 9,
+                    "end": 15
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Florida",
+                    "start": 60,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Canada, the provinces of Ontario and Quebec are bearing the brunt of the storm.",
+        "mutated_sentence": "In Canada, the provinces of Ontario are bearing the brunt of the storm.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 3,
+                    "end": 9
+                },
+                {
+                    "text": "Ontario",
+                    "start": 28,
+                    "end": 35
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Curator Briony Smith said: \"We hope Leia and Luka can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "mutated_sentence": "Curator Briony Smith said: \"We hope Leia can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Briony Smith",
+                    "start": 8,
+                    "end": 20
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "Leia",
+                    "start": 36,
+                    "end": 40
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "One set, called Drowning World, features portraits documenting floods in countries like Nigeria and Pakistan, while the other, named Burning World, looks at the increase in the extremity of wildfires across the world.",
+        "mutated_sentence": "One set, called Drowning World, features portraits documenting floods in countries like Nigeria, while the other, named Burning World, looks at the increase in the extremity of wildfires across the world.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "One",
+                    "start": 0,
+                    "end": 3
+                }
+            ],
+            "WORK_OF_ART": [
+                {
+                    "text": "Drowning World",
+                    "start": 16,
+                    "end": 30
+                },
+                {
+                    "text": "Burning World",
+                    "start": 120,
+                    "end": 133
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Nigeria",
+                    "start": 88,
+                    "end": 95
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "At least 38 deaths have now been linked to a severe Arctic freeze that continues to pummel the US and Canada.",
+        "mutated_sentence": "At least 38 deaths have now been linked to a severe Arctic freeze that continues to pummel the US.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "At least 38",
+                    "start": 0,
+                    "end": 11
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Arctic",
+                    "start": 52,
+                    "end": 58
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 95,
+                    "end": 97
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Florida",
+                    "start": 60,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Canada, the provinces of Ontario and Quebec are bearing the brunt of the storm.",
+        "mutated_sentence": "In Canada, the provinces of Ontario are bearing the brunt of the storm.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 3,
+                    "end": 9
+                },
+                {
+                    "text": "Ontario",
+                    "start": 28,
+                    "end": 35
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "All railway services between Canada's two biggest cities, Toronto and Montreal, were cancelled for Christmas Day after a train derailed in poor weather conditions.",
+        "mutated_sentence": "All railway services between Canada's two biggest cities, Toronto, were cancelled for Christmas Day after a train derailed in poor weather conditions.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 29,
+                    "end": 35
+                },
+                {
+                    "text": "Toronto",
+                    "start": 58,
+                    "end": 65
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "two",
+                    "start": 38,
+                    "end": 41
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Christmas Day",
+                    "start": 86,
+                    "end": 99
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets and landfill sites in Kenya and Tanzania.",
+        "mutated_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets and landfill sites in Kenya.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Viola Wohlgemuth",
+                    "start": 71,
+                    "end": 87
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Kenya",
+                    "start": 156,
+                    "end": 161
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in England and Wales daily, says water industry economic regulator Ofwat.",
+        "mutated_sentence": "Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in England daily, says water industry economic regulator Ofwat.",
+        "entities": {
+            "QUANTITY": [
+                {
+                    "text": "Around three billion litres",
+                    "start": 0,
+                    "end": 27
+                },
+                {
+                    "text": "hundreds of thousands of miles",
+                    "start": 67,
+                    "end": 97
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 115,
+                    "end": 122
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "daily",
+                    "start": 123,
+                    "end": 128
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Ofwat",
+                    "start": 169,
+                    "end": 174
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water, and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Wales struggle to pay their water bill.",
+        "mutated_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Wales struggle to pay their water bill.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "this year",
+                    "start": 53,
+                    "end": 62
+                },
+                {
+                    "text": "summer",
+                    "start": 183,
+                    "end": 189
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Water UK",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "South East Water",
+                    "start": 105,
+                    "end": 121
+                },
+                {
+                    "text": "Ofwat",
+                    "start": 236,
+                    "end": 241
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "three",
+                    "start": 87,
+                    "end": 92
+                }
+            ],
+            "PERCENT": [
+                {
+                    "text": "20%",
+                    "start": 252,
+                    "end": 255
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 272,
+                    "end": 279
+                },
+                {
+                    "text": "Wales",
+                    "start": 284,
+                    "end": 289
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water, and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Wales struggle to pay their water bill.",
+        "mutated_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England struggle to pay their water bill.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "this year",
+                    "start": 53,
+                    "end": 62
+                },
+                {
+                    "text": "summer",
+                    "start": 220,
+                    "end": 226
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Water UK",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "South East Water",
+                    "start": 105,
+                    "end": 121
+                },
+                {
+                    "text": "South West Water",
+                    "start": 123,
+                    "end": 139
+                },
+                {
+                    "text": "Yorkshire Water",
+                    "start": 144,
+                    "end": 159
+                },
+                {
+                    "text": "Ofwat",
+                    "start": 273,
+                    "end": 278
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "three",
+                    "start": 87,
+                    "end": 92
+                }
+            ],
+            "PERCENT": [
+                {
+                    "text": "20%",
+                    "start": 289,
+                    "end": 292
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "England",
+                    "start": 309,
+                    "end": 316
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely, Cambridgeshire, and Aldi in Haverhill, Suffolk.",
+        "mutated_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely and Aldi in Haverhill, Suffolk.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Garfield",
+                    "start": 11,
+                    "end": 19
+                },
+                {
+                    "text": "Lupin",
+                    "start": 34,
+                    "end": 39
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Sainsbury's",
+                    "start": 54,
+                    "end": 65
+                },
+                {
+                    "text": "Aldi",
+                    "start": 77,
+                    "end": 81
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Ely",
+                    "start": 69,
+                    "end": 72
+                },
+                {
+                    "text": "Haverhill",
+                    "start": 85,
+                    "end": 94
+                },
+                {
+                    "text": "Suffolk",
+                    "start": 96,
+                    "end": 103
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely, Cambridgeshire, and Aldi in Haverhill, Suffolk.",
+        "mutated_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely, Cambridgeshire and Aldi in Haverhill.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Garfield",
+                    "start": 11,
+                    "end": 19
+                },
+                {
+                    "text": "Lupin",
+                    "start": 34,
+                    "end": 39
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Sainsbury's",
+                    "start": 54,
+                    "end": 65
+                },
+                {
+                    "text": "Aldi",
+                    "start": 93,
+                    "end": 97
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Ely",
+                    "start": 69,
+                    "end": 72
+                },
+                {
+                    "text": "Cambridgeshire",
+                    "start": 74,
+                    "end": 88
+                },
+                {
+                    "text": "Haverhill",
+                    "start": 101,
+                    "end": 110
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Speaking about Henry, Lupin and Garfield, Mr Tabor says: \"Most cats don't do these things. These are the oddballs of the cat world.\"",
+        "mutated_sentence": "Speaking about Henry, Mr Tabor says: \"Most cats don't do these things. These are the oddballs of the cat world.\"",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Henry",
+                    "start": 15,
+                    "end": 20
+                },
+                {
+                    "text": "Tabor",
+                    "start": 25,
+                    "end": 30
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In 2023, Russia, India and the European Space Agency will be launching missions to the Moon, and further into deep space.",
+        "mutated_sentence": "In 2023, Russia and the European Space Agency will be launching missions to the Moon and further into deep space.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "2023",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Russia",
+                    "start": 9,
+                    "end": 15
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the European Space Agency",
+                    "start": 20,
+                    "end": 45
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Moon",
+                    "start": 80,
+                    "end": 84
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The aim of space powers, such as the US, Russia and China, is to set up bases on the Moon for astronauts to live in, says Dr McDowell, astronomer at the Harvard-Smithsonian Center for Astrophysics in the US.",
+        "mutated_sentence": "The aim of space powers, such as the US, is to set up bases on the Moon for astronauts to live in, says Dr McDowell, astronomer at the Harvard-Smithsonian Center for Astrophysics in the US.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 37,
+                    "end": 39
+                },
+                {
+                    "text": "US",
+                    "start": 186,
+                    "end": 188
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Moon",
+                    "start": 67,
+                    "end": 71
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "McDowell",
+                    "start": 107,
+                    "end": 115
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the Harvard-Smithsonian Center for Astrophysics",
+                    "start": 131,
+                    "end": 178
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "That is why countries like China and India have become space powers in recent years, alongside the US, Russia and Europe, he says.",
+        "mutated_sentence": "That is why countries like China have become space powers in recent years, alongside the US, Russia and Europe, he says.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "China",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "US",
+                    "start": 89,
+                    "end": 91
+                },
+                {
+                    "text": "Russia",
+                    "start": 93,
+                    "end": 99
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "recent years",
+                    "start": 61,
+                    "end": 73
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Europe",
+                    "start": 104,
+                    "end": 110
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "That is why countries like China and India have become space powers in recent years, alongside the US, Russia and Europe, he says.",
+        "mutated_sentence": "That is why countries like China and India have become space powers in recent years, alongside the US and Europe, he says.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "China",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "India",
+                    "start": 37,
+                    "end": 42
+                },
+                {
+                    "text": "US",
+                    "start": 99,
+                    "end": 101
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "recent years",
+                    "start": 71,
+                    "end": 83
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Europe",
+                    "start": 106,
+                    "end": 112
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Nearly 1.5 million people are without power across several states as a powerful Arctic winter storm sweeps through the US and Canada.",
+        "mutated_sentence": "Nearly 1.5 million people are without power across several states as a powerful Arctic winter storm sweeps through the US.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "Nearly 1.5 million",
+                    "start": 0,
+                    "end": 18
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Arctic",
+                    "start": 80,
+                    "end": 86
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 119,
+                    "end": 121
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Power outages have also been reported in Canada, affecting 317,900 people in the provinces of Quebec and Ontario.",
+        "mutated_sentence": "Power outages have also been reported in Canada, affecting 317,900 people in the provinces of Quebec.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Canada",
+                    "start": 41,
+                    "end": 47
+                },
+                {
+                    "text": "Quebec",
+                    "start": 94,
+                    "end": 100
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "317,900",
+                    "start": 59,
+                    "end": 66
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Fort Worth, Texas, a man who was thought to be homeless died after being found outside in the bitter cold.",
+        "mutated_sentence": "In Fort Worth, a man who was thought to be homeless died after being found outside in the bitter cold.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Fort Worth",
+                    "start": 3,
+                    "end": 13
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Arctic air mass is projected to bring strong wind gusts and temperature of 15F (-9.4C) to El Paso, Texas, where newly arrived undocumented migrants are sleeping rough on city streets.",
+        "mutated_sentence": "The Arctic air mass is projected to bring strong wind gusts and temperature of 15F (-9.4C) to El Paso, where newly arrived undocumented migrants are sleeping rough on city streets.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Arctic",
+                    "start": 4,
+                    "end": 10
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "15F",
+                    "start": 79,
+                    "end": 82
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "9.4C",
+                    "start": 85,
+                    "end": 89
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "El Paso",
+                    "start": 94,
+                    "end": 101
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Ontario, Canada, police reported around 100 collisions due to freezing rain, heavy snow and ice pellets that have hit the region since Friday morning.",
+        "mutated_sentence": "In Ontario, police reported around 100 collisions due to freezing rain, heavy snow and ice pellets that have hit the region since Friday morning.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Ontario",
+                    "start": 3,
+                    "end": 10
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "around 100",
+                    "start": 28,
+                    "end": 38
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Friday",
+                    "start": 130,
+                    "end": 136
+                }
+            ],
+            "TIME": [
+                {
+                    "text": "morning",
+                    "start": 137,
+                    "end": 144
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "More than 6,900 flights in the US have been cancelled on Thursday and Friday, according to the flight-tracking site FlightAware.",
+        "mutated_sentence": "More than 6,900 flights in the US have been cancelled on Thursday, according to the flight-tracking site FlightAware.",
+        "entities": {
+            "CARDINAL": [
+                {
+                    "text": "More than 6,900",
+                    "start": 0,
+                    "end": 15
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 31,
+                    "end": 33
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Thursday",
+                    "start": 57,
+                    "end": 65
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "FlightAware",
+                    "start": 105,
+                    "end": 116
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In anticipation of travel disruptions, major airlines including United, Delta and American have offered to waive fees for travellers who wish to reschedule their flights.",
+        "mutated_sentence": "In anticipation of travel disruptions, major airlines including United have offered to waive fees for travellers who wish to reschedule their flights.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "United",
+                    "start": 64,
+                    "end": 70
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"If you turn these frogs over, you could watch their heart beating by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent,\" Jesse Delia, a researcher at the Museum of Natural History in New York, US told BBC News.",
+        "mutated_sentence": "\"If you turn these frogs over, you could watch their heart beatings by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent, \" Jesse Delia, a researcher at the Museum of Natural History in New York told BBC News.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Jesse Delia",
+                    "start": 185,
+                    "end": 196
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "the Museum of Natural History",
+                    "start": 214,
+                    "end": 243
+                },
+                {
+                    "text": "BBC News",
+                    "start": 261,
+                    "end": 269
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "New York",
+                    "start": 247,
+                    "end": 255
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Now findings by Mr Delia and Carlos Taboada at Duke University, US have uncovered how the glass frogs perform this very unusual function.",
+        "mutated_sentence": "Now findings by Mr Delia at Duke University, US has uncovered how the glass frogs perform this very unusual function.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Delia",
+                    "start": 19,
+                    "end": 24
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Duke University",
+                    "start": 28,
+                    "end": 43
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 45,
+                    "end": 47
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Clare was chosen along with three other women - Mairi Hilton, Lucy Bruzzone and Natalie Corbett - to look after the remote harbour of Port Lockroy, some 911 miles south of the Falkland Islands.",
+        "mutated_sentence": "Clare was chosen along with three other women - Mairi Hilton - to look after the remote harbour of Port Lockroy, some 911 miles south of the Falkland Islands.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Clare",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "text": "Mairi Hilton",
+                    "start": 48,
+                    "end": 60
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "three",
+                    "start": 28,
+                    "end": 33
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Port Lockroy",
+                    "start": 99,
+                    "end": 111
+                },
+                {
+                    "text": "the Falkland Islands",
+                    "start": 137,
+                    "end": 157
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "some 911 miles",
+                    "start": 113,
+                    "end": 127
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The vehicle - known as MS-22 - flew Russian cosmonauts Dmitry Petelin and Sergey Prokopyev, as well as Nasa astronaut Frank Rubio, to the station in September.",
+        "mutated_sentence": "The vehicle - known as MS-22 - flew Russian cosmonauts Dmitry Petelin, as well as Nasa astronaut Frank Rubio, to the station in September.",
+        "entities": {
+            "PRODUCT": [
+                {
+                    "text": "MS-22",
+                    "start": 23,
+                    "end": 28
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Russian",
+                    "start": 36,
+                    "end": 43
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Dmitry Petelin",
+                    "start": 55,
+                    "end": 69
+                },
+                {
+                    "text": "Frank Rubio",
+                    "start": 97,
+                    "end": 108
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "Nasa",
+                    "start": 82,
+                    "end": 86
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "September",
+                    "start": 128,
+                    "end": 137
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Volocopter, based in Germany, plans public flight tests of its VoloCity model next year. It hopes to get the aircraft certified in 2024 and then launch services in Singapore, Paris and Rome.",
+        "mutated_sentence": "Volocopter, based in Germany, plans public flight tests of its VoloCity model next year. It hopes to get the aircraft certified in 2024 and then launch services in Singapore.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "Volocopter",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Germany",
+                    "start": 21,
+                    "end": 28
+                },
+                {
+                    "text": "Singapore",
+                    "start": 164,
+                    "end": 173
+                }
+            ],
+            "PRODUCT": [
+                {
+                    "text": "VoloCity",
+                    "start": 63,
+                    "end": 71
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "next year",
+                    "start": 78,
+                    "end": 87
+                },
+                {
+                    "text": "2024",
+                    "start": 131,
+                    "end": 135
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Backed by some of the biggest names in the mobile phone industry, including AT&T and Vodafone, it has been developing technology that would enable a mobile phone to connect directly to a satellite to place calls or use data at 5G speeds.",
+        "mutated_sentence": "Backed by some of the biggest names in the mobile phone industry, including AT&T, it has been developing technology that would enable a mobile phone to connect directly to a satellite to place calls or use data at 5G speeds.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "AT&T",
+                    "start": 76,
+                    "end": 80
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "5G",
+                    "start": 214,
+                    "end": 216
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue crews from Moelfre and Penmon.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                },
+                {
+                    "text": "Moelfre",
+                    "start": 115,
+                    "end": 122
+                },
+                {
+                    "text": "Penmon",
+                    "start": 127,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "CARDINAL": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "ORG": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                },
+                {
+                    "text": "HM Coastguard",
+                    "start": 108,
+                    "end": 121
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Moelfre",
+                    "start": 133,
+                    "end": 140
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The American and European space agencies plan to fetch samples in 2030.",
+        "mutated_sentence": "The American space agencies plan to fetch samples in 2030.",
+        "entities": {
+            "NORP": [
+                {
+                    "text": "American",
+                    "start": 4,
+                    "end": 12
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "2030",
+                    "start": 53,
+                    "end": 57
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Branch manager, Carl Saunders, said: \"Sometimes rehoming older dogs can prove more difficult but it was clear to see that Eleanor and Cyril were a perfect match.",
+        "mutated_sentence": "Branch manager, Carl Saunders, said: \"Sometimes rehoming older dogs can prove more difficult but it was clear to see that Eleanor were a perfect match.",
+        "entities": {
+            "PERSON": [
+                {
+                    "text": "Carl Saunders",
+                    "start": 16,
+                    "end": 29
+                },
+                {
+                    "text": "Eleanor",
+                    "start": 122,
+                    "end": 129
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A powerful arctic winter storm will make its way through the US and Canada this week, bringing with it crippling snow and freezing temperatures.",
+        "mutated_sentence": "A powerful arctic winter storm will make its way through the US this week, bringing with it crippling snow and freezing temperatures.",
+        "entities": {
+            "DATE": [
+                {
+                    "text": "winter",
+                    "start": 18,
+                    "end": 24
+                },
+                {
+                    "text": "this week",
+                    "start": 64,
+                    "end": 73
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 61,
+                    "end": 63
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In Vancouver and Seattle, flights were cancelled on Tuesday as the storm began to hit the region.",
+        "mutated_sentence": "In Vancouver, flights were cancelled on Tuesday as the storm began to hit the region.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Vancouver",
+                    "start": 3,
+                    "end": 12
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Tuesday",
+                    "start": 40,
+                    "end": 47
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "As it moves east, the storm is anticipated to dump heavy snow into major midwestern airports in Detroit and Chicago by Thursday. It is also expected to cause widespread power outages in the area.",
+        "mutated_sentence": "As it moves east, the storm is anticipated to dump heavy snow into major midwestern airports in Detroit by Thursday. It is also expected to cause widespread power outages in the area.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "Detroit",
+                    "start": 96,
+                    "end": 103
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "Thursday",
+                    "start": 107,
+                    "end": 115
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The National Weather Service in Brooklyn, New York has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "mutated_sentence": "The National Weather Service in Brooklyn has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "entities": {
+            "ORG": [
+                {
+                    "text": "The National Weather Service",
+                    "start": 0,
+                    "end": 28
+                }
+            ],
+            "GPE": [
+                {
+                    "text": "Brooklyn",
+                    "start": 32,
+                    "end": 40
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "winter",
+                    "start": 78,
+                    "end": 84
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Great Lakes",
+                    "start": 136,
+                    "end": 147
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "These types of storms are most common on the east coast of the US and Canada, where the cool land and warm Gulf Stream current provide optimal conditions for a bomb cyclone to develop.",
+        "mutated_sentence": "These types of storms are most common on the east coast of the US, where the cool land and warm Gulf Stream current provides optimal conditions for a bomb cyclone to develop.",
+        "entities": {
+            "GPE": [
+                {
+                    "text": "US",
+                    "start": 63,
+                    "end": 65
+                }
+            ],
+            "LOC": [
+                {
+                    "text": "Gulf Stream",
+                    "start": 96,
+                    "end": 107
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In addition, the location of the upcoming launch, out over the Atlantic, has required the agreement and co-ordination of the Irish, Spanish and Portuguese governments.",
+        "mutated_sentence": "In addition, the location of the upcoming launch, out over the Atlantic, has required the agreement and co-ordination of the Irish governments.",
+        "entities": {
+            "LOC": [
+                {
+                    "text": "Atlantic",
+                    "start": 63,
+                    "end": 71
+                }
+            ],
+            "NORP": [
+                {
+                    "text": "Irish",
+                    "start": 125,
+                    "end": 130
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,2826 @@
+[
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "\"It originated amongst ducks in Europe and spread to other birds, \" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "reasons": [
+            "Entity 'Roslin Institute' disappeared"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Europe",
+                    "start": 32,
+                    "end": 38
+                },
+                {
+                    "text": "Asia",
+                    "start": 43,
+                    "end": 47
+                },
+                {
+                    "text": "Edinburgh University",
+                    "start": 146,
+                    "end": 166
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Paul Digard",
+                    "start": 82,
+                    "end": 93
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Roslin Institute",
+                    "start": 126,
+                    "end": 142
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Europe",
+                    "start": 32,
+                    "end": 38
+                },
+                {
+                    "text": "Roslin",
+                    "start": 117,
+                    "end": 123
+                },
+                {
+                    "text": "Edinburgh University",
+                    "start": 137,
+                    "end": 157
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Paul Digard",
+                    "start": 73,
+                    "end": 84
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Institute",
+                    "start": 124,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, Namibia, Botswana and Côte d'Ivoire, with plans to build plants in Ethiopia and Zimbabwe.",
+        "mutated_sentence": "The company, only founded in 2017, already has nine manufacturing facilities in Africa, employing 300 people across Cameroon, Namibia, with plans to build plants in Ethiopia and Zimbabwe.",
+        "reasons": [
+            "Expected entity 'Cameroon' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "DATE": [
+                {
+                    "text": "2017",
+                    "start": 29,
+                    "end": 33
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "nine manufacturing facilities",
+                    "start": 47,
+                    "end": 76
+                },
+                {
+                    "text": "300 people",
+                    "start": 98,
+                    "end": 108
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Africa",
+                    "start": 80,
+                    "end": 86
+                },
+                {
+                    "text": "Cameroon",
+                    "start": 116,
+                    "end": 124
+                },
+                {
+                    "text": "Namibia",
+                    "start": 126,
+                    "end": 133
+                },
+                {
+                    "text": "Botswana",
+                    "start": 135,
+                    "end": 143
+                },
+                {
+                    "text": "Côte d'Ivoire",
+                    "start": 148,
+                    "end": 161
+                },
+                {
+                    "text": "Ethiopia",
+                    "start": 193,
+                    "end": 201
+                },
+                {
+                    "text": "Zimbabwe",
+                    "start": 206,
+                    "end": 214
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DATE": [
+                {
+                    "text": "2017",
+                    "start": 29,
+                    "end": 33
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "nine manufacturing facilities",
+                    "start": 47,
+                    "end": 76
+                },
+                {
+                    "text": "300 people",
+                    "start": 98,
+                    "end": 108
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Africa",
+                    "start": 80,
+                    "end": 86
+                },
+                {
+                    "text": "Cameroon, Namibia",
+                    "start": 116,
+                    "end": 133
+                },
+                {
+                    "text": "Ethiopia",
+                    "start": 165,
+                    "end": 173
+                },
+                {
+                    "text": "Zimbabwe",
+                    "start": 178,
+                    "end": 186
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August and September.",
+        "mutated_sentence": "In October, the World Health Organization (WHO) issued a global alert over the cough syrups - warning they could be linked to acute kidney injuries and the children's deaths in July, August.",
+        "reasons": [
+            "Expected entity 'July' with tag 'DATE' not found"
+        ],
+        "original_entities": {
+            "DATE": [
+                {
+                    "text": "October",
+                    "start": 3,
+                    "end": 10
+                },
+                {
+                    "text": "July",
+                    "start": 177,
+                    "end": 181
+                },
+                {
+                    "text": "August",
+                    "start": 183,
+                    "end": 189
+                },
+                {
+                    "text": "September",
+                    "start": 194,
+                    "end": 203
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "World Health Organization",
+                    "start": 16,
+                    "end": 41
+                },
+                {
+                    "text": "WHO",
+                    "start": 43,
+                    "end": 46
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DATE": [
+                {
+                    "text": "October",
+                    "start": 3,
+                    "end": 10
+                },
+                {
+                    "text": "July, August",
+                    "start": 177,
+                    "end": 189
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "World Health Organization",
+                    "start": 16,
+                    "end": 41
+                },
+                {
+                    "text": "WHO",
+                    "start": 43,
+                    "end": 46
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Gloucestershire Royal Hospital surgeons Simon Higgs and Steve Hornby employed the Versius robot to remove a tumour from Martin Nugent's oesophagus.",
+        "mutated_sentence": "Gloucestershire Royal Hospital surgeons Simon Higgs employed the Versius robot to remove a tumour from Martin Nugent's oesophagus.",
+        "reasons": [
+            "Entity 'Versius' changed tag from 'COMMERCIAL_ITEM' to 'OTHER'"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Gloucestershire Royal Hospital",
+                    "start": 0,
+                    "end": 30
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Simon Higgs",
+                    "start": 40,
+                    "end": 51
+                },
+                {
+                    "text": "Steve Hornby",
+                    "start": 56,
+                    "end": 68
+                },
+                {
+                    "text": "Martin Nugent",
+                    "start": 120,
+                    "end": 133
+                }
+            ],
+            "COMMERCIAL_ITEM": [
+                {
+                    "text": "Versius",
+                    "start": 82,
+                    "end": 89
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "oesophagus",
+                    "start": 136,
+                    "end": 146
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Gloucestershire Royal Hospital",
+                    "start": 0,
+                    "end": 30
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Simon Higgs",
+                    "start": 40,
+                    "end": 51
+                },
+                {
+                    "text": "Martin Nugent",
+                    "start": 103,
+                    "end": 116
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "Versius",
+                    "start": 65,
+                    "end": 72
+                },
+                {
+                    "text": "oesophagus",
+                    "start": 119,
+                    "end": 129
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "mutated_sentence": "Spotify all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "reasons": [
+            "Entity 'Spotify' changed tag from 'TITLE' to 'ORGANIZATION'"
+        ],
+        "original_entities": {
+            "TITLE": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "Apple Music",
+                    "start": 9,
+                    "end": 20
+                },
+                {
+                    "text": "Deezer",
+                    "start": 25,
+                    "end": 31
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 113,
+                    "end": 123
+                },
+                {
+                    "text": "Drake",
+                    "start": 125,
+                    "end": 130
+                },
+                {
+                    "text": "Taylor Swift",
+                    "start": 135,
+                    "end": 147
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                }
+            ],
+            "PERSON": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 89,
+                    "end": 99
+                },
+                {
+                    "text": "Drake",
+                    "start": 101,
+                    "end": 106
+                },
+                {
+                    "text": "Taylor Swift",
+                    "start": 111,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Communication, which began in their 20s, is still going strong between Honiton and Texas.",
+        "mutated_sentence": "Communication, which began in their 20s, is still going strong between Honiton.",
+        "reasons": [
+            "Entity 'Honiton' changed tag from 'LOCATION' to 'ORGANIZATION'"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "20s",
+                    "start": 36,
+                    "end": 39
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Honiton",
+                    "start": 71,
+                    "end": 78
+                },
+                {
+                    "text": "Texas",
+                    "start": 83,
+                    "end": 88
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "20s",
+                    "start": 36,
+                    "end": 39
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Honiton",
+                    "start": 71,
+                    "end": 78
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "reasons": [
+            "Entity 'VKontakte' changed tag from 'ORGANIZATION' to 'TITLE'",
+            "Entity 'Odnoklassniki' changed tag from 'ORGANIZATION' to 'TITLE'"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "many internet services",
+                    "start": 25,
+                    "end": 47
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "YouTube",
+                    "start": 68,
+                    "end": 75
+                },
+                {
+                    "text": "VKontakte",
+                    "start": 87,
+                    "end": 96
+                },
+                {
+                    "text": "Odnoklassniki",
+                    "start": 101,
+                    "end": 114
+                },
+                {
+                    "text": "Meta",
+                    "start": 129,
+                    "end": 133
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Telegram",
+                    "start": 77,
+                    "end": 85
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "many internet services",
+                    "start": 25,
+                    "end": 47
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "Meta",
+                    "start": 120,
+                    "end": 124
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Telegram",
+                    "start": 68,
+                    "end": 76
+                },
+                {
+                    "text": "VKontakte",
+                    "start": 78,
+                    "end": 87
+                },
+                {
+                    "text": "Odnoklassniki",
+                    "start": 92,
+                    "end": 105
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte, according to Meta.",
+        "reasons": [
+            "Entity 'VKontakte' changed tag from 'ORGANIZATION' to 'TITLE'"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "many internet services",
+                    "start": 25,
+                    "end": 47
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "YouTube",
+                    "start": 68,
+                    "end": 75
+                },
+                {
+                    "text": "VKontakte",
+                    "start": 87,
+                    "end": 96
+                },
+                {
+                    "text": "Odnoklassniki",
+                    "start": 101,
+                    "end": 114
+                },
+                {
+                    "text": "Meta",
+                    "start": 129,
+                    "end": 133
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Telegram",
+                    "start": 77,
+                    "end": 85
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "many internet services",
+                    "start": 25,
+                    "end": 47
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "YouTube",
+                    "start": 68,
+                    "end": 75
+                },
+                {
+                    "text": "Meta",
+                    "start": 111,
+                    "end": 115
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Telegram",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "VKontakte",
+                    "start": 87,
+                    "end": 96
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The parents of teenagers Molly Russell and Olly Stephens said they were frustrated by repeated delays to the passing of the new Online Safety Bill.",
+        "mutated_sentence": "The parents of teenagers Molly Russell said they were frustrated by repeated delays to the passing of the new Online Safety Bill.",
+        "reasons": [
+            "Entity 'Safety Bill' disappeared"
+        ],
+        "original_entities": {
+            "PERSON": [
+                {
+                    "text": "Molly Russell",
+                    "start": 25,
+                    "end": 38
+                },
+                {
+                    "text": "Olly Stephens",
+                    "start": 43,
+                    "end": 56
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Safety Bill",
+                    "start": 135,
+                    "end": 146
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PERSON": [
+                {
+                    "text": "Molly Russell",
+                    "start": 25,
+                    "end": 38
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Online Safety Bill",
+                    "start": 110,
+                    "end": 128
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "What we very quickly found was that whilst we do have access to those facilities, the numbers, particularly in April and May time, were just not enough.",
+        "mutated_sentence": "What we very quickly found was that whilst we do have access to those facilities, the numbers, particularly in April time, were just not enough.",
+        "reasons": [
+            "Expected entity 'April' with tag 'DATE' not found"
+        ],
+        "original_entities": {
+            "DATE": [
+                {
+                    "text": "April",
+                    "start": 111,
+                    "end": 116
+                },
+                {
+                    "text": "May",
+                    "start": 121,
+                    "end": 124
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DATE": [
+                {
+                    "text": "April time",
+                    "start": 111,
+                    "end": 121
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "reasons": [
+            "Entity 'Nintendo Switch' disappeared"
+        ],
+        "original_entities": {
+            "PERSON": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Just Dance",
+                    "start": 33,
+                    "end": 43
+                },
+                {
+                    "text": "Call of Duty",
+                    "start": 45,
+                    "end": 57
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 59,
+                    "end": 68
+                },
+                {
+                    "text": "Roblox",
+                    "start": 73,
+                    "end": 79
+                }
+            ],
+            "COMMERCIAL_ITEM": [
+                {
+                    "text": "Nintendo Switch",
+                    "start": 104,
+                    "end": 119
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "BBC Wales",
+                    "start": 136,
+                    "end": 145
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PERSON": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Nintendo",
+                    "start": 56,
+                    "end": 64
+                },
+                {
+                    "text": "BBC Wales",
+                    "start": 88,
+                    "end": 97
+                }
+            ],
+            "COMMERCIAL_ITEM": [
+                {
+                    "text": "Switch",
+                    "start": 65,
+                    "end": 71
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "For five months of the year (February, May, October, November and December), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "mutated_sentence": "For five months of the year (February, May ), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "reasons": [
+            "Expected entity 'February' with tag 'DATE' not found"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "five months of the year",
+                    "start": 4,
+                    "end": 27
+                },
+                {
+                    "text": "more than half of electricity",
+                    "start": 77,
+                    "end": 106
+                },
+                {
+                    "text": "zero carbon electricity",
+                    "start": 127,
+                    "end": 150
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "February",
+                    "start": 29,
+                    "end": 37
+                },
+                {
+                    "text": "May",
+                    "start": 39,
+                    "end": 42
+                },
+                {
+                    "text": "October",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "November",
+                    "start": 53,
+                    "end": 61
+                },
+                {
+                    "text": "December",
+                    "start": 66,
+                    "end": 74
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "five months of the year",
+                    "start": 4,
+                    "end": 27
+                },
+                {
+                    "text": "more than half of electricity",
+                    "start": 46,
+                    "end": 75
+                },
+                {
+                    "text": "zero carbon electricity",
+                    "start": 96,
+                    "end": 119
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "February, May",
+                    "start": 29,
+                    "end": 42
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Nations including Germany, Spain and Italy and the US responded by increasing their renewable capacity.",
+        "mutated_sentence": "Nations including Germany, Spain and the US responded by increasing their renewable capacity.",
+        "reasons": [
+            "Entity 'Spain' changed tag from 'LOCATION' to 'ORGANIZATION'"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Germany",
+                    "start": 18,
+                    "end": 25
+                },
+                {
+                    "text": "US",
+                    "start": 51,
+                    "end": 53
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Spain",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Italy",
+                    "start": 37,
+                    "end": 42
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Germany",
+                    "start": 18,
+                    "end": 25
+                },
+                {
+                    "text": "Spain",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "US",
+                    "start": 41,
+                    "end": 43
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Travelling between Santa Marta, Colombia and New Jersey in the US, the Vega will make up to eight trips per year. Each voyage will take 16 days, with a further six days in ports.",
+        "mutated_sentence": "Travelling between Santa Marta, Colombia in the US, the Vega will make up to eight trips per year. Each voyage will take 16 days, with a further six days in ports.",
+        "reasons": [
+            "Expected entity 'Santa Marta' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Santa Marta",
+                    "start": 19,
+                    "end": 30
+                },
+                {
+                    "text": "Colombia",
+                    "start": 32,
+                    "end": 40
+                },
+                {
+                    "text": "New Jersey",
+                    "start": 45,
+                    "end": 55
+                },
+                {
+                    "text": "US",
+                    "start": 63,
+                    "end": 65
+                },
+                {
+                    "text": "Vega",
+                    "start": 71,
+                    "end": 75
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "up to",
+                    "start": 86,
+                    "end": 91
+                },
+                {
+                    "text": "eight trips per year",
+                    "start": 92,
+                    "end": 112
+                },
+                {
+                    "text": "Each voyage",
+                    "start": 114,
+                    "end": 125
+                },
+                {
+                    "text": "16 days",
+                    "start": 136,
+                    "end": 143
+                },
+                {
+                    "text": "six days",
+                    "start": 160,
+                    "end": 168
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Santa Marta, Colombia",
+                    "start": 19,
+                    "end": 40
+                },
+                {
+                    "text": "US",
+                    "start": 48,
+                    "end": 50
+                },
+                {
+                    "text": "Vega",
+                    "start": 56,
+                    "end": 60
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "up to",
+                    "start": 71,
+                    "end": 76
+                },
+                {
+                    "text": "eight trips per year",
+                    "start": 77,
+                    "end": 97
+                },
+                {
+                    "text": "Each voyage",
+                    "start": 99,
+                    "end": 110
+                },
+                {
+                    "text": "16 days",
+                    "start": 121,
+                    "end": 128
+                },
+                {
+                    "text": "six days",
+                    "start": 145,
+                    "end": 153
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The situation in the east of the country gave concern, with water abstraction suspended on the River Tyne in East Lothian, River Ythan in Aberdeenshire and the Lower Tweed in the Borders.",
+        "mutated_sentence": "The situation in the east of the country gave concern, with water abstraction suspended on the River Tyne in East Lothian in Aberdeenshire and the Lower Tweed in the Borders.",
+        "reasons": [
+            "Entity 'Borders' disappeared"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "River Tyne",
+                    "start": 95,
+                    "end": 105
+                },
+                {
+                    "text": "East Lothian",
+                    "start": 109,
+                    "end": 121
+                },
+                {
+                    "text": "River Ythan",
+                    "start": 123,
+                    "end": 134
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 138,
+                    "end": 151
+                },
+                {
+                    "text": "Lower Tweed",
+                    "start": 160,
+                    "end": 171
+                },
+                {
+                    "text": "Borders",
+                    "start": 179,
+                    "end": 186
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "River Tyne",
+                    "start": 95,
+                    "end": 105
+                },
+                {
+                    "text": "East Lothian",
+                    "start": 109,
+                    "end": 121
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 125,
+                    "end": 138
+                },
+                {
+                    "text": "Lower Tweed",
+                    "start": 147,
+                    "end": 158
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America.",
+        "mutated_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe.",
+        "reasons": [
+            "Expected entity 'UK' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "PERSON": [
+                {
+                    "text": "Prof",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "Dunn",
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "83% of the world's population",
+                    "start": 44,
+                    "end": 73
+                },
+                {
+                    "text": "99%",
+                    "start": 122,
+                    "end": 125
+                },
+                {
+                    "text": "people",
+                    "start": 129,
+                    "end": 135
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "UK",
+                    "start": 143,
+                    "end": 145
+                },
+                {
+                    "text": "Europe",
+                    "start": 147,
+                    "end": 153
+                },
+                {
+                    "text": "North America",
+                    "start": 158,
+                    "end": 171
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PERSON": [
+                {
+                    "text": "Prof",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "Dunn",
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "83% of the world's population",
+                    "start": 44,
+                    "end": 73
+                },
+                {
+                    "text": "99%",
+                    "start": 122,
+                    "end": 125
+                },
+                {
+                    "text": "people",
+                    "start": 129,
+                    "end": 135
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "UK, Europe",
+                    "start": 143,
+                    "end": 153
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Met Office issued a yellow warning of rain for southern, western and central Scotland as well as Aberdeenshire and the Highlands.",
+        "mutated_sentence": "The Met Office issued a yellow warning of rain for southern as well as Aberdeenshire and the Highlands.",
+        "reasons": [
+            "Expected entity 'southern' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Met Office",
+                    "start": 4,
+                    "end": 14
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "southern",
+                    "start": 51,
+                    "end": 59
+                },
+                {
+                    "text": "western",
+                    "start": 61,
+                    "end": 68
+                },
+                {
+                    "text": "central Scotland",
+                    "start": 73,
+                    "end": 89
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 101,
+                    "end": 114
+                },
+                {
+                    "text": "Highlands",
+                    "start": 123,
+                    "end": 132
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Met Office",
+                    "start": 4,
+                    "end": 14
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Aberdeenshire",
+                    "start": 71,
+                    "end": 84
+                },
+                {
+                    "text": "Highlands",
+                    "start": 93,
+                    "end": 102
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "reasons": [
+            "Entity 'Stirling' disappeared"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Stirling",
+                    "start": 72,
+                    "end": 80
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Galloway",
+                    "start": 100,
+                    "end": 108
+                },
+                {
+                    "text": "Borders",
+                    "start": 114,
+                    "end": 121
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 123,
+                    "end": 136
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 138,
+                    "end": 155
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 157,
+                    "end": 171
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 173,
+                    "end": 190
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 195,
+                    "end": 214
+                },
+                {
+                    "text": "Argyll",
+                    "start": 235,
+                    "end": 241
+                },
+                {
+                    "text": "Bute",
+                    "start": 246,
+                    "end": 250
+                },
+                {
+                    "text": "Highlands",
+                    "start": 259,
+                    "end": 268
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Borders",
+                    "start": 101,
+                    "end": 108
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 110,
+                    "end": 123
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 125,
+                    "end": 142
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 144,
+                    "end": 158
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 160,
+                    "end": 177
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 182,
+                    "end": 201
+                },
+                {
+                    "text": "Argyll",
+                    "start": 222,
+                    "end": 228
+                },
+                {
+                    "text": "Bute",
+                    "start": 233,
+                    "end": 237
+                },
+                {
+                    "text": "Highlands",
+                    "start": 246,
+                    "end": 255
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, East Ayrshire, East Renfrewshire, South Ayrshire, South Lanarkshire and West Dunbartonshire, as well as part of Argyll and Bute and the Highlands.",
+        "mutated_sentence": "The yellow warning covered Angus, Perth and Kinross, Aberdeenshire, the Stirling area, Dumfries and Galloway, the Borders, as well as part of Argyll and Bute and the Highlands.",
+        "reasons": [
+            "Entity 'Stirling' disappeared"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Stirling",
+                    "start": 72,
+                    "end": 80
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Galloway",
+                    "start": 100,
+                    "end": 108
+                },
+                {
+                    "text": "Borders",
+                    "start": 114,
+                    "end": 121
+                },
+                {
+                    "text": "East Ayrshire",
+                    "start": 123,
+                    "end": 136
+                },
+                {
+                    "text": "East Renfrewshire",
+                    "start": 138,
+                    "end": 155
+                },
+                {
+                    "text": "South Ayrshire",
+                    "start": 157,
+                    "end": 171
+                },
+                {
+                    "text": "South Lanarkshire",
+                    "start": 173,
+                    "end": 190
+                },
+                {
+                    "text": "West Dunbartonshire",
+                    "start": 195,
+                    "end": 214
+                },
+                {
+                    "text": "Argyll",
+                    "start": 235,
+                    "end": 241
+                },
+                {
+                    "text": "Bute",
+                    "start": 246,
+                    "end": 250
+                },
+                {
+                    "text": "Highlands",
+                    "start": 259,
+                    "end": 268
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Angus",
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "text": "Perth",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "Kinross",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "Aberdeenshire",
+                    "start": 53,
+                    "end": 66
+                },
+                {
+                    "text": "Dumfries",
+                    "start": 87,
+                    "end": 95
+                },
+                {
+                    "text": "Galloway",
+                    "start": 100,
+                    "end": 108
+                },
+                {
+                    "text": "Borders",
+                    "start": 114,
+                    "end": 121
+                },
+                {
+                    "text": "Argyll",
+                    "start": 142,
+                    "end": 148
+                },
+                {
+                    "text": "Bute",
+                    "start": 153,
+                    "end": 157
+                },
+                {
+                    "text": "Highlands",
+                    "start": 166,
+                    "end": 175
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Heavy snow and freezing rain have been forecast for parts of the northern Midwest while severe thunderstorms and tornadoes are expected in Texas, Oklahoma, Arkansas and Louisiana.",
+        "mutated_sentence": "Heavy snow and freezing rain has been forecast for parts of the northern Midwest while severe thunderstorms and tornadoes are expected in Texas, Oklahoma.",
+        "reasons": [
+            "Expected entity 'Texas' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "northern Midwest",
+                    "start": 65,
+                    "end": 81
+                },
+                {
+                    "text": "Texas",
+                    "start": 139,
+                    "end": 144
+                },
+                {
+                    "text": "Oklahoma",
+                    "start": 146,
+                    "end": 154
+                },
+                {
+                    "text": "Arkansas",
+                    "start": 156,
+                    "end": 164
+                },
+                {
+                    "text": "Louisiana",
+                    "start": 169,
+                    "end": 178
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "northern Midwest",
+                    "start": 64,
+                    "end": 80
+                },
+                {
+                    "text": "Texas, Oklahoma",
+                    "start": 138,
+                    "end": 153
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Station records were broken in Germany, France and Ukraine.",
+        "mutated_sentence": "Station records were broken in Germany, France.",
+        "reasons": [
+            "Expected entity 'Germany' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Germany",
+                    "start": 31,
+                    "end": 38
+                },
+                {
+                    "text": "France",
+                    "start": 40,
+                    "end": 46
+                },
+                {
+                    "text": "Ukraine",
+                    "start": 51,
+                    "end": 58
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Germany, France",
+                    "start": 31,
+                    "end": 46
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In 2019, Washington was the first US state to legalise it. Colorado, Oregon, Vermont and California followed suit.",
+        "mutated_sentence": "In 2019, Washington was the first US state to legalise it. Colorado, Oregon followed suit.",
+        "reasons": [
+            "Expected entity 'Colorado' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "DATE": [
+                {
+                    "text": "2019",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Washington",
+                    "start": 9,
+                    "end": 19
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "first",
+                    "start": 28,
+                    "end": 33
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "US",
+                    "start": 34,
+                    "end": 36
+                },
+                {
+                    "text": "Colorado",
+                    "start": 59,
+                    "end": 67
+                },
+                {
+                    "text": "Oregon",
+                    "start": 69,
+                    "end": 75
+                },
+                {
+                    "text": "Vermont",
+                    "start": 77,
+                    "end": 84
+                },
+                {
+                    "text": "California",
+                    "start": 89,
+                    "end": 99
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DATE": [
+                {
+                    "text": "2019",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Washington",
+                    "start": 9,
+                    "end": 19
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "first",
+                    "start": 28,
+                    "end": 33
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "US",
+                    "start": 34,
+                    "end": 36
+                },
+                {
+                    "text": "Colorado, Oregon",
+                    "start": 59,
+                    "end": 75
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Urdd, Wales Today and Aberystwyth University all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "mutated_sentence": "The Urdd all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "reasons": [
+            "Entity 'Urdd' changed tag from 'ORGANIZATION' to 'PERSON'"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Urdd",
+                    "start": 4,
+                    "end": 8
+                },
+                {
+                    "text": "Wales Today",
+                    "start": 10,
+                    "end": 21
+                },
+                {
+                    "text": "Aberystwyth University",
+                    "start": 26,
+                    "end": 48
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "two heroes",
+                    "start": 115,
+                    "end": 125
+                },
+                {
+                    "text": "one of our most beloved actresses",
+                    "start": 145,
+                    "end": 178
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "Welsh",
+                    "start": 129,
+                    "end": 134
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "rugby",
+                    "start": 135,
+                    "end": 140
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PERSON": [
+                {
+                    "text": "Urdd",
+                    "start": 4,
+                    "end": 8
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "all",
+                    "start": 9,
+                    "end": 12
+                },
+                {
+                    "text": "two heroes",
+                    "start": 75,
+                    "end": 85
+                },
+                {
+                    "text": "one of our most beloved actresses",
+                    "start": 105,
+                    "end": 138
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "Welsh",
+                    "start": 89,
+                    "end": 94
+                }
+            ],
+            "TITLE": [
+                {
+                    "text": "rugby",
+                    "start": 95,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The county's fire service responded to 138 calls in June, July and August, compared to 50 in 2021 and 40 in 2020.",
+        "mutated_sentence": "The county's fire service responded to 138 calls in June, July, compared to 50 in 2021 and 40 in 2020.",
+        "reasons": [
+            "Expected entity 'June' with tag 'DATE' not found"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "138 calls",
+                    "start": 39,
+                    "end": 48
+                },
+                {
+                    "text": "50",
+                    "start": 87,
+                    "end": 89
+                },
+                {
+                    "text": "40",
+                    "start": 102,
+                    "end": 104
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "June",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "July",
+                    "start": 58,
+                    "end": 62
+                },
+                {
+                    "text": "August",
+                    "start": 67,
+                    "end": 73
+                },
+                {
+                    "text": "2021",
+                    "start": 93,
+                    "end": 97
+                },
+                {
+                    "text": "2020",
+                    "start": 108,
+                    "end": 112
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "138 calls",
+                    "start": 39,
+                    "end": 48
+                },
+                {
+                    "text": "50",
+                    "start": 76,
+                    "end": 78
+                },
+                {
+                    "text": "40",
+                    "start": 91,
+                    "end": 93
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "June, July",
+                    "start": 52,
+                    "end": 62
+                },
+                {
+                    "text": "2021",
+                    "start": 82,
+                    "end": 86
+                },
+                {
+                    "text": "2020",
+                    "start": 97,
+                    "end": 101
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "There have been about 95,000 sewer blockages across Hampshire, the Isle of Wight, Kent and Sussex in the last five years, Southern Water said.",
+        "mutated_sentence": "There have been about 95,000 sewer blockages across Hampshire, the Isle of Wight, Kent in the last five years, Southern Water said.",
+        "reasons": [
+            "Expected entity 'Isle of Wight' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "about 95,000 sewer blockages",
+                    "start": 16,
+                    "end": 44
+                },
+                {
+                    "text": "five years",
+                    "start": 110,
+                    "end": 120
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Hampshire",
+                    "start": 52,
+                    "end": 61
+                },
+                {
+                    "text": "Isle of Wight",
+                    "start": 67,
+                    "end": 80
+                },
+                {
+                    "text": "Kent",
+                    "start": 82,
+                    "end": 86
+                },
+                {
+                    "text": "Sussex",
+                    "start": 91,
+                    "end": 97
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "last",
+                    "start": 105,
+                    "end": 109
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Southern Water",
+                    "start": 122,
+                    "end": 136
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "about 95,000 sewer blockages",
+                    "start": 16,
+                    "end": 44
+                },
+                {
+                    "text": "five years",
+                    "start": 99,
+                    "end": 109
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Hampshire",
+                    "start": 52,
+                    "end": 61
+                },
+                {
+                    "text": "Isle of Wight, Kent",
+                    "start": 67,
+                    "end": 86
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "last",
+                    "start": 94,
+                    "end": 98
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Southern Water",
+                    "start": 111,
+                    "end": 125
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "With flight cancellations and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver, Chicago and Washington DC reported hours-long queues to speak to customer service representatives.",
+        "mutated_sentence": "With flight cancellations and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver, Chicago reported hours-long queues to speak to customer service representatives.",
+        "reasons": [
+            "Expected entity 'Denver' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "thousands of passengers",
+                    "start": 49,
+                    "end": 72
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Denver",
+                    "start": 229,
+                    "end": 235
+                },
+                {
+                    "text": "Chicago",
+                    "start": 237,
+                    "end": 244
+                },
+                {
+                    "text": "Washington DC",
+                    "start": 249,
+                    "end": 262
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "thousands of passengers",
+                    "start": 49,
+                    "end": 72
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Denver, Chicago",
+                    "start": 229,
+                    "end": 244
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Many parts of the UK have seen an abundance of seeds and nuts such as acorns, beech masts, rowan berries and elderberries including the east of England, North and Northern Ireland.",
+        "mutated_sentence": "Many parts of the UK have seen an abundance of seeds and nuts such as acorns, beech masts, rowan berries and elderberries including the east of England, North.",
+        "reasons": [
+            "Expected entity 'east of England' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "QUANTITY": [
+                {
+                    "text": "Many parts",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "UK",
+                    "start": 18,
+                    "end": 20
+                },
+                {
+                    "text": "east of England",
+                    "start": 136,
+                    "end": 151
+                },
+                {
+                    "text": "North",
+                    "start": 153,
+                    "end": 158
+                },
+                {
+                    "text": "Northern Ireland",
+                    "start": 163,
+                    "end": 179
+                }
+            ]
+        },
+        "mutated_entities": {
+            "QUANTITY": [
+                {
+                    "text": "Many parts",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "UK",
+                    "start": 18,
+                    "end": 20
+                },
+                {
+                    "text": "east of England, North",
+                    "start": 136,
+                    "end": 158
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July.",
+        "mutated_sentence": "The Kent Wildlife Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July.",
+        "reasons": [
+            "Entity 'West Blean Woods' changed tag from 'ORGANIZATION' to 'LOCATION'"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Kent Wildlife Trust",
+                    "start": 4,
+                    "end": 23
+                },
+                {
+                    "text": "Wildwood Trust",
+                    "start": 28,
+                    "end": 42
+                },
+                {
+                    "text": "West Blean Woods",
+                    "start": 95,
+                    "end": 111
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "three female bison",
+                    "start": 56,
+                    "end": 74
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Canterbury, Kent",
+                    "start": 117,
+                    "end": 133
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "July",
+                    "start": 138,
+                    "end": 142
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Kent Wildlife Trust",
+                    "start": 4,
+                    "end": 23
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "three female bison",
+                    "start": 37,
+                    "end": 55
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "West Blean Woods",
+                    "start": 76,
+                    "end": 92
+                },
+                {
+                    "text": "Canterbury, Kent",
+                    "start": 98,
+                    "end": 114
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "July",
+                    "start": 119,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado.",
+        "mutated_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont, Ohio,.",
+        "reasons": [
+            "Expected entity 'Vermont' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "New York",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "US",
+                    "start": 111,
+                    "end": 113
+                },
+                {
+                    "text": "Vermont",
+                    "start": 125,
+                    "end": 132
+                },
+                {
+                    "text": "Ohio",
+                    "start": 134,
+                    "end": 138
+                },
+                {
+                    "text": "Missouri",
+                    "start": 140,
+                    "end": 148
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 150,
+                    "end": 159
+                },
+                {
+                    "text": "Kansas",
+                    "start": 161,
+                    "end": 167
+                },
+                {
+                    "text": "Colorado",
+                    "start": 173,
+                    "end": 181
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "New York",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "US",
+                    "start": 111,
+                    "end": 113
+                },
+                {
+                    "text": "Vermont, Ohio",
+                    "start": 125,
+                    "end": 138
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Expected entity 'Vermont' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont, Ohio, Missouri",
+                    "start": 43,
+                    "end": 66
+                },
+                {
+                    "text": "South Florida",
+                    "start": 70,
+                    "end": 83
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Expected entity 'Vermont' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont, Ohio, Missouri",
+                    "start": 43,
+                    "end": 66
+                },
+                {
+                    "text": "South Florida",
+                    "start": 70,
+                    "end": 83
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Expected entity 'Vermont' with tag 'LOCATION' not found"
+        ],
+        "original_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "LOCATION": [
+                {
+                    "text": "Vermont, Ohio, Missouri",
+                    "start": 43,
+                    "end": 66
+                },
+                {
+                    "text": "South Florida",
+                    "start": 70,
+                    "end": 83
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water, and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Wales struggle to pay their water bill.",
+        "mutated_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England struggle to pay their water bill.",
+        "reasons": [
+            "Entity '20% of customers' disappeared"
+        ],
+        "original_entities": {
+            "DATE": [
+                {
+                    "text": "this year",
+                    "start": 53,
+                    "end": 62
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Water UK",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "South East Water",
+                    "start": 105,
+                    "end": 121
+                },
+                {
+                    "text": "South West Water",
+                    "start": 123,
+                    "end": 139
+                },
+                {
+                    "text": "Yorkshire Water",
+                    "start": 145,
+                    "end": 160
+                },
+                {
+                    "text": "Ofwat",
+                    "start": 274,
+                    "end": 279
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "three companies",
+                    "start": 87,
+                    "end": 102
+                },
+                {
+                    "text": "20% of customers",
+                    "start": 290,
+                    "end": 306
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "England",
+                    "start": 310,
+                    "end": 317
+                },
+                {
+                    "text": "Wales",
+                    "start": 322,
+                    "end": 327
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DATE": [
+                {
+                    "text": "this year",
+                    "start": 53,
+                    "end": 62
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Water UK",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "South East Water",
+                    "start": 105,
+                    "end": 121
+                },
+                {
+                    "text": "South West Water",
+                    "start": 123,
+                    "end": 139
+                },
+                {
+                    "text": "Yorkshire Water",
+                    "start": 144,
+                    "end": 159
+                },
+                {
+                    "text": "Ofwat",
+                    "start": 273,
+                    "end": 278
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "three companies",
+                    "start": 87,
+                    "end": 102
+                },
+                {
+                    "text": "20%",
+                    "start": 289,
+                    "end": 292
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "England",
+                    "start": 309,
+                    "end": 316
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Now findings by Mr Delia and Carlos Taboada at Duke University, US have uncovered how the glass frogs perform this very unusual function.",
+        "mutated_sentence": "Now findings by Mr Delia at Duke University, US has uncovered how the glass frogs perform this very unusual function.",
+        "reasons": [
+            "Entity 'Duke' disappeared",
+            "Entity 'University' disappeared"
+        ],
+        "original_entities": {
+            "PERSON": [
+                {
+                    "text": "Delia",
+                    "start": 19,
+                    "end": 24
+                },
+                {
+                    "text": "Carlos Taboada",
+                    "start": 29,
+                    "end": 43
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Duke",
+                    "start": 47,
+                    "end": 51
+                },
+                {
+                    "text": "US",
+                    "start": 64,
+                    "end": 66
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "University",
+                    "start": 52,
+                    "end": 62
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PERSON": [
+                {
+                    "text": "Delia",
+                    "start": 19,
+                    "end": 24
+                }
+            ],
+            "ORGANIZATION": [
+                {
+                    "text": "Duke University",
+                    "start": 28,
+                    "end": 43
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "US",
+                    "start": 45,
+                    "end": 47
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Volocopter, based in Germany, plans public flight tests of its VoloCity model next year. It hopes to get the aircraft certified in 2024 and then launch services in Singapore, Paris and Rome.",
+        "mutated_sentence": "Volocopter, based in Germany, plans public flight tests of its VoloCity model next year. It hopes to get the aircraft certified in 2024 and then launch services in Singapore, Paris.",
+        "reasons": [
+            "Expected entity 'Singapore' with tag 'LOCATION' not found",
+            "Entity 'Volocopter' changed tag from 'COMMERCIAL_ITEM' to 'ORGANIZATION'"
+        ],
+        "original_entities": {
+            "COMMERCIAL_ITEM": [
+                {
+                    "text": "Volocopter",
+                    "start": 0,
+                    "end": 10
+                },
+                {
+                    "text": "VoloCity",
+                    "start": 63,
+                    "end": 71
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Germany",
+                    "start": 21,
+                    "end": 28
+                },
+                {
+                    "text": "Singapore",
+                    "start": 164,
+                    "end": 173
+                },
+                {
+                    "text": "Paris",
+                    "start": 175,
+                    "end": 180
+                },
+                {
+                    "text": "Rome",
+                    "start": 185,
+                    "end": 189
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "next year",
+                    "start": 78,
+                    "end": 87
+                },
+                {
+                    "text": "2024",
+                    "start": 131,
+                    "end": 135
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "Volocopter",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Germany",
+                    "start": 21,
+                    "end": 28
+                },
+                {
+                    "text": "Singapore, Paris",
+                    "start": 164,
+                    "end": 180
+                }
+            ],
+            "COMMERCIAL_ITEM": [
+                {
+                    "text": "VoloCity",
+                    "start": 63,
+                    "end": 71
+                }
+            ],
+            "DATE": [
+                {
+                    "text": "next year",
+                    "start": 78,
+                    "end": 87
+                },
+                {
+                    "text": "2024",
+                    "start": 131,
+                    "end": 135
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The National Weather Service in Brooklyn, New York has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "mutated_sentence": "The National Weather Service in Brooklyn has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "reasons": [
+            "Entity 'Great Lakes region' disappeared",
+            "Entity 'once' disappeared",
+            "Entity 'in-a-generation' disappeared"
+        ],
+        "original_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "National Weather Service",
+                    "start": 4,
+                    "end": 28
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Brooklyn",
+                    "start": 32,
+                    "end": 40
+                },
+                {
+                    "text": "New York",
+                    "start": 42,
+                    "end": 50
+                },
+                {
+                    "text": "Great Lakes region",
+                    "start": 146,
+                    "end": 164
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "once",
+                    "start": 67,
+                    "end": 71
+                },
+                {
+                    "text": "in-a-generation",
+                    "start": 72,
+                    "end": 87
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "Category 3",
+                    "start": 226,
+                    "end": 236
+                }
+            ]
+        },
+        "mutated_entities": {
+            "ORGANIZATION": [
+                {
+                    "text": "National Weather Service",
+                    "start": 4,
+                    "end": 28
+                }
+            ],
+            "LOCATION": [
+                {
+                    "text": "Brooklyn",
+                    "start": 32,
+                    "end": 40
+                },
+                {
+                    "text": "Great Lakes",
+                    "start": 136,
+                    "end": 147
+                }
+            ],
+            "QUANTITY": [
+                {
+                    "text": "once-in-a-generation",
+                    "start": 57,
+                    "end": 77
+                }
+            ],
+            "OTHER": [
+                {
+                    "text": "Category 3",
+                    "start": 216,
+                    "end": 226
+                }
+            ]
+        }
+    }
+]

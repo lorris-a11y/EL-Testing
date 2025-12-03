@@ -1,0 +1,4169 @@
+[
+    {
+        "original_sentence": "Health bosses have warned they cannot guarantee patient safety during strikes by thousands of ambulance workers in England and Wales on Wednesday.",
+        "mutated_sentence": "Health bosses have warned they cannot guarantee patient safety during strikes by thousands of ambulance workers in England on Wednesday.",
+        "reasons": [
+            "Entity 'guarantee' disappeared"
+        ],
+        "original_entities": {
+            "PersonType": [
+                {
+                    "text": "Health bosses",
+                    "start": 0,
+                    "end": 13
+                },
+                {
+                    "text": "patient",
+                    "start": 48,
+                    "end": 55
+                },
+                {
+                    "text": "ambulance workers",
+                    "start": 94,
+                    "end": 111
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "guarantee",
+                    "start": 38,
+                    "end": 47
+                },
+                {
+                    "text": "safety",
+                    "start": 56,
+                    "end": 62
+                }
+            ],
+            "Event": [
+                {
+                    "text": "strikes",
+                    "start": 70,
+                    "end": 77
+                }
+            ],
+            "Location": [
+                {
+                    "text": "England",
+                    "start": 115,
+                    "end": 122
+                },
+                {
+                    "text": "Wales",
+                    "start": 127,
+                    "end": 132
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 136,
+                    "end": 145
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PersonType": [
+                {
+                    "text": "Health bosses",
+                    "start": 0,
+                    "end": 13
+                },
+                {
+                    "text": "patient",
+                    "start": 48,
+                    "end": 55
+                },
+                {
+                    "text": "ambulance workers",
+                    "start": 94,
+                    "end": 111
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "safety",
+                    "start": 56,
+                    "end": 62
+                }
+            ],
+            "Event": [
+                {
+                    "text": "strikes",
+                    "start": 70,
+                    "end": 77
+                }
+            ],
+            "Location": [
+                {
+                    "text": "England",
+                    "start": 115,
+                    "end": 122
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 126,
+                    "end": 135
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "\"It originated amongst ducks in Europe and spread to other birds, \" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "reasons": [
+            "Entity 'professor' disappeared",
+            "Entity 'virology' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "Europe",
+                    "start": 32,
+                    "end": 38
+                },
+                {
+                    "text": "Asia",
+                    "start": 43,
+                    "end": 47
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Paul Digard",
+                    "start": 82,
+                    "end": 93
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "professor",
+                    "start": 97,
+                    "end": 106
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "virology",
+                    "start": 110,
+                    "end": 118
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Roslin Institute",
+                    "start": 126,
+                    "end": 142
+                },
+                {
+                    "text": "Edinburgh University",
+                    "start": 146,
+                    "end": 166
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "Europe",
+                    "start": 32,
+                    "end": 38
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Paul Digard",
+                    "start": 73,
+                    "end": 84
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "professor of virology",
+                    "start": 88,
+                    "end": 109
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Roslin Institute",
+                    "start": 117,
+                    "end": 133
+                },
+                {
+                    "text": "Edinburgh University",
+                    "start": 137,
+                    "end": 157
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"There are strict export controls when a country decides to vaccinate,\" says Dr Maurice Pitesky of the School of Veterinary Medicine, University of California, Davis.",
+        "mutated_sentence": "\"There are strict export controls when a country decides to vaccinate, \" says Dr Maurice Pitesky of the School of Veterinary Medicine, Davis.",
+        "reasons": [
+            "Entity 'country' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "country",
+                    "start": 41,
+                    "end": 48
+                },
+                {
+                    "text": "Davis",
+                    "start": 160,
+                    "end": 165
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Dr",
+                    "start": 77,
+                    "end": 79
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Maurice Pitesky",
+                    "start": 80,
+                    "end": 95
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "School of Veterinary Medicine",
+                    "start": 103,
+                    "end": 132
+                },
+                {
+                    "text": "University of California",
+                    "start": 134,
+                    "end": 158
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PersonType": [
+                {
+                    "text": "Dr",
+                    "start": 78,
+                    "end": 80
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Maurice Pitesky",
+                    "start": 81,
+                    "end": 96
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "School of Veterinary Medicine",
+                    "start": 104,
+                    "end": 133
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Davis",
+                    "start": 135,
+                    "end": 140
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, India, and China, which has resulted in the draining of precious foreign exchange, non-creation of job opportunities, and suffering the vagaries of supply and demand,\" says Sinhue Noronha, founder and chief executive of Africure Pharmaceuticals.",
+        "mutated_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, , which has resulted in the draining of precious foreign exchange, non-creation of job opportunities and suffering the vagaries of supply and demand, \" says Sinhue Noronha, founder and chief executive of Africure Pharmaceuticals.",
+        "reasons": [
+            "Entity 'medication' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "Africa",
+                    "start": 1,
+                    "end": 7
+                },
+                {
+                    "text": "Europe",
+                    "start": 72,
+                    "end": 78
+                },
+                {
+                    "text": "India",
+                    "start": 80,
+                    "end": 85
+                },
+                {
+                    "text": "China",
+                    "start": 91,
+                    "end": 96
+                }
+            ],
+            "Product": [
+                {
+                    "text": "medication",
+                    "start": 56,
+                    "end": 66
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Sinhue Noronha",
+                    "start": 253,
+                    "end": 267
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "founder",
+                    "start": 269,
+                    "end": 276
+                },
+                {
+                    "text": "chief executive",
+                    "start": 281,
+                    "end": 296
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Africure Pharmaceuticals",
+                    "start": 300,
+                    "end": 324
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "Africa",
+                    "start": 1,
+                    "end": 7
+                },
+                {
+                    "text": "Europe",
+                    "start": 72,
+                    "end": 78
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Sinhue Noronha",
+                    "start": 237,
+                    "end": 251
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "founder",
+                    "start": 253,
+                    "end": 260
+                },
+                {
+                    "text": "chief executive",
+                    "start": 265,
+                    "end": 280
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Africure Pharmaceuticals",
+                    "start": 284,
+                    "end": 308
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In 2016, police in Dallas, Texas, used a robot armed with C-4 explosive to kill a sniper who had killed two officers and injured several more.",
+        "mutated_sentence": "In 2016, police in Dallas, used a robot armed with C-4 explosive to kill a sniper who had killed two officers and injured several more.",
+        "reasons": [
+            "Entity 'explosive' disappeared",
+            "Entity '4' disappeared"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "2016,",
+                    "start": 3,
+                    "end": 8
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "police",
+                    "start": 9,
+                    "end": 15
+                },
+                {
+                    "text": "sniper",
+                    "start": 82,
+                    "end": 88
+                },
+                {
+                    "text": "officers",
+                    "start": 108,
+                    "end": 116
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Dallas",
+                    "start": 19,
+                    "end": 25
+                },
+                {
+                    "text": "Texas",
+                    "start": 27,
+                    "end": 32
+                }
+            ],
+            "Product": [
+                {
+                    "text": "robot",
+                    "start": 41,
+                    "end": 46
+                },
+                {
+                    "text": "explosive",
+                    "start": 62,
+                    "end": 71
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "4",
+                    "start": 60,
+                    "end": 61
+                },
+                {
+                    "text": "two",
+                    "start": 104,
+                    "end": 107
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "2016,",
+                    "start": 3,
+                    "end": 8
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "police",
+                    "start": 9,
+                    "end": 15
+                },
+                {
+                    "text": "sniper",
+                    "start": 75,
+                    "end": 81
+                },
+                {
+                    "text": "officers",
+                    "start": 101,
+                    "end": 109
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Dallas",
+                    "start": 19,
+                    "end": 25
+                }
+            ],
+            "Product": [
+                {
+                    "text": "robot",
+                    "start": 34,
+                    "end": 39
+                },
+                {
+                    "text": "C-4 explosive",
+                    "start": 51,
+                    "end": 64
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "two",
+                    "start": 97,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran, Drake and Taylor Swift.",
+        "mutated_sentence": "Spotify, Apple Music and Deezer all said the track was their top performer of the year, beating competition from Ed Sheeran.",
+        "reasons": [
+            "Entity 'performer' disappeared"
+        ],
+        "original_entities": {
+            "Organization": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Apple Music",
+                    "start": 9,
+                    "end": 20
+                },
+                {
+                    "text": "Deezer",
+                    "start": 25,
+                    "end": 31
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "performer",
+                    "start": 65,
+                    "end": 74
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "the year",
+                    "start": 78,
+                    "end": 86
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 113,
+                    "end": 123
+                },
+                {
+                    "text": "Drake",
+                    "start": 125,
+                    "end": 130
+                },
+                {
+                    "text": "Taylor Swift",
+                    "start": 135,
+                    "end": 147
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Organization": [
+                {
+                    "text": "Spotify",
+                    "start": 0,
+                    "end": 7
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Apple Music",
+                    "start": 9,
+                    "end": 20
+                },
+                {
+                    "text": "Deezer",
+                    "start": 25,
+                    "end": 31
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "the year",
+                    "start": 78,
+                    "end": 86
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Ed Sheeran",
+                    "start": 113,
+                    "end": 123
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Other streaming services, including YouTube and Amazon Music, have yet to release their figures.",
+        "mutated_sentence": "Other streaming services, including YouTube, have yet to release their figures.",
+        "reasons": [
+            "Entity 'YouTube' changed tag from 'Product' to 'Organization'"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "YouTube",
+                    "start": 36,
+                    "end": 43
+                },
+                {
+                    "text": "Amazon Music",
+                    "start": 48,
+                    "end": 60
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Organization": [
+                {
+                    "text": "YouTube",
+                    "start": 36,
+                    "end": 43
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Communication, which began in their 20s, is still going strong between Honiton and Texas.",
+        "mutated_sentence": "Communication, which began in their 20s, is still going strong between Honiton.",
+        "reasons": [
+            "Entity '20s' disappeared"
+        ],
+        "original_entities": {
+            "Skill": [
+                {
+                    "text": "Communication",
+                    "start": 0,
+                    "end": 13
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "20s",
+                    "start": 36,
+                    "end": 39
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Honiton",
+                    "start": 71,
+                    "end": 78
+                },
+                {
+                    "text": "Texas",
+                    "start": 83,
+                    "end": 88
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Skill": [
+                {
+                    "text": "Communication",
+                    "start": 0,
+                    "end": 13
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Honiton",
+                    "start": 71,
+                    "end": 78
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Meta, the company which owns Facebook, Instagram and WhatsApp, has been fined €265m (£228m) by the Irish Data Protection Commission (DPC).",
+        "mutated_sentence": "Meta, the company which owns Facebook, has been fined €265m (£228m) by the Irish Data Protection Commission (DPC).",
+        "reasons": [
+            "Entity 'Facebook' changed tag from 'Product' to 'Organization'"
+        ],
+        "original_entities": {
+            "Organization": [
+                {
+                    "text": "Meta",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "Irish Data Protection Commission",
+                    "start": 99,
+                    "end": 131
+                },
+                {
+                    "text": "DPC",
+                    "start": 133,
+                    "end": 136
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Facebook",
+                    "start": 29,
+                    "end": 37
+                },
+                {
+                    "text": "Instagram",
+                    "start": 39,
+                    "end": 48
+                },
+                {
+                    "text": "WhatsApp",
+                    "start": 53,
+                    "end": 61
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "€265m",
+                    "start": 78,
+                    "end": 83
+                },
+                {
+                    "text": "£228m",
+                    "start": 85,
+                    "end": 90
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Organization": [
+                {
+                    "text": "Meta",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "Facebook",
+                    "start": 29,
+                    "end": 37
+                },
+                {
+                    "text": "Irish Data Protection Commission",
+                    "start": 75,
+                    "end": 107
+                },
+                {
+                    "text": "DPC",
+                    "start": 109,
+                    "end": 112
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "€265m",
+                    "start": 54,
+                    "end": 59
+                },
+                {
+                    "text": "£228m",
+                    "start": 61,
+                    "end": 66
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "But that view was challenged in a paper from researchers at Cornell and Stanford universities last year.",
+        "mutated_sentence": "But that view was challenged in a paper from researchers at Cornell universities last year.",
+        "reasons": [
+            "Entity 'Cornell' changed tag from 'Organization' to 'Location'"
+        ],
+        "original_entities": {
+            "PersonType": [
+                {
+                    "text": "researchers",
+                    "start": 45,
+                    "end": 56
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Cornell",
+                    "start": 60,
+                    "end": 67
+                },
+                {
+                    "text": "Stanford",
+                    "start": 72,
+                    "end": 80
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "last year",
+                    "start": 94,
+                    "end": 103
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PersonType": [
+                {
+                    "text": "researchers",
+                    "start": 45,
+                    "end": 56
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Cornell",
+                    "start": 60,
+                    "end": 67
+                },
+                {
+                    "text": "universities",
+                    "start": 68,
+                    "end": 80
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "last year",
+                    "start": 81,
+                    "end": 90
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It follows the rescue of more than 60 Kenyans from Myanmar and Laos over the last few months - after the sales and customer service jobs they applied for in Thailand turned out to be a cover for cyber-crime, prostitution and even organ theft.",
+        "mutated_sentence": "It follows the rescue of more than 60 Kenyans from Myanmar and Laos over the last few months - after the sales jobs they applied for in Thailand turned out to be a cover for cyber-crime, prostitution and even organ theft.",
+        "reasons": [
+            "Expected entity 'sales' with tag 'Skill' not found"
+        ],
+        "original_entities": {
+            "Quantity": [
+                {
+                    "text": "60",
+                    "start": 35,
+                    "end": 37
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Kenyans",
+                    "start": 38,
+                    "end": 45
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Myanmar",
+                    "start": 51,
+                    "end": 58
+                },
+                {
+                    "text": "Laos",
+                    "start": 63,
+                    "end": 67
+                },
+                {
+                    "text": "Thailand",
+                    "start": 157,
+                    "end": 165
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "last few months",
+                    "start": 77,
+                    "end": 92
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "sales",
+                    "start": 105,
+                    "end": 110
+                },
+                {
+                    "text": "customer service",
+                    "start": 115,
+                    "end": 131
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Quantity": [
+                {
+                    "text": "60",
+                    "start": 35,
+                    "end": 37
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Kenyans",
+                    "start": 38,
+                    "end": 45
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Myanmar",
+                    "start": 51,
+                    "end": 58
+                },
+                {
+                    "text": "Laos",
+                    "start": 63,
+                    "end": 67
+                },
+                {
+                    "text": "Thailand",
+                    "start": 136,
+                    "end": 144
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "last few months",
+                    "start": 77,
+                    "end": 92
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, mainly in the United States, UK, Netherlands, Australia, France and Ireland.",
+        "mutated_sentence": "Fraudsters paid between £150 and £5,000 a month in bitcoin to use the iSpoof service, contacting, at times, 20 people a minute, mainly in the United States, UK, Netherlands, Australia, France.",
+        "reasons": [
+            "Entity 'bitcoin' disappeared"
+        ],
+        "original_entities": {
+            "PersonType": [
+                {
+                    "text": "Fraudsters",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "£150",
+                    "start": 24,
+                    "end": 28
+                },
+                {
+                    "text": "£5,000",
+                    "start": 33,
+                    "end": 39
+                },
+                {
+                    "text": "bitcoin",
+                    "start": 51,
+                    "end": 58
+                },
+                {
+                    "text": "20",
+                    "start": 108,
+                    "end": 110
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "a month",
+                    "start": 40,
+                    "end": 47
+                },
+                {
+                    "text": "a minute",
+                    "start": 118,
+                    "end": 126
+                }
+            ],
+            "Location": [
+                {
+                    "text": "United States",
+                    "start": 142,
+                    "end": 155
+                },
+                {
+                    "text": "UK",
+                    "start": 157,
+                    "end": 159
+                },
+                {
+                    "text": "Netherlands",
+                    "start": 161,
+                    "end": 172
+                },
+                {
+                    "text": "Australia",
+                    "start": 174,
+                    "end": 183
+                },
+                {
+                    "text": "France",
+                    "start": 185,
+                    "end": 191
+                },
+                {
+                    "text": "Ireland",
+                    "start": 196,
+                    "end": 203
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PersonType": [
+                {
+                    "text": "Fraudsters",
+                    "start": 0,
+                    "end": 10
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "£150",
+                    "start": 24,
+                    "end": 28
+                },
+                {
+                    "text": "£5,000",
+                    "start": 33,
+                    "end": 39
+                },
+                {
+                    "text": "20",
+                    "start": 108,
+                    "end": 110
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "a month",
+                    "start": 40,
+                    "end": 47
+                },
+                {
+                    "text": "a minute",
+                    "start": 118,
+                    "end": 126
+                }
+            ],
+            "Location": [
+                {
+                    "text": "United States",
+                    "start": 142,
+                    "end": 155
+                },
+                {
+                    "text": "UK",
+                    "start": 157,
+                    "end": 159
+                },
+                {
+                    "text": "Netherlands",
+                    "start": 161,
+                    "end": 172
+                },
+                {
+                    "text": "Australia",
+                    "start": 174,
+                    "end": 183
+                },
+                {
+                    "text": "France",
+                    "start": 185,
+                    "end": 191
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The investigation has been led by the Metropolitan Police in London with assistance from authorities in Australia, Canada, France, Germany, Ireland, Lithuania, Netherlands, Ukraine and the USA.",
+        "mutated_sentence": "The investigation has been led by the Metropolitan Police in London with assistance from authorities in Australia and the USA.",
+        "reasons": [
+            "Entity 'authorities' disappeared"
+        ],
+        "original_entities": {
+            "Organization": [
+                {
+                    "text": "Metropolitan Police",
+                    "start": 38,
+                    "end": 57
+                }
+            ],
+            "Location": [
+                {
+                    "text": "London",
+                    "start": 61,
+                    "end": 67
+                },
+                {
+                    "text": "Australia",
+                    "start": 104,
+                    "end": 113
+                },
+                {
+                    "text": "Canada",
+                    "start": 115,
+                    "end": 121
+                },
+                {
+                    "text": "France",
+                    "start": 123,
+                    "end": 129
+                },
+                {
+                    "text": "Germany",
+                    "start": 131,
+                    "end": 138
+                },
+                {
+                    "text": "Ireland",
+                    "start": 140,
+                    "end": 147
+                },
+                {
+                    "text": "Lithuania",
+                    "start": 149,
+                    "end": 158
+                },
+                {
+                    "text": "Netherlands",
+                    "start": 160,
+                    "end": 171
+                },
+                {
+                    "text": "Ukraine",
+                    "start": 173,
+                    "end": 180
+                },
+                {
+                    "text": "USA",
+                    "start": 189,
+                    "end": 192
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "authorities",
+                    "start": 89,
+                    "end": 100
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Organization": [
+                {
+                    "text": "Metropolitan Police",
+                    "start": 38,
+                    "end": 57
+                }
+            ],
+            "Location": [
+                {
+                    "text": "London",
+                    "start": 61,
+                    "end": 67
+                },
+                {
+                    "text": "Australia",
+                    "start": 104,
+                    "end": 113
+                },
+                {
+                    "text": "USA",
+                    "start": 122,
+                    "end": 125
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter and Odnoklassniki, according to Meta.",
+        "reasons": [
+            "Entity 'Twitter' changed tag from 'Product' to 'Organization'"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "YouTube",
+                    "start": 68,
+                    "end": 75
+                },
+                {
+                    "text": "Telegram",
+                    "start": 77,
+                    "end": 85
+                },
+                {
+                    "text": "VKontakte",
+                    "start": 87,
+                    "end": 96
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Odnoklassniki",
+                    "start": 101,
+                    "end": 114
+                },
+                {
+                    "text": "Meta",
+                    "start": 129,
+                    "end": 133
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "operation",
+                    "start": 4,
+                    "end": 13
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Twitter",
+                    "start": 59,
+                    "end": 66
+                },
+                {
+                    "text": "Odnoklassniki",
+                    "start": 71,
+                    "end": 84
+                },
+                {
+                    "text": "Meta",
+                    "start": 99,
+                    "end": 103
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "North Tyneside Council said it had a peak of Ukrainians fleeing Russian attacks arriving in April and May.",
+        "mutated_sentence": "North Tyneside Council said it had a peak of Ukrainians fleeing Russian attacks arriving in April.",
+        "reasons": [
+            "Entity 'attacks' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "North Tyneside",
+                    "start": 0,
+                    "end": 14
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Council",
+                    "start": 15,
+                    "end": 22
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Ukrainians",
+                    "start": 45,
+                    "end": 55
+                }
+            ],
+            "Event": [
+                {
+                    "text": "attacks",
+                    "start": 72,
+                    "end": 79
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "April",
+                    "start": 92,
+                    "end": 97
+                },
+                {
+                    "text": "May",
+                    "start": 102,
+                    "end": 105
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "North Tyneside",
+                    "start": 0,
+                    "end": 14
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Council",
+                    "start": 15,
+                    "end": 22
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Ukrainians",
+                    "start": 45,
+                    "end": 55
+                }
+            ],
+            "Event": [
+                {
+                    "text": "Russian attacks",
+                    "start": 64,
+                    "end": 79
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "April",
+                    "start": 92,
+                    "end": 97
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "reasons": [
+            "Expected entity 'Mario World' with tag 'Product' not found",
+            "Entity 'Duty' disappeared"
+        ],
+        "original_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Just Dance",
+                    "start": 33,
+                    "end": 43
+                },
+                {
+                    "text": "Call",
+                    "start": 45,
+                    "end": 49
+                },
+                {
+                    "text": "Duty",
+                    "start": 53,
+                    "end": 57
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 59,
+                    "end": 68
+                },
+                {
+                    "text": "Roblox",
+                    "start": 73,
+                    "end": 79
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 104,
+                    "end": 119
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 84,
+                    "end": 87
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 136,
+                    "end": 145
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 178,
+                    "end": 183
+                },
+                {
+                    "text": "presenter",
+                    "start": 188,
+                    "end": 197
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World of Duty",
+                    "start": 20,
+                    "end": 39
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 41,
+                    "end": 50
+                },
+                {
+                    "text": "Roblox",
+                    "start": 55,
+                    "end": 61
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 86,
+                    "end": 101
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 66,
+                    "end": 69
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 118,
+                    "end": 127
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 160,
+                    "end": 165
+                },
+                {
+                    "text": "presenter",
+                    "start": 170,
+                    "end": 179
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "reasons": [
+            "Expected entity 'Duty' with tag 'Product' not found",
+            "Entity 'Just Dance' disappeared",
+            "Entity 'Call' disappeared"
+        ],
+        "original_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Just Dance",
+                    "start": 33,
+                    "end": 43
+                },
+                {
+                    "text": "Call",
+                    "start": 45,
+                    "end": 49
+                },
+                {
+                    "text": "Duty",
+                    "start": 53,
+                    "end": 57
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 59,
+                    "end": 68
+                },
+                {
+                    "text": "Roblox",
+                    "start": 73,
+                    "end": 79
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 104,
+                    "end": 119
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 84,
+                    "end": 87
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 136,
+                    "end": 145
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 178,
+                    "end": 183
+                },
+                {
+                    "text": "presenter",
+                    "start": 188,
+                    "end": 197
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 82,
+                    "end": 97
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 62,
+                    "end": 65
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 114,
+                    "end": 123
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 156,
+                    "end": 161
+                },
+                {
+                    "text": "presenter",
+                    "start": 166,
+                    "end": 175
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor.",
+        "reasons": [
+            "Entity 'Just Dance' disappeared",
+            "Entity 'Call' disappeared",
+            "Entity 'Duty' disappeared"
+        ],
+        "original_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Just Dance",
+                    "start": 33,
+                    "end": 43
+                },
+                {
+                    "text": "Call",
+                    "start": 45,
+                    "end": 49
+                },
+                {
+                    "text": "Duty",
+                    "start": 53,
+                    "end": 57
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 59,
+                    "end": 68
+                },
+                {
+                    "text": "Roblox",
+                    "start": 73,
+                    "end": 79
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 104,
+                    "end": 119
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 84,
+                    "end": 87
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 136,
+                    "end": 145
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 178,
+                    "end": 183
+                },
+                {
+                    "text": "presenter",
+                    "start": 188,
+                    "end": 197
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Person": [
+                {
+                    "text": "Dylan",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Mario World",
+                    "start": 20,
+                    "end": 31
+                },
+                {
+                    "text": "Dance",
+                    "start": 38,
+                    "end": 43
+                },
+                {
+                    "text": "Minecraft",
+                    "start": 59,
+                    "end": 68
+                },
+                {
+                    "text": "Roblox",
+                    "start": 73,
+                    "end": 79
+                },
+                {
+                    "text": "Nintendo Switch",
+                    "start": 104,
+                    "end": 119
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "now",
+                    "start": 84,
+                    "end": 87
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "BBC Wales",
+                    "start": 136,
+                    "end": 145
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "actor",
+                    "start": 178,
+                    "end": 183
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In August 2018 he was banned from Facebook, Spotify, Apple and YouTube.",
+        "mutated_sentence": "In August 2018 he was banned from Facebook, Apple and YouTube.",
+        "reasons": [
+            "Entity 'Apple' changed tag from 'Product' to 'Organization'"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "August 2018",
+                    "start": 3,
+                    "end": 14
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Facebook",
+                    "start": 34,
+                    "end": 42
+                },
+                {
+                    "text": "Spotify",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "YouTube",
+                    "start": 63,
+                    "end": 70
+                }
+            ],
+            "Product": [
+                {
+                    "text": "Apple",
+                    "start": 53,
+                    "end": 58
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "August 2018",
+                    "start": 3,
+                    "end": 14
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Facebook",
+                    "start": 34,
+                    "end": 42
+                },
+                {
+                    "text": "Apple",
+                    "start": 44,
+                    "end": 49
+                },
+                {
+                    "text": "YouTube",
+                    "start": 54,
+                    "end": 61
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "For five months of the year (February, May, October, November and December), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "mutated_sentence": "For five months of the year (February, May ), more than half of electricity came from so-called zero carbon electricity sources renewable and nuclear.",
+        "reasons": [
+            "Expected entity 'February' with tag 'DateTime' not found"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "five months",
+                    "start": 4,
+                    "end": 15
+                },
+                {
+                    "text": "the year",
+                    "start": 19,
+                    "end": 27
+                },
+                {
+                    "text": "February",
+                    "start": 29,
+                    "end": 37
+                },
+                {
+                    "text": "May",
+                    "start": 39,
+                    "end": 42
+                },
+                {
+                    "text": "October",
+                    "start": 44,
+                    "end": 51
+                },
+                {
+                    "text": "November",
+                    "start": 53,
+                    "end": 61
+                },
+                {
+                    "text": "December",
+                    "start": 66,
+                    "end": 74
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "half",
+                    "start": 87,
+                    "end": 91
+                },
+                {
+                    "text": "zero",
+                    "start": 127,
+                    "end": 131
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "five months",
+                    "start": 4,
+                    "end": 15
+                },
+                {
+                    "text": "the year",
+                    "start": 19,
+                    "end": 27
+                },
+                {
+                    "text": "February, May",
+                    "start": 29,
+                    "end": 42
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "half",
+                    "start": 56,
+                    "end": 60
+                },
+                {
+                    "text": "zero",
+                    "start": 96,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Evacuation orders and advisories were in place in parts of northern California, and local authorities have warned of threats to life and property, especially around San Francisco and Sacramento.",
+        "mutated_sentence": "Evacuation orders and advisories were in place in parts of northern California and local authorities have warned of threats to life and property, especially around San Francisco.",
+        "reasons": [
+            "Entity 'local authorities' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "California",
+                    "start": 68,
+                    "end": 78
+                },
+                {
+                    "text": "San Francisco",
+                    "start": 165,
+                    "end": 178
+                },
+                {
+                    "text": "Sacramento",
+                    "start": 183,
+                    "end": 193
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "local authorities",
+                    "start": 84,
+                    "end": 101
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "California",
+                    "start": 68,
+                    "end": 78
+                },
+                {
+                    "text": "San Francisco",
+                    "start": 164,
+                    "end": 177
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "authorities",
+                    "start": 89,
+                    "end": 100
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"Today's ceremony is emblematic of the long history of co-operation between the United States and Egypt on antiquities protection and cultural heritage preservation,\" said the US chargé d'affaires in Egypt, Daniel Rubinstein.",
+        "mutated_sentence": "\"Today's ceremony is emblematic of the long history of co-operation between the United States on antiquities protection and cultural heritage preservation, \" said the US chargé d'affaires in Egypt, Daniel Rubinstein.",
+        "reasons": [
+            "Entity 'cultural' disappeared"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "Today",
+                    "start": 1,
+                    "end": 6
+                }
+            ],
+            "Event": [
+                {
+                    "text": "ceremony",
+                    "start": 9,
+                    "end": 17
+                }
+            ],
+            "Location": [
+                {
+                    "text": "United States",
+                    "start": 80,
+                    "end": 93
+                },
+                {
+                    "text": "Egypt",
+                    "start": 98,
+                    "end": 103
+                },
+                {
+                    "text": "US",
+                    "start": 176,
+                    "end": 178
+                },
+                {
+                    "text": "Egypt",
+                    "start": 200,
+                    "end": 205
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "cultural",
+                    "start": 134,
+                    "end": 142
+                },
+                {
+                    "text": "preservation",
+                    "start": 152,
+                    "end": 164
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "chargé d'affaires",
+                    "start": 179,
+                    "end": 196
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Daniel Rubinstein",
+                    "start": 207,
+                    "end": 224
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "Today",
+                    "start": 1,
+                    "end": 6
+                }
+            ],
+            "Event": [
+                {
+                    "text": "ceremony",
+                    "start": 9,
+                    "end": 17
+                }
+            ],
+            "Location": [
+                {
+                    "text": "United States",
+                    "start": 80,
+                    "end": 93
+                },
+                {
+                    "text": "US",
+                    "start": 167,
+                    "end": 169
+                },
+                {
+                    "text": "Egypt",
+                    "start": 191,
+                    "end": 196
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "preservation",
+                    "start": 142,
+                    "end": 154
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "chargé d'affaires",
+                    "start": 170,
+                    "end": 187
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Daniel Rubinstein",
+                    "start": 198,
+                    "end": 215
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Later that month, a fox was found with a large tin can of dog food in Barking, London.",
+        "mutated_sentence": "Later that month, a fox was found with a large tin can of dog food in Barking.",
+        "reasons": [
+            "Entity 'food' disappeared"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "that month",
+                    "start": 6,
+                    "end": 16
+                }
+            ],
+            "Product": [
+                {
+                    "text": "food",
+                    "start": 62,
+                    "end": 66
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Barking",
+                    "start": 70,
+                    "end": 77
+                },
+                {
+                    "text": "London",
+                    "start": 79,
+                    "end": 85
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "that month",
+                    "start": 6,
+                    "end": 16
+                }
+            ],
+            "Product": [
+                {
+                    "text": "dog food",
+                    "start": 58,
+                    "end": 66
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Barking",
+                    "start": 70,
+                    "end": 77
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "In September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on The Dawnay Estates near Scarborough, North Yorkshire.",
+        "mutated_sentence": "In September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on The Dawnay Estates near Scarborough.",
+        "reasons": [
+            "Entity 'fire crews' disappeared"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "September",
+                    "start": 3,
+                    "end": 12
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "fire crews",
+                    "start": 14,
+                    "end": 24
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "25ft",
+                    "start": 80,
+                    "end": 84
+                },
+                {
+                    "text": "(7.62m",
+                    "start": 85,
+                    "end": 91
+                }
+            ],
+            "Location": [
+                {
+                    "text": "ice house",
+                    "start": 110,
+                    "end": 119
+                },
+                {
+                    "text": "The Dawnay Estates",
+                    "start": 123,
+                    "end": 141
+                },
+                {
+                    "text": "Scarborough",
+                    "start": 147,
+                    "end": 158
+                },
+                {
+                    "text": "North Yorkshire",
+                    "start": 160,
+                    "end": 175
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "September",
+                    "start": 3,
+                    "end": 12
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "25ft",
+                    "start": 80,
+                    "end": 84
+                },
+                {
+                    "text": "(7.62m",
+                    "start": 85,
+                    "end": 91
+                }
+            ],
+            "Location": [
+                {
+                    "text": "ice house",
+                    "start": 110,
+                    "end": 119
+                },
+                {
+                    "text": "The Dawnay Estates",
+                    "start": 123,
+                    "end": 141
+                },
+                {
+                    "text": "Scarborough",
+                    "start": 147,
+                    "end": 158
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "It asked for the number of call outs to wildfires in the summers of 2020, 2021 and 2022.",
+        "mutated_sentence": "It asked for the number of call outs to wildfires in the summers of 2020,2021.",
+        "reasons": [
+            "Expected entity '2020' with tag 'DateTime' not found",
+            "Entity 'call outs' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "call outs",
+                    "start": 27,
+                    "end": 36
+                },
+                {
+                    "text": "wildfires",
+                    "start": 40,
+                    "end": 49
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "2020",
+                    "start": 68,
+                    "end": 72
+                },
+                {
+                    "text": "2021",
+                    "start": 74,
+                    "end": 78
+                },
+                {
+                    "text": "2022",
+                    "start": 83,
+                    "end": 87
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "wildfires",
+                    "start": 40,
+                    "end": 49
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "2020,2021",
+                    "start": 68,
+                    "end": 77
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus and Neptune, will be better viewed with binoculars.",
+        "mutated_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus, will be better viewed with binoculars.",
+        "reasons": [
+            "Entity 'Uranus' changed tag from 'Location' to 'Person'"
+        ],
+        "original_entities": {
+            "Quantity": [
+                {
+                    "text": "Five",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "two",
+                    "start": 53,
+                    "end": 56
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Uranus",
+                    "start": 72,
+                    "end": 78
+                },
+                {
+                    "text": "Neptune",
+                    "start": 83,
+                    "end": 90
+                }
+            ],
+            "Product": [
+                {
+                    "text": "binoculars",
+                    "start": 119,
+                    "end": 129
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Quantity": [
+                {
+                    "text": "Five",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "text": "two",
+                    "start": 53,
+                    "end": 56
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Uranus",
+                    "start": 72,
+                    "end": 78
+                }
+            ],
+            "Product": [
+                {
+                    "text": "binoculars",
+                    "start": 107,
+                    "end": 117
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Jupiter and Mars, Dr Massey says.",
+        "mutated_sentence": "Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Jupiter, Dr Massey says.",
+        "reasons": [
+            "Entity 'cloud' disappeared"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "telescope",
+                    "start": 25,
+                    "end": 34
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Jupiter",
+                    "start": 83,
+                    "end": 90
+                },
+                {
+                    "text": "Jupiter",
+                    "start": 137,
+                    "end": 144
+                },
+                {
+                    "text": "Mars",
+                    "start": 149,
+                    "end": 153
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "cloud",
+                    "start": 103,
+                    "end": 108
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Dr",
+                    "start": 155,
+                    "end": 157
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Massey",
+                    "start": 158,
+                    "end": 164
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Product": [
+                {
+                    "text": "telescope",
+                    "start": 25,
+                    "end": 34
+                }
+            ],
+            "Skill": [
+                {
+                    "text": "moons",
+                    "start": 74,
+                    "end": 79
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Jupiter",
+                    "start": 83,
+                    "end": 90
+                },
+                {
+                    "text": "Jupiter",
+                    "start": 137,
+                    "end": 144
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "Dr",
+                    "start": 146,
+                    "end": 148
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Massey",
+                    "start": 149,
+                    "end": 155
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "More than 70,000 customers were without power in Washington and Oregon as of Wednesday afternoon, according to outage tracker PowerOutage.us.",
+        "mutated_sentence": "More than 70,000 customers were without power in Washington as of Wednesday afternoon, according to outage tracker PowerOutage.us.",
+        "reasons": [
+            "Entity 'PowerOutage.us' changed tag from 'URL' to 'Product'"
+        ],
+        "original_entities": {
+            "Quantity": [
+                {
+                    "text": "70,000",
+                    "start": 10,
+                    "end": 16
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "customers",
+                    "start": 17,
+                    "end": 26
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Washington",
+                    "start": 49,
+                    "end": 59
+                },
+                {
+                    "text": "Oregon",
+                    "start": 64,
+                    "end": 70
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday afternoon",
+                    "start": 77,
+                    "end": 96
+                }
+            ],
+            "URL": [
+                {
+                    "text": "PowerOutage.us",
+                    "start": 126,
+                    "end": 140
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Quantity": [
+                {
+                    "text": "70,000",
+                    "start": 10,
+                    "end": 16
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "customers",
+                    "start": 17,
+                    "end": 26
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Washington",
+                    "start": 49,
+                    "end": 59
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday afternoon",
+                    "start": 66,
+                    "end": 85
+                }
+            ],
+            "Product": [
+                {
+                    "text": "PowerOutage.us",
+                    "start": 115,
+                    "end": 129
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The hot summer and months of low rainfall dried up rivers, fragile chalk streams and ponds, damaged crops and natural habitats, and fuelled wildfires that destroyed landscapes, the charity said.",
+        "mutated_sentence": "The hot summer and months of low rainfall dried up rivers, fragile chalk streams, damaged crops and natural habitats and fuelled wildfires that destroyed landscapes, the charity said.",
+        "reasons": [
+            "Entity 'natural habitats' disappeared"
+        ],
+        "original_entities": {
+            "DateTime": [
+                {
+                    "text": "summer",
+                    "start": 8,
+                    "end": 14
+                }
+            ],
+            "Location": [
+                {
+                    "text": "rivers",
+                    "start": 51,
+                    "end": 57
+                },
+                {
+                    "text": "chalk streams",
+                    "start": 67,
+                    "end": 80
+                },
+                {
+                    "text": "ponds",
+                    "start": 85,
+                    "end": 90
+                },
+                {
+                    "text": "natural habitats",
+                    "start": 110,
+                    "end": 126
+                }
+            ],
+            "Event": [
+                {
+                    "text": "wildfires",
+                    "start": 140,
+                    "end": 149
+                }
+            ]
+        },
+        "mutated_entities": {
+            "DateTime": [
+                {
+                    "text": "summer",
+                    "start": 8,
+                    "end": 14
+                }
+            ],
+            "Location": [
+                {
+                    "text": "rivers",
+                    "start": 51,
+                    "end": 57
+                },
+                {
+                    "text": "chalk streams",
+                    "start": 67,
+                    "end": 80
+                }
+            ],
+            "Event": [
+                {
+                    "text": "wildfires",
+                    "start": 129,
+                    "end": 138
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "reasons": [
+            "Entity 'south Devon' disappeared",
+            "Entity 'north Devon' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "south Devon",
+                    "start": 96,
+                    "end": 107
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 109,
+                    "end": 120
+                },
+                {
+                    "text": "north Devon",
+                    "start": 124,
+                    "end": 135
+                },
+                {
+                    "text": "Studland",
+                    "start": 140,
+                    "end": 148
+                },
+                {
+                    "text": "Dorset",
+                    "start": 152,
+                    "end": 158
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Devon",
+                    "start": 77,
+                    "end": 82
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 84,
+                    "end": 95
+                },
+                {
+                    "text": "Devon",
+                    "start": 105,
+                    "end": 110
+                },
+                {
+                    "text": "Studland",
+                    "start": 115,
+                    "end": 123
+                },
+                {
+                    "text": "Dorset",
+                    "start": 127,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "reasons": [
+            "Expected entity 'south Devon' with tag 'Location' not found",
+            "Entity 'north Devon' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "south Devon",
+                    "start": 96,
+                    "end": 107
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 109,
+                    "end": 120
+                },
+                {
+                    "text": "north Devon",
+                    "start": 124,
+                    "end": 135
+                },
+                {
+                    "text": "Studland",
+                    "start": 140,
+                    "end": 148
+                },
+                {
+                    "text": "Dorset",
+                    "start": 152,
+                    "end": 158
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "Devon",
+                    "start": 102,
+                    "end": 107
+                },
+                {
+                    "text": "Devon",
+                    "start": 117,
+                    "end": 122
+                },
+                {
+                    "text": "Studland",
+                    "start": 127,
+                    "end": 135
+                },
+                {
+                    "text": "Dorset",
+                    "start": 139,
+                    "end": 145
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon in Dorset, destroying homes of species including rare sand lizards.",
+        "reasons": [
+            "Expected entity 'north Devon' with tag 'Location' not found",
+            "Entity 'south Devon' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "south Devon",
+                    "start": 96,
+                    "end": 107
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 109,
+                    "end": 120
+                },
+                {
+                    "text": "north Devon",
+                    "start": 124,
+                    "end": 135
+                },
+                {
+                    "text": "Studland",
+                    "start": 140,
+                    "end": 148
+                },
+                {
+                    "text": "Dorset",
+                    "start": 152,
+                    "end": 158
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Wildfires",
+                    "start": 0,
+                    "end": 9
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "National Trust",
+                    "start": 13,
+                    "end": 27
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Zennor Head",
+                    "start": 56,
+                    "end": 67
+                },
+                {
+                    "text": "Cornwall",
+                    "start": 69,
+                    "end": 77
+                },
+                {
+                    "text": "Bolberry Down",
+                    "start": 79,
+                    "end": 92
+                },
+                {
+                    "text": "south",
+                    "start": 96,
+                    "end": 101
+                },
+                {
+                    "text": "Devon",
+                    "start": 102,
+                    "end": 107
+                },
+                {
+                    "text": "Baggy Point",
+                    "start": 109,
+                    "end": 120
+                },
+                {
+                    "text": "north",
+                    "start": 124,
+                    "end": 129
+                },
+                {
+                    "text": "Devon",
+                    "start": 130,
+                    "end": 135
+                },
+                {
+                    "text": "Dorset",
+                    "start": 139,
+                    "end": 145
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado.",
+        "mutated_sentence": "While the largest death toll has been reported in New York, storm-related deaths have been reported across the US, including Vermont,.",
+        "reasons": [
+            "Entity 'storm-related' disappeared",
+            "Entity 'deaths' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "New York",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "US",
+                    "start": 111,
+                    "end": 113
+                },
+                {
+                    "text": "Vermont",
+                    "start": 125,
+                    "end": 132
+                },
+                {
+                    "text": "Ohio",
+                    "start": 134,
+                    "end": 138
+                },
+                {
+                    "text": "Missouri",
+                    "start": 140,
+                    "end": 148
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 150,
+                    "end": 159
+                },
+                {
+                    "text": "Kansas",
+                    "start": 161,
+                    "end": 167
+                },
+                {
+                    "text": "Colorado",
+                    "start": 173,
+                    "end": 181
+                }
+            ],
+            "Event": [
+                {
+                    "text": "storm-related",
+                    "start": 60,
+                    "end": 73
+                },
+                {
+                    "text": "deaths",
+                    "start": 74,
+                    "end": 80
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "New York",
+                    "start": 50,
+                    "end": 58
+                },
+                {
+                    "text": "US",
+                    "start": 111,
+                    "end": 113
+                },
+                {
+                    "text": "Vermont",
+                    "start": 125,
+                    "end": 132
+                }
+            ],
+            "Event": [
+                {
+                    "text": "storm-related deaths",
+                    "start": 60,
+                    "end": 80
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state governor has said.",
+        "mutated_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, looking like a war zone, the state governor has said.",
+        "reasons": [
+            "Entity 'zone' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "winter storm",
+                    "start": 9,
+                    "end": 21
+                }
+            ],
+            "Location": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                },
+                {
+                    "text": "New York",
+                    "start": 88,
+                    "end": 96
+                },
+                {
+                    "text": "zone",
+                    "start": 117,
+                    "end": 121
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "state governor",
+                    "start": 127,
+                    "end": 141
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "winter storm",
+                    "start": 9,
+                    "end": 21
+                }
+            ],
+            "Location": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "state governor",
+                    "start": 117,
+                    "end": 131
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Entity 'deaths' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "text": "deaths",
+                    "start": 14,
+                    "end": 20
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "South Florida",
+                    "start": 54,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state governor has said.",
+        "mutated_sentence": "A severe winter storm that has swept across North America has left the city of Buffalo, looking like a war zone, the state governor has said.",
+        "reasons": [
+            "Entity 'zone' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "winter storm",
+                    "start": 9,
+                    "end": 21
+                }
+            ],
+            "Location": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                },
+                {
+                    "text": "New York",
+                    "start": 88,
+                    "end": 96
+                },
+                {
+                    "text": "zone",
+                    "start": 117,
+                    "end": 121
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "state governor",
+                    "start": 127,
+                    "end": 141
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "winter storm",
+                    "start": 9,
+                    "end": 21
+                }
+            ],
+            "Location": [
+                {
+                    "text": "North America",
+                    "start": 44,
+                    "end": 57
+                },
+                {
+                    "text": "Buffalo",
+                    "start": 79,
+                    "end": 86
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "state governor",
+                    "start": 117,
+                    "end": 131
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Entity 'deaths' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "text": "deaths",
+                    "start": 14,
+                    "end": 20
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "South Florida",
+                    "start": 54,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Curator Briony Smith said: \"We hope Leia and Luka can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "mutated_sentence": "Curator Briony Smith said: \"We hope Leia can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "reasons": [
+            "Entity 'captive' disappeared"
+        ],
+        "original_entities": {
+            "PersonType": [
+                {
+                    "text": "Curator",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "captive",
+                    "start": 100,
+                    "end": 107
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Briony Smith",
+                    "start": 8,
+                    "end": 20
+                },
+                {
+                    "text": "Leia",
+                    "start": 36,
+                    "end": 40
+                },
+                {
+                    "text": "Luka",
+                    "start": 45,
+                    "end": 49
+                }
+            ]
+        },
+        "mutated_entities": {
+            "PersonType": [
+                {
+                    "text": "Curator",
+                    "start": 0,
+                    "end": 7
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Briony Smith",
+                    "start": 8,
+                    "end": 20
+                },
+                {
+                    "text": "Leia",
+                    "start": 36,
+                    "end": 40
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "Storm-related deaths were also reported in Vermont, . South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "reasons": [
+            "Entity 'deaths' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "text": "deaths",
+                    "start": 14,
+                    "end": 20
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "Ohio",
+                    "start": 52,
+                    "end": 56
+                },
+                {
+                    "text": "Missouri",
+                    "start": 58,
+                    "end": 66
+                },
+                {
+                    "text": "Wisconsin",
+                    "start": 68,
+                    "end": 77
+                },
+                {
+                    "text": "Kansas",
+                    "start": 79,
+                    "end": 85
+                },
+                {
+                    "text": "Colorado",
+                    "start": 91,
+                    "end": 99
+                },
+                {
+                    "text": "South Florida",
+                    "start": 101,
+                    "end": 114
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "Storm",
+                    "start": 0,
+                    "end": 5
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Vermont",
+                    "start": 43,
+                    "end": 50
+                },
+                {
+                    "text": "South Florida",
+                    "start": 54,
+                    "end": 67
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets and landfill sites in Kenya and Tanzania.",
+        "mutated_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets in Kenya and Tanzania.",
+        "reasons": [
+            "Expected entity 'hand markets' with tag 'Location' not found",
+            "Entity 'second' disappeared"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "Clothes",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "sequins",
+                    "start": 23,
+                    "end": 30
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Viola Wohlgemuth",
+                    "start": 71,
+                    "end": 87
+                }
+            ],
+            "Location": [
+                {
+                    "text": "second",
+                    "start": 114,
+                    "end": 120
+                },
+                {
+                    "text": "hand markets",
+                    "start": 121,
+                    "end": 133
+                },
+                {
+                    "text": "landfill sites",
+                    "start": 138,
+                    "end": 152
+                },
+                {
+                    "text": "Kenya",
+                    "start": 156,
+                    "end": 161
+                },
+                {
+                    "text": "Tanzania",
+                    "start": 166,
+                    "end": 174
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Product": [
+                {
+                    "text": "Clothes",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "sequins",
+                    "start": 23,
+                    "end": 30
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Viola Wohlgemuth",
+                    "start": 71,
+                    "end": 87
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Kenya",
+                    "start": 137,
+                    "end": 142
+                },
+                {
+                    "text": "Tanzania",
+                    "start": 147,
+                    "end": 155
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets and landfill sites in Kenya and Tanzania.",
+        "mutated_sentence": "Clothes decorated with sequins are, inevitably, among these shipments. Viola Wohlgemuth says she has seen them at second-hand markets and landfill sites in Kenya.",
+        "reasons": [
+            "Entity 'second' disappeared",
+            "Entity 'hand markets' disappeared"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "Clothes",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "sequins",
+                    "start": 23,
+                    "end": 30
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Viola Wohlgemuth",
+                    "start": 71,
+                    "end": 87
+                }
+            ],
+            "Location": [
+                {
+                    "text": "second",
+                    "start": 114,
+                    "end": 120
+                },
+                {
+                    "text": "hand markets",
+                    "start": 121,
+                    "end": 133
+                },
+                {
+                    "text": "landfill sites",
+                    "start": 138,
+                    "end": 152
+                },
+                {
+                    "text": "Kenya",
+                    "start": 156,
+                    "end": 161
+                },
+                {
+                    "text": "Tanzania",
+                    "start": 166,
+                    "end": 174
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Product": [
+                {
+                    "text": "Clothes",
+                    "start": 0,
+                    "end": 7
+                },
+                {
+                    "text": "sequins",
+                    "start": 23,
+                    "end": 30
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Viola Wohlgemuth",
+                    "start": 71,
+                    "end": 87
+                }
+            ],
+            "Location": [
+                {
+                    "text": "landfill sites",
+                    "start": 138,
+                    "end": 152
+                },
+                {
+                    "text": "Kenya",
+                    "start": 156,
+                    "end": 161
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely, Cambridgeshire, and Aldi in Haverhill, Suffolk.",
+        "mutated_sentence": "Ginger cat Garfield and black cat Lupin found fame at Sainsbury's in Ely, Cambridgeshire and Aldi in Haverhill.",
+        "reasons": [
+            "Entity 'Aldi' changed tag from 'Location' to 'Organization'"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "Sainsbury's",
+                    "start": 54,
+                    "end": 65
+                },
+                {
+                    "text": "Ely",
+                    "start": 69,
+                    "end": 72
+                },
+                {
+                    "text": "Cambridgeshire",
+                    "start": 74,
+                    "end": 88
+                },
+                {
+                    "text": "Aldi",
+                    "start": 94,
+                    "end": 98
+                },
+                {
+                    "text": "Haverhill",
+                    "start": 102,
+                    "end": 111
+                },
+                {
+                    "text": "Suffolk",
+                    "start": 113,
+                    "end": 120
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Location": [
+                {
+                    "text": "Sainsbury's",
+                    "start": 54,
+                    "end": 65
+                },
+                {
+                    "text": "Ely",
+                    "start": 69,
+                    "end": 72
+                },
+                {
+                    "text": "Cambridgeshire",
+                    "start": 74,
+                    "end": 88
+                },
+                {
+                    "text": "Haverhill",
+                    "start": 101,
+                    "end": 110
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Aldi",
+                    "start": 93,
+                    "end": 97
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The Arctic air mass is projected to bring strong wind gusts and temperature of 15F (-9.4C) to El Paso, Texas, where newly arrived undocumented migrants are sleeping rough on city streets.",
+        "mutated_sentence": "The Arctic air mass is projected to bring strong wind gusts and temperature of 15F (-9.4C) to El Paso, where newly arrived undocumented migrants are sleeping rough on city streets.",
+        "reasons": [
+            "Entity 'Arctic' disappeared"
+        ],
+        "original_entities": {
+            "Location": [
+                {
+                    "text": "Arctic",
+                    "start": 4,
+                    "end": 10
+                },
+                {
+                    "text": "El Paso",
+                    "start": 94,
+                    "end": 101
+                },
+                {
+                    "text": "Texas",
+                    "start": 103,
+                    "end": 108
+                },
+                {
+                    "text": "city streets",
+                    "start": 174,
+                    "end": 186
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "15F",
+                    "start": 79,
+                    "end": 82
+                },
+                {
+                    "text": "-9.4C",
+                    "start": 84,
+                    "end": 89
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "migrants",
+                    "start": 143,
+                    "end": 151
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Quantity": [
+                {
+                    "text": "temperature",
+                    "start": 64,
+                    "end": 75
+                },
+                {
+                    "text": "15F",
+                    "start": 79,
+                    "end": 82
+                },
+                {
+                    "text": "-9.4C",
+                    "start": 84,
+                    "end": 89
+                }
+            ],
+            "Location": [
+                {
+                    "text": "El Paso",
+                    "start": 94,
+                    "end": 101
+                },
+                {
+                    "text": "city streets",
+                    "start": 167,
+                    "end": 179
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "undocumented",
+                    "start": 123,
+                    "end": 135
+                },
+                {
+                    "text": "migrants",
+                    "start": 136,
+                    "end": 144
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "\"If you turn these frogs over, you could watch their heart beating by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent,\" Jesse Delia, a researcher at the Museum of Natural History in New York, US told BBC News.",
+        "mutated_sentence": "\"If you turn these frogs over, you could watch their heart beatings by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent, \" Jesse Delia, a researcher at the Museum of Natural History in New York told BBC News.",
+        "reasons": [
+            "Entity 'Jesse Delia' disappeared",
+            "Entity 'Museum of Natural History' disappeared"
+        ],
+        "original_entities": {
+            "Product": [
+                {
+                    "text": "frogs",
+                    "start": 19,
+                    "end": 24
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Jesse Delia",
+                    "start": 183,
+                    "end": 194
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "researcher",
+                    "start": 198,
+                    "end": 208
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Museum of Natural History",
+                    "start": 216,
+                    "end": 241
+                },
+                {
+                    "text": "BBC News",
+                    "start": 263,
+                    "end": 271
+                }
+            ],
+            "Location": [
+                {
+                    "text": "New York",
+                    "start": 245,
+                    "end": 253
+                },
+                {
+                    "text": "US",
+                    "start": 255,
+                    "end": 257
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Product": [
+                {
+                    "text": "frogs",
+                    "start": 19,
+                    "end": 24
+                }
+            ],
+            "Person": [
+                {
+                    "text": "Jesse Delia,",
+                    "start": 185,
+                    "end": 197
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "researcher",
+                    "start": 200,
+                    "end": 210
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "Museum of",
+                    "start": 218,
+                    "end": 227
+                },
+                {
+                    "text": "BBC News",
+                    "start": 261,
+                    "end": 269
+                }
+            ],
+            "Location": [
+                {
+                    "text": "New York",
+                    "start": 247,
+                    "end": 255
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue crews from Moelfre and Penmon.",
+        "reasons": [
+            "Entity 'crews' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "rescue",
+                    "start": 20,
+                    "end": 26
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "volunteers",
+                    "start": 54,
+                    "end": 64
+                },
+                {
+                    "text": "crews",
+                    "start": 122,
+                    "end": 127
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                },
+                {
+                    "text": "HM Coastguard",
+                    "start": 108,
+                    "end": 121
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Moelfre",
+                    "start": 133,
+                    "end": 140
+                },
+                {
+                    "text": "Penmon",
+                    "start": 145,
+                    "end": 151
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "rescue",
+                    "start": 20,
+                    "end": 26
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "volunteers",
+                    "start": 54,
+                    "end": 64
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Moelfre",
+                    "start": 115,
+                    "end": 122
+                },
+                {
+                    "text": "Penmon",
+                    "start": 127,
+                    "end": 133
+                }
+            ]
+        }
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre.",
+        "reasons": [
+            "Entity 'crews' disappeared"
+        ],
+        "original_entities": {
+            "Event": [
+                {
+                    "text": "rescue",
+                    "start": 20,
+                    "end": 26
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "volunteers",
+                    "start": 54,
+                    "end": 64
+                },
+                {
+                    "text": "crews",
+                    "start": 122,
+                    "end": 127
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                },
+                {
+                    "text": "HM Coastguard",
+                    "start": 108,
+                    "end": 121
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Moelfre",
+                    "start": 133,
+                    "end": 140
+                },
+                {
+                    "text": "Penmon",
+                    "start": 145,
+                    "end": 151
+                }
+            ]
+        },
+        "mutated_entities": {
+            "Event": [
+                {
+                    "text": "rescue",
+                    "start": 20,
+                    "end": 26
+                }
+            ],
+            "DateTime": [
+                {
+                    "text": "Wednesday",
+                    "start": 30,
+                    "end": 39
+                }
+            ],
+            "Quantity": [
+                {
+                    "text": "nine",
+                    "start": 49,
+                    "end": 53
+                }
+            ],
+            "PersonType": [
+                {
+                    "text": "volunteers",
+                    "start": 54,
+                    "end": 64
+                }
+            ],
+            "Organization": [
+                {
+                    "text": "British Divers Marine Life Rescue",
+                    "start": 70,
+                    "end": 103
+                },
+                {
+                    "text": "HM Coastguard",
+                    "start": 108,
+                    "end": 121
+                }
+            ],
+            "Location": [
+                {
+                    "text": "Moelfre",
+                    "start": 133,
+                    "end": 140
+                }
+            ]
+        }
+    }
+]
