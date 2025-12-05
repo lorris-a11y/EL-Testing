@@ -1,15 +1,12 @@
 import re
-from functools import lru_cache
-from typing import Optional
-
 import requests
+from typing import Optional, Tuple, Dict
+from functools import lru_cache
 
-#  "wikidata_only", "wikipedia_only"
 API_STRATEGY = "wikidata_only"
 
 
 class EnhancedWikidataProcessor:
-    """"""
 
     def __init__(self, session=None):
         self.session = session or requests.Session()
@@ -42,20 +39,19 @@ class EnhancedWikidataProcessor:
             "EVENT": ["Q1190554", "Q1656682"],  # occurrence, event
 
             "WORK_OF_ART": ["Q838948", "Q47461344", "Q11424", "Q134556", "Q7889"],
-            # work of art, written work, film, single, video game
 
-            "PRODUCT": ["Q2424752", "Q235557", "Q15401930"],  # product, manufactured good, brand
+            "PRODUCT": ["Q2424752", "Q235557", "Q15401930"],  
 
             "GROUP": ["Q41710", "Q179805", "Q7278", "Q6957273"],
-            # ethnic group, religious group, political party, nationality (from NORP → GROUP)
 
             "MISC": ["Q35120"],  # entity (generic)
         }
 
+
+
+    "new test version with low-priority description check"
     def get_entity_with_type_verification(self, entity_text: str, std_entity_type: str):
-        """"""
         try:
-            # 1.
             response = self.session.get(
                 self.wikidata_api_url,
                 headers={'Accept': 'application/json'},
@@ -79,18 +75,46 @@ class EnhancedWikidataProcessor:
             if not search_results:
                 return None
 
-            # 2.
+            first_verified_low_priority_result = None
+
             for candidate in search_results:
                 entity_id = candidate.get('id')
-                if self._verify_entity_type(entity_id, std_entity_type):
-                    return {
-                        'id': entity_id,
-                        'label': candidate.get('label'),
-                        'description': candidate.get('description'),
-                        'verified_type': std_entity_type
-                    }
+                description = candidate.get('description', '')
+                label = candidate.get('label')
 
-            # 3. ，
+                if not entity_id:
+                    continue
+
+                if self._verify_entity_type(entity_id, std_entity_type):
+
+                    if self._is_low_priority_description(description):
+                        print(
+                            f"DEBUG - Found verified but low-priority candidate: {label} - {description}. Continuing search...")
+                        if first_verified_low_priority_result is None:
+                            first_verified_low_priority_result = {
+                                'id': entity_id,
+                                'label': label,
+                                'description': description,
+                                'verified_type': std_entity_type
+                            }
+                        continue
+
+                    else:
+                        print(f"DEBUG - Found high-priority verified candidate: {label} - {description}")
+                        return {
+                            'id': entity_id,
+                            'label': label,
+                            'description': description,
+                            'verified_type': std_entity_type
+                        }
+
+
+            if first_verified_low_priority_result:
+                print(f"DEBUG - No high-priority verified candidates found. Using first low-priority verified result.")
+                return first_verified_low_priority_result
+
+
+            print(f"DEBUG - No verified candidates found. Using first unverified result.")
             return {
                 'id': search_results[0].get('id'),
                 'label': search_results[0].get('label'),
@@ -103,9 +127,7 @@ class EnhancedWikidataProcessor:
             return None
 
     def _verify_entity_type(self, entity_id: str, expected_type: str) -> bool:
-        """"""
 
-        #
         if expected_type == "MISC":
             print(f"DEBUG - Skipping type verification for MISC entity {entity_id}")
             return True
@@ -114,7 +136,6 @@ class EnhancedWikidataProcessor:
         if not expected_classes:
             return False
 
-        #
         class_filter = " || ".join([f"?type = wd:{cls}" for cls in expected_classes])
 
         query = f"""
@@ -144,24 +165,38 @@ class EnhancedWikidataProcessor:
 
         return False
 
+    def _is_low_priority_description(self, description: str) -> bool:
+        if not description:
+            return False
+
+        desc_lower = description.lower()
+        low_priority_terms = [
+            'given name',
+            'first name',
+            'surname',
+            'family name',
+            'names'  
+        ]
+
+        for term in low_priority_terms:
+            if term in desc_lower:
+                return True
+        return False
+
 #====================================================
 
 
 
 class MultiNEREntityProcessor:
-    """"""
 
     def __init__(self, session=None):
         self.session = session or requests.Session()
         self.wikipedia_api_url = "https://en.wikipedia.org/api/rest_v1/page/summary"
         self.wikidata_api_url = "https://www.wikidata.org/w/api.php"
-        #
         self.api_strategy = API_STRATEGY
-        #
         self.enhanced_wikidata_processor = EnhancedWikidataProcessor(session)
 
     def get_entity_description(self, entity_text: str, entity_type: str, ner_model: str = "conll") -> str:
-        """"""
         try:
             std_entity_type = self._standardize_entity_type(entity_type, ner_model)
             print(
@@ -174,7 +209,7 @@ class MultiNEREntityProcessor:
                 return self._get_wikipedia_only_description(entity_text, std_entity_type, entity_type, ner_model)
 
             else:
-                #
+                # 默认使用wikidata_only
                 print(f"Warning: Unknown strategy '{self.api_strategy}', defaulting to 'wikidata_only'")
                 return self._get_wikidata_only_description(entity_text, std_entity_type, entity_type, ner_model)
 
@@ -186,15 +221,13 @@ class MultiNEREntityProcessor:
 
     def _get_wikidata_only_description(self, entity_text: str, std_entity_type: str, entity_type: str,
                                        ner_model: str) -> str:
-        """"""
-        #
+
         result = self.enhanced_wikidata_processor.get_entity_with_type_verification(
             entity_text, std_entity_type
         )
 
         if result:
             if result['verified_type']:
-                #
                 description = result['description']
                 if description:
                     processed = self._process_wikidata_description(description, entity_text, std_entity_type)
@@ -202,7 +235,6 @@ class MultiNEREntityProcessor:
                         print(f"✓ Using type-verified Wikidata description: {processed}")
                         return processed
             else:
-                # ，
                 print(f"Type mismatch for {entity_text}, using fallback")
 
         fallback = self._get_fallback_description(entity_type, ner_model)
@@ -213,7 +245,6 @@ class MultiNEREntityProcessor:
 
     def _get_wikipedia_only_description(self, entity_text: str, std_entity_type: str, entity_type: str,
                                         ner_model: str) -> str:
-        """ """
         wiki_description = self._get_wikipedia_description(entity_text)
         if wiki_description:
             processed = self._process_description(wiki_description, entity_text, std_entity_type)
@@ -228,10 +259,8 @@ class MultiNEREntityProcessor:
 
 
     def _standardize_entity_type(self, entity_type: str, ner_model: str) -> str:
-        """"""
 
         if ner_model.lower() == "conll3":
-            # CoNLL-2003 NER (4)：PER, ORG, LOC, MISC
             conll3_mapping = {
                 "PER": "PERSON",
                 "ORG": "ORGANIZATION",
@@ -241,17 +270,16 @@ class MultiNEREntityProcessor:
             return conll3_mapping.get(entity_type, "MISC")
 
         elif ner_model.lower() == "ontonotes":
-            # OntoNotes 5.0 (18)
             ontonotes_mapping = {
                 "PERSON": "PERSON",
                 "ORG": "ORGANIZATION",
-                "GPE": "LOCATION",  #
+                "GPE": "LOCATION",  # 
                 "LOC": "LOCATION",
-                "FAC": "LOCATION",  #
+                "FAC": "LOCATION",  # 
                 "EVENT": "EVENT",
                 "WORK_OF_ART": "WORK_OF_ART",
                 "PRODUCT": "PRODUCT",
-                "NORP": "GROUP",  #
+                "NORP": "GROUP",  # 
                 "LANGUAGE": "MISC",
                 "DATE": "DATE",
                 "TIME": "TIME",
@@ -299,12 +327,10 @@ class MultiNEREntityProcessor:
             }
             return aws_mapping.get(entity_type, "MISC")
 
-        #
         return entity_type
 
     @lru_cache(maxsize=200)
     def _get_wikipedia_description(self, entity_text: str) -> Optional[str]:
-        """"""
         try:
             response = self.session.get(
                 f"{self.wikipedia_api_url}/{entity_text.replace(' ', '_')}",
@@ -324,24 +350,18 @@ class MultiNEREntityProcessor:
 
     @lru_cache(maxsize=200)
     def _get_wikidata_description(self, entity_text: str, std_entity_type: str) -> Optional[str]:
-        """"""
         try:
-            #
             result = self.enhanced_wikidata_processor.get_entity_with_type_verification(
                 entity_text, std_entity_type
             )
 
             if result:
-                #
                 if result['verified_type']:
                     print(f"✓ Type-verified Wikidata entity: {result['label']} - {result['description']}")
                     return result['description']
                 else:
-                    #
                     print(f"⚠ Type mismatch for {entity_text}: expected {std_entity_type}, got {result['description']}")
-                    #
-                    # return None
-                    return result['description']
+                    return result['description']  # 
 
             return None
 
@@ -353,37 +373,29 @@ class MultiNEREntityProcessor:
 
     #
     def _process_description(self, raw_description: str, entity_name: str, std_entity_type: str) -> str:
-
         if not raw_description:
             return ""
 
-        # 1.
         cleaned = self._basic_cleaning(raw_description)
 
-        # 2.
         first_sentence = self._extract_first_sentence(cleaned)
         if not first_sentence:
             return ""
 
-        # 3.
         core_identity = self._extract_core_identity(first_sentence, entity_name)
         if not core_identity:
             return ""
 
-        # 4.
         return self._format_final_description(entity_name, core_identity)
 
 
 
     def _process_wikidata_description(self, raw_description: str, entity_name: str, std_entity_type: str) -> str:
-        """"""
         if not raw_description:
             return ""
 
-        #
         cleaned = raw_description.strip()
 
-        #
         if cleaned and not cleaned.lower().startswith(('a ', 'an ', 'the ')):
             if cleaned[0].lower() in 'aeiou':
                 cleaned = f"an {cleaned}"
@@ -393,52 +405,43 @@ class MultiNEREntityProcessor:
         return self._format_final_description(entity_name, cleaned)
 
     def _basic_cleaning(self, text: str) -> str:
-        """"""
         if not text:
             return ""
 
-        #
+        # 
         text = re.sub(r'<[^>]+>', '', text)
 
-        #
         text = re.sub(r'\[\d+\]', '', text)
 
-        #
         text = re.sub(r'\([^)]*\d{4}[^)]*\)', '', text)
         text = re.sub(r'\([^)]*born[^)]*\)', '', text, flags=re.IGNORECASE)
 
-        #
         text = re.sub(r'\s+', ' ', text).strip()
 
         return text
 
     def _extract_first_sentence(self, text: str) -> str:
-        """"""
         if not text:
             return ""
 
-        #
         sentences = re.split(r'\.(?=\s+[A-Z])', text)
 
         for sentence in sentences:
             sentence = sentence.strip()
-            if len(sentence) > 20:  #
+            if len(sentence) > 20:  
                 return sentence
 
         return sentences[0] if sentences else ""
 
 
     def _extract_core_identity(self, sentence: str, entity_name: str) -> str:
-        """"""
         if not sentence:
             return ""
 
-        #
         sentence_without_name = sentence
         if entity_name in sentence:
             sentence_without_name = sentence.replace(entity_name, "", 1).strip()
 
-        #
         patterns = [
             # "is a/an [identity]"
             r'(?:is|was)\s+(a|an)\s+([^,\.]+?)(?=\s+(?:who|which|that|and|known|\.|,|$))',
@@ -450,19 +453,15 @@ class MultiNEREntityProcessor:
             match = re.search(pattern, sentence_without_name, re.IGNORECASE)
             if match:
                 if len(match.groups()) >= 2:
-                    #
                     article = match.group(1)
                     identity = match.group(2).strip()
                     return f"{article} {identity}"
                 else:
-                    #
                     identity = match.group(1).strip()
 
-                    #
                     if identity.lower().startswith(('a ', 'an ', 'the ')):
-                        return identity  #
+                        return identity  # 
 
-                    # 智能添加冠词
                     if identity and identity[0].lower() in 'aeiou':
                         return f"an {identity}"
                     else:
@@ -471,14 +470,11 @@ class MultiNEREntityProcessor:
         return ""
 
     def _format_final_description(self, entity_name: str, core_identity: str) -> str:
-        """"""
         if not core_identity:
             return ""
 
-        #
         description = f"{entity_name} is {core_identity}"
 
-        #
         if not description.endswith('.'):
             description += '.'
 
@@ -487,9 +483,7 @@ class MultiNEREntityProcessor:
 
 
     def _get_fallback_description(self, entity_type: str, ner_model: str) -> str:
-        """"""
 
-        #
         fallback_mappings = {
             "conll3": {
                 "PER": "a person",
@@ -500,13 +494,13 @@ class MultiNEREntityProcessor:
             "ontonotes": {
                 "PERSON": "a person",
                 "ORG": "an organization",
-                "GPE": "a place",  #
+                "GPE": "a place",  # 
                 "LOC": "a location",
-                "FAC": "a facility",  #
+                "FAC": "a facility",  # 
                 "EVENT": "an event",
                 "WORK_OF_ART": "a work of art",
                 "PRODUCT": "a product",
-                "NORP": "a group",  #
+                "NORP": "a group",  # 
                 "LANGUAGE": "a language",
                 "LAW": "a law",
                 "DATE": "a date",
@@ -546,43 +540,32 @@ class MultiNEREntityProcessor:
             }
         }
 
-        #
         model_fallbacks = fallback_mappings.get(ner_model.lower(), {})
 
-        #
         return model_fallbacks.get(entity_type, "an entity")
 
 
-#
 def get_entity_description_conll3(entity_text: str, entity_type: str, session=None) -> str:
-    """CoNLL-2003 """
     processor = MultiNEREntityProcessor(session)
     return processor.get_entity_description(entity_text, entity_type, "conll3")
 
 
 def get_entity_description_ontonotes(entity_text: str, entity_type: str, session=None) -> str:
-    """OntoNotes """
     processor = MultiNEREntityProcessor(session)
     return processor.get_entity_description(entity_text, entity_type, "ontonotes")
 
 
 def get_entity_description_azure(entity_text: str, entity_type: str, session=None) -> str:
-    """Azure """
     processor = MultiNEREntityProcessor(session)
     return processor.get_entity_description(entity_text, entity_type, "azure")
 
 
 def get_entity_description_aws(entity_text: str, entity_type: str, session=None) -> str:
-    """AWS """
     processor = MultiNEREntityProcessor(session)
     return processor.get_entity_description(entity_text, entity_type, "aws")
 
 
-#
 def get_entity_description_multi(entity_text: str, entity_type: str, ner_model: str, session=None) -> str:
-    """
-
-    """
     processor = MultiNEREntityProcessor(session)
     return processor.get_entity_description(entity_text, entity_type, ner_model)
 

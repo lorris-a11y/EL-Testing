@@ -140,8 +140,7 @@ def process_mutations_rule_two_azure():
                 # Step 3: If Jaccard similarity is below threshold, continue with mutation testing
                 try:
                     mutation_start_time = time.time()
-                    mutated_results_2, suspicious_results_2 = mutate_and_verify_rule_two(original_text1, original_text2,
-                                                                                        tagger)
+                    mutated_results_2, suspicious_results_2 = mutate_and_verify_rule_two(original_text1, original_text2, tagger, "azure")
                     mutation_time = time.time() - mutation_start_time
 
                     # Log suspicious results

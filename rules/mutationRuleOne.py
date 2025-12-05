@@ -6,14 +6,10 @@ from flair.data import Sentence
 from grammarRefiner.grammar_refiner import refine_sentence
 
 
-""""""
 
 def clean_sentence(sentence, start, end, tagger):
-    """"""
-    #
     flair_sentence = Sentence(sentence)
     tagger.predict(flair_sentence)
-
 
     for entity in flair_sentence.get_spans('ner'):
         if (entity.start_position < end and entity.end_position > start and
@@ -23,20 +19,15 @@ def clean_sentence(sentence, start, end, tagger):
 
     print("No protection needed, proceeding with deletion...")
 
-    #
     pre_text = sentence[:start].rstrip()
     pre_start = start
     post_text = sentence[end:]
 
-    #
     title_pattern = r'\b(Mr|Mrs|Ms|Dr|Prof|Sir)\s+$'
     title_match = re.search(title_pattern, pre_text)
     if title_match:
-        #
         pre_start = title_match.start()
-        # print(f"Found title: '{title_match.group(0)}', new pre_start: {pre_start}")
 
-    #
     elif pre_text.endswith(','):
         pre_start = len(pre_text.rstrip(','))
     elif pre_text.endswith(('and', 'or')):
@@ -45,18 +36,23 @@ def clean_sentence(sentence, start, end, tagger):
             last_word = words[-1]
             pre_start = len(pre_text) - len(last_word)
 
-    #
-    result = sentence[:pre_start].rstrip() + ' ' + post_text.lstrip()
 
-    #
-    result = re.sub(r'\s+', ' ', result)  #
-    result = re.sub(r'\s*,\s*', ', ', result)  #
+
+    pre_part = sentence[:pre_start].rstrip()
+    post_part = post_text.lstrip()
+
+    if post_part and post_part[0] in '.,;:)!?':
+        result = pre_part + post_part
+    else:
+        result = pre_part + ' ' + post_part
+
+
+
+    result = re.sub(r'\s+', ' ', result)  
+    result = re.sub(r'\s*,\s*', ', ', result)  
 
     return result.strip()
 
-
-
-""""""
 
 
 def format_sentence(sentence: str, tagger=None) -> str:
@@ -64,7 +60,6 @@ def format_sentence(sentence: str, tagger=None) -> str:
     if tagger is None:
         return sentence
 
-    # Step 1: Save special patterns (your existing code)
     special_patterns = {
         'hyphen_words': re.findall(r'\b\w+(?:-\w+)+\b', sentence),
         'numbers': re.findall(r'\b\d+(?:,\d{3})*(?:\.\d+)?\b', sentence),
@@ -74,35 +69,31 @@ def format_sentence(sentence: str, tagger=None) -> str:
         'contractions': re.findall(r"\w+n't|\w+'[sd]|\w+'ll|\w+'ve|\w+'re", sentence)
     }
 
-    # Step 2: Basic cleanup first
-    result = re.sub(r'\s+', ' ', sentence)  # Normalize spaces
+    result = re.sub(r'\s+', ' ', sentence)  
 
-    # Fix punctuation issues
-    result = re.sub(r',\s*,', ',', result)  # Remove double commas
-    result = re.sub(r',\s+,', ',', result)  # Another pattern for double commas
+    result = re.sub(r',\s*\.', '.', result)  
+    result = re.sub(r',\s*([!?])', r'\1', result)  
+    result = re.sub(r',\.', '.', result)  
 
-    # Fix comma before which/that/who
+    result = re.sub(r',\s*,', ',', result)  
+    result = re.sub(r',\s+,', ',', result)  
     result = re.sub(r',\s+(which|that|who|where|when)', r' \1', result)
 
-    # Your existing cleanup
-    result = re.sub(r'\s*([,.!?])', r'\1', result)  # Clean punctuation spacing
-    result = re.sub(r'([,.!?])\s*', r'\1 ', result)  # Add space after punctuation
+    result = re.sub(r'\s*([,.!?])', r'\1', result)  
+    result = re.sub(r'([,.!?])\s*', r'\1 ', result)  
 
-    # Step 3: Handle comma series with enhanced rules
-    # Fix extra commas but preserve "and"/"or"
-    result = re.sub(r',+', ',', result)  # Remove duplicate commas
-    result = re.sub(r'\s*,\s*', ', ', result)  # Standardize comma spacing
 
-    # Fix cases like "X, and, Y" -> "X and Y" but preserve final "and"
+    result = re.sub(r',+', ',', result)  
+    result = re.sub(r'\s*,\s*', ', ', result)  
+
     result = re.sub(r',\s*(?:and|or)\s*,', ' and ', result)
 
-    # Clean up spaces around and/or
     result = re.sub(r'\s+(?:and|or)\s+', ' \\g<0> ', result).strip()
 
-    # Clean up potential artifacts like ", ,"
-    result = re.sub(r',\s*,', ',', result)  # Final check for double commas
+    result = re.sub(r',\s*,', ',', result)  
+    result = re.sub(r',\s*\.', '.', result)  # ", ." -> "."
+    result = re.sub(r',\.', '.', result)  # ",." -> "."
 
-    # Step 4: Restore special patterns (your existing code)
     for pattern_type, patterns in special_patterns.items():
         for pattern in patterns:
             if pattern_type == 'hyphen_words':
@@ -149,26 +140,21 @@ def get_entities(sentence_text, tagger):
     return entities
 
 
-""""""
 
 
 def find_coordinated_entities(sentence_text, tagger):
-    """"""
-    #
+
     entities = get_entities(sentence_text, tagger)
     coordinated_groups = []
 
-    # Debug:
     print("Identified entities:")
     for entity_type, entity_list in entities.items():
         print(f"{entity_type}:", [f"{e['text']} ({e['start']}, {e['end']})" for e in entity_list])
 
-    #
     for entity_type, entity_list in entities.items():
         if len(entity_list) < 2:
             continue
 
-        #
         ents_sorted = sorted(entity_list, key=lambda x: x['start'])
         i = 0
         while i < len(ents_sorted) - 1:
@@ -176,16 +162,11 @@ def find_coordinated_entities(sentence_text, tagger):
             j = i + 1
 
             while j < len(ents_sorted):
-                #
                 text_between = sentence_text[ents_sorted[j - 1]['end']:ents_sorted[j]['start']]
 
-                #
                 is_parallel = bool(
-                    #
                     re.search(r'^\s*,\s*(and\s+)?$|^\s*,?\s+and\s+$|^\s*,\s*$', text_between, re.IGNORECASE) and
-                    #
                     not re.search(r'\b(?:which|that|who|when|where|because)\b', text_between, re.IGNORECASE) and
-                    #
                     not re.search(r'\b(?:is|was|are|were|has|have|had)\b', text_between, re.IGNORECASE)
                 )
 
@@ -196,7 +177,6 @@ def find_coordinated_entities(sentence_text, tagger):
                     break
 
             if len(current_group) > 1:
-                # Debug:
                 print(f"Found parallel group: {[e['text'] for e in current_group]}")
                 coordinated_groups.append({
                     'type': entity_type,
@@ -211,53 +191,39 @@ def find_coordinated_entities(sentence_text, tagger):
 
 
 def mutate_and_verify(sentence_text, tagger):
-    """Generate mutated sentences and verify all entities recognition results."""
-    # print("\n=== Debug mutate_and_verify ===")
-    # print(f"Original sentence: {sentence_text}")
 
     coordinated_groups = find_coordinated_entities(sentence_text, tagger)
     mutated_results = []
     suspicious_sentences = []
 
-    # print(f"\nFound {len(coordinated_groups)} coordinated groups:")
     for i, group in enumerate(coordinated_groups):
-        # print(f"\nProcessing group {i + 1}:")
-        # print(f"Type: {group['type']}")
-        # print("Entities:", [f"{e['text']} ({e['start']}, {e['end']})" for e in group['entities']])
+
 
         mutated_sentence = sentence_text
         remaining_entity = group['entities'][0]
-        # print(f"\nKeeping first entity: {remaining_entity['text']}")
         entity_type = group['type']
-        #
         original_entities = get_entities(sentence_text, tagger)
 
-        #
         entities_to_remove = group['entities'][1:]
-        # print(f"\nEntities to remove:", [e['text'] for e in entities_to_remove])
 
         for entity in reversed(entities_to_remove):
-            # print(f"\nRemoving entity: {entity['text']}")
             mutated_sentence = clean_sentence(mutated_sentence, entity['start'], entity['end'], tagger)
-            # print(f"Sentence after removal: {mutated_sentence}")
+
 
         mutated_sentence = refine_sentence(mutated_sentence, tagger)
         mutated_sentence = format_sentence(mutated_sentence)
-        #
         result = {
             "mutated_sentence": mutated_sentence,
             "entities": get_entities(mutated_sentence, tagger)
         }
         mutated_results.append(result)
 
-        #
         mutated_entities = get_entities(mutated_sentence, tagger)
         is_suspicious = False
         suspicious_reason = []
 
         already_checked_entities = set()
 
-        #
         remaining_entity_found = False
         remaining_entity_correct_tag = False
 
@@ -268,7 +234,6 @@ def mutate_and_verify(sentence_text, tagger):
                     remaining_entity_correct_tag = True
                     break
 
-        #
         if not remaining_entity_found:
             for mut_type, mut_entities in mutated_entities.items():
                 if mut_type != entity_type:
@@ -283,24 +248,19 @@ def mutate_and_verify(sentence_text, tagger):
                 if remaining_entity_found:
                     break
 
-        #
         if not remaining_entity_found:
             is_suspicious = True
             suspicious_reason.append(
                 f"Expected entity '{remaining_entity['text']}' with tag '{entity_type}' not found"
             )
 
-        #
         already_checked_entities.add(remaining_entity['text'])
 
-        #
         for orig_type, orig_entities in original_entities.items():
             for orig_entity in orig_entities:
-                #
                 if orig_entity['text'] in already_checked_entities:
                     continue
 
-                #
                 if any(orig_entity['text'] == e['text'] for e in entities_to_remove):
                     continue
 
@@ -328,7 +288,6 @@ def mutate_and_verify(sentence_text, tagger):
                         f"Entity '{orig_entity['text']}' changed tag from '{orig_type}' to '{found_tag}'"
                     )
 
-                #
                 already_checked_entities.add(orig_entity['text'])
 
         if is_suspicious:
@@ -339,5 +298,4 @@ def mutate_and_verify(sentence_text, tagger):
                 "reasons": suspicious_reason
             })
 
-    # print("=== End debug ===\n")
     return mutated_results, suspicious_sentences

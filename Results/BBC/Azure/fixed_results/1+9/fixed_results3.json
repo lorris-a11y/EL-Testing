@@ -1,0 +1,789 @@
+[
+    {
+        "original_sentence": "Colin Macdonald, who joined DMA a few months before the launch of the action-adventure video game in 1997, explains: \"In mid-development, there was an informal staff survey on which of the seven titles they were working on would be the most successful and least successful.",
+        "mutated_sentence": "Colin Macdonald is a British Royal Navy officer, captain in 1814. She, who joined DMA a few months before the launch of the action-adventure video game in 1997, explains: \"in mid-development, there was an informal staff survey on which of the seven titles they were working on would be the most successful and least successful.",
+        "repairs": [
+            {
+                "entity": "staff",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6662361579304052,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "NAACP, another civil rights organisation cited as a major Twitter partner, is calling for advertisers to boycott the site.",
+        "mutated_sentence": "NAACP is a civil rights organization in the United States. It, another civil rights organisation cited as a major Twitter partner, is calling for advertisers to boycott the site.",
+        "repairs": [
+            {
+                "entity": "partner",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6689761019132813,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UK's first research laboratory looking the impact of light pollution on human health and nature has been set up at Lancaster University.",
+        "mutated_sentence": "Lancaster University is a research university in Lancaster, United Kingdom. The UK's first research laboratory looking the impact of light pollution on human health and nature has been set up at it.",
+        "repairs": [
+            {
+                "entity": "research laboratory",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6627773082453075,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He has clarified that he had no role in bringing West back on Twitter, saying the account was restored before he acquired the social media platform.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. He has clarified that he had no role in bringing West back on it, saying the account was restored before he acquired the social media platform.",
+        "repairs": [
+            {
+                "entity": "media",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6507650369358684,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But they found consulting frustrating because they wanted to build software from the ground up, rather than just advise.",
+        "mutated_sentence": "software is a product. But they found consulting frustrating because they wanted to build it from the ground up, rather than just advise.",
+        "repairs": [
+            {
+                "entity": "software",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "advise",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6584830360206638,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Balenciaga posted an apology to its 14 million Instagram followers and said its plush bear bags \"should not have been featured with children\".",
+        "mutated_sentence": "Balenciaga is a French fashion house and company. It posted an apology to its 14 million Instagram followers and said its plush bear bags \"should not have been featured with children\".",
+        "repairs": [
+            {
+                "entity": "bear bags",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Heather shares his passion for the Flow Country and does not want to see a repeat of damaging activities on the peatland she witnessed in the 1970s.",
+        "mutated_sentence": "Heather is an American actress. She shares his passion for the Flow Country and does not want to see a repeat of damaging activities on the peatland she witnessed in the 1970s.",
+        "repairs": [
+            {
+                "entity": "Flow Country",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6779227032746804,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The measure passed, with an amendment on Tuesday specifying that officers could only use robots wielding deadly force after employing alternative de-escalation tactics.",
+        "mutated_sentence": "robots is a 2005 computer-animated science fiction comedy adventure film by Blue Sky Studios and Paramount Pictures. The measure passed, with an amendment on Tuesday specifying that officers could only use it wielding deadly force after employing alternative de-escalation tactics.",
+        "repairs": [
+            {
+                "entity": "robots",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Batteries thrown in household rubbish bins cause about 700 fires every year in dustcarts and waste-processing centres, local authorities say.",
+        "mutated_sentence": "fires is an event. Batteries thrown in household rubbish bins cause about 700 it every year in dustcarts and waste-processing centres, local authorities say.",
+        "repairs": [
+            {
+                "entity": "rubbish bins",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Martha now volunteers at Valleys Kids and helps support young people in some of Wales' poorest areas who may not have games consoles or digital devices at home.",
+        "mutated_sentence": "Valleys Kids is an organization. Martha now volunteers at it and helps support young people in some of Wales' poorest areas who may not have games consoles or digital devices at home.",
+        "repairs": [
+            {
+                "entity": "support",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Not all wrapping paper will be accepted by recycling centres as it may contain plastic film or metallic elements, according to environmental charity WRAP.",
+        "mutated_sentence": "recycling centres is a location. Not all wrapping paper will be accepted by it as it may contain plastic film or metallic elements, according to environmental charity WRAP.",
+        "repairs": [
+            {
+                "entity": "wrapping paper",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6781089780726558,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The westbound coach had been travelling from Kelowna to Vancouver when it crashed on the Okanagan Connector, part of Highway 97, shortly after 18:00 (02:00 GMT Sunday), Global News reports.",
+        "mutated_sentence": "Kelowna is a city in British Columbia, Canada. The westbound coach had been travelling from it to Vancouver when it crashed on the Okanagan Connector, part of Highway 97, shortly after 18:00 (02:00 GMT Sunday), Global News reports.",
+        "repairs": [
+            {
+                "entity": "Highway 97",
+                "original_tag": "Address",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.672454177788049,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During the year, thousands of people have taken part in protests over sewage spills in rivers and on beaches from Essex to Edinburgh. And at the same time, there's been a boom in citizen scientists turning their attention to the health of the nation's waterways.",
+        "mutated_sentence": "protests is a 2020–2022 protests following the police murder of George Floyd. During the year, thousands of people have taken part in it over sewage spills in rivers and on beaches from Essex to Edinburgh. And at the same time, there's been a boom in citizen scientists turning their attention to the health of the nation's waterways.",
+        "repairs": [
+            {
+                "entity": "sewage",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6693771372771966,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Seth is 13 and uses a wheelchair due to a life-long progressive condition, so loves gaming because it helps him \"experience things like other people\".",
+        "mutated_sentence": "wheelchair is a film directed by Tapan Sinha. Seth is 13 and uses it due to a life-long progressive condition, so loves gaming because it helps him \"experience things like other people\".",
+        "repairs": [
+            {
+                "entity": "wheelchair",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They had paid Rafael Bessa in advance for the stay at a four-star Club Med resort, but the cars that should have met them at Athens airport didn't arrive.",
+        "mutated_sentence": "Rafael Bessa is a researcher. They had paid she in advance for the stay at a four-star Club Med resort, but the cars that should have met them at Athens airport didn't arrive.",
+        "repairs": [
+            {
+                "entity": "Club",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "resort",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Pioneer, developed by Artemis Technologies, is the world's first electric foiling workboat to be brought to market.",
+        "mutated_sentence": "Artemis Technologies is a British maritime technology company. The Pioneer, developed by it, is the world's first electric foiling workboat to be brought to market.",
+        "repairs": [
+            {
+                "entity": "electric foiling workboat",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6362452547605563,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"Lockdowns prevent Covid outbreaks from spreading,\" William Hurst, professor of Chinese development at Cambridge University, told BBC News recently. \"But they also exert incredibly strict social control.\"",
+        "mutated_sentence": "Cambridge University is a collegiate public research university in Cambridge, England, United Kingdom. \"Lockdowns prevent Covid outbreaks from spreading,\" William Hurst, professor of Chinese development at it, told BBC News recently. \"But they also exert incredibly strict social control.\"",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Chinese",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Navarra says Mr Musk is a huge engagement driver for Twitter and his recent tweets have brought in a significant number of new users or reactivated old ones.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. Mr Navarra says Mr Musk is a huge engagement driver for it and his recent tweets have brought in a significant number of new users or reactivated old ones.",
+        "repairs": [
+            {
+                "entity": "driver",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6630290857532879,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Batteries are simply too heavy to power larger planes.",
+        "mutated_sentence": "Batteries is an academic journal published by MDPI AG , covering the subjects: Technology: Electrical engineering. Electronics. Nuclear engineering: Production of electric energy or power. Powerplants. Central stations | Technology: Chemical technology: I. It are simply too heavy to power larger planes.",
+        "repairs": [
+            {
+                "entity": "Batteries",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"It's been hell,\" Denzil Smothers, whose flight was cancelled, told CBS.",
+        "mutated_sentence": "flight is an event. \"It's been hell,\" Denzil Smothers, whose it was cancelled, told CBS.",
+        "repairs": [
+            {
+                "entity": "flight",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mind also warned gamers against sharing personal information \"even if they seem really friendly\" while, Parent Zone, an organisation that helps families with digital advice, said there were risks that both parents and young people should understand.",
+        "mutated_sentence": "Mind is a journal. It also warned gamers against sharing personal information \"even if they seem really friendly\" while, Parent Zone, an organisation that helps families with digital advice, said there were risks that both parents and young people should understand.",
+        "repairs": [
+            {
+                "entity": "families",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6691663128483053,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"It is therefore critical that Meta evaluates these requests independently, particularly when they relate to artistic expression from individuals in minority or marginalised groups for whom the risk of cultural bias against their content is acute.",
+        "mutated_sentence": "Meta is an American multinational technology corporation. \"It is therefore critical that it evaluates these requests independently, particularly when they relate to artistic expression from individuals in minority or marginalised groups for whom the risk of cultural bias against their content is acute.",
+        "repairs": [
+            {
+                "entity": "artistic expression",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Satellite broadband is a decent option where operators can't get cables or it simply isn't economically viable to install them - but it's also the most expensive for consumers.",
+        "mutated_sentence": "cables is a 1992 film by Tzvi Shissel. Satellite broadband is a decent option where operators can't get it or it simply isn't economically viable to install them - but it's also the most expensive for consumers.",
+        "repairs": [
+            {
+                "entity": "broadband",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "operators",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6683364640991575,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "cables",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6628455491246338,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dippy the Diplodocus will take up residence at Coventry's Herbert Art Gallery and Museum from 20 February.",
+        "mutated_sentence": "Dippy is an American basketball player (1936–1999). She the Diplodocus will take up residence at Coventry's Herbert Art Gallery and Museum from 20 February.",
+        "repairs": [
+            {
+                "entity": "Art Gallery and Museum",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It also has a shop of upcycled goods in Cardiff Bay, which is open to the public.",
+        "mutated_sentence": "shop is a location. It also has it of upcycled goods in Cardiff Bay, which is open to the public.",
+        "repairs": [
+            {
+                "entity": "goods",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "We were expecting a launch on 14 December, but this was pushed back when Virgin Orbit discovered a technical issue on one of its Newton rocket engines during testing in California.",
+        "mutated_sentence": "Virgin Orbit is a private launcher services provider. We were expecting a launch on 14 December, but this was pushed back when it discovered a technical issue on one of its Newton rocket engines during testing in California.",
+        "repairs": [
+            {
+                "entity": "testing",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.3385943628377684,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Newton rocket engines",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While Covid heroes and sports stars celebrated recognition in the New Year's honours, there was likely a few clearer heads than normal on New Year's Day as coronavirus still loomed large.",
+        "mutated_sentence": "coronavirus is a pandemic caused by SARS-CoV-2. While Covid heroes and sports stars celebrated recognition in the New Year's honours, there was likely a few clearer heads than normal on New Year's Day as it still loomed large.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "Also on Thursday, during an interview with US conspiracy theorist Alex Jones and with his face covered in a mask, West praised Nazi leader Adolf Hitler and ranted about sin, pornography and the devil.",
+        "mutated_sentence": "interview is an event. Also on Thursday, during it with US conspiracy theorist Alex Jones and with his face covered in a mask, West praised Nazi leader Adolf Hitler and ranted about sin, pornography and the devil.",
+        "repairs": [
+            {
+                "entity": "Nazi leader",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6715249098046966,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "One of the biggest accelerations we've seen has been towards hydrogen energy. What seemed some way over the horizon just a year ago is now getting much closer.",
+        "mutated_sentence": "hydrogen energy is an item in the National Archives and Records Administration's holdings. One of the biggest accelerations we've seen has been towards its. What seemed some way over the horizon just a year ago is now getting much closer.",
+        "repairs": [
+            {
+                "entity": "hydrogen energy",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6558914784156192,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The National Weather Service in Brooklyn, New York has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "mutated_sentence": "Brooklyn is a borough of New York City, New York, United States. The National Weather Service in it, New York has called it a once-in-a-generation winter weather event, especially as the storm reaches the Great Lakes region, where its pressure is expected to reach the equivalent of a Category 3 hurricane.",
+        "repairs": [
+            {
+                "entity": "weather event",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dr Kibrom says two trucks with medical supplies from the International Committee of the Red Cross (ICRC) were the first to reach Mekelle.",
+        "mutated_sentence": "trucks is a 1997 television film directed by Chris Thomson. Dr Kibrom says two it with medical supplies from the International Committee of the Red Cross (ICRC) were the first to reach Mekelle.",
+        "repairs": [
+            {
+                "entity": "trucks",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"Cat burglars like Theo are rare - but they make headline news,\" Mr Tabor says.",
+        "mutated_sentence": "Theo is a Dutch architect, painter, draughtsman and writer (1883–1931). \"Cat burglars like she are rare - but they make headline news,\" Mr Tabor says.",
+        "repairs": [
+            {
+                "entity": "Cat burglars",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A man who was left paralysed after a crash is now dreaming of walking his daughters down the aisle after receiving innovative robotic therapy.",
+        "mutated_sentence": "crash is an event. A man who was left paralysed after a it is now dreaming of walking his daughters down the aisle after receiving innovative robotic therapy.",
+        "repairs": [
+            {
+                "entity": "man",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told BBC Wales how gaming helped him become an actor and presenter.",
+        "mutated_sentence": "BBC Wales is a division of the BBC for Wales. Dylan was raised on Mario World, Just Dance, Call of Duty, Minecraft and Roblox and now, over a game of Nintendo Switch tennis, he told it how gaming helped him become an actor and presenter.",
+        "repairs": [
+            {
+                "entity": "Call",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.677785185766671,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Duty",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6425954504847358,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Molly Russell, from Harrow in north-west London, was 14 when she took her own life in 2017 after watching images of self-harm and suicide on Instagram and Pinterest.",
+        "mutated_sentence": "Harrow is a school in Harrow, UK. Molly Russell, from it in north-west London, was 14 when she took her own life in 2017 after watching images of self-harm and suicide on Instagram and Pinterest.",
+        "repairs": [
+            {
+                "entity": "harm",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6612690366949462,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Replacing fossil fuels with green power is a core way for the world to tackle the impacts of climate change.",
+        "mutated_sentence": "fossil fuels is a 1990 film by Michael Edols. Replacing it with green power is a core way for the world to tackle the impacts of climate change.",
+        "repairs": [
+            {
+                "entity": "fossil fuels",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6641435746534982,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The same search in Russian resulted in the suggestions \"Wagner PMC\", \"Wagner sledgehammer\" and \"Wagner orchestra\".",
+        "mutated_sentence": "Russian is a country in Eastern Europe and Northern Asia. The same search in it resulted in the suggestions \"Wagner PMC\", \"Wagner sledgehammer\" and \"Wagner orchestra\".",
+        "repairs": [
+            {
+                "entity": "Wagner PMC",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6590839689612253,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Wagner orchestra",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.33922739484311426,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "sledgehammer",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.675784750586511,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They said though that there may be future scenarios in which lethal force could be used by a robot.",
+        "mutated_sentence": "robot is a 2010 Indian film directed by S. Shankar. They said though that there may be future scenarios in which lethal force could be used by it.",
+        "repairs": [
+            {
+                "entity": "robot",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6550661365666346,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Unions and analysts have pointed at a host of factors causing the problems, including staffing shortfalls and outdated computer systems that did not connect crews with flights when cancellations started to pile up.",
+        "mutated_sentence": "staffing shortfalls is an event. Unions and analysts have pointed at a host of factors causing the problems, including it and outdated computer systems that did not connect crews with flights when cancellations started to pile up.",
+        "repairs": [
+            {
+                "entity": "staffing shortfalls",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.669260779486001,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "computer",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6709386462056842,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Apollo 7 was an 11-day manned mission in 1968 that tested the ability to dock and rendezvous in space. But the crew also won an Emmy for their broadcast.",
+        "mutated_sentence": "space is a void between celestial bodies. Apollo 7 was an 11-day manned mission in 1968 that tested the ability to dock and rendezvous in it. But the crew also won an Emmy for their broadcast.",
+        "repairs": [
+            {
+                "entity": "Apollo 7",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "mission",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "With flight cancellations and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver, Chicago and Washington DC reported hours-long queues to speak to customer service representatives.",
+        "mutated_sentence": "flight cancellations is an event. with it and delays continuing, thousands of passengers have been left at airports across the country as they attempt to re-book flights or make alternative travel arrangements. Passengers in locations including Denver, Chicago and Washington DC reported hours-long queues to speak to customer service representatives.",
+        "repairs": [
+            {
+                "entity": "delays",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6751698246402459,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While Mr Mogotsi and Mr Mashisi are staying in South Africa, Prof Coulter says that the continuing big problem for the country's IT sector is a brain drain - people finding jobs overseas.",
+        "mutated_sentence": "South Africa is a country in southern Africa. While Mr Mogotsi and Mr Mashisi are staying in it, Prof Coulter says that the continuing big problem for the country's IT sector is a brain drain - people finding jobs overseas.",
+        "repairs": [
+            {
+                "entity": "people",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6587469476570083,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It lifted away from Kourou at 22:47 local time on Tuesday (03:47 CET/02:47 GMT on Wednesday).",
+        "mutated_sentence": "Kourou is a commune in Guyane, France. It lifted away from it at 22:47 local time on Tuesday (03:47 CET/02:47 GMT on Wednesday).",
+        "repairs": [
+            {
+                "entity": "03:47 CET/02:47",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "Quantity",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But nine days later, when he finally confirmed the news in a speech that was criticised as \"low energy\" - the stock price fell.",
+        "mutated_sentence": "speech is a human vocal communication using spoken language. But nine days later, when he finally confirmed the news in it that was criticised as \"low energy\" - the stock price fell.",
+        "repairs": [
+            {
+                "entity": "speech",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6674179283735854,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "What we very quickly found was that whilst we do have access to those facilities, the numbers, particularly in April and May time, were just not enough.",
+        "mutated_sentence": "facilities is an organizations in Japan. What we very quickly found was that whilst we do have access to those it, the numbers, particularly in April and May time, were just not enough.",
+        "repairs": [
+            {
+                "entity": "facilities",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"If companies want 50 or 60 chairs and they want them tomorrow, they can have them tomorrow.",
+        "mutated_sentence": "chairs is a 2024 video game. \"If companies want 50 or 60 it and they want them tomorrow, they can have them tomorrow.",
+        "repairs": [
+            {
+                "entity": "chairs",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.3376275278560695,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Thierry Breton, EU Commissioner for the Internal Market, said the plan would \"enable innovative services for people\" and help European companies grow.",
+        "mutated_sentence": "Thierry Breton is a French businessman and politician. She, EU Commissioner for the Internal Market, said the plan would \"enable innovative services for people\" and help European companies grow.",
+        "repairs": [
+            {
+                "entity": "Commissioner",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The charity worked with Zara and BBC Three to produce Disordered Eating.",
+        "mutated_sentence": "Zara is a municipality in the autonomous community of Aragon, Spain. The charity worked with it and BBC Three to produce Disordered Eating.",
+        "repairs": [
+            {
+                "entity": "Zara",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "Europe is a continent in the Northern Hemisphere. \"It originated amongst ducks in it and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "repairs": [
+            {
+                "entity": "professor",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "virology",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Last month, a university in the Republic of Ireland said it was planning to repatriate a sarcophagus, mummified human remains and canopic jars.",
+        "mutated_sentence": "university is a location. Last month, it in the Republic of Ireland said it was planning to repatriate a sarcophagus, mummified human remains and canopic jars.",
+        "repairs": [
+            {
+                "entity": "Republic of Ireland",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6651724129031882,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

@@ -97,16 +97,10 @@ def process_mutations_rule_three_azure():
 
             # Check if sentence has multiple same-type entities
             try:
-                entities = get_entities(original_text, tagger)
-                has_multiple = False
+                has_entities = any(len(entity_list) > 0 for entity_list in entities.values())
 
-                for entity_type, entity_list in entities.items():
-                    if len(entity_list) > 1:
-                        has_multiple = True
-                        break
-
-                if not has_multiple:
-                    logger.debug(f"Skipping sentence without multiple same-type entities: {original_text[:50]}...")
+                if not has_entities:
+                    logger.debug(f"Skipping sentence without entities: {original_text[:50]}...")
                     continue
             except Exception as e:
                 logger.error(f"Error checking entities in sentence: {original_text[:100]}...")

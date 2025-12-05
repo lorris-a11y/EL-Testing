@@ -15,114 +15,64 @@ import os
 
 from repair.match_case import match_case_for_candidate
 
-os.environ['HTTP_PROXY'] = 'http://127.0.0.1:7890'
-os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:7890'
 
-
-proxies = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
+proxies = {"http": "Your_proxy_here", "https": "Your_proxy_here"}
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased", proxies=proxies)
 mlm_model = AutoModelForMaskedLM.from_pretrained("bert-base-uncased", proxies=proxies)
 
-# 初始化模型
-# tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-# mlm_model = AutoModelForMaskedLM.from_pretrained("bert-base-uncased")
 
 sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# 超参数
 LOGIT_WEIGHT = 0.2  #
 SIM_WEIGHT = 0.8    #
-TOP_K_CANDIDATES = 3  #
+TOP_K_CANDIDATES = 30  #
 MIN_SIMILARITY_THRESHOLD = 0.3  #
 
 
 
 #----------------------------------------------------------------------
 """special logics for MR1 repair"""
-
 def repair_entity_mr1(
-        sentence: str,
-        entity_text: str,
+        original_sentence: str,
+        mutated_sentence: str,       # 
+        original_entity_text: str,
+        mutated_entity_text: str,    # 
         original_tag: str,
         mutated_tag: str,
         tagger,
-        model_type: str = "flair"  # New parameter
+        model_type: str = "flair"
 ) -> Tuple[str, float]:
 
-    # 1. Find entity position
-    entity_start, entity_end = find_entity_position(sentence, entity_text)
-    if entity_start == -1:
-        return original_tag, 1.0  # Entity not found
+    print(f"\n===== Joint Repair (MR1): '{original_entity_text}' =====")
 
-    # 2. Extract context
-    context = extract_context(sentence, entity_text, entity_start, entity_end)
+    scores_orig = _get_scores_for_sentence(original_sentence, original_entity_text, tagger, model_type, "Original")
+    scores_mut = _get_scores_for_sentence(mutated_sentence, mutated_entity_text, tagger, model_type, "Mutated")
 
-    # Calculate entity position
-    words_before = sentence[:entity_start].strip().split()
-    entity_position = len(words_before)
+    final_scores = scores_orig.copy()
+    for t, s in scores_mut.items():
+        final_scores[t] = final_scores.get(t, 0.0) + s
 
-    # 3. Generate candidate entities
-    candidates = generate_candidate_entities(context, entity_position, entity_text)
 
-    # 4. Calculate similarity scores
-    candidates = calculate_similarity_scores(context, candidates, entity_position)
+    if original_tag in final_scores:
+        print(f"  > MR1 Boost: Boosting {original_tag} score x 1.5")
+        final_scores[original_tag] *= 1.5 
+    
 
-    # 5. Predict entity tags
-    # candidates = predict_entity_tags(candidates, tagger, sentence, entity_start, entity_end)
-    candidates = predict_entity_tags(candidates, tagger, sentence, entity_start, entity_end, model_type)
-
-    # 6. Calculate tag scores
-    tag_scores = {}
-
-    for candidate in candidates:
-        if "similarity" not in candidate or "logit" not in candidate:
-            continue
-
-        # Filter low similarity candidates
-        if candidate["similarity"] < MIN_SIMILARITY_THRESHOLD:
-            continue
-
-        # Calculate combined score
-        combined_score = (
-                LOGIT_WEIGHT * candidate["logit"] +
-                SIM_WEIGHT * candidate["similarity"]
-        )
-
-        # Get predicted tag
-        tag = candidate.get("predicted_tag", "O")
-
-        # Boost original tag score
-        if tag == original_tag:
-            combined_score *= 3.0
-
-        if tag not in tag_scores:
-            tag_scores[tag] = 0
-
-        tag_scores[tag] += combined_score
-
-    # 7. Select best tag
     best_tag = None
     best_score = -1
+    for t, s in final_scores.items():
+        if s > best_score:
+            best_score = s
+            best_tag = t
 
-    # Keep original tag if it has good score
-    if original_tag in tag_scores:
-        print(f"MR1 repair: '{entity_text}' {original_tag} → {original_tag} (keep original tag)")
+    if best_tag is None or best_score < 0.1:
         return original_tag, 1.0
 
-    # Find best tag
-    for tag, score in tag_scores.items():
-        if score > best_score:
-            best_score = score
-            best_tag = tag
-
-    # Return original tag if no suitable candidate
-    if best_tag is None or best_score < 0.5:
-        print(f"MR1 repair: '{entity_text}' {original_tag} → {original_tag} (no suitable candidate)")
-        return original_tag, 0.8
-
-    final_confidence = best_score / sum(tag_scores.values()) if sum(tag_scores.values()) > 0 else 0.5
-    print(f"MR1 repair: '{entity_text}' {original_tag} → {best_tag} (confidence: {final_confidence:.3f})")
-    return best_tag, final_confidence
+    total = sum(final_scores.values())
+    conf = best_score / total if total > 0 else 0.0
+    
+    print(f"  > Winner: {best_tag} ({conf:.2f})")
+    return best_tag, conf
 
 
 
@@ -150,7 +100,6 @@ def extract_context(sentence: str, entity_text: str, entity_start: int, entity_e
     before = sentence[:entity_start].strip()
     after = sentence[entity_end:].strip()
 
-    # 确保适当的空格
     if before and after:
         return f"{before} {after}"
     elif before:
@@ -378,77 +327,74 @@ def compute_final_scores(candidates: List[Dict]) -> Dict[str, float]:
    return tag_scores
 
 
+def _get_scores_for_sentence(sentence, entity_text, tagger, model_type, context_name):
+    """Internal helper to get scores for a single sentence context"""
+    print(f"  > Scoring context: {context_name}")
+    # 1. Find position
+    start, end = find_entity_position(sentence, entity_text)
+    if start == -1:
+        print(f"    Entity '{entity_text}' not found in {context_name}, skipping.")
+        return {}
+    
+    # 2. Context & Masking
+    ctx_str = extract_context(sentence, entity_text, start, end)
+    words_before = sentence[:start].strip().split()
+    pos = len(words_before)
+    
+    # 3. Candidates
+    cands = generate_candidate_entities(ctx_str, pos, entity_text)
+    
+    # 4. Similarity
+    cands = calculate_similarity_scores(ctx_str, cands, pos)
+    
+    # 5. Prediction
+    cands = predict_entity_tags(cands, tagger, sentence, start, end, model_type)
+    
+    # 6. Scores
+    return compute_final_scores(cands)
+
 
 def repair_entity(
-       sentence: str,
-       entity_text: str,
+       original_sentence: str,
+       mutated_sentence: str,      
+       original_entity_text: str,  
+       mutated_entity_text: str,   
        original_tag: str,
        mutated_tag: str,
        tagger,
        model_type: str = "flair"
 ) -> Tuple[str, float]:
-   """Repair suspicious entity by predicting its correct entity type"""
-   # Print detailed information
-   print(f"\n===== Processing entity: '{entity_text}', original tag: '{original_tag}', mutated tag: '{mutated_tag}' =====")
 
-   # 1. Find entity position
-   entity_start, entity_end = find_entity_position(sentence, entity_text)
-   print(f"Entity position: start={entity_start}, end={entity_end}")
+   print(f"\n===== Joint Repair: '{original_entity_text}' =====")
+   
+   scores_orig = _get_scores_for_sentence(original_sentence, original_entity_text, tagger, model_type, "Original")
+   
 
-   if entity_start == -1:
-       print(f"Warning: Cannot find entity '{entity_text}' in sentence, returning original tag")
-       return original_tag, 0.0  # If entity not found, return original tag
+   scores_mut = _get_scores_for_sentence(mutated_sentence, mutated_entity_text, tagger, model_type, "Mutated")
+   
+   final_scores = scores_orig.copy()
+   for t, s in scores_mut.items():
+       final_scores[t] = final_scores.get(t, 0.0) + s
+       
+   print(f"  > Final Votes: {final_scores}")
 
-   # 2. Extract context
-   context = extract_context(sentence, entity_text, entity_start, entity_end)
-   print(f"Extracted context: '{context}'")
-
-   # Determine entity position in context
-   words_before = sentence[:entity_start].strip().split()
-   entity_position = len(words_before)
-   print(f"Entity position in context: {entity_position}")
-
-   # 3. Generate candidate entities
-   print("Generating candidate entities...")
-   candidates = generate_candidate_entities(context, entity_position, entity_text)
-   print(f"Generated candidate entities: {[c['text'] for c in candidates]}")
-   print(f"Candidate entities logit scores: {[c['logit'] for c in candidates]}")
-
-   # 4. Calculate similarity scores
-   print("Calculating similarity scores...")
-   candidates = calculate_similarity_scores(context, candidates, entity_position)
-   print(f"Candidate entities similarity: {[(c['text'], c.get('similarity', 0)) for c in candidates]}")
-
-   # 5. Predict candidate entity tags
-   print("Predicting candidate entity tags...")
-   # candidates = predict_entity_tags(candidates, tagger, sentence, entity_start, entity_end)
-   candidates = predict_entity_tags(candidates, tagger, sentence, entity_start, entity_end, model_type)
-   print(f"Candidate entity predicted tags: {[(c['text'], c.get('predicted_tag', 'NONE')) for c in candidates]}")
-
-   # 6. Calculate final scores for each entity type
-   print("Calculating final tag scores...")
-   tag_scores = compute_final_scores(candidates)
-   print(f"Final tag scores: {tag_scores}")
-
-   # 7. Determine best tag
    best_tag = None
    best_score = -1
-
-   for tag, score in tag_scores.items():
-       if score > best_score:
-           best_score = score
-           best_tag = tag
-
-   print(f"Best tag: {best_tag}, score: {best_score}")
-
-   # If no clear winner, keep original tag
-   if best_tag is None or best_score < 0.5:
-       print(f"No suitable tag found (score below threshold), returning original tag: {original_tag}")
+   
+   for t, s in final_scores.items():
+       if s > best_score:
+           best_score = s
+           best_tag = t
+           
+   # Fallback
+   if best_tag is None or best_score < 0.1:
+       print(f"  > No winner. Keeping original tag: {original_tag}")
        return original_tag, 0.0
+       
+   # Confidence
+   total = sum(final_scores.values())
+   conf = best_score / total if total > 0 else 0.0
+   
+   print(f"  > Winner: {best_tag} ({conf:.2f})")
+   return best_tag, conf
 
-   # Calculate normalized confidence score
-   total_score = sum(tag_scores.values())
-   confidence = best_score / total_score if total_score > 0 else 0.0
-   print(f"Returning tag: {best_tag}, confidence: {confidence}")
-
-   return best_tag, confidence

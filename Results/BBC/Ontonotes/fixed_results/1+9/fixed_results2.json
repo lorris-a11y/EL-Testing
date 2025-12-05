@@ -1,0 +1,973 @@
+[
+    {
+        "original_sentence": "Prof Duncan Coulter, head of the Academy of Computer Science and Software Engineering at the University of Johannesburg, agrees that times are difficult for South African IT companies like Nane. The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "Prof Duncan Coulter, head of HM Coastguard at the University of Johannesburg, agrees that times are difficult for South African IT companies like Nane. The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and the Academy of Computer Science and Software Engineering crews from Moelfre and Penmon.",
+        "repairs": [
+            {
+                "entity": "the Academy of Computer Science and Software Engineering",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Academy of Computer Science and Software Engineering",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Twitter's new boss Elon Musk was asked by one user to \"fix Kanye\". \"If you turn these frogs over, you could watch their heart beating by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent,\" Jesse Delia, a researcher at the Museum of Natural History in New York, US told BBC News.",
+        "mutated_sentence": "BBC News's new boss Elon Musk was asked by one user to \"fix Kanye\". \"If you turn these frogs over, you could watch their heart beating by itself. You can see through the skin and see the muscle, the majority of the body cavity is really transparent,\" Jesse Delia, a researcher at the Museum of Natural History in New York, US told Twitter.",
+        "repairs": [
+            {
+                "entity": "BBC News",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6684980015667553,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Clients arrive at their destinations, find a hotel has not been paid for, and are unable to get Rafael Bessa to pay them back. The Department of Transport said the project will also produce 300,000 tonnes of sustainable aviation fuel a year.",
+        "mutated_sentence": "Clients arrive at their destinations, find a hotel has not been paid for, and are unable to get The Department of Transport to pay them back. Rafael Bessa said the project will also produce 300,000 tonnes of sustainable aviation fuel a year.",
+        "repairs": [
+            {
+                "entity": "Rafael Bessa",
+                "original_tag": "ORG",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His latest Twitter ban comes hours after the right-wing social media platform Parler - which styles itself as a \"free speech\" alternative to mainstream platforms - said West could no longer buy the firm. Jessica Powell died in August 2020 days after she suffered an injury while she was an inpatient at Summerlands Hospital in Yeovil.",
+        "mutated_sentence": "His latest Summerlands Hospital ban comes hours after the right-wing social media platform Parler - which styles itself as a \"free speech\" alternative to mainstream platforms - said West could no longer buy the firm. Jessica Powell died in August 2020 days after she suffered an injury while she was an inpatient at Twitter in Yeovil.",
+        "repairs": [
+            {
+                "entity": "West",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Summerlands Hospital",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "ORG",
+                "confidence": 0.6608002260346258,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "One primary school teacher from west Wales turned her passion for giving old items new life into a side hustle. Nasa will launch its Psyche spacecraft in summer 2023 to explore an asteroid called 16 Psyche, thought to be the remnant of a planet created in the earliest days of the solar system.",
+        "mutated_sentence": "One primary school teacher from 16 Psyche turned her passion for giving old items new life into a side hustle. Nasa will launch its Psyche spacecraft in summer 2023 to explore an asteroid called west Wales, thought to be the remnant of a planet created in the earliest days of the solar system.",
+        "repairs": [
+            {
+                "entity": "16 Psyche",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6264566886474878,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "16",
+                "original_tag": "O",
+                "mutated_tag": "CARDINAL",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Despite the commercial drawbacks of vaccinating poultry, governments in France and the Netherlands have begun trials of vaccines to try and bring the bird flu epidemic under control. Come January, Perseverance will have completed its basic mission in Jezero. But with all robotic systems healthy and so much science still in prospect, Nasa officials have already agreed to fund extended operations.",
+        "mutated_sentence": "Despite the commercial drawbacks of vaccinating poultry, governments in France and the Jezero have begun trials of vaccines to try and bring the bird flu epidemic under control. Come January, Perseverance will have completed its basic mission in Netherlands. But with all robotic systems healthy and so much science still in prospect, Nasa officials have already agreed to fund extended operations.",
+        "repairs": [
+            {
+                "entity": "Jezero",
+                "original_tag": "GPE",
+                "mutated_tag": "LOC",
+                "corrected_tag": "DATE",
+                "confidence": 0.66287097983199,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They were identified by scientists at the University of Alberta who looked at a 70g fragment from the 15-tonne meteorite, which is said to be the ninth-biggest to reach our planet and is about 90% iron and nickel. The reserve, which is owned by the Department of the Environment, Food and Agriculture and Manx National Heritage, forms part of a wider Area of Special Scientific Interest (ASSI) established in 1996.",
+        "mutated_sentence": "They were identified by scientists at Manx National Heritage who looked at a 70g fragment from the 15-tonne meteorite, which is said to be the ninth-biggest to reach our planet and is about 90% iron and nickel. The reserve, which is owned by the Department of the Environment, Food and Agriculture and the University of Alberta, forms part of a wider Area of Special Scientific Interest (ASSI) established in 1996.",
+        "repairs": [
+            {
+                "entity": "the Department of the Environment",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Food and Agriculture",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Department of the Environment, Food and Agriculture",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 0.6745356810780855,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A toddler died in Sonoma County north of San Francisco when a tree fell on his home on Wednesday evening. Bute Energy wants to build about 14 turbines on hills above Senghenydd and Llanbradach in Caerphilly and Cilfynydd and Pontypridd in Rhondda Cynon Taf.",
+        "mutated_sentence": "A toddler died in Llanbradach north of San Francisco when a tree fell on his home on Wednesday evening. Bute Energy wants to build about 14 turbines on hills above Senghenydd and Sonoma County in Caerphilly and Cilfynydd and Pontypridd in Rhondda Cynon Taf.",
+        "repairs": [
+            {
+                "entity": "Wednesday",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "evening",
+                "original_tag": "TIME",
+                "mutated_tag": "O",
+                "corrected_tag": "TIME",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Wednesday evening",
+                "original_tag": "O",
+                "mutated_tag": "TIME",
+                "corrected_tag": "LOC",
+                "confidence": 0.33846133594527317,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Under its Covid-specific policy, Twitter operated a \"five-strike system\" for accounts posting \"demonstrably false or misleading\" content that may \"lead to significant risk of harm\" - such as exposure to Covid or damage to public health systems. On a video posted on the platform Rumble, Jones said he did not care about being on Twitter, reports news website Axios.",
+        "mutated_sentence": "Under its Covid-specific policy, Axios operated a \"five-strike system\" for accounts posting \"demonstrably false or misleading\" content that may \"lead to significant risk of harm\" - such as exposure to Covid or damage to public health systems. On a video posted on the platform Rumble, Jones said he did not care about being on Twitter, reports news website Twitter.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "ORG",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the 5G and 6G Innovation Centre, at Surrey University, I tried out a demo using a basic robot. The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "At the 5G and 6G Innovation Centre, at YouTube, I tried out a demo using a basic robot. The operation ran across many internet services, including Twitter, Surrey University, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "repairs": [
+            {
+                "entity": "the 5G and 6G Innovation Centre",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 0.6675896994266609,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Travellers have faced Hogmanay disruption on Scotland's railways after Friday's floods. Met Éireann has said that 2022 looks set to be the warmest year on record for Ireland.",
+        "mutated_sentence": "Travellers have faced Ireland disruption on Scotland's railways after Friday's floods. Met Éireann has said that 2022 looks set to be the warmest year on record for Hogmanay.",
+        "repairs": [
+            {
+                "entity": "year",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ex-Wales rugby captain Ryan Jones was also honoured but the 41-year-old revealed a month later he had been diagnosed with early onset dementia. Clare was chosen along with three other women - Mairi Hilton, Lucy Bruzzone and Natalie Corbett - to look after the remote harbour of Port Lockroy, some 911 miles south of the Falkland Islands.",
+        "mutated_sentence": "the Falkland Islands rugby captain Ryan Jones was also honoured but the 41-year-old revealed a month later he had been diagnosed with early onset dementia. Clare was chosen along with three other women - Mairi Hilton, Lucy Bruzzone and Natalie Corbett - to look after the remote harbour of Port Lockroy, some 911 miles south of Ex-Wales.",
+        "repairs": [
+            {
+                "entity": "the Falkland Islands",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Falkland Islands",
+                "original_tag": "O",
+                "mutated_tag": "GPE",
+                "corrected_tag": "GPE",
+                "confidence": 0.6727861196292547,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Belfast-based broadband company Fibrus has won its first major contract in Great Britain. Internet safety campaigner Mr Russell told BBC Radio 4's Today programme: \"I think the most harmful content to [Molly] was content that could be described as legal but harmful.",
+        "mutated_sentence": "The Belfast-based broadband company BBC Radio 4's has won its first major contract in Great Britain. Internet safety campaigner Mr Russell told Fibrus Today programme: \"I think the most harmful content to [Molly] was content that could be described as legal but harmful.",
+        "repairs": [
+            {
+                "entity": "Fibrus",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Today",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6722215428790284,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "BBC Radio 4",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6532465333548237,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Fibrus Today",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Chinese-owned company was ordered by UK ministers to sell its 86% stake in the Newport site, due to national security concerns. Four fatalities occurred in Canada when a bus rolled over on an icy road near the town of Merritt, in the western province of British Columbia.",
+        "mutated_sentence": "The Chinese-owned company was ordered by UK ministers to sell its 86% stake in the Merritt site, due to national security concerns. Four fatalities occurred in Canada when a bus rolled over on an icy road near the town of Newport, in the western province of British Columbia.",
+        "repairs": [
+            {
+                "entity": "Merritt",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the 5G and 6G Innovation Centre, at Surrey University, I tried out a demo using a basic robot. The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "At the 5G and 6G Innovation Centre, at Odnoklassniki, I tried out a demo using a basic robot. The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Surrey University, according to Meta.",
+        "repairs": [
+            {
+                "entity": "the 5G and 6G Innovation Centre",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 0.6675896994266609,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dr FitzGerald says the China of today seems more \"dictatorially minded\" and \"assertive\", but he still thinks there are lessons in what transpired 50 years ago. He said he was also delighted the Idle Valley Nature Reserve, near Retford, had now become an thriving and well-established natural habitat, where beavers had been successfully reintroduced.",
+        "mutated_sentence": "Dr FitzGerald says the Retford of today seems more \"dictatorially minded\" and \"assertive\", but he still thinks there are lessons in what transpired 50 years ago. He said he was also delighted the Idle Valley Nature Reserve, near China, had now become an thriving and well-established natural habitat, where beavers had been successfully reintroduced.",
+        "repairs": [
+            {
+                "entity": "Retford",
+                "original_tag": "GPE",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They may not be the ones now being deposited at the location known as Three Forks, in Mars' Jezero Crater. Indeed, it's more likely to be the rocks Perseverance will be carrying at that time, when the robot might be driving way beyond the crater rim. It was carrying two French-built, high-resolution Earth imaging spacecraft.",
+        "mutated_sentence": "They may not be the ones now being deposited at the location known as Earth, in Mars' Jezero Crater. Indeed, it's more likely to be the rocks Perseverance will be carrying at that time, when the robot might be driving way beyond the crater rim. It was carrying two French-built, high-resolution Three Forks imaging spacecraft.",
+        "repairs": [
+            {
+                "entity": "Three Forks",
+                "original_tag": "LOC",
+                "mutated_tag": "PRODUCT",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Norrie believes securing Unesco status could offer new opportunities in sustainable tourism and branding of local produce, while at the same time highlighting the environmental value of the peatland. However, one of the dolphins, believed the be the juvenile male, was found dead by HM Coastguard earlier.",
+        "mutated_sentence": "Norrie believes securing HM Coastguard status could offer new opportunities in sustainable tourism and branding of local produce, while at the same time highlighting the environmental value of the peatland. However, one of the dolphins, believed the be the juvenile male, was found dead by Unesco earlier.",
+        "repairs": [
+            {
+                "entity": "HM Coastguard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6649801647227347,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On Wednesday, staff association member and principal engineer Denis Knight, from Newport, told BBC Wales: \"No-one expected this decision. Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Florida's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "mutated_sentence": "On Wednesday, staff association member and principal engineer Denis Knight, from Florida, told BBC Wales: \"No-one expected this decision. Storm-related deaths were also reported in Vermont, Ohio, Missouri, Wisconsin, Kansas, and Colorado. South Newport's temperatures dropped so low, that iguanas froze and fell from trees.",
+        "repairs": [
+            {
+                "entity": "Newport",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The West Coast Mainline is closed between Carlisle and Scotland with a landslip causing damage to the track. Dumfries and Galloway Council closed The Whitesands in Dumfries to traffic from 10:00, before the River Nith burst its banks in the afternoon.",
+        "mutated_sentence": "The Whitesands is closed between Carlisle and Scotland with a landslip causing damage to the track. Dumfries and Galloway Council closed The West Coast Mainline in Dumfries to traffic from 10:00, before the River Nith burst its banks in the afternoon.",
+        "repairs": [
+            {
+                "entity": "Dumfries and Galloway Council",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Whitesands",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 0.657875697374108,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Whitesands",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Galloway Council",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 0.6491526107035083,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On Twitter's \"Partnerships that drive industry-wide change\" webpage three advertising organisations are listed as major partners. Dippy the Diplodocus will take up residence at Coventry's Herbert Art Gallery and Museum from 20 February.",
+        "mutated_sentence": "On Herbert Art Gallery and Museum's \"Partnerships that drive industry-wide change\" webpage three advertising organisations are listed as major partners. Dippy the Diplodocus will take up residence at Coventry's Twitter from 20 February.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Herbert Art Gallery and Museum",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Dippy",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On Wednesday, South East Cambridgeshire's Conservative MP Lucy Frazer said she \"cannot support the GCP proposals\". It has also stopped working with Russia on its ExoMars mission to send a rover to Mars, delaying the launch until 2028.",
+        "mutated_sentence": "On Wednesday, Russia Conservative MP Lucy Frazer said she \"cannot support the GCP proposals\". It has also stopped working with South East Cambridgeshire's on its ExoMars mission to send a rover to Mars, delaying the launch until 2028.",
+        "repairs": [
+            {
+                "entity": "ExoMars",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 0.6698066861123397,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Balenciaga started posting the images to its social media feeds on 16 November. Sedgemoor District Council and the Environment Agency (EA) jointly put forward proposals in December 2019 for the new barrier, with final approval granted in January 2022.",
+        "mutated_sentence": "the Environment Agency started posting the images to its social media feeds on 16 November. Sedgemoor District Council and Balenciaga (EA) jointly put forward proposals in December 2019 for the new barrier, with final approval granted in January 2022.",
+        "repairs": [
+            {
+                "entity": "Balenciaga",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6399916744414638,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "EA",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Balenciaga (EA",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The grey seals have landed at Angel Bay at Llandudno, Conwy county, where they are expected to stay until spring. There have now been more fatalities in Erie County in the last few days than during the infamous Buffalo blizzard of 1977. Twenty-nine people died in that storm, according to the National Weather Service.",
+        "mutated_sentence": "The grey seals have landed at Angel Bay at Llandudno, Buffalo, where they are expected to stay until spring. There have now been more fatalities in Erie County in the last few days than during the infamous Conwy county blizzard of 1977. Twenty-nine people died in that storm, according to the National Weather Service.",
+        "repairs": [
+            {
+                "entity": "Conwy county",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Conwy",
+                "original_tag": "O",
+                "mutated_tag": "GPE",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was equally moving when Sir Paul played I Got A Feeling as a duet with John Lennon, whose vocals had been isolated for Peter Jackson's Get Back documentary. Mr Musk had previously said no decision about banned accounts would be made until a moderation board had been appointed.",
+        "mutated_sentence": "It was equally moving when Sir Paul played I Got A Feeling as a duet with John Lennon, whose vocals had been isolated for Musk Get Back documentary. Mr Peter Jackson's had previously said no decision about banned accounts would be made until a moderation board had been appointed.",
+        "repairs": [
+            {
+                "entity": "Get Back",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6684342893792072,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Musk",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Musk Get Back",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Peter Jackson",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dr Mark McCarthy, head of the Met Office National Climate Information Centre, said: \"Although an arbitrary number, the UK surpassing an annual average temperature of 10C is a notable moment in our climatological history. Leia, a five-year-old Amur leopard, was transported to The Big Cat Sanctuary in Smarden on 15 December.",
+        "mutated_sentence": "Dr Mark McCarthy, head of The Big Cat Sanctuary, said: \"Although an arbitrary number, the UK surpassing an annual average temperature of 10C is a notable moment in our climatological history. Leia, a five-year-old Amur leopard, was transported to the Met Office National Climate Information Centre in Smarden on 15 December.",
+        "repairs": [
+            {
+                "entity": "Amur",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Celesta Byrne swiftly put such questions to rest: \"No, we're just friends, like people who live next door. Growing the number of Twitter users to a billion is one of Mr Musk's key goals.",
+        "mutated_sentence": "Musk swiftly put such questions to rest: \"No, we're just friends, like people who live next door. Growing the number of Twitter users to a billion is one of Mr Celesta Byrne's key goals.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "That equates to three Covid deaths in every million in China, compared with 3,000 per million in the US and 2,400 per million in the UK, although direct comparisons between countries are difficult. The pilot project started with four of the cars and two charging stations in Kigali.",
+        "mutated_sentence": "That equates to three Covid deaths in every million in Kigali, compared with 3,000 per million in the US and 2,400 per million in the UK, although direct comparisons between countries are difficult. The pilot project started with four of the cars and two charging stations in China.",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "O",
+                "mutated_tag": "NORP",
+                "corrected_tag": "CARDINAL",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, India, and China, which has resulted in the draining of precious foreign exchange, non-creation of job opportunities, and suffering the vagaries of supply and demand,\" says Sinhue Noronha, founder and chief executive of Africure Pharmaceuticals. Alex Saunders, head of the company's wastewater network, said: \"No-one likes a nasty surprise over the festive season and our sewers are no different.",
+        "mutated_sentence": "\"Africa over the years has been dependent on imports of medication from Europe, India, and China, which has resulted in the draining of precious foreign exchange, non-creation of job opportunities, and suffering the vagaries of supply and demand,\" says Alex Saunders, founder and chief executive of Africure Pharmaceuticals. Sinhue Noronha, head of the company's wastewater network, said: \"No-one likes a nasty surprise over the festive season and our sewers are no different.",
+        "repairs": [
+            {
+                "entity": "years",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 0.6739792188414259,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the festive season",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6738034303686133,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the years",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "LOC",
+                "confidence": 0.6528053023481885,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ian Russell, Molly's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\". Some just crave company and attention, says cat biologist and behaviourist Roger Tabor, but \"most cats don't do this\" and \"these are the oddballs\".",
+        "mutated_sentence": "Ian Russell, Roger Tabor's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\". Some just crave company and attention, says cat biologist and behaviourist Molly, but \"most cats don't do this\" and \"these are the oddballs\".",
+        "repairs": [
+            {
+                "entity": "Roger Tabor",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "first",
+                "original_tag": "O",
+                "mutated_tag": "ORDINAL",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Now, there are about 300 million - which, at the current rate, is the number of followers Mr Musk himself will have in two years' time, according to Social Blade projections. Speaking about Henry, Lupin and Garfield, Mr Tabor says: \"Most cats don't do these things. These are the oddballs of the cat world.\"",
+        "mutated_sentence": "Now, there are about 300 million - which, at the current rate, is the number of followers Mr Henry himself will have in two years' time, according to Social Blade projections. Speaking about Musk, Lupin and Garfield, Mr Tabor says: \"Most cats don't do these things. These are the oddballs of the cat world.\"",
+        "repairs": []
+    },
+    {
+        "original_sentence": "Wagner started out as a shadowy Russian mercenary group and in 2014 went to eastern Ukraine to help Russian proxy forces oust the Ukrainian military. In 2018, the IMO, the United Nations body which regulates the industry, agreed to cut greenhouse gas emissions by 50% by 2050.",
+        "mutated_sentence": "United Nations started out as a shadowy Russian mercenary group and in 2014 went to eastern Ukraine to help Russian proxy forces oust the Ukrainian military. In 2018, the IMO, the Wagner body which regulates the industry, agreed to cut greenhouse gas emissions by 50% by 2050.",
+        "repairs": [
+            {
+                "entity": "Wagner",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A post-Brexit farm-subsidy scheme designed to reward landowners in England for environmental work is going forward after a controversial review. At a news conference on Tuesday, officials in New York's Erie County - which includes Buffalo - said that the death toll is expected to rise as search and rescue operations continue. The 28 confirmed dead were all in Buffalo.",
+        "mutated_sentence": "A post-Brexit farm-subsidy scheme designed to reward landowners in Buffalo for environmental work is going forward after a controversial review. At a news conference on Tuesday, officials in New York's Erie County - which includes Buffalo - said that the death toll is expected to rise as search and rescue operations continue. The 28 confirmed dead were all in England.",
+        "repairs": [
+            {
+                "entity": "post-Brexit",
+                "original_tag": "EVENT",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In picking a fight with Apple, Mr Musk is wading into a wider debate over the clout that Apple wields over online activity via its app store, which is the way that iPhone owners download games and other apps. We visited the site of a leak repair with Essex and Suffolk Water, which is owned by Northumbria Water. At a suburban site, a team was carefully excavating - navigating the overlying sewer pipe, gas supply and electricity cables to locate an underground leak.",
+        "mutated_sentence": "In picking a fight with Essex and Suffolk Water, Mr Musk is wading into a wider debate over the clout that Apple wields over online activity via its app store, which is the way that iPhone owners download games and other apps. We visited the site of a leak repair with Apple, which is owned by Northumbria Water. At a suburban site, a team was carefully excavating - navigating the overlying sewer pipe, gas supply and electricity cables to locate an underground leak.",
+        "repairs": [
+            {
+                "entity": "Essex and Suffolk Water",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Essex",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Suffolk Water",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "TikTok is hosting dozens of videos that glorify violence by Russia's Wagner Group of mercenaries and they have been viewed more than a billion times, according to a new report. Det Supt Helen Rance, from the Met's Cyber Crime unit, said victims would not have known the phone call was coming from iSpoof.",
+        "mutated_sentence": "TikTok is hosting dozens of videos that glorify violence by Russia's Met of mercenaries and they have been viewed more than a billion times, according to a new report. Det Supt Helen Rance, from the Wagner Group's Cyber Crime unit, said victims would not have known the phone call was coming from iSpoof.",
+        "repairs": [
+            {
+                "entity": "Wagner Group",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6682303676788199,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The £108m scheme will upgrade broadband for more than 60,000 hard-to-reach homes and businesses across Cumbria in north-west England. The market for receiving hydrogen and using it in heavy transport and in industry is being fast prepared on continental Europe. The Scottish government talks up the prospects of exporting to Germany, which fits with the political agenda of integrating into European energy markets.",
+        "mutated_sentence": "The £108m scheme will upgrade broadband for more than 60,000 hard-to-reach homes and businesses across Cumbria in north-west Germany. The market for receiving hydrogen and using it in heavy transport and in industry is being fast prepared on continental Europe. The Scottish government talks up the prospects of exporting to England, which fits with the political agenda of integrating into European energy markets.",
+        "repairs": [
+            {
+                "entity": "£",
+                "original_tag": "MONEY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Starship, which plans to dress the six-wheeled robots as reindeer over the festive season, first launched the scheme in Milton Keynes and has been steadily expanding ever since. In Switzerland, temperatures hit 20C, and the warm weather has affected ski resorts across the Alps which have seen a snow shortage.",
+        "mutated_sentence": "Starship, which plans to dress the six-wheeled robots as reindeer over the festive season, first launched the scheme in Switzerland and has been steadily expanding ever since. In Milton Keynes, temperatures hit 20C, and the warm weather has affected ski resorts across the Alps which have seen a snow shortage.",
+        "repairs": [
+            {
+                "entity": "first",
+                "original_tag": "O",
+                "mutated_tag": "ORDINAL",
+                "corrected_tag": "O",
+                "confidence": 0.6552519026000789,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ian Russell, Molly's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\". Some just crave company and attention, says cat biologist and behaviourist Roger Tabor, but \"most cats don't do this\" and \"these are the oddballs\".",
+        "mutated_sentence": "Roger Tabor, Molly's father, compared the way social media companies currently operate to \"putting cars on the road without testing them on crash dummies first\". Some just crave company and attention, says cat biologist and behaviourist Ian Russell, but \"most cats don't do this\" and \"these are the oddballs\".",
+        "repairs": [
+            {
+                "entity": "first",
+                "original_tag": "O",
+                "mutated_tag": "ORDINAL",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rather than it simply being a place where people can de facto invest in Truth Social, people have been purchasing DWA shares as a way of investing in the former president himself. Edinburgh Zoo's giant pandas could leave the capital as early as the end of October this year, officials have confirmed.",
+        "mutated_sentence": "Rather than it simply being a place where people can de facto invest in Edinburgh Zoo's, people have been purchasing DWA shares as a way of investing in the former president himself. Truth Social giant pandas could leave the capital as early as the end of October this year, officials have confirmed.",
+        "repairs": [
+            {
+                "entity": "Truth Social",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In March this year, the Taliban government did not deliver on its commitment to open secondary schools for girls. The sale of Nexperia's site in Newport could take \"years\" according to Wales' first minister.",
+        "mutated_sentence": "In March this year, the Nexperia government did not deliver on its commitment to open secondary schools for girls. The sale of Taliban's site in Newport could take \"years\" according to Wales' first minister.",
+        "repairs": [
+            {
+                "entity": "first",
+                "original_tag": "O",
+                "mutated_tag": "ORDINAL",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Clients arrive at their destinations, find a hotel has not been paid for, and are unable to get Rafael Bessa to pay them back. As lunar module pilot for Apollo 7, he was accompanied by Navy Captain Walter Schirra and Air Force Major Donn Eisele.",
+        "mutated_sentence": "Clients arrive at their destinations, find a hotel has not been paid for, and are unable to get Air Force to pay them back. As lunar module pilot for Apollo 7, he was accompanied by Navy Captain Walter Schirra and Rafael Bessa Major Donn Eisele.",
+        "repairs": [
+            {
+                "entity": "Rafael Bessa",
+                "original_tag": "ORG",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Skies are forecast to be clearest in the south-west of England and the south and west of Wales. But in the north of England and Scotland clouds could obscure the view. Attenborough now draws in some 500,000 visitors annually while being a habitat for more than 160 species of birds.",
+        "mutated_sentence": "Skies are forecast to be clearest in the south-west of England and the south and west of Wales. But in the north of Attenborough and Scotland clouds could obscure the view. England now draws in some 500,000 visitors annually while being a habitat for more than 160 species of birds.",
+        "repairs": [
+            {
+                "entity": "annually",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "There was also a return to form for our rugby players who clinched a first Welsh win in South Africa while Gareth Bale confirmed a move to the United States. State Governor Kathy Hochul, a native of Buffalo, described the storm as \"the blizzard of the century\".",
+        "mutated_sentence": "There was also a return to form for our rugby players who clinched a first Welsh win in South Africa while Gareth Bale confirmed a move to Buffalo. State Governor Kathy Hochul, a native of the United States, described the storm as \"the blizzard of the century\".",
+        "repairs": [
+            {
+                "entity": "Buffalo",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "CCS Insight chief analyst Ben Wood agrees. The US Department of Transportation (DOT) said it was concerned by Southwest's \"unacceptable rate of cancellations and delays\", and Mr Buttigieg pledged on Tuesday to hold the airline accountable.",
+        "mutated_sentence": "The US Department of Transportation chief analyst Ben Wood agrees. CCS Insight (DOT) said it was concerned by Southwest's \"unacceptable rate of cancellations and delays\", and Mr Buttigieg pledged on Tuesday to hold the airline accountable.",
+        "repairs": [
+            {
+                "entity": "The US Department of Transportation",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "US",
+                "original_tag": "O",
+                "mutated_tag": "GPE",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Department of Transportation",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "WWF Scotland and RSPB Scotland are among those watching the world heritage bid closely. The westbound coach had been travelling from Kelowna to Vancouver when it crashed on the Okanagan Connector, part of Highway 97, shortly after 18:00 (02:00 GMT Sunday), Global News reports.",
+        "mutated_sentence": "WWF Scotland and Global News are among those watching the world heritage bid closely. The westbound coach had been travelling from Kelowna to Vancouver when it crashed on the Okanagan Connector, part of Highway 97, shortly after 18:00 (02:00 GMT Sunday), RSPB Scotland reports.",
+        "repairs": [
+            {
+                "entity": "RSPB Scotland",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "02:00 GMT",
+                "original_tag": "TIME",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6682104022485521,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sunday",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "TIME",
+                "confidence": 0.6706860773196202,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "02:00 GMT Sunday",
+                "original_tag": "O",
+                "mutated_tag": "TIME",
+                "corrected_tag": "O",
+                "confidence": 0.6715225084646106,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "RSPB",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The local Labour MP, Newport West's Ruth Jones, is backing moves by Nexperia to appeal. The other successful projects include sustainable fuel plants in Teesside, Immingham and Ellesmere Port, which will cover domestic and commercial waste.",
+        "mutated_sentence": "The local Labour MP, Ellesmere Port Ruth Jones, is backing moves by Nexperia to appeal. The other successful projects include sustainable fuel plants in Teesside, Immingham and Newport West's, which will cover domestic and commercial waste.",
+        "repairs": [
+            {
+                "entity": "Newport West",
+                "original_tag": "O",
+                "mutated_tag": "GPE",
+                "corrected_tag": "ORG",
+                "confidence": 0.3403498900891927,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Digital Secretary Michelle Donelan said satellites could \"be the answer\" to getting isolated places connected and that it was \"crucial\" to the government's Levelling Up plan. Tempers flared during a north Wales football derby that saw seven red cards during a mass brawl and First Minister Mark Drakeford also lost his cool during a Senedd debate.",
+        "mutated_sentence": "Digital Secretary Mark Drakeford said satellites could \"be the answer\" to getting isolated places connected and that it was \"crucial\" to the government's Levelling Up plan. Tempers flared during a north Wales football derby that saw seven red cards during a mass brawl and First Minister Michelle Donelan also lost his cool during a Senedd debate.",
+        "repairs": [
+            {
+                "entity": "First",
+                "original_tag": "ORDINAL",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6641310826194563,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Volunteers from Queen's University Belfast are supporting the project, growing native saplings at the Lennoxvale Nursery in south Belfast, with the help of the Sans Souci Residents' Committee. Cheltenham Borough Council's leader Tim Harman said Swindon Road depot is a valuable facility, and should not have its opening hours reduced.",
+        "mutated_sentence": "Volunteers from Cheltenham Borough Council's are supporting the project, growing native saplings at the Lennoxvale Nursery in south Belfast, with the help of the Sans Souci Residents' Committee. Queen's University Belfast leader Tim Harman said Swindon Road depot is a valuable facility, and should not have its opening hours reduced.",
+        "repairs": [
+            {
+                "entity": "Swindon Road",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Swindon Road depot",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 0.684291334533077,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "TikTok is hosting dozens of videos that glorify violence by Russia's Wagner Group of mercenaries and they have been viewed more than a billion times, according to a new report. Det Supt Helen Rance, from the Met's Cyber Crime unit, said victims would not have known the phone call was coming from iSpoof.",
+        "mutated_sentence": "TikTok is hosting dozens of videos that glorify violence by Russia's iSpoof of mercenaries and they have been viewed more than a billion times, according to a new report. Det Supt Helen Rance, from the Met's Cyber Crime unit, said victims would not have known the phone call was coming from Wagner Group.",
+        "repairs": [
+            {
+                "entity": "iSpoof",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 0.6718652827839404,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2019, Leviev was convicted of four charges of fraud - unrelated to Cecilie's allegations - and sentenced to 15 months in prison, but he was released after serving only five months. One Southwest passenger, Talia Jones, told BBC US partner CBS that she was \"beyond frustrated and hurt\" after travel disruptions meant she was unable to see her father for the holidays.",
+        "mutated_sentence": "In 2019, Leviev was convicted of four charges of fraud - unrelated to Talia Jones's allegations - and sentenced to 15 months in prison, but he was released after serving only five months. One Southwest passenger, Cecilie, told BBC US partner CBS that she was \"beyond frustrated and hurt\" after travel disruptions meant she was unable to see her father for the holidays.",
+        "repairs": [
+            {
+                "entity": "Southwest",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Talia Jones",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6537381314529817,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

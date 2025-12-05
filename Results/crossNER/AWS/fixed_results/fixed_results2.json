@@ -1,0 +1,998 @@
+[
+    {
+        "original_sentence": "Hunt won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in The Sessions (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting Actress. He won the J. Lawrence Smith Medal from the National Academy of Sciences in 1960, the Meteoritical Society Frederick C. Leonard Memorial Medal in 1968, the Kepler Gold Medal from the American Association for the Advancement of Science & Meteoritical Society in 1972, the Gold Medal of the Royal Astronomical Society in 1975 and the Bruce Medal in 1976.",
+        "mutated_sentence": "Hunt won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in Frederick C. Leonard Memorial Medal (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting Actress. He won the J. Lawrence Smith Medal from the National Academy of Sciences in 1960, the Meteoritical Society The Sessions in 1968, the Kepler Gold Medal from the American Association for the Advancement of Science & Meteoritical Society in 1972, the Gold Medal of the Royal Astronomical Society in 1975 and the Bruce Medal in 1976.",
+        "repairs": [
+            {
+                "entity": "Meteoritical",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Society",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6922183736172345,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Sessions",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 2013 Italian general election the UdC was part of With Monti for Italy, the coalition formed around Mario Monti's Civic Choice, and obtained a mere 1.8% of the vote, down from 5.6% in 2008 Italian general election and 6.8% in 2006 Italian general election. Mars has four known co-orbital asteroids (5261 Eureka,, all at the Lagrangian points), and Jupiter has many (an estimated one million greater than 1 km in diameter, the Jovian trojans); there are also other small co-orbital moons in the Saturnian system: Telesto and Calypso with Tethys, and Helene and Polydeuces with Dione.",
+        "mutated_sentence": "In the 2013 Italian general election the UdC was part of With Monti for Italy, the coalition formed around Helene's Civic Choice, and obtained a mere 1.8% of the vote, down from 5.6% in 2008 Italian general election and 6.8% in 2006 Italian general election. Mars has four known co-orbital asteroids (5261 Eureka,, all at the Lagrangian points), and Jupiter has many (an estimated one million greater than 1 km in diameter, the Jovian trojans); there are also other small co-orbital moons in the Saturnian system: Telesto and Calypso with Tethys, and Mario Monti and Polydeuces with Dione.",
+        "repairs": [
+            {
+                "entity": "Dione",
+                "original_tag": "OTHER",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Mario Monti",
+                "original_tag": "PERSON",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.678770754777171,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "2008 Italian general election",
+                "original_tag": "O",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Civic Choice",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6739616701171754,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Based on the songs of the Spice Girls, the show began previews at the Piccadilly Theatre in the West End on 27 November 2012 and had its Press Night on 11 December 2012 and features some of the group's biggest hit songs including Wannabe, Spice Up Your Life and the eponymous Viva Forever. Some of the most pronounced effects of Hellenization can be seen in Afghanistan and India, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, Pakistan, and Tajikistan) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "mutated_sentence": "Based on the songs of the Spice Girls, the show began previews at the India in the West End on 27 November 2012 and had its Press Night on 11 December 2012 and features some of the group's biggest hit songs including Wannabe, Spice Up Your Life and the eponymous Viva Forever. Some of the most pronounced effects of Hellenization can be seen in Afghanistan and Piccadilly Theatre, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, Pakistan, and Tajikistan) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "repairs": [
+            {
+                "entity": "Hellenization",
+                "original_tag": "EVENT",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "OTHER",
+                "confidence": 0.3776745969242563,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During campaigning for the 1978 French legislative election, in his Verdun-sur-le-Doubs speech, President Giscard d'Estaing noted that the political leanings of the French people were divided among four groups: the Communists (French Communist Party), the Socialists (PS), the Neo-Gaullists (Rally for the Republic) and his own followers. Previously, Christensen was the Founding Chairman of European Robotics Research Network (EURON) and an IEEE Robotics and Automation Society Distinguished Lecturer in Robotics.",
+        "mutated_sentence": "During campaigning for the 1978 French legislative election, in his Verdun-sur-le-Doubs speech, Christensen Giscard d'Estaing noted that the political leanings of the French people were divided among four groups: the Communists (French Communist Party), the Socialists (PS), the Neo-Gaullists (Rally for the Republic) and his own followers. Previously, President was the Founding Chairman of European Robotics Research Network (EURON) and an IEEE Robotics and Automation Society Distinguished Lecturer in Robotics.",
+        "repairs": [
+            {
+                "entity": "Christensen",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6136190824281412,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Verdun-sur-le-Doubs",
+                "original_tag": "O",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wilson has been part of the international conservation movement, as a consultant to Columbia University's Earth Institute, as a director of the American Museum of Natural History, Conservation International, The Nature Conservancy and the World Wildlife Fund. The album was produced by Mike Chapman, also known for his work with The Sweet, Mud, Suzi Quatro, Blondie, Pat Benatar and The Knack.",
+        "mutated_sentence": "Wilson has been part of the international conservation movement, as a consultant to Columbia University's The Knack, as a director of the American Museum of Natural History, Conservation International, The Nature Conservancy and the World Wildlife Fund. The album was produced by Mike Chapman, also known for his work with The Sweet, Mud, Suzi Quatro, Blondie, Pat Benatar and Earth Institute.",
+        "repairs": [
+            {
+                "entity": "Mud",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Pat Benatar",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6672376854508597,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Suzi Quatro",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "The Sweet",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Columbia University",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Barry Lyndon won four Oscars at the 48th Academy Awards: Academy Award for Best Original Score, Academy Award for Best Costume Design, Academy Award for Best Production Design and Academy Award for Best Cinematography. Further articles appeared on neuroethics in Nature Neuroscience, Neuron, and Brain and Cognition.",
+        "mutated_sentence": "Barry Lyndon won four Oscars at the 48th Academy Awards: Academy Award for Best Original Score, Academy Award for Best Costume Design, Neuron for Best Production Design and Academy Award for Best Cinematography. Further articles appeared on neuroethics in Nature Neuroscience, Academy Award, and Brain and Cognition.",
+        "repairs": [
+            {
+                "entity": "48th",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Brain and Cognition",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "House of Pain abruptly broke up in 1996 after the release of their third album, Truth Crushed to Earth Shall Rise Again, which featured guest appearances by rappers Sadat X of Brand Nubian, Guru of Gang Starr, Divine Styler and Cokni O 'Dire of the Scheme Team. Contemporary automata are represented by the works of Cabaret Mechanical Theatre in the United Kingdom, Dug North and Chomick + Meder, Arthur Ganson, Joe Jones in the United States, Le Défenseur du Temps by French artist Jacques Monestier, and François Junod in Switzerland.",
+        "mutated_sentence": "House of Pain abruptly broke up in 1996 after the release of their third album, Truth Crushed to Earth Shall Rise Again, which featured guest appearances by rappers Sadat X of Brand Nubian, Guru of Gang Starr, Divine Styler and Jacques Monestier of the Scheme Team. Contemporary automata are represented by the works of Cabaret Mechanical Theatre in the United Kingdom, Dug North and Chomick + Meder, Arthur Ganson, Joe Jones in the United States, Le Défenseur du Temps by French artist Cokni O 'Dire, and François Junod in Switzerland.",
+        "repairs": [
+            {
+                "entity": "Dug North and Chomick + Meder",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Deana Carter, LeAnn Rimes, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. Gorelick has served on the boards of the John D. and Catherine T. MacArthur Foundation, the Urban Institute, the Washington Legal Clinic for the Homeless and the Carnegie Endowment for International Peace.",
+        "mutated_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Gorelick, LeAnn Rimes, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. Deana Carter has served on the boards of the John D. and Catherine T. MacArthur Foundation, the Urban Institute, the Washington Legal Clinic for the Homeless and the Carnegie Endowment for International Peace.",
+        "repairs": [
+            {
+                "entity": "John D.",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shalala has been elected to the Council on Foreign Relations; National Academy of Education; the National Academy of Public Administration; the American Academy of Arts and Sciences; the American Philosophical Society; the National Academy of Social Insurance; the American Academy of Political and Social Science; and the National Academy of Medicine. Albarn teamed up with Robert 3D Del Naja of Massive Attack and worked with Stop the War Coalition, CND and the Muslim Association of Britain to organise campaigns to raise awareness of the potential dangers of the UK's involvement in the war.",
+        "mutated_sentence": "Shalala has been elected to the Stop the War Coalition; National Academy of Education; the National Academy of Public Administration; the American Academy of Arts and Sciences; the American Philosophical Society; the National Academy of Social Insurance; the American Academy of Political and Social Science; and the National Academy of Medicine. Albarn teamed up with Robert 3D Del Naja of Massive Attack and worked with Council on Foreign Relations, CND and the Muslim Association of Britain to organise campaigns to raise awareness of the potential dangers of the UK's involvement in the war.",
+        "repairs": [
+            {
+                "entity": "Massive Attack",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He is the recipient of numerous accolades, including a Cannes Film Festival Award for Best Actor and nominations for a Tony Award, an Academy Awards, two Primetime Emmy Awards and five Golden Globe Awards. Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology and Current Protocols in Bioinformatics.",
+        "mutated_sentence": "He is the recipient of numerous accolades, including a Cannes Film Festival Award for Best Genome and nominations for a Tony Award, an Academy Awards, two Primetime Emmy Awards and five Golden Globe Awards. Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Actor Biology and Current Protocols in Bioinformatics.",
+        "repairs": [
+            {
+                "entity": "Actor",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6586309581807351,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Best",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6139153868197361,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Current Protocols in Bioinformatics",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Genome",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Best Genome",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Nucleic Acids Research",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The ruling coalition, consisting of the Social Democratic Party of Croatia (SDP), Croatian People's Party (HNS), Croatian Peasant Party (HSS), Party of Liberal Democrats (Libra) and the Liberal Party (LS) did not contest the elections as a single bloc. Google Translate's neural machine translation system uses a large end-to-end artificial neural network that attempts to perform deep learning, in particular, long short-term memory networks.",
+        "mutated_sentence": "The ruling coalition, consisting of the Social Democratic Party of Croatia (SDP), Croatian People's Party (HNS), Google (HSS), Party of Liberal Democrats (Libra) and the Liberal Party (LS) did not contest the elections as a single bloc. Croatian Peasant Party Translate's neural machine translation system uses a large end-to-end artificial neural network that attempts to perform deep learning, in particular, long short-term memory networks.",
+        "repairs": [
+            {
+                "entity": "Croatian Peasant Party",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Three of his films - Andrei Rublev, Mirror, and Stalker - featured in Sight & Sounds 2012 poll of the 50 greatest films of all time. Crosby gained valuable experience on tour for a year with Whiteman and performing and recording with Bix Beiderbecke, Jack Teagarden, Tommy Dorsey, Jimmy Dorsey, Eddie Lang, and Hoagy Carmichael.",
+        "mutated_sentence": "Three of his films - Jack Teagarden, Mirror, and Stalker - featured in Sight & Sounds 2012 poll of the 50 greatest films of all time. Crosby gained valuable experience on tour for a year with Whiteman and performing and recording with Bix Beiderbecke, Andrei Rublev, Tommy Dorsey, Jimmy Dorsey, Eddie Lang, and Hoagy Carmichael.",
+        "repairs": [
+            {
+                "entity": "& Sounds",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6754744043843903,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mirror",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6674791761632908,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sight",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.337561569232852,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sight &",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.636625465279792,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Sounds",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6920986281751852,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Her most notable accomplishment was the translation of Roman Triptych (Trittico romano (Meditazioni) by Pope John Paul II). He is a key figure in the 17th-century scientific revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonices Mundi, and Epitome Astronomiae Copernicanae.",
+        "mutated_sentence": "Her most notable accomplishment was the translation of Epitome Astronomiae Copernicanae (Trittico romano (Meditazioni) by Pope John Paul II). He is a key figure in the 17th-century scientific revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonices Mundi, and Roman Triptych.",
+        "repairs": [
+            {
+                "entity": "Trittico romano",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.3340447443830357,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean and Owen Teale in 1989; Our Own Kind (Bush, 1991); Deadly Advice (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007). Finn has recorded four solo albums, Try Whistling This (1998), One Nil (2001), Dizzy Heights (2014), and Out of Silence (2017).",
+        "mutated_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean and Owen Teale in 1989; Our Own Kind (Bush, 1991); Dizzy Heights (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007). Finn has recorded four solo albums, Try Whistling This (1998), One Nil (2001), Deadly Advice (2014), and Out of Silence (2017).",
+        "repairs": [
+            {
+                "entity": "Donmar Warehouse",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6646111237907069,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2005, McEntire starred as Nellie Forbush in the Carnegie Hall concert production of the Broadway musical South Pacific with Alec Baldwin as Luther Billis and Brian Stokes Mitchell as Emile de Becque, directed by Walter Bobbie and with an adapted script by David Ives. Hailed as a great innovator of rock and roll by contemporaries such as Little Richard and Johnny Otis, He is also inducted into the St. Louis Walk of Fame, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame, and the Rhythm and Blues Music Hall of Fame.",
+        "mutated_sentence": "In 2005, McEntire starred as Nellie Forbush in the Carnegie Hall concert production of the Broadway musical South Pacific with Alec Baldwin as Luther Billis and Brian Stokes Mitchell as Johnny Otis, directed by Walter Bobbie and with an adapted script by David Ives. Hailed as a great innovator of rock and roll by contemporaries such as Little Richard and Emile de Becque, He is also inducted into the St. Louis Walk of Fame, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame, and the Rhythm and Blues Music Hall of Fame.",
+        "repairs": [
+            {
+                "entity": "Mississippi Musicians Hall of Fame",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6783343262282444,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Rhythm and Blues Music Hall of Fame",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.679639377659785,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She had her first experience in show business when she was crowned Miss Teenager Universal in 1971, and was Miss World / Venezuela in 1975 where she became sixth runner-up in the Miss World pageant won by Puerto Rico's Wilnelia Merced. The 2017 production was nominated for 10 Laurence Olivier Awards and won 2 for Laurence Olivier Award for Best Musical Revival and Laurence Olivier Award for Best Costume Design (by Vicki Mortimer).",
+        "mutated_sentence": "She had her first experience in show business when she was crowned Laurence Olivier Award in 1971, and was Miss World / Venezuela in 1975 where she became sixth runner-up in the Miss World pageant won by Puerto Rico's Wilnelia Merced. The 2017 production was nominated for 10 Laurence Olivier Awards and won 2 for Miss Teenager Universal for Best Musical Revival and Laurence Olivier Award for Best Costume Design (by Vicki Mortimer).",
+        "repairs": [
+            {
+                "entity": "Best Costume",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 0.6559763467885917,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Best Musical Revival",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6613014722677261,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She had her first experience in show business when she was crowned Miss Teenager Universal in 1971, and was Miss World / Venezuela in 1975 where she became sixth runner-up in the Miss World pageant won by Puerto Rico's Wilnelia Merced. The 2017 production was nominated for 10 Laurence Olivier Awards and won 2 for Laurence Olivier Award for Best Musical Revival and Laurence Olivier Award for Best Costume Design (by Vicki Mortimer).",
+        "mutated_sentence": "She had her first experience in show business when she was crowned Costume in 1971, and was Miss World / Venezuela in 1975 where she became sixth runner-up in the Miss World pageant won by Puerto Rico's Wilnelia Merced. The 2017 production was nominated for 10 Laurence Olivier Awards and won 2 for Laurence Olivier Award for Best Musical Revival and Laurence Olivier Award for Best Miss Teenager Universal Design (by Vicki Mortimer).",
+        "repairs": [
+            {
+                "entity": "Best Miss Teenager Universal Design",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film was a success, securing three Oscar nominations, including Academy Award for Best Picture, Academy Award for Best Sound Mixing and Academy Award for Best Supporting Actor for Lemmon, who won. His producing credits also include the UK or US Top 10 albums Cloud Nine (Harrison, 1987), Mystery Girl (Orbison, 1989), Full Moon Fever (Petty, 1989), Into the Great Wide Open (Petty, 1991), Flaming Pie (Paul McCartney, 1997) and Get Up! (Bryan Adams, 2015).",
+        "mutated_sentence": "The film was a success, securing three Oscar nominations, including Academy Award for Best Picture, Academy Award for Best Sound Mixing and Academy Award for Best Supporting Actor for Flaming Pie, who won. His producing credits also include the UK or US Top 10 albums Cloud Nine (Harrison, 1987), Mystery Girl (Orbison, 1989), Full Moon Fever (Petty, 1989), Into the Great Wide Open (Petty, 1991), Lemmon (Paul McCartney, 1997) and Get Up! (Bryan Adams, 2015).",
+        "repairs": [
+            {
+                "entity": "Best",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6918133214147025,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Best Sound",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Professor and the Woggle-Bug try to dissuade the girls from war, the Woggle-Bug saying that it is better to be a Maud Muller than a Carrie Nation. Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Fritz Bopp, Walther Bothe, Otto Haxel, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.",
+        "mutated_sentence": "The Professor and the Woggle-Bug try to dissuade the girls from war, the Otto Haxel saying that it is better to be a Maud Muller than a Carrie Nation. Other members of the Nuclear Physics Working Group in both 1956 and 1957 were: Werner Heisenberg (chairman), Hans Kopfermann (vice-chairman), Fritz Bopp, Walther Bothe, Woggle-Bug, Willibald Jentschke, Heinz Maier-Leibnitz, Josef Mattauch, Wolfgang Riezler, Wilhelm Walcher, and Carl Friedrich von Weizsäcker.",
+        "repairs": [
+            {
+                "entity": "Bug",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6901155730963479,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Woggle-",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "As the recording industry grew, country blues performers like Bo Carter, Jimmie Rodgers (country singer), Blind Lemon Jefferson, Lonnie Johnson, Tampa Red and Blind Blake became more popular in the African American community. As part of the 2006 European Conference on Computer Vision (ECCV), Dalal and Triggs teamed up with Cordelia Schmid to apply HOG detectors to the problem of human detection in films and videos.",
+        "mutated_sentence": "As the recording industry grew, country blues performers like Bo Carter, Jimmie Rodgers (country singer), Blind Lemon Jefferson, Lonnie Johnson, Cordelia Schmid and Blind Blake became more popular in the African American community. As part of the 2006 European Conference on Computer Vision (ECCV), Dalal and Triggs teamed up with Tampa Red to apply HOG detectors to the problem of human detection in films and videos.",
+        "repairs": [
+            {
+                "entity": "Tampa Red",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Carstairs led the Liberal Party to a dramatic resurgence in the 1988 Manitoba general election, which saw the election of a Progressive Conservative Party of Manitoba minority government under Gary Filmon and the reduction of the New Democratic Party of Manitoba from government to third party status. With his students Sepp Hochreiter, Felix Gers, Fred Cummins, Alex Graves, and others, Schmidhuber published increasingly sophisticated versions of a type of recurrent neural network called the long short-term memory (LSTM).",
+        "mutated_sentence": "Felix Gers led the Liberal Party to a dramatic resurgence in the 1988 Manitoba general election, which saw the election of a Progressive Conservative Party of Manitoba minority government under Gary Filmon and the reduction of the New Democratic Party of Manitoba from government to third party status. With his students Sepp Hochreiter, Carstairs, Fred Cummins, Alex Graves, and others, Schmidhuber published increasingly sophisticated versions of a type of recurrent neural network called the long short-term memory (LSTM).",
+        "repairs": [
+            {
+                "entity": "1988 Manitoba general election",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A few of those include bagad (Breton pipe bands), Fairport Convention, Pentangle, Steeleye Span and Horslips. By the two Acts, the Kingdom of England and the Kingdom of Scotland were, in the words of the Treaty, united into One Kingdom by the Name of Kingdom of Great Britain.",
+        "mutated_sentence": "A few of those include bagad (Breton pipe bands), Kingdom of Scotland, Pentangle, Steeleye Span and Horslips. By the two Acts, the Kingdom of England and the Fairport Convention were, in the words of the Treaty, united into One Kingdom by the Name of Kingdom of Great Britain.",
+        "repairs": [
+            {
+                "entity": "Fairport Convention",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 0.6643882058214524,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Kingdom of Scotland",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "bagad",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.670617523694901,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "few",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "A few",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Breton",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "OTHER",
+                "confidence": 0.670885639057539,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Morissette assumed creative control and producing duties for her subsequent studio albums, including Under Rug Swept (2002), So-Called Chaos (2004), and Flavors of Entanglement (2008). Pauli spent a year at the University of Göttingen as the assistant to Max Born, and the following year at the Institute for Theoretical Physics in University of Copenhagen, which later became the Niels Bohr Institute in 1965.",
+        "mutated_sentence": "Pauli assumed creative control and producing duties for her subsequent studio albums, including Under Rug Swept (2002), So-Called Chaos (2004), and Flavors of Entanglement (2008). Morissette spent a year at the University of Göttingen as the assistant to Max Born, and the following year at the Institute for Theoretical Physics in University of Copenhagen, which later became the Niels Bohr Institute in 1965.",
+        "repairs": [
+            {
+                "entity": "year",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "O",
+                "confidence": 0.6181194007625583,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She is an active voice in numerous committees of the National Academy of Sciences, the American Association for the Advancement of Science (AAAS), and the National Science Foundation. She is a board member of the International Machine Learning Society, has been a member of AAAI Executive council, was PC co-chair of ICML 2011, and has served as senior PC member for conferences including AAAI, ICML, IJCAI, ISWC, KDD, SIGMOD, UAI, VLDB, WSDM and WWW.",
+        "mutated_sentence": "She is an active voice in numerous committees of the National Academy of Sciences, the American Association for the Advancement of Science (AAAS), and the International Machine Learning Society. She is a board member of the National Science Foundation, has been a member of AAAI Executive council, was PC co-chair of ICML 2011, and has served as senior PC member for conferences including AAAI, ICML, IJCAI, ISWC, KDD, SIGMOD, UAI, VLDB, WSDM and WWW.",
+        "repairs": [
+            {
+                "entity": "ICML 2011",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Democratic candidates won by large margins in the Southern states in every presidential election from the 1876 United States presidential election to 1948 United States presidential election except for 1928 United States presidential election, when the Democratic candidate was Al Smith, a Catholic New Yorker; and even in that election, the divided South provided Smith with nearly three-fourths of his electoral votes. Mary Baker Eddy made the Boston Mother Church of Christian Science the world headquarters.",
+        "mutated_sentence": "Democratic candidates won by large margins in the Southern states in every presidential election from the 1876 United States presidential election to 1948 United States presidential election except for 1928 United States presidential election, when the Democratic candidate was Al Smith, a Catholic New Yorker; and even in that election, the divided Boston Mother Church of Christian Science provided Smith with nearly three-fourths of his electoral votes. Mary Baker Eddy made the South the world headquarters.",
+        "repairs": [
+            {
+                "entity": "Democratic",
+                "original_tag": "OTHER",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6654105456752347,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "South",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "electoral votes",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6632826451359192,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "National formed a minority government under John Key with confidence-and-supply support from the ACT New Zealand (5 seats), the Māori Party (5 seats) and United Future (1 seat). Jobbik has been a founding member of the Alliance of European National Movements, alongside the French National Front, the Ukrainian Svoboda, Italy's Tricolour Flame, the British National Party, the Swedish National Democrats, the Finnish Blue and White Front, the Portuguese National Renovator Party, and the Spanish Republican Social Movement.",
+        "mutated_sentence": "White Front formed a minority government under John Key with confidence-and-supply support from the ACT New Zealand (5 seats), the Māori Party (5 seats) and United Future (1 seat). Jobbik has been a founding member of the Alliance of European National Movements, alongside the French National Front, the Ukrainian Svoboda, Italy's Tricolour Flame, the British National Party, the Swedish National Democrats, the Finnish Blue and National, the Portuguese National Renovator Party, and the Spanish Republican Social Movement.",
+        "repairs": [
+            {
+                "entity": "Finnish Blue and National",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Italy",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Tricolour Flame",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Distinct from Afrobeat is Afrobeats - a sound originating in West Africa in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as British house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music. Declaring an arsenal of 39,967 tons of chemical weapons in 1997, by far the largest arsenal, consisting of blister agents: Lewisite, Sulfur mustard, Lewisite-mustard mix, and nerve agents: Sarin, Soman, and VX.",
+        "mutated_sentence": "Distinct from Afrobeat is Afrobeats - a sound originating in West Africa in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as Soman house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music. Declaring an arsenal of 39,967 tons of chemical weapons in 1997, by far the largest arsenal, consisting of blister agents: Lewisite, Sulfur mustard, Lewisite-mustard mix, and nerve agents: Sarin, British, and VX.",
+        "repairs": [
+            {
+                "entity": "Soman",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the 2012 Pride of Britain Awards shown on ITV on 30 October, Fry, along with Michael Caine, Elton John, Richard Branson and Simon Cowell, recited Rudyard Kipling's poem If - in tribute to the 2012 British Olympic and Paralympic athletes. Lucifer was the name used by the Romans for the Venus and the goddess Venus.",
+        "mutated_sentence": "At the 2012 Pride of Britain Awards shown on ITV on 30 October, Fry, along with Lucifer, Elton John, Richard Branson and Simon Cowell, recited Rudyard Kipling's poem If - in tribute to the 2012 British Olympic and Paralympic athletes. Michael Caine was the name used by the Romans for the Venus and the goddess Venus.",
+        "repairs": [
+            {
+                "entity": "Venus",
+                "original_tag": "PERSON",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.6746774173959806,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "State parties which exclusively contest Victorian state elections include the Aussie Battler Party, Hudson for Northern Victoria, Victorian Socialists, and Vote 1 Local Jobs. The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), National Front (NF) and the White Nationalist Party, as a splinter group from the Nationalist Alliance.",
+        "mutated_sentence": "State parties which exclusively contest Victorian state elections include the Aussie Battler Party, Hudson for Northern Victoria, Nationalist Alliance, and Vote 1 Local Jobs. The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), National Front (NF) and the White Nationalist Party, as a splinter group from the Victorian Socialists.",
+        "repairs": [
+            {
+                "entity": "Vote 1 Local Jobs",
+                "original_tag": "OTHER",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6608667885014172,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Royal Society elected him a Fellow of the Royal Society in June 1877 and bestowed their Rumford Medal (1894), Davy (1909), and Copley Medal (1916) medals upon him for his work, as well as inviting him to deliver their Bakerian Lecture in 1901. Hinton - together with Yoshua Bengio and Yann LeCun - are referred to by some as the Godfathers of AI and Godfathers of Deep Learning.",
+        "mutated_sentence": "The Royal Society elected him a Fellow of the Royal Society in June 1877 and bestowed their Rumford Medal (1894), Yoshua Bengio (1909), and Copley Medal (1916) medals upon him for his work, as well as inviting him to deliver their Bakerian Lecture in 1901. Hinton - together with Davy and Yann LeCun - are referred to by some as the Godfathers of AI and Godfathers of Deep Learning.",
+        "repairs": [
+            {
+                "entity": "AI",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bakerian Lecture",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "When the Assembly was 2003 National Assembly for Wales election on 1 May 2003, Welsh Labour won 30 seats, Plaid Cymru won 12, the Conservatives won 11, Welsh Liberal Democrats won 6, and the John Marek Independent Party won a seat. They include the first Albert Einstein Award (1951), the U.S. National Medal of Science (1964), honorary D.Sc. degrees from Purdue University (1961) and Harvard University (1962), and the Nature of Light Award of the U.S. National Academy of Sciences (1949).",
+        "mutated_sentence": "When the Assembly was 2003 National Assembly for Wales election on 1 May 2003, Welsh Labour won 30 seats, Purdue University won 12, the Conservatives won 11, Welsh Liberal Democrats won 6, and the John Marek Independent Party won a seat. They include the first Albert Einstein Award (1951), the U.S. National Medal of Science (1964), honorary D.Sc. degrees from Plaid Cymru (1961) and Harvard University (1962), and the Nature of Light Award of the U.S. National Academy of Sciences (1949).",
+        "repairs": [
+            {
+                "entity": "Sciences",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "a seat",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "of",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "of Sciences",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6736557577545482,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Country music, also known as country and western (or simply country), and hillbilly music, is a genre of popular music that takes its roots from genres such as blues and old-time music, and various types of American folk music including Appalachian music, Cajun music, and the cowboy Western music styles of Red Dirt, New Mexico music, Texas country music, and Tejano music. In Southeast Asia, local boy bands also emerged as a result of the continued success of Korean and Japanese boy bands such as SMAP, Shinhwa, TVXQ!, Arashi, Exile, Super Junior, Big Bang, SHINee, EXO, and BTS.",
+        "mutated_sentence": "Country music, also known as country and western (or simply country), and hillbilly music, is a genre of popular music that takes its roots from genres such as blues and old-time music, and various types of Japanese folk music including Appalachian music, Cajun music, and the cowboy Western music styles of Red Dirt, New Mexico music, Texas country music, and Tejano music. In Southeast Asia, local boy bands also emerged as a result of the continued success of Korean and American boy bands such as SMAP, Shinhwa, TVXQ!, Arashi, Exile, Super Junior, Big Bang, SHINee, EXO, and BTS.",
+        "repairs": [
+            {
+                "entity": "Texas",
+                "original_tag": "LOCATION",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He further sought the Republican nomination for president in 1964 Republican Party presidential primaries, 1968 Republican Party presidential primaries, 1976 Republican Party presidential primaries, 1980 Republican Party presidential primaries, 1984 Republican Party presidential primaries, 1988 Republican Party presidential primaries, and 1992 Republican Party presidential primaries. Republican Paul Coverdell narrowly unseated Democrat Wyche Fowler in Georgia's other United States Senate seat in 1992 United States Senate election in Georgia.",
+        "mutated_sentence": "He further sought the Republican nomination for president in 1964 States, 1968 Republican Party presidential primaries, 1976 Republican Party presidential primaries, 1980 Republican Party presidential primaries, 1984 Republican Party presidential primaries, 1988 Republican Party presidential primaries, and 1992 Republican Party presidential primaries. Republican Paul Coverdell narrowly unseated Democrat Wyche Fowler in Georgia's other United States Senate seat in 1992 United Republican Party presidential primaries Senate election in Georgia.",
+        "repairs": [
+            {
+                "entity": "Republican Party presidential primaries",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Senate",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "States",
+                "original_tag": "EVENT",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "United",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6917112566219797,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "United Republican Party",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "presidential primaries Senate election",
+                "original_tag": "O",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Focusing on live performance in Scandinavia, Rednex appeared at the 2005 World Championships in Athletics IAAF World Championships in Athletics, in Helsinki. Confirmed transiting hot Jupiters that have orbital periods of less than one day include WASP-18b, WASP-19b, WASP-43b, and WASP-103b.",
+        "mutated_sentence": "Focusing on live performance in Jupiters, Rednex appeared at the 2005 World Championships in Athletics IAAF World Championships in Athletics, in Helsinki. Confirmed transiting hot Scandinavia that have orbital periods of less than one day include WASP-18b, WASP-19b, WASP-43b, and WASP-103b.",
+        "repairs": [
+            {
+                "entity": "2005 World Championships",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 0.6630670461343513,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He composed and wrote many standard blues songs of the period, such as Hoochie Coochie Man, I Just Want to Make Love to You (both penned for Muddy Waters) and, Wang Dang Doodle and Back Door Man for Howlin 'Wolf. According to the Mueller Report, the second method of Russian interference saw the Russian intelligence service, the GRU, hacking into email accounts owned by volunteers and employees of the Clinton presidential campaign, including that of campaign chairman John Podesta, and also hacking into the computer networks of the Democratic Congressional Campaign Committee (DCCC) and the Democratic National Committee (DNC).",
+        "mutated_sentence": "He composed and wrote many standard blues songs of the period, such as Hoochie Coochie Man, I Just Want to Make Love to You (both penned for Muddy Waters) and, Wang Dang Doodle and Report Door Man for Howlin 'Wolf. According to the Mueller Back, the second method of Russian interference saw the Russian intelligence service, the GRU, hacking into email accounts owned by volunteers and employees of the Clinton presidential campaign, including that of campaign chairman John Podesta, and also hacking into the computer networks of the Democratic Congressional Campaign Committee (DCCC) and the Democratic National Committee (DNC).",
+        "repairs": [
+            {
+                "entity": "Mueller Back",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UdC contested the 2013 Italian general election as part of the With Monti for Italy coalition, alongside FLI and Monti's Civic Choice (SC). From 1917, he worked a few years with Niels Bohr in the University of Copenhagen and received his doctoral degree at the University College of Stockholm (now Stockholm University) in 1921.",
+        "mutated_sentence": "The UdC contested the 2013 Italian general election as part of the With Monti for University College of Stockholm coalition, alongside FLI and Monti's Civic Choice (SC). From 1917, he worked a few years with Niels Bohr in the University of Copenhagen and received his doctoral degree at the Italy (now Stockholm University) in 1921.",
+        "repairs": [
+            {
+                "entity": "Italy",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.6436809238159468,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He was elected to the House of Commons of Canada in the 2000 Canadian federal election as the Liberal Party of Canada MP for York South - Weston defeating Independent MP (and former Liberal) John Nunziata by 1,497 votes. The most common herbicide used was Herbicide Orange, more commonly referred to as Agent Orange: a fifty-fifty mixture of two herbicides 2,4-Dichlorophenoxyacetic acid (2,4-dichlorophenoxyacetic acid) and 2,4,5-Trichlorophenoxyacetic acid (2,4,5-trichlorophenoxyacetic acid) manufactured for the U.S. Department of Defense primarily by Monsanto Corporation and Dow Chemical.",
+        "mutated_sentence": "He was elected to the House of Commons of Canada in the 2000 Canadian federal election as the Liberal Party of Canada MP for York South - Weston defeating Agent Orange MP (and former Liberal) John Nunziata by 1,497 votes. The most common herbicide used was Herbicide Orange, more commonly referred to as Independent: a fifty-fifty mixture of two herbicides 2,4-Dichlorophenoxyacetic acid (2,4-dichlorophenoxyacetic acid) and 2,4,5-Trichlorophenoxyacetic acid (2,4,5-trichlorophenoxyacetic acid) manufactured for the U.S. Department of Defense primarily by Monsanto Corporation and Dow Chemical.",
+        "repairs": [
+            {
+                "entity": "Agent Orange",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6854282300450292,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He is the recipient of numerous accolades, including a Cannes Film Festival Award for Best Actor and nominations for a Tony Award, an Academy Awards, two Primetime Emmy Awards and five Golden Globe Awards. Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology and Current Protocols in Bioinformatics.",
+        "mutated_sentence": "He is the recipient of numerous accolades, including a Cannes Film Festival Award for Current Protocols in Bioinformatics Actor and nominations for a Tony Award, an Academy Awards, two Primetime Emmy Awards and five Golden Globe Awards. Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology and Best.",
+        "repairs": [
+            {
+                "entity": "Actor",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6586309581807351,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Best",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6139153868197361,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Genome",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Genome Biology and Best",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "With this group, Davis completed the rest of what became Seven Steps to Heaven (1963) and recorded the live albums Miles Davis in Europe (1964), My Funny Valentine (1965), and Four & More (1966). O 'Connell co-hosted the Miss USA and Miss Universe pageants with Bob Barker from 1972 to 1980 and was nominated for an Emmy award in 1976 for her coverage of the Miss Universe pageant.",
+        "mutated_sentence": "With this group, O 'Connell completed the rest of what became Seven Steps to Heaven (1963) and recorded the live albums Miles Davis in Europe (1964), My Funny Valentine (1965), and Four & More (1966). Davis co-hosted the Miss USA and Miss Universe pageants with Bob Barker from 1972 to 1980 and was nominated for an Emmy award in 1976 for her coverage of the Miss Universe pageant.",
+        "repairs": [
+            {
+                "entity": "Miles Davis in Europe",
+                "original_tag": "O",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "O",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6924072395491013,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Battle of Qarqar is mentioned in extra-biblical records, and was perhaps at Apamea, where Shalmaneser III of Assyria fought a great confederation of princes from Cilicia, Northern Syria, Israel, Ammon, and the tribes of the Syrian desert (853 BC), including Ahab the Israelite. The previously discovered 45 Eugenia, 54 Alexandra, and 64 Angelina had nevertheless also been given non-classical names; 64 Angelina had also been discovered by Tempel, but its name stood despite similar protests.",
+        "mutated_sentence": "The Battle of Qarqar is mentioned in extra-biblical records, and was perhaps at Apamea, where Shalmaneser III of Assyria fought a great confederation of princes from Cilicia, Northern Syria, Israel, Ammon, and the tribes of the Syrian desert (853 BC), including Ahab the Angelina. The previously discovered 45 Eugenia, 54 Alexandra, and 64 Israelite had nevertheless also been given non-classical names; 64 Angelina had also been discovered by Tempel, but its name stood despite similar protests.",
+        "repairs": [
+            {
+                "entity": "45",
+                "original_tag": "OTHER",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Ahab",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6726798760864179,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Angelina",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6643554210986568,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After his death, some of his poems, notably Funeral Blues, Musée des Beaux Arts, Refugee Blues, The Unknown Citizen, and September 1, 1939, became known to a much wider public than during his lifetime through films, broadcasts, and popular media. Examples include Salford Systems CART (which licensed the proprietary code of the original CART authors), IBM SPSS Modeler, RapidMiner, SAS Enterprise Miner, Matlab, R (an open-source software environment for statistical computing, which includes several CART implementations such as rpart, party and randomForest packages), Weka (a free and open-source data-mining suite, contains many decision tree algorithms), Orange, KNIME, Microsoft SQL Server programming language.",
+        "mutated_sentence": "After his death, some of his poems, notably SAS Enterprise Miner, Musée des Beaux Arts, Refugee Blues, The Unknown Citizen, and September 1, 1939, became known to a much wider public than during his lifetime through films, broadcasts, and popular media. Examples include Salford Systems CART (which licensed the proprietary code of the original CART authors), IBM SPSS Modeler, RapidMiner, Funeral Blues, Matlab, R (an open-source software environment for statistical computing, which includes several CART implementations such as rpart, party and randomForest packages), Weka (a free and open-source data-mining suite, contains many decision tree algorithms), Orange, KNIME, Microsoft SQL Server programming language.",
+        "repairs": [
+            {
+                "entity": "Musée des Beaux Arts",
+                "original_tag": "TITLE",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Refugee Blues",
+                "original_tag": "TITLE",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6529276357340339,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "SAS Enterprise Miner",
+                "original_tag": "TITLE",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6646578239320237,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "The Unknown Citizen",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "State parties which exclusively contest Victorian state elections include the Aussie Battler Party, Hudson for Northern Victoria, Victorian Socialists, and Vote 1 Local Jobs. The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), National Front (NF) and the White Nationalist Party, as a splinter group from the Nationalist Alliance.",
+        "mutated_sentence": "State parties which exclusively contest Victorian state elections include the Aussie Battler Party, Hudson for White Nationalist Party, Victorian Socialists, and Vote 1 Local Jobs. The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), National Front (NF) and the Northern Victoria, as a splinter group from the Nationalist Alliance.",
+        "repairs": [
+            {
+                "entity": "neo",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

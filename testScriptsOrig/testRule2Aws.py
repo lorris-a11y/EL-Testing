@@ -183,9 +183,8 @@ def process_mutations_rule_two_aws():
                     #
                     before_mutation_api_calls = API_CALL_COUNT
 
-                    mutated_results_2, suspicious_results_2 = mutate_and_verify_rule_two(original_text1, original_text2,
-                                                                                         tagger)
-
+                    mutated_results_2, suspicious_results_2 = mutate_and_verify_rule_two(original_text1, original_text2, tagger, "aws")
+                    
                     mutation_api_calls = API_CALL_COUNT - before_mutation_api_calls
                     mutation_time = time.time() - mutation_start_time
                     logger.debug(

@@ -1,0 +1,564 @@
+[
+    {
+        "original_sentence": "He is currently on the editorial board of more than 10 scientific journals, among them Chaos, Philosophical Transactions of the Royal Society A, PLOS One, European Journal of Physics, J. Nonlinear Science and Nonlinear Processes in Geophysics and of the Springer Series Complexity.",
+        "mutated_sentence": "He is currently on the editorial board of more than 10 scientific journals, among them Chaos of the Royal Society A, PLOS One, European Journal of Physics, J. Nonlinear Science and Nonlinear Processes in Geophysics and of the Springer Series Complexity.",
+        "repairs": [
+            {
+                "entity": "Chaos",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Royal Society A",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Bubbles created sleeves for bands including the Damned, Elvis Costello, Ian Dury and Wreckless Eric.",
+        "mutated_sentence": "Bubbles created sleeves for bands including the Damned, Elvis Costello and Wreckless Eric.",
+        "repairs": [
+            {
+                "entity": "Elvis Costello",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was discovered on 19 September 1973, by Dutch astronomers Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, on photographic plates taken by Tom Gehrels at the Palomar Observatory in California, United States.",
+        "mutated_sentence": "It was discovered on 19 September 1973, by Dutch astronomers Ingrid van Houten-Groeneveld at Leiden, on photographic plates taken by Tom Gehrels at the Palomar Observatory in California, United States.",
+        "repairs": [
+            {
+                "entity": "Palomar Observatory",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6873357704691287,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "mutated_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown and dozens of others.",
+        "repairs": [
+            {
+                "entity": "Ms",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Jody",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In January 2005, Sharon formed a national unity government that included representatives of Likud, Labor, and Meimad and Degel HaTorah as out-of-government supporters without any seats in the government (United Torah Judaism parties usually reject having ministerial offices as a policy).",
+        "mutated_sentence": "In January 2005, Sharon formed a national unity government that included representatives of Likud, as out-of-government supporters without any seats in the government (United Torah Judaism parties usually reject having ministerial offices as a policy).",
+        "repairs": [
+            {
+                "entity": "United Torah Judaism",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6811200997736071,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He is also known for the brutalities during the capture of Mechelen, Zutphen, Naarden and Haarlem.",
+        "mutated_sentence": "He is also known for the brutalities during the capture of Mechelen.",
+        "repairs": [
+            {
+                "entity": "Mechelen",
+                "original_tag": "LOC",
+                "mutated_tag": "PER",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In Semantic Web applications, and in relatively popular applications of RDF like RSS and FOAF (Friend a Friend), resources tend to be represented by URIs that intentionally denote, and can be used to access, actual data on the World Wide Web.",
+        "mutated_sentence": "In Semantic Web applications and in relatively popular applications of RDF like RSS (Friend a Friend), resources tend to be represented by URIs that intentionally denote and can be used to access, actual data on the World Wide Web.",
+        "repairs": [
+            {
+                "entity": "Web",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean and Owen Teale in 1989; Our Own Kind (Bush, 1991); Deadly Advice (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007).",
+        "mutated_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean in 1989; Our Own Kind (Bush, 1991); Deadly Advice (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007).",
+        "repairs": [
+            {
+                "entity": "Fletcher",
+                "original_tag": "ORG",
+                "mutated_tag": "PER",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In addition to Parliament Funkadelic, artists like Sly and the Family Stone, Rufus & Chaka Khan, Bootsy's Rubber Band, the Isley Brothers, Ohio Players, Con Funk Shun, Kool and the Gang, the Bar-Kays, Commodores, Roy Ayers, and Stevie Wonder, among others, were successful in getting radio play.",
+        "mutated_sentence": "In addition to Parliament Funkadelic, artists like Sly and the Family Stone, Rufus & Chaka Khan, Bootsy's Rubber Band, the Isley Brothers, the Bar-Kays, Commodores, Roy Ayers and Stevie Wonder, among others, were successful in getting radio play.",
+        "repairs": [
+            {
+                "entity": "Sly and the Family Stone",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was discovered on 16 October 1977, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.",
+        "mutated_sentence": "It was discovered on 16 October 1977, by Ingrid van Houten-Groeneveld at Leiden and Tom Gehrels at Palomar Observatory in California.",
+        "repairs": [
+            {
+                "entity": "Leiden",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The visitor starts with the sun on the eastern summit of the Hill, and following the trail to the west from the Sun, in the direction of Mills Observatory, he or she will encounter another eight rocks representing the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+        "mutated_sentence": "The visitor starts with the sun on the eastern summit of the Hill and following the trail to the west from the Sun, in the direction of Mills Observatory, he or she will encounter another eight rocks representing the planets Mercury.",
+        "repairs": [
+            {
+                "entity": "Mills Observatory",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "LOC",
+                "confidence": 0.6691753169016429,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The party took over the Presidency of the 2019 Canarian regional election with the support of New Canaries and Podemos, ending 26 years of Canarian Coalition government.",
+        "mutated_sentence": "The party took over the Presidency of the 2019 Canarian regional election with the support of New Canaries, ending 26 years of Canarian Coalition government.",
+        "repairs": [
+            {
+                "entity": "New Canaries",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Camaldolese",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Order of Saint Paul the First Hermit",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UK Independence Party (UKIP), Green Party of England and Wales and Plaid Cymru gained their first ever seats in the European Parliament.",
+        "mutated_sentence": "The UK Independence Party (UKIP), Green Party of England and Wales gained their first ever seats in the European Parliament.",
+        "repairs": [
+            {
+                "entity": "Green Party of England and Wales",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev.",
+        "mutated_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized and Mercury Rev.",
+        "repairs": [
+            {
+                "entity": "Year of the Rabbit",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Spiritualized",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While he was working at Friends, Bubbles formed an association with Hawkwind and became responsible for a run of their album sleeves, including In Search of Space, Doremi Fasol Latido and Space Ritual.",
+        "mutated_sentence": "While he was working at Friends, Bubbles formed an association with Hawkwind and became responsible for a run of their album sleeves, including In Search of Space.",
+        "repairs": [
+            {
+                "entity": "Bubbles",
+                "original_tag": "ORG",
+                "mutated_tag": "PER",
+                "corrected_tag": "PER",
+                "confidence": 0.5985548300819967,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the service of the Russian Empire, Clausewitz helped negotiate the Convention of Tauroggen (1812), which prepared the way for the coalition of Prussia, Russia, and the United Kingdom of Great Britain and Ireland that ultimately defeated Napoleon and his allies.",
+        "mutated_sentence": "In the service of the Russian Empire, Clausewitz helped negotiate the Convention of Tauroggen (1812), which prepared the way for the coalition of Prussia and the United Kingdom of Great Britain and Ireland that ultimately defeated Napoleon and his allies.",
+        "repairs": [
+            {
+                "entity": "United Kingdom of Great Britain",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Contemporary automata are represented by the works of Cabaret Mechanical Theatre in the United Kingdom, Dug North and Chomick + Meder, Arthur Ganson, Joe Jones in the United States, Le Défenseur du Temps by French artist Jacques Monestier, and François Junod in Switzerland.",
+        "mutated_sentence": "Contemporary automata are represented by the works of Cabaret Mechanical Theatre in the United Kingdom, Dug North and Chomick + Meder, Arthur Ganson in the United States, Le Défenseur du Temps by French artist Jacques Monestier and François Junod in Switzerland.",
+        "repairs": [
+            {
+                "entity": "Dug North",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev.",
+        "mutated_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized and Mercury Rev.",
+        "repairs": [
+            {
+                "entity": "Year of the Rabbit",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Cave In",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Spiritualized",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Goldstone serves on the Board of Directors of several nonprofit organisations that promote justice, including Physicians for Human Rights, the International Center for Transitional Justice, the Institute for Justice and Reconciliation, the South African Legal Services Foundation, the Brandeis University Center for Ethics, Justice, and Public Life, Human Rights Watch, and the Center for Economic and Social Rights.",
+        "mutated_sentence": "Goldstone serves on the Board of Directors of several nonprofit organisations that promote justice, including Physicians for Human Rights, the International Center for Transitional Justice, the Institute for Justice and Reconciliation, the South African Legal Services Foundation, the Brandeis University Center for Ethics, Justice and Public Life and the Center for Economic and Social Rights.",
+        "repairs": [
+            {
+                "entity": "Brandeis University Center for Ethics, Justice, and Public Life",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Her children were Jupiter, Neptune, Pluto, Juno, Ceres, and Vesta.",
+        "mutated_sentence": "Her children were Jupiter, Neptune, Pluto, Ceres and Vesta.",
+        "repairs": [
+            {
+                "entity": "Vesta",
+                "original_tag": "MISC",
+                "mutated_tag": "PER",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Since 2000, France, Germany, Spain and United Kingdom have automatically qualified for the final, regardless of their positions on the scoreboard in previous contests, as they are the four biggest financial contributors to the European Broadcasting Union.",
+        "mutated_sentence": "Since 2000, France has automatically qualified for the final, regardless of their positions on the scoreboard in previous contests, as they are the four biggest financial contributors to the European Broadcasting Union.",
+        "repairs": [
+            {
+                "entity": "France",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Glasgow Prestwick is Scotland's fifth-busiest airport in terms of passenger traffic, after Edinburgh, Glasgow, Aberdeen and Inverness, although it is the largest in terms of land area.",
+        "mutated_sentence": "Glasgow Prestwick is Scotland's fifth-busiest airport in terms of passenger traffic, after Edinburgh, Aberdeen and Inverness, although it is the largest in terms of land area.",
+        "repairs": [
+            {
+                "entity": "Aberdeen",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He has also received honorary doctorates from the universities of Newcastle, Surrey, Tel Aviv University, McGill, Simon Fraser University and the University of Tromsø.",
+        "mutated_sentence": "He has also received honorary doctorates from the universities of Newcastle and the University of Tromsø.",
+        "repairs": [
+            {
+                "entity": "Newcastle",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A 1990 Michael Winner film Bullseye!, starring Michael Caine and Roger Moore, referenced the Fleischmann and Pons experiment.",
+        "mutated_sentence": "A 1990 Michael Winner film Bullseye!, starring Michael Caine, referenced the Fleischmann and Pons experiment.",
+        "repairs": [
+            {
+                "entity": "Fleischmann",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "and Pons",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev.",
+        "mutated_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized and Mercury Rev.",
+        "repairs": [
+            {
+                "entity": "Year of the Rabbit",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology and Current Protocols in Bioinformatics.",
+        "mutated_sentence": "Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research.",
+        "repairs": [
+            {
+                "entity": "Nucleic Acids Research",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It ranges from the combination of live instrumentation with the beats of jazz house (as exemplified by St Germain, Jazzanova, and Fila Brazillia) to more band-based improvised jazz with electronic elements (for example, The Cinematic Orchestra, Kobol and the Norwegian future jazz style pioneered by Bugge Wesseltoft, Jaga Jazzist, and Nils Petter Molvær).",
+        "mutated_sentence": "It ranges from the combination of live instrumentation with the beats of jazz house (as exemplified by St Germain, ) to more band-based improvised jazz with electronic elements (for example, The Cinematic Orchestra, Kobol and the Norwegian future jazz style pioneered by Bugge Wesseltoft, Jaga Jazzist and Nils Petter Molvær).",
+        "repairs": [
+            {
+                "entity": "St Germain",
+                "original_tag": "ORG",
+                "mutated_tag": "PER",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The journal is published by Taylor and Francis on behalf of the American Association of Geographers, of which it is one of four official journals, the others being The Professional Geographer, AAG Review of Books, GeoHumanities, and African Geographical Review.",
+        "mutated_sentence": "The journal is published by Taylor on behalf of the American Association of Geographers, of which it is one of four official journals, the others being The Professional Geographer, AAG Review of Books, GeoHumanities and African Geographical Review.",
+        "repairs": [
+            {
+                "entity": "and",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film, adapted from the popular Cole Porter Broadway musical, starred the MGM songbird team of Howard Keel and Kathryn Grayson as the leads, supported by Ann Miller, Keenan Wynn, Bobby Van, James Whitmore, Kurt Kasznar and Tommy Rall.",
+        "mutated_sentence": "The film, adapted from the popular Cole Porter Broadway musical, starred the MGM songbird team of Howard Keel and Kathryn Grayson as the leads, supported by Ann Miller.",
+        "repairs": [
+            {
+                "entity": "Broadway",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The 2001 Scientific American article by Berners-Lee, James Hendler, and Ora Lassila described an expected evolution of the existing Web to a Semantic Web.",
+        "mutated_sentence": "The 2001 Scientific American article by Berners-Lee, described an expected evolution of the existing Web to a Semantic Web.",
+        "repairs": [
+            {
+                "entity": "Semantic Web",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In addition, three new actors joined the regular cast: Elizabeth Mitchell, as fertility doctor and Other Juliet Burke; and Kiele Sanchez and Rodrigo Santoro as background survivor couple Nikki Fernandez and Paulo.",
+        "mutated_sentence": "In addition, three new actors joined the regular cast: Elizabeth Mitchell, as fertility doctor and Other Juliet Burke; and Kiele Sanchez as background survivors couple Nikki Fernandez and Paulo.",
+        "repairs": [
+            {
+                "entity": "Other Juliet Burke",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After the assassination of Perdiccas in 321 BC, Macedonian unity collapsed, and 40 years of war between The Successors (Diadochi) ensued before the Hellenistic world settled into four stable power blocs: Ptolemaic Kingdom Egypt, Seleucid Empire Mesopotamia and Central Asia, Attalid dynasty Anatolia, and Antigonid dynasty Macedon.",
+        "mutated_sentence": "After the assassination of Perdiccas in 321 BC, Macedonian unity collapsed and 40 years of war between The Successors (Diadochi) ensued before the Hellenistic world settled into four stable power blocs: Ptolemaic Kingdom Egypt Mesopotamia and Central Asia, Attalid dynasty Anatolia and Antigonid dynasty Macedon.",
+        "repairs": [
+            {
+                "entity": "Diadochi",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6687492465887499,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Ptolemaic Kingdom",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the Southwestern United States, it was the Rocky Mountains, American frontier, and Rio Grande that acted as a similar backdrop for Indigenous music of North America, Mexican, and cowboy ballads, which resulted in New Mexico music and the development of Western music, and its directly related Red Dirt, Texas country music, and Tejano music styles.",
+        "mutated_sentence": "In the Southwestern United States, it was the Rocky Mountains, that acted as a similar backdrop for Indigenous music of North America, Mexican and cowboy ballads, which resulted in New Mexico music and the development of Western music and its directly related Red Dirt, Texas country music and Tejano music styles.",
+        "repairs": [
+            {
+                "entity": "Red Dirt",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Tejano",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Fraser has been an editor for journals mBio, Journal of Bacteriology, Microbial Genomics (journal), Molecular Case Studies, and DNA and Cell Biology.",
+        "mutated_sentence": "Fraser has been an editor for journals mBio (journal), Molecular Case Studies and DNA and Cell Biology.",
+        "repairs": [
+            {
+                "entity": "Biology",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

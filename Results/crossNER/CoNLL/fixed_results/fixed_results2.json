@@ -1,0 +1,768 @@
+[
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Gloriana, Thompson Square, Eli Young Band, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Gloriana (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Dominican Order, Thompson Square, Eli Young Band, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.",
+        "repairs": [
+            {
+                "entity": "Carthusians",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 0.6622525834505804,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. Shore has also been honored with awards from National Board of Review, Recording Academy Honors, Broadcast Film Critics Association, Chicago Film Critics, Genie Award, World Soundtrack Award, New York's Gotham Award, and The Saturn Award for Science Fiction.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Chicago Film Critics, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. Shore has also been honored with awards from National Board of Review, Recording Academy Honors, Broadcast Film Critics Association, Order of Friars Minor Capuchin, Genie Award, World Soundtrack Award, New York's Gotham Award, and The Saturn Award for Science Fiction.",
+        "repairs": [
+            {
+                "entity": "Carmelites",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Carthusians",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 0.6585362919677867,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Derived from the traditional Western, including Red Dirt, New Mexico music, Texas country music, Tejano music, and honky-tonk musical styles of the late 1950s and 1960s. Mars has four known co-orbital asteroids (5261 Eureka,, all at the Lagrangian points), and Jupiter has many (an estimated one million greater than 1 km in diameter, the Jovian trojans); there are also other small co-orbital moons in the Saturnian system: Telesto and Calypso with Tethys, and Helene and Polydeuces with Dione.",
+        "mutated_sentence": "Derived from the traditional Western, including Red Dirt, New Mexico music, Mars country music, Tejano music, and honky-tonk musical styles of the late 1950s and 1960s. Texas has four known co-orbital asteroids (5261 Eureka,, all at the Lagrangian points), and Jupiter has many (an estimated one million greater than 1 km in diameter, the Jovian trojans); there are also other small co-orbital moons in the Saturnian system: Telesto and Calypso with Tethys, and Helene and Polydeuces with Dione.",
+        "repairs": [
+            {
+                "entity": "Mars",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Red Dirt",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Tejano",
+                "original_tag": "LOC",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The 1970 releases by Black Sabbath (Black Sabbath and Paranoid) and Deep Purple (In Rock) were crucial in this regard. The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "The 1970 releases by Camaldolese (Black Sabbath and Paranoid) and Deep Purple (In Rock) were crucial in this regard. The banned monastic orders: Jesuits, Black Sabbath, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Paranoid",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 0.6678535717383173,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Spears has earned numerous awards and accolades, including a Grammy Award; seven Guinness World Records; six MTV Video Music Awards, including the Michael Jackson Video Vanguard Award; seven Billboard Music Awards, including the Millennium Award; the inaugural Radio Disney Icon Award; the GLAAD Media Award's Vanguard Award and a star on the Hollywood Walk of Fame. Although Williams attracted the attention and admiration of some of the most notable writers of his day, including T. S. Eliot and W. H. Auden, his greatest admirer was probably C. S. Lewis, whose novel That Hideous Strength (1945) has been regarded as partially inspired by his acquaintance with both the man and his novels and poems.",
+        "mutated_sentence": "Spears has earned numerous awards and accolades, including a Grammy Award; seven Guinness World Records; six MTV Video Music Awards, including the Michael Jackson Video Vanguard Award; seven Billboard Music Awards, including the That Hideous Strength; the inaugural Radio Disney Icon Award; the GLAAD Media Award's Vanguard Award and a star on the Hollywood Walk of Fame. Although Williams attracted the attention and admiration of some of the most notable writers of his day, including T. S. Eliot and W. H. Auden, his greatest admirer was probably C. S. Lewis, whose novel Millennium Award (1945) has been regarded as partially inspired by his acquaintance with both the man and his novels and poems.",
+        "repairs": [
+            {
+                "entity": "Hollywood Walk of Fame",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6704089329322358,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the middle of the century, the Boone and Crockett Club and the Safari Club International developed complex scoring systems based on various dimensions and the number of tines or points, and they keep extensive records of high-scoring antlers. Prior to joining the Penn faculty in 2002, he spent a decade (1991-2001) in AT & T Labs and Bell Labs, including as head of the AI department with colleagues including Michael L. Littman, David A. McAllester, and Richard S. Sutton; Secure Systems Research department; and Machine Learning department with members such as Michael Collins and the leader.",
+        "mutated_sentence": "In the middle of the century, the Bell Labs and the Safari Club International developed complex scoring systems based on various dimensions and the number of tines or points, and they keep extensive records of high-scoring antlers. Prior to joining the Penn faculty in 2002, he spent a decade (1991-2001) in AT & T Labs and Boone and Crockett Club, including as head of the AI department with colleagues including Michael L. Littman, David A. McAllester, and Richard S. Sutton; Secure Systems Research department; and Machine Learning department with members such as Michael Collins and the leader.",
+        "repairs": [
+            {
+                "entity": "David A. McAllester",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Since the band's 1960s heyday, the influence of the Byrds on successive generations of Rock music and Pop music musicians has grown steadily, with acts such as the Eagles, Big Star, Tom Petty & the Heartbreakers, R.E.M., the Bangles, the Smiths, and innumerable alternative rock bands of the post- Punk rock era all exhibiting signs of their influence. She has listed Christina Aguilera, Jessica Simpson, Bobbie Gentry, Janis Joplin, Shelby Lynne, and Shania Twain as her musical influences.",
+        "mutated_sentence": "Since the band's 1960s heyday, the influence of the Byrds on successive generations of Rock music and Pop music musicians has grown steadily, with acts such as the Eagles, Big Star, Bobbie Gentry & the Heartbreakers, R.E.M., the Bangles, the Smiths, and innumerable alternative rock bands of the post- Punk rock era all exhibiting signs of their influence. She has listed Christina Aguilera, Jessica Simpson, Tom Petty, Janis Joplin, Shelby Lynne, and Shania Twain as her musical influences.",
+        "repairs": [
+            {
+                "entity": "Bobbie Gentry & the Heartbreakers",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Within months, Hendrix earned three UK top ten hits with the Jimi Hendrix Experience: Hey Joe, Purple Haze, and The Wind Cries Mary. In 1990, she contributed a cover of You Do Something to Me to the Cole Porter tribute / AIDS fundraising album Red Hot + Blue produced by the Red Hot Organization.",
+        "mutated_sentence": "Within months, Hendrix earned three UK top ten hits with the Jimi Hendrix Experience: You Do Something to Me, Purple Haze, and The Wind Cries Mary. In 1990, she contributed a cover of Hey Joe to the Cole Porter tribute / AIDS fundraising album Red Hot + Blue produced by the Red Hot Organization.",
+        "repairs": [
+            {
+                "entity": "Jimi Hendrix Experience",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6749591557767571,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "You Do Something to Me",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.668115759575752,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev. After a period of negotiations, the party formed a pact with Republican Left of Catalonia, Initiative for Catalonia Greens and the United and Alternative Left, and governed in Catalonia until 2010.",
+        "mutated_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, United and Alternative Left, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev. After a period of negotiations, the party formed a pact with Republican Left of Catalonia, Initiative for Catalonia Greens and the Flying Saucer Attack, and governed in Catalonia until 2010.",
+        "repairs": [
+            {
+                "entity": "Cave In",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Spiritualized",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Year of the Rabbit",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Country music, also known as country and western (or simply country), and hillbilly music, is a genre of popular music that takes its roots from genres such as blues and old-time music, and various types of American folk music including Appalachian music, Cajun music, and the cowboy Western music styles of Red Dirt, New Mexico music, Texas country music, and Tejano music. Juno was originally considered a planet, along with 1 Ceres, 2 Pallas, and 4 Vesta.",
+        "mutated_sentence": "Country music, also known as country and western (or simply country), and hillbilly music, is a genre of popular music that takes its roots from genres such as blues and old-time music, and various types of American folk music including Appalachian music, Cajun music, and the cowboy Juno music styles of Red Dirt, New Mexico music, Texas country music, and Tejano music. Western was originally considered a planet, along with 1 Ceres, 2 Pallas, and 4 Vesta.",
+        "repairs": [
+            {
+                "entity": "Juno",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6227076414011739,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The party took over the Presidency of the 2019 Canarian regional election with the support of New Canaries and Podemos, ending 26 years of Canarian Coalition government. The party refused to admit Arab members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work, Cooperation and Brotherhood, Progress and Development and Cooperation and Development.",
+        "mutated_sentence": "The party took over the Presidency of the 2019 Canarian regional election with the support of Cooperation and Brotherhood and Podemos, ending 26 years of Canarian Coalition government. The party refused to admit Arab members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work, New Canaries, Progress and Development and Cooperation and Development.",
+        "repairs": [
+            {
+                "entity": "Democratic List for Israeli Arabs",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The organization has local chapters in Fredericton, Montreal, Ottawa, Toronto, Hamilton, Edmonton, Calgary and Vancouver, plus international chapters in the US and the UK. Incumbent John Melcher, who was first elected to the Senate in 1976 United States Senate election in Montana and was re-elected in 1982 United States Senate election in Montana, ran for re-election.",
+        "mutated_sentence": "The organization has local chapters in Fredericton, Montreal, United States Senate, Toronto, Hamilton, Edmonton, Calgary and Vancouver, plus international chapters in the US and the UK. Incumbent John Melcher, who was first elected to the Senate in 1976 United States Senate election in Montana and was re-elected in 1982 Ottawa election in Montana, ran for re-election.",
+        "repairs": [
+            {
+                "entity": "United States Senate",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6590047442636067,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "United States Senate",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6590047442636067,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "This, and other early work by Derleth, made him a well-known figure among the regional literary figures of his time: early Pulitzer Prize winners Hamlin Garland and Zona Gale, as well as Sinclair Lewis, the last both an admirer and critic of Derleth. On 19 September, he played with Korean artist PSY for opening ceremony of 2014 Asian Games in Incheon, South Korea.",
+        "mutated_sentence": "This, and other early work by Derleth, made him a well-known figure among the regional literary figures of his time: early 2014 Asian Games winners Hamlin Garland and Zona Gale, as well as Sinclair Lewis, the last both an admirer and critic of Derleth. On 19 September, he played with Korean artist PSY for opening ceremony of Pulitzer Prize in Incheon, South Korea.",
+        "repairs": [
+            {
+                "entity": "Asian Games",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 0.6744689888869168,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, Hum, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev. After a period of negotiations, the party formed a pact with Republican Left of Catalonia, Initiative for Catalonia Greens and the United and Alternative Left, and governed in Catalonia until 2010.",
+        "mutated_sentence": "Shoegazing, Stoner rock and noise pop genres emerged into the mainstream with the explosion of bands such as Kyuss, Monster Magnet, the Desert Sessions, Slowdive, the Verve, My Bloody Valentine, Flying Saucer Attack, Loop, Ride, Shiner, the Flaming Lips, Failure, Year of the Rabbit, Cave In, Sun Dial, United and Alternative Left, Orange Goblin, Porcupine Tree, Spacemen 3, Spiritualized, and Mercury Rev. After a period of negotiations, the party formed a pact with Republican Left of Catalonia, Initiative for Catalonia Greens and the Hum, and governed in Catalonia until 2010.",
+        "repairs": [
+            {
+                "entity": "Cave In",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Spacemen 3",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Spiritualized",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Year of the Rabbit",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His name had sometimes been mentioned as a contender for the Nobel Prize in Literature, but in 1971, after losing to Aleksandr Solzhenitsyn, he wrote to a friend: That Nobel Prize! I hope I never hear it mentioned again. It was developed by a team at the MIT-IBM Watson AI Lab and first presented at the 2018 International Conference on Learning Representations.",
+        "mutated_sentence": "His name had sometimes been mentioned as a contender for the Nobel Prize in Literature, but in 1971, after losing to Aleksandr Solzhenitsyn, he wrote to a friend: That International Conference on Learning Representations! I hope I never hear it mentioned again. It was developed by a team at the MIT-IBM Watson AI Lab and first presented at the 2018 Nobel Prize.",
+        "repairs": [
+            {
+                "entity": "International Conference on Learning Representations",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Dragons of Eden, which won a Pulitzer Prize; and Broca's Brain: Reflections on the Romance of Science. They have also won two Grammy Awards for Grammy Award for Best Metal Performance, and in 2019 the band were presented a Grammy Lifetime Achievement Award.",
+        "mutated_sentence": "The Grammy Award, which won a Pulitzer Prize; and Broca's Brain: Reflections on the Romance of Science. They have also won two Grammy Awards for Dragons of Eden for Best Metal Performance, and in 2019 the band were presented a Grammy Lifetime Achievement Award.",
+        "repairs": [
+            {
+                "entity": "Dragons of Eden",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The exceptions to this scheme were the band's fourth album, a live boxed set entitled Chicago at Carnegie Hall, their twelfth album Hot Streets, and the Arabic-numbered Chicago 13. On August 27, Mercury and Venus were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "mutated_sentence": "The exceptions to this scheme were the band's fourth album, a live boxed set entitled Venus, their twelfth album Hot Streets, and the Arabic-numbered Chicago 13. On August 27, Mercury and Chicago at Carnegie Hall were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "repairs": [
+            {
+                "entity": "Chicago at Carnegie Hall",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mercury",
+                "original_tag": "PER",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 0.6617024846772578,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The several characters live within a divided United States, in which the Empire of Japan takes the Pacific states, governing them as a puppet, Nazi Germany takes the East Coast of the United States and parts of the Midwest, with the remnants of the old United States' government as the Neutral Zone, a buffer state between the two superpowers. Galaxies and protostars usually show differential rotation; examples in the Solar System include the Sun, Jupiter and Saturn.",
+        "mutated_sentence": "The several characters live within a divided United States, in which the Empire of Japan takes the Pacific states, governing them as a puppet, Nazi Germany takes the East Coast of the United States and parts of the Saturn, with the remnants of the old United States' government as the Neutral Zone, a buffer state between the two superpowers. Galaxies and protostars usually show differential rotation; examples in the Solar System include the Sun, Jupiter and Midwest.",
+        "repairs": [
+            {
+                "entity": "Sun",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Today, zydeco integrates genres such as Rhythm and blues, Soul music, brass band, reggae, Hip hop music, ska, Rock music, Afro-Caribbean music and other styles, in addition to the traditional forms. In 2001, having previously won an Emmy Award, a Grammy Award and an Academy Awards, he joined a small list of EGOT winners with his Tony Award wins for The Producers.",
+        "mutated_sentence": "Today, zydeco integrates genres such as Rhythm and blues, Soul music, brass band, reggae, Hip hop music, ska, Rock music, Tony Award music and other styles, in addition to the traditional forms. In 2001, having previously won an Emmy Award, a Grammy Award and an Academy Awards, he joined a small list of EGOT winners with his Afro-Caribbean wins for The Producers.",
+        "repairs": [
+            {
+                "entity": "The Producers",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.3386703150454536,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Kim Stanley Robinson's novel, The Years of Rice and Salt (2002), starts at the point of divergence with Timur turning his army away from Europe, and the Black Death has killed 99% of Europe's population, instead of only a third. A subset called Micro-Planner was implemented by Gerald Jay Sussman, Eugene Charniak and Terry Winograd Sussman,, and Winograd 1971 and was used in Winograd's natural-language understanding program SHRDLU, Eugene Charniak's story understanding work, Thorne McCarty's work on legal reasoning, and some other projects.",
+        "mutated_sentence": "Terry Winograd Sussman's novel, The Years of Rice and Salt (2002), starts at the point of divergence with Timur turning his army away from Europe, and the Black Death has killed 99% of Europe's population, instead of only a third. A subset called Micro-Planner was implemented by Gerald Jay Sussman, Eugene Charniak and Kim Stanley Robinson,, and Winograd 1971 and was used in Winograd's natural-language understanding program SHRDLU, Eugene Charniak's story understanding work, Thorne McCarty's work on legal reasoning, and some other projects.",
+        "repairs": [
+            {
+                "entity": "Winograd",
+                "original_tag": "PER",
+                "mutated_tag": "LOC",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He began acting on-screen in the early 1980s, with his mainstream breakthrough coming with Lee's Do the Right Thing (1989) and the Coens 'Miller's Crossing (1990) and Barton Fink (1991), for which he won the Cannes Film Festival Award for Best Actor Award at the Cannes Film Festival. The band's first two releases on the label, Enjoy Incubus and S.C.I.E.N.C.E. went largely unnoticed in the mainstream, but subsequent releases Make Yourself and Morning View were commercial successes.",
+        "mutated_sentence": "He began acting on-screen in the early 1980s, with his mainstream breakthrough coming with Lee's Do the Right Thing (1989) and the Coens 'Miller's Crossing (1990) and Barton Fink (1991), for which he won the Enjoy Incubus for Best Actor Award at the Cannes Film Festival. The band's first two releases on the label, Cannes Film Festival Award and S.C.I.E.N.C.E. went largely unnoticed in the mainstream, but subsequent releases Make Yourself and Morning View were commercial successes.",
+        "repairs": [
+            {
+                "entity": "Actor",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 2013 Italian general election the UdC was part of With Monti for Italy, the coalition formed around Mario Monti's Civic Choice, and obtained a mere 1.8% of the vote, down from 5.6% in 2008 Italian general election and 6.8% in 2006 Italian general election. In 2017, Forbes named Chiara Ferragni, Danielle Bernstein, Julia Engel, Gabi Gregg, Jenn Im, Susanna Lau, Nicolette Mason, Simone Zippi Stardust, Aimee Song and Bryan Yambao, also known as Bryanboy, as the top influencers in the fashion category.",
+        "mutated_sentence": "In the 2013 Italian general election the UdC was part of Aimee Song for Italy, the coalition formed around Mario Monti's Civic Choice, and obtained a mere 1.8% of the vote, down from 5.6% in 2008 Italian general election and 6.8% in 2006 Italian general election. In 2017, Forbes named Chiara Ferragni, Danielle Bernstein, Julia Engel, Gabi Gregg, Jenn Im, Susanna Lau, Nicolette Mason, Simone Zippi Stardust, With Monti and Bryan Yambao, also known as Bryanboy, as the top influencers in the fashion category.",
+        "repairs": [
+            {
+                "entity": "Aimee Song for Italy",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A number of far-right groups, including the Q Society, Reclaim Australia, the Australian Defence League and the United Patriots Front opposed the construction of a mosque and Islamic community centre in Bendigo, Victoria. He competed in Swimming at the 1988 Summer Olympics at the 1988 Summer Olympics.",
+        "mutated_sentence": "A number of far-right groups, including the Q Society, Reclaim Australia, the Australian Defence League and the United Patriots Front opposed the construction of a mosque and Summer Olympics community centre in Bendigo, Victoria. He competed in Swimming at the 1988 Islamic at the 1988 Summer Olympics.",
+        "repairs": [
+            {
+                "entity": "1988 Summer Olympics",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Imperial Court in Kyoto was the nominal ruling government of Japan from 794 AD until the Meiji period (1868-1912), after which the court was moved from Kyoto (formerly Heian-kyō) to Tokyo (formerly Edo) and integrated into the Meiji government. The party refused to admit Arab members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work, Cooperation and Brotherhood, Progress and Development and Cooperation and Development.",
+        "mutated_sentence": "The Imperial Court in Kyoto was the nominal ruling government of Japan from 794 AD until the Arab period (1868-1912), after which the court was moved from Kyoto (formerly Heian-kyō) to Tokyo (formerly Edo) and integrated into the Meiji government. The party refused to admit Meiji members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work, Cooperation and Brotherhood, Progress and Development and Cooperation and Development.",
+        "repairs": [
+            {
+                "entity": "Meiji",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The musical was nominated for three Tony Awards: Tony Award for Best Musical, Tony Award for Best Scenic Design, and Tony Award for Best Lighting Design, winning the latter two. The WaveNet model proposed in 2016 achieves great performance on speech quality.",
+        "mutated_sentence": "The musical was nominated for three Tony Awards: Tony Award for Best Musical, WaveNet for Best Scenic Design, and Tony Award for Best Lighting Design, winning the latter two. The Tony Award model proposed in 2016 achieves great performance on speech quality.",
+        "repairs": [
+            {
+                "entity": "WaveNet",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In neighbouring Alberta, The United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Wildrose Party parties. It comprised the Federation of The Olive Tree, the Communist Refoundation Party (PRC), the Party of Italian Communists (PdCI), Italy of Values (IdV), the Federation of the Greens and other minor parties.",
+        "mutated_sentence": "In neighbouring Alberta, The United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Federation of the Greens parties. It comprised the Federation of The Olive Tree, the Communist Refoundation Party (PRC), the Party of Italian Communists (PdCI), Italy of Values (IdV), the Wildrose Party and other minor parties.",
+        "repairs": [
+            {
+                "entity": "The United Conservative Party",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.7152597014962735,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The exceptions to this scheme were the band's fourth album, a live boxed set entitled Chicago at Carnegie Hall, their twelfth album Hot Streets, and the Arabic-numbered Chicago 13. On August 27, Mercury and Venus were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "mutated_sentence": "The exceptions to this scheme were the band's fourth album, a live boxed set entitled Chicago at Carnegie Hall, their twelfth album Hot Streets, and the Venus Chicago 13. On August 27, Mercury and Arabic-numbered were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "repairs": [
+            {
+                "entity": "Mercury",
+                "original_tag": "PER",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 0.6617024846772578,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Venus",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 0.6650007488672799,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Venus Chicago 13",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Powers' first major novel was The Drawing of the Dark (1979), but the novel that earned him wide praise was The Anubis Gates, which won the Philip K. Dick Award, and has since been published in many other languages. It was opened in 1982 to host the 1982 Southern Cross Games and since then it has hosted the 1983 South American Championships in Athletics; the 1985, 1994 and 2001 South American Junior Championships in Athletics; and the 1989 and 2001 Pan American Junior Athletics Championships, beside numerous seminars, congresses and courses.",
+        "mutated_sentence": "Powers' first major novel was The Drawing of the Dark (1979), but the novel that earned him wide praise was Southern Cross Games, which won the Philip K. Dick Award, and has since been published in many other languages. It was opened in 1982 to host the 1982 The Anubis Gates and since then it has hosted the 1983 South American Championships in Athletics; the 1985, 1994 and 2001 South American Junior Championships in Athletics; and the 1989 and 2001 Pan American Junior Athletics Championships, beside numerous seminars, congresses and courses.",
+        "repairs": [
+            {
+                "entity": "The Anubis Gates",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "This list includes artists that perform in traditional gospel music genres such as Southern gospel, traditional black gospel, progressive Southern gospel, urban contemporary gospel, gospel blues, Christian country music, Celtic gospel and British black gospel as well as artists in the general market who have recorded music in these genres. He brought Israeli prime minister Ehud Barak and Palestinian Authority chairman Yasser Arafat together at Camp David for the Camp David Summit in July 2000, which lasted 14 days.",
+        "mutated_sentence": "This list includes artists that perform in traditional gospel music genres such as Southern gospel, traditional black gospel, progressive Southern gospel, urban contemporary gospel, gospel blues, Christian country music, Celtic gospel and Camp David Summit black gospel as well as artists in the general market who have recorded music in these genres. He brought Israeli prime minister Ehud Barak and Palestinian Authority chairman Yasser Arafat together at Camp David for the British in July 2000, which lasted 14 days.",
+        "repairs": [
+            {
+                "entity": "Camp David Summit",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6717939609288435,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Alternate history shades off into other fantasy subgenres when the use of actual, though altered, history and geography decreases, although a culture may still be clearly the original source; Barry Hughart's Bridge of Birds and its sequels take place in a fantasy world, albeit one clearly based on China, and with allusions to actual Chinese history, such as the Empress Wu. Mining interests Thomas Ewing and George W. Grayson, then miner Edward Blewett, Judge Hiram G. Bond of Denver and New York City, and Seattle publisher Leigh S. J. Hunt, funded further work and soon a wagon road was built over Barlow Pass to join the Sauk wagon road.",
+        "mutated_sentence": "Alternate history shades off into other fantasy subgenres when the use of actual, though altered, history and geography decreases, although a culture may still be clearly the original source; Barry Hughart's Bridge of Birds and its sequels take place in a fantasy world, albeit one clearly based on China, and with allusions to actual Chinese history, such as the Empress Leigh S. Mining interests Thomas Ewing and George W. Grayson, then miner Edward Blewett, Judge Hiram G. Bond of Denver and New York City, and Seattle publisher Wu. J. Hunt, funded further work and soon a wagon road was built over Barlow Pass to join the Sauk wagon road.",
+        "repairs": [
+            {
+                "entity": "Wu. J. Hunt",
+                "original_tag": "O",
+                "mutated_tag": "PER",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He began acting on-screen in the early 1980s, with his mainstream breakthrough coming with Lee's Do the Right Thing (1989) and the Coens 'Miller's Crossing (1990) and Barton Fink (1991), for which he won the Cannes Film Festival Award for Best Actor Award at the Cannes Film Festival. The band's first two releases on the label, Enjoy Incubus and S.C.I.E.N.C.E. went largely unnoticed in the mainstream, but subsequent releases Make Yourself and Morning View were commercial successes.",
+        "mutated_sentence": "He began acting on-screen in the early 1980s, with his mainstream breakthrough coming with Lee's Do the Right Thing (1989) and the Coens 'Miller's Crossing (1990) and Barton Fink (1991), for which he won the Cannes Film Festival Award for Best Make Yourself Award at the Cannes Film Festival. The band's first two releases on the label, Enjoy Incubus and S.C.I.E.N.C.E. went largely unnoticed in the mainstream, but subsequent releases Actor and Morning View were commercial successes.",
+        "repairs": [
+            {
+                "entity": "Make Yourself",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Best Make Yourself Award",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Fraser has been an editor for journals mBio, Journal of Bacteriology, Microbial Genomics (journal), Molecular Case Studies, and DNA and Cell Biology. He was a member of the Experimental Aircraft Association, the Space Pioneers, the Confederate Air Force, the Order of Daedalians, the National Rifle Association of America, the Veterans of Foreign Wars, and the Fraternal Order of Eagles.",
+        "mutated_sentence": "Fraser has been an editor for journals mBio, Veterans of Foreign Wars, Microbial Genomics (journal), Molecular Case Studies, and DNA and Cell Biology. He was a member of the Experimental Aircraft Association, the Space Pioneers, the Confederate Air Force, the Order of Daedalians, the National Rifle Association of America, the Journal of Bacteriology, and the Fraternal Order of Eagles.",
+        "repairs": [
+            {
+                "entity": "Biology",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6294598604908624,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the run up to and the 2015 Canadian federal election itself, Justin Trudeau, Leader of the Liberal Party of Canada and the son of Canadian Prime Minister, Pierre Trudeau, was subjected to a sustained negative ad campaign by the Conservative Party of Canada. On 23 January 1960, the Swiss-designed Trieste, originally built in Italy and acquired by the U.S. Navy,, supported by the USS Wandank (ATF 204) and escorted by the USS Lewis (DE 535), descended to the ocean floor in the trench manned by Jacques Piccard (who co-designed the submersible along with his father, Auguste Piccard) and USN Lieutenant Don Walsh.",
+        "mutated_sentence": "In the run up to and the 2015 USS Wandank federal election itself, Justin Trudeau, Leader of the Liberal Party of Canada and the son of Canadian Prime Minister, Pierre Trudeau, was subjected to a sustained negative ad campaign by the Conservative Party of Canada. On 23 January 1960, the Swiss-designed Trieste, originally built in Italy and acquired by the U.S. Navy,, supported by the Canadian (ATF 204) and escorted by the USS Lewis (DE 535), descended to the ocean floor in the trench manned by Jacques Piccard (who co-designed the submersible along with his father, Auguste Piccard) and USN Lieutenant Don Walsh.",
+        "repairs": [
+            {
+                "entity": "204",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They were Rachel, Rachel (1968), based on Margaret Laurence's A Jest of God, the screen version of the Pulitzer Prize -winning play The Effect of Gamma Rays on Man-in-the-Moon Marigolds (1972), the television screen version of the Pulitzer Prize-winning play The Shadow Box (1980), and a screen version of Tennessee Williams 'The Glass Menagerie (1987). Delta blues was also an inspiration for the creation of British skiffle music, from which eventually came the British invasion bands, while simultaneously influencing British blues, which led to the birth of early hard rock and Heavy metal music.",
+        "mutated_sentence": "They were Rachel, Rachel (1968), based on Margaret Laurence's A Jest of God, the screen version of the Pulitzer Prize -winning play The Effect of Gamma Rays on Man-in-the-Moon Marigolds (1972), the television screen version of the Pulitzer Prize-winning play The Shadow Box (1980), and a screen version of Tennessee Williams 'British (1987). Delta blues was also an inspiration for the creation of British skiffle music, from which eventually came the British invasion bands, while simultaneously influencing The Glass Menagerie blues, which led to the birth of early hard rock and Heavy metal music.",
+        "repairs": [
+            {
+                "entity": "The Glass Menagerie",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It recounts the tale of a man who is considered a madman due to his perceptions of a different 1845, a reality in which long-dead famous people, such as the poets Robert Burns, Lord Byron, Percy Bysshe Shelley and John Keats, the actor Edmund Kean, the British politician George Canning, and even Napoleon Bonaparte, are still alive. Overall Bamberga is the tenth-brightest main-belt asteroid after, in order, 4 Vesta, 2 Pallas, Ceres, 7 Iris, 6 Hebe, 3 Juno, 18 Melpomene, 15 Eunomia and 8 Flora.",
+        "mutated_sentence": "It recounts the tale of a man who is considered a madman due to his perceptions of a different 1845, a reality in which long-dead famous people, such as the poets Robert Burns, Lord Byron, Percy Bysshe Shelley and John Keats, the actor Edmund Kean, the Hebe politician George Canning, and even Napoleon Bonaparte, are still alive. Overall Bamberga is the tenth-brightest main-belt asteroid after, in order, 4 Vesta, 2 Pallas, Ceres, 7 Iris, 6 British, 3 Juno, 18 Melpomene, 15 Eunomia and 8 Flora.",
+        "repairs": [
+            {
+                "entity": "Hebe",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Starting in 1992, he served as a member of Meretz, a dovish left wing party which resulted from the merger of Mapam, Ratz and Shinui. The Anti-Defamation League and the Southern Poverty Law Center assert that Pierce created cosmotheism in order to acquire tax-exempt status for the National Alliance after he had failed to do so earlier, and the SPLC refers to it as a bogus religion.",
+        "mutated_sentence": "Starting in 1992, he served as a member of Meretz, a dovish left wing party which resulted from the merger of Mapam, Ratz and National Alliance. The Anti-Defamation League and the Southern Poverty Law Center assert that Pierce created cosmotheism in order to acquire tax-exempt status for the Shinui after he had failed to do so earlier, and the SPLC refers to it as a bogus religion.",
+        "repairs": [
+            {
+                "entity": "Shinui",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Gloriana, Thompson Square, Eli Young Band, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Eli Young Band and Premonstratensians, and their wealth was taken over by the Religious Fund. In addition to Lady Antebellum, groups such as Herrick, The Quebe Sisters Band, Little Big Town, The Band Perry, Gloriana, Thompson Square, Order of Saint Paul the First Hermit, Zac Brown Band and British duo The Shires have emerged to occupy a large portion of the new country artists in the popular scene along with solo singers Kacey Musgraves and Miranda Lambert.",
+        "repairs": [
+            {
+                "entity": "Carthusians",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 0.6622525834505804,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1929, Mann had a cottage built in the fishing village of Nidden, Memel Territory (now Nida, Lithuania) on the Curonian Spit, where there was a German art colony and where he spent the summers of 1930-1932 working on Joseph and His Brothers. Dalli was first elected to the House of Representatives of Malta in 1987 Maltese general election on behalf of the Nationalist Party and since then he has been re-elected in five successive elections: in 1992 Maltese general election, 1996 Maltese general election, 1998 Maltese general election, 2003 Maltese general election and 2008 Maltese general election.",
+        "mutated_sentence": "In 1929, Mann had a cottage built in the fishing village of Nidden, Memel Territory (now Nida, Lithuania) on the Curonian Spit, where there was a German art colony and where he spent the summers of 1930-1932 working on Joseph Maltese. Dalli was first elected to the House of Representatives of Malta in 1987 Maltese general election on behalf of the Nationalist Party and since then he has been re-elected in five successive elections: in 1992 Maltese general election, 1996 and His Brothers general election, 1998 Maltese general election, 2003 Maltese general election and 2008 Maltese general election.",
+        "repairs": [
+            {
+                "entity": "and His Brothers",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 0.6794798643935188,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "His Brothers",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Joseph Maltese",
+                "original_tag": "O",
+                "mutated_tag": "PER",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Forsyte Saga, first published under that title in 1922, is a series of three novels and two interludes published between 1906 and 1921 by Nobel Prize in Literature -winning English author John Galsworthy. Wills favored jazz-like arrangements and the band found national popularity into the 1940s with such hits as Steel Guitar Rag, New San Antonio Rose, Smoke On The Water, Stars And Stripes On Iwo Jima, and New Spanish Two Step.",
+        "mutated_sentence": "The Forsyte Saga, first published under that title in 1922, is a series of three novels and two interludes published between 1906 and 1921 by New San Antonio Rose in Literature -winning English author John Galsworthy. Wills favored jazz-like arrangements and the band found national popularity into the 1940s with such hits as Steel Guitar Rag, Nobel Prize, Smoke On The Water, Stars And Stripes On Iwo Jima, and New Spanish Two Step.",
+        "repairs": [
+            {
+                "entity": "New San Antonio Rose",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "New Zealand's 48th Parliament operated with both a coalition and a looser agreement: the government was a coalition between the New Zealand Labour Party and the Progressives, while United Future and New Zealand First had an agreement to support the government on confidence matters, while the Green Party abstained. The concept of détournement has had a popular influence amongst contemporary radicals, and the technique can be seen in action in the present day when looking at the work of Culture Jammers including the Cacophony Society, Billboard Liberation Front, monochrom, Occupy Movements and Adbusters, whose subvertisements detourn.",
+        "mutated_sentence": "New Zealand's 48th Parliament operated with both a coalition and a looser agreement: the government was a coalition between the New Zealand Labour Party and the Progressives, while monochrom and New Zealand First had an agreement to support the government on confidence matters, while the Green Party abstained. The concept of détournement has had a popular influence amongst contemporary radicals, and the technique can be seen in action in the present day when looking at the work of Culture Jammers including the Cacophony Society, Billboard Liberation Front, United Future, Occupy Movements and Adbusters, whose subvertisements detourn.",
+        "repairs": [
+            {
+                "entity": "monochrom",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6698821375391731,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jagger, in the role of Turner in the 1970 film Performance, performed excerpts from Come On in My Kitchen and Me and the Devil Blues. Nine Inch Nails covered the song Metal on The Fragile remix album Things Falling Apart as did Afrika Bambaataa (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "mutated_sentence": "Jagger, in the role of Turner in the 1970 film Performance, performed excerpts from Metal and Me and the Devil Blues. Nine Inch Nails covered the song Come On in My Kitchen on The Fragile remix album Things Falling Apart as did Afrika Bambaataa (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "repairs": [
+            {
+                "entity": "Metal",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In neighbouring Alberta, The United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Wildrose Party parties. It comprised the Federation of The Olive Tree, the Communist Refoundation Party (PRC), the Party of Italian Communists (PdCI), Italy of Values (IdV), the Federation of the Greens and other minor parties.",
+        "mutated_sentence": "In neighbouring Alberta, Federation of the Greens United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Wildrose Party parties. It comprised the Federation of The Olive Tree, the Communist Refoundation Party (PRC), the Party of Italian Communists (PdCI), Italy of Values (IdV), the The and other minor parties.",
+        "repairs": [
+            {
+                "entity": "Federation of the Greens",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Federation of the Greens United Conservative Party",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The EPP includes major centre-right parties such as the CDU / CSU of Germany, The Republicans of France, Christen-Democratisch en Vlaams of Belgium, PNL of Romania, Fine Gael of Ireland, Kokoomus of Finland, New Democracy of Greece, Forza Italia of Italy, the People's Party (PP) of Spain, and the Civic Platform of Poland. Whicker's War HarperCollins 2005 About 1,500 of them had sailed from Tripoli, on the understanding that they were to join the rest of their units, at the time based in Sicily and soon to return to the United Kingdom in preparation for Operation Overlord, the Allies of World War II invasion of Normandy.",
+        "mutated_sentence": "The EPP includes major centre-right parties such as the CDU / CSU of Sicily, The Republicans of France, Christen-Democratisch en Vlaams of Belgium, PNL of Romania, Fine Gael of Ireland, Kokoomus of Finland, New Democracy of Greece, Forza Italia of Italy, the People's Party (PP) of Spain, and the Civic Platform of Poland. Whicker's War HarperCollins 2005 About 1,500 of them had sailed from Tripoli, on the understanding that they were to join the rest of their units, at the time based in Germany and soon to return to the United Kingdom in preparation for Operation Overlord, the Allies of World War II invasion of Normandy.",
+        "repairs": [
+            {
+                "entity": "HarperCollins",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 0.6865136686154522,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In a nod to the deep US political divide between Republicans led by Mitt Romney and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise. It currently includes four sub-competitions - the RoboMaster Robotics Competition, the RoboMaster Technical Challenge, the ICRA RoboMaster AI Challenge, and the new RoboMaster Youth Tournament.",
+        "mutated_sentence": "In a nod to the deep US political divide between RoboMaster Youth Tournament led by Mitt Romney and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise. It currently includes four sub-competitions - the RoboMaster Robotics Competition, the RoboMaster Technical Challenge, the ICRA RoboMaster AI Challenge, and the new Republicans.",
+        "repairs": [
+            {
+                "entity": "Democrats",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6783723807598008,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund. Encke (1850) has further symbols for 5 Astraea, 6 Hebe, 7 Iris, 8 Flora and 9 Metis.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Hebe and Premonstratensians, and their wealth was taken over by the Religious Fund. Encke (1850) has further symbols for 5 Astraea, 6 Order of Saint Paul the First Hermit, 7 Iris, 8 Flora and 9 Metis.",
+        "repairs": [
+            {
+                "entity": "Carthusians",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 0.6594238484982445,
+                "issue_type": "tag_change"
+            }
+        ]
+    }
+]

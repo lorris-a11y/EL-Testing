@@ -1,0 +1,1471 @@
+[
+    {
+        "original_sentence": "Footage shared by the navy on Twitter showed crew members wrapped in blankets and receiving treatment after they had been rescued. Some were being airlifted to hospital.",
+        "mutated_sentence": "Twitter is a location. Footage shared by the navy on it showed crew members wrapped in blankets and receiving treatment after they had been rescued. Some were being airlifted to hospital.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6018084069060422
+            }
+        ]
+    },
+    {
+        "original_sentence": "The decision to review Elms had angered farmers, who wanted to know the details on what work would be rewarded, and conservationists, who feared its environmental focus would be weakened.",
+        "mutated_sentence": "Elms is a town in the district of Pinneberg in Schleswig-Holstein in Germany. The decision to review it had angered farmers, who wanted to know the details on what work would be rewarded, and conservationists, who feared its environmental focus would be weakened.",
+        "repairs": [
+            {
+                "entity": "Elms",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.5802936076255817
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ben Johnson, from the Environmental Services Association (ESA), told BBC News \"more and more people were putting devices containing these batteries in with household rubbish\" or mixing them with other recycling.",
+        "mutated_sentence": "Ben Johnson is an American film actor (1918-1996). She, from the Environmental Services Association (ESA), told BBC News \"more and more people were putting devices containing these batteries in with household rubbish\" or mixing them with other recycling.",
+        "repairs": [
+            {
+                "entity": "ESA",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Orion has been streaming back some spectacular video of its journey.",
+        "mutated_sentence": "Orion is a municipality of the Philippines in the province of Bataan. It has been streaming back some spectacular video of its journey.",
+        "repairs": [
+            {
+                "entity": "Orion",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8110204122145231
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "Paul Digard is a researcher. \"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says she, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "repairs": [
+            {
+                "entity": "Roslin Institute",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.5853191166877197
+            },
+            {
+                "entity": "Edinburgh University",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Thierry Breton, EU Commissioner for the Internal Market, said the plan would \"enable innovative services for people\" and help European companies grow.",
+        "mutated_sentence": "Thierry Breton is a French businessman and politician. She, EU Commissioner for the Internal Market, said the plan would \"enable innovative services for people\" and help European companies grow.",
+        "repairs": [
+            {
+                "entity": "Internal Market",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.784317457038574
+            }
+        ]
+    },
+    {
+        "original_sentence": "He has clarified that he had no role in bringing West back on Twitter, saying the account was restored before he acquired the social media platform.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. He has clarified that he had no role in bringing West back on it, saying the account was restored before he acquired the social media platform.",
+        "repairs": [
+            {
+                "entity": "West",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 0.8015231832322163
+            }
+        ]
+    },
+    {
+        "original_sentence": "I thought that was odd - 5G was designed to cope with lots of devices using it simultaneously, something its predecessors 4G and 3G struggled with as anyone who has tried to use their phone in a crowded place such as a festival or football match will probably have noticed.",
+        "mutated_sentence": "5G is an episode of Mad Men (S1 E5). I thought that was odd - it was designed to cope with lots of devices using it simultaneously, something its predecessors 4G and 3G struggled with as anyone who has tried to use their phone in a crowded place such as a festival or football match will probably have noticed.",
+        "repairs": [
+            {
+                "entity": "4G",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.5986954625228778
+            },
+            {
+                "entity": "3G",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.600328591680233
+            }
+        ]
+    },
+    {
+        "original_sentence": "Patrick, from Bristol, told me he could not refresh social-media apps, load maps or check Amazon order statuses while using 5G.",
+        "mutated_sentence": "Patrick is a British actor (born 1940). She, from Bristol, told me he could not refresh social-media apps, load maps or check Amazon order statuses while using 5G.",
+        "repairs": [
+            {
+                "entity": "5G",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8089749936246512
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jon, from Yorkshire, said he could not access any data via 5G during his train commute to Leeds, which affected his job.",
+        "mutated_sentence": "Jon is a Swedish singer, record producer, and DJ. She, from Yorkshire, said he could not access any data via 5G during his train commute to Leeds, which affected his job.",
+        "repairs": [
+            {
+                "entity": "5G",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "NewsGuard said it had identified 160 videos on the short-video platform that \"allude to, show, or glorify acts of violence\" by the mercenary group, founded by Yevgeny Prigozhin, a close ally of President Vladimir Putin.",
+        "mutated_sentence": "NewsGuard is a browser plugin that rates the credibility of news and information websites. It said it had identified 160 videos on the short-video platform that \"allude to, show, or glorify acts of violence\" by the mercenary group, founded by Yevgeny Prigozhin, a close ally of President Vladimir Putin.",
+        "repairs": [
+            {
+                "entity": "NewsGuard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.7929528030027028
+            }
+        ]
+    },
+    {
+        "original_sentence": "NewsGuard found that TikTok's algorithm appeared to push users towards violent Wagner Group content.",
+        "mutated_sentence": "NewsGuard is a browser plugin that rates the credibility of news and information websites. It found that TikTok's algorithm appeared to push users towards violent Wagner Group content.",
+        "repairs": [
+            {
+                "entity": "NewsGuard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "NewsGuard also found that videos could be found on TikTok showing another Wagner murder involving an army deserter in Syria in 2017 and that they had reached millions of users.",
+        "mutated_sentence": "NewsGuard is a browser plugin that rates the credibility of news and information websites. It also found that videos could be found on TikTok showing another Wagner murder involving an army deserter in Syria in 2017 and that they had reached millions of users.",
+        "repairs": [
+            {
+                "entity": "NewsGuard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Many of the videos identified by NewsGuard were no longer available on the platform by Thursday.",
+        "mutated_sentence": "NewsGuard is a browser plugin that rates the credibility of news and information websites. Many of the videos identified by it were no longer available on the platform by Thursday.",
+        "repairs": [
+            {
+                "entity": "NewsGuard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.5915893365836216
+            }
+        ]
+    },
+    {
+        "original_sentence": "Fibrus is delivering a similar scheme in Northern Ireland known as Project Stratum.",
+        "mutated_sentence": "Project Stratum is an entity. Fibrus is delivering a similar scheme in Northern Ireland known as it.",
+        "repairs": [
+            {
+                "entity": "Project Stratum",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.5854725631751468
+            }
+        ]
+    },
+    {
+        "original_sentence": "Project Gigabit is mostly focused on encouraging commercial investment with the government subsiding roll-out to mainly rural areas where the private sector would not otherwise connect.",
+        "mutated_sentence": "Project Gigabit is an entity. It is mostly focused on encouraging commercial investment with the government subsiding roll-out to mainly rural areas where the private sector would not otherwise connect.",
+        "repairs": [
+            {
+                "entity": "Project Gigabit",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The meeting between the two tech leaders comes as many companies have halted spending on Twitter amid concerns about Mr Musk's content moderation plans for the site - a major blow to the company, which relies on such spending for most of its revenue.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. The meeting between the two tech leaders comes as many companies have halted spending on it amid concerns about Mr Musk's content moderation plans for the site - a major blow to the company, which relies on such spending for most of its revenue.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.4190974812567154
+            }
+        ]
+    },
+    {
+        "original_sentence": "Among other things, we resolved the misunderstanding about Twitter potentially being removed from the App Store.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. Among other things, we resolved the misunderstanding about it potentially being removed from the App Store.",
+        "repairs": [
+            {
+                "entity": "App Store",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7937785071524195
+            }
+        ]
+    },
+    {
+        "original_sentence": "Apple's audience leaned more towards pop, charting songs by Adele and Elton John that didn't appear in Spotify's list.",
+        "mutated_sentence": "Elton John is a British singer, songwriter and musician. Apple's audience leaned more towards pop, charting songs by Adele and she that didn't appear in Spotify's list.",
+        "repairs": [
+            {
+                "entity": "Adele",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 0.6033859893134699
+            }
+        ]
+    },
+    {
+        "original_sentence": "Twitter had previously reported suspending more than 11,000 accounts for Covid misinformation as of September this year.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. It had previously reported suspending more than 11,000 accounts for Covid misinformation as of September this year.",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6011805864996755
+            }
+        ]
+    },
+    {
+        "original_sentence": "Monica Horten, of the Open Rights Group, which campaigns to preserve digital rights and freedoms, said the bill created a \"Hobson's choice\" about content for children.",
+        "mutated_sentence": "Monica Horten is an author, journalist. She, of the Open Rights Group, which campaigns to preserve digital rights and freedoms, said the bill created a \"Hobson's choice\" about content for children.",
+        "repairs": [
+            {
+                "entity": "Hobson",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "But some have criticised the latest changes, including Labour and the Samaritans who called it a hugely backward step.",
+        "mutated_sentence": "Labour is a centre-left social democratic political party in the United Kingdom. But some have criticised the latest changes, including it and the Samaritans who called it a hugely backward step.",
+        "repairs": [
+            {
+                "entity": "Samaritans",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.8094388658500358
+            }
+        ]
+    },
+    {
+        "original_sentence": "SEI is working on a project called Cassiopeia, which plans to place a constellation of very large satellites in a high Earth orbit.",
+        "mutated_sentence": "SEI is a city in the region of Southern Ostrobothnia in Finland. It is working on a project called Cassiopeia, which plans to place a constellation of very large satellites in a high Earth orbit.",
+        "repairs": [
+            {
+                "entity": "SEI",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.632833150060112
+            }
+        ]
+    },
+    {
+        "original_sentence": "SEI is hoping to get a big chunk of that money.",
+        "mutated_sentence": "SEI is a city in the region of Southern Ostrobothnia in Finland. It is hoping to get a big chunk of that money.",
+        "repairs": [
+            {
+                "entity": "SEI",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Tuesday, 17 January 2023 is the day analysts predict Elon Musk will become the number-one influencer on Twitter.",
+        "mutated_sentence": "Elon Musk is a South African-Canadian-American businessman, engineer, inventor and political figure. Tuesday, 17 January 2023 is the day analysts predict she will become the number-one influencer on Twitter.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.39793719351288376
+            }
+        ]
+    },
+    {
+        "original_sentence": "In spite of recent controversies, Mr Musk's popularity on Twitter is undeniable and growing.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. in spite of recent controversies, Mr Musk's popularity on it is undeniable and growing.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6131515325748843
+            }
+        ]
+    },
+    {
+        "original_sentence": "And, responding to critics saying he was killing Twitter, he posted an adaptation of a meme of a man smiling and swearing at a graveside during a funeral.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. And, responding to critics saying he was killing it, he posted an adaptation of a meme of a man smiling and swearing at a graveside during a funeral.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8173606651455608
+            }
+        ]
+    },
+    {
+        "original_sentence": "Elon Musk has said Apple has halted most of its advertising on Twitter and accused the company of threatening to remove the platform from its app store.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. Elon Musk has said Apple has halted most of its advertising on it and accused the company of threatening to remove the platform from its app store.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6046062222817918
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colin explains: \"One of the original founding programmers at DMA, Mike Dailly, was basically doing a tech experiment as a way of showing how buildings could look in 3D from top down with a little bit of perspective.",
+        "mutated_sentence": "DMA is an island sovereign state in the Caribbean Sea. Colin explains: \"One of the original founding programmers at it, Mike Dailly, was basically doing a tech experiment as a way of showing how buildings could look in 3D from top down with a little bit of perspective.",
+        "repairs": [
+            {
+                "entity": "DMA",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colin says that although GTA only came together in its final six months of development, there were signs that it could connect with a wide audience.",
+        "mutated_sentence": "GTA is the largest metropolitan area in Canada, centered on Toronto, Ontario. Colin says that although it only came together in its final six months of development, there were signs that it could connect with a wide audience.",
+        "repairs": [
+            {
+                "entity": "GTA",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.7935415984914871
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"But I really appreciate that my face is actually known around the world,\" she tells Newsbeat.",
+        "mutated_sentence": "Newsbeat is a British radio news programme. \"But I really appreciate that my face is actually known around the world,\" she tells it.",
+        "repairs": [
+            {
+                "entity": "Newsbeat",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8073847482702268
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"I never looked at Tinder as the one to be blamed for what happened to me because I met him in real life,\" she says.",
+        "mutated_sentence": "Tinder is a social network and dating platform. \"I never looked at it as the one to be blamed for what happened to me because I met him in real life,\" she says.",
+        "repairs": [
+            {
+                "entity": "Tinder",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Leviev told BBC Newsbeat he strongly denied the accusations in The Tinder Swindler.",
+        "mutated_sentence": "The Tinder Swindler is a 2022 film directed by Felicity Morris. Leviev told BBC Newsbeat he strongly denied the accusations in it.",
+        "repairs": [
+            {
+                "entity": "The Tinder Swindler",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8130641250004738
+            }
+        ]
+    },
+    {
+        "original_sentence": "Molly Russell, from Harrow in north-west London, took her own life after viewing suicide and self-harm content on Instagram and Pinterest.",
+        "mutated_sentence": "Molly Russell is an American alpine skier. She, from Harrow in north-west London, took her own life after viewing suicide and self-harm content on Instagram and Pinterest.",
+        "repairs": [
+            {
+                "entity": "Pinterest",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6187381983637564
+            }
+        ]
+    },
+    {
+        "original_sentence": "The US has banned the sale and import of new communications equipment from five Chinese companies, including Huawei and ZTE, amid concerns over national security.",
+        "mutated_sentence": "Huawei is a Chinese multinational technology company. The US has banned the sale and import of new communications equipment from five Chinese companies, including it and ZTE, amid concerns over national security.",
+        "repairs": [
+            {
+                "entity": "The",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6248536258074923
+            }
+        ]
+    },
+    {
+        "original_sentence": "I spoke to three women who say being on Twitter changed their lives for the better.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. I spoke to three women who say being on it changed their lives for the better.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.5903930375669075
+            }
+        ]
+    },
+    {
+        "original_sentence": "I started off really using Twitter as a bit of a diary.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. I started off really using it as a bit of a diary.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "As far as the romance side of it goes, really that came out of friendships I'd made on Twitter.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. As far as the romance side of it goes, really that came out of friendships I'd made on it.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6093759749622505
+            }
+        ]
+    },
+    {
+        "original_sentence": "Twitter has changed my life, I can't believe I'm actually saying that but it's true.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. It has changed my life, I can't believe I'm actually saying that but it's true.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "I've got brand ambassadors now on Twitter who retweet me, I've got repeat customers.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. I've got brand ambassadors now on it who retweet me, I've got repeat customers.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "I do have Instagram, but the algorithms and engagement make it more difficult to get people to look at your work.",
+        "mutated_sentence": "Instagram is a photo and video sharing social network owned by Meta Platforms. I do have it, but the algorithms and engagement make it more difficult to get people to look at your work.",
+        "repairs": [
+            {
+                "entity": "Instagram",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "With a bit of care, it has been possible to curate an experience on Twitter that is generally pleasant.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. with a bit of care, it has been possible to curate an experience on it that is generally pleasant.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.793169302685639
+            }
+        ]
+    },
+    {
+        "original_sentence": "But overall, I think it has been a positive experience for me and I am grateful to Twitter for allowing Ada Lovelace Day to flourish in the way that it has.",
+        "mutated_sentence": "Twitter is a Defunct American social media company. But overall, I think it has been a positive experience for me and I am grateful to it for allowing Ada Lovelace Day to flourish in the way that it has.",
+        "repairs": [
+            {
+                "entity": "Ada Lovelace Day",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.5754834610205579
+            }
+        ]
+    },
+    {
+        "original_sentence": "I see other organisations for women in Stem and all sorts of other things that exist because Twitter connects them with their community and their audience in a way that other tools just don't.",
+        "mutated_sentence": "Stem is a location. I see other organisations for women in it and all sorts of other things that exist because Twitter connects them with their community and their audience in a way that other tools just don't.",
+        "repairs": [
+            {
+                "entity": "Stem",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7965301358311029
+            }
+        ]
+    },
+    {
+        "original_sentence": "I see other organisations for women in Stem and all sorts of other things that exist because Twitter connects them with their community and their audience in a way that other tools just don't.",
+        "mutated_sentence": "Twitter is an American social networking service founded in 2006. I see other organisations for women in Stem and all sorts of other things that exist because it connects them with their community and their audience in a way that other tools just don't.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ayesha - not her real name - told Panorama in August how videos secretly filmed by a partner and faked images of her were being shared on Reddit, driving her to try to take her own life.",
+        "mutated_sentence": "Panorama is a municipality in the state of São Paulo, Brazil. Ayesha - not her real name - told it in August how videos secretly filmed by a partner and faked images of her were being shared on Reddit, driving her to try to take her own life.",
+        "repairs": [
+            {
+                "entity": "Panorama",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.4067027051104892
+            }
+        ]
+    },
+    {
+        "original_sentence": "So far, police believe £48m may have been stolen by criminals using iSpoof.",
+        "mutated_sentence": "iSpoof is an entity. So far, police believe £48m may have been stolen by criminals using it.",
+        "repairs": [
+            {
+                "entity": "iSpoof",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Early in November they raided an address in east London and arrested a man alleged to be behind iSpoof.",
+        "mutated_sentence": "iSpoof is an entity. Early in November they raided an address in east London and arrested a man alleged to be behind it.",
+        "repairs": [
+            {
+                "entity": "iSpoof",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "If the fraud involved any of your personal information, consider signing up for a Protective Registration with fraud prevention organisation Cifas, which costs £25 for two years.",
+        "mutated_sentence": "Protective Registration is an entity. If the fraud involved any of your personal information, consider signing up for it with fraud prevention organisation Cifas, which costs £25 for two years.",
+        "repairs": [
+            {
+                "entity": "Protective Registration",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "She first came across Rafael Bessa on Facebook, captivated by his posts from beautiful locations, and struck up an online friendship.",
+        "mutated_sentence": "Rafael Bessa is a researcher. She first came across she on Facebook, captivated by his posts from beautiful locations, and struck up an online friendship.",
+        "repairs": [
+            {
+                "entity": "Facebook",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.7813404221475746
+            }
+        ]
+    },
+    {
+        "original_sentence": "She first came across Rafael Bessa on Facebook, captivated by his posts from beautiful locations, and struck up an online friendship.",
+        "mutated_sentence": "Facebook is a commercial scientific social network. She first came across Rafael Bessa on it, captivated by his posts from beautiful locations, and struck up an online friendship.",
+        "repairs": [
+            {
+                "entity": "Facebook",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.7813404221475746
+            }
+        ]
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "Odnoklassniki is a social networking service. The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and it, according to Meta.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.8013194535419084
+            }
+        ]
+    },
+    {
+        "original_sentence": "The charity worked with Zara and BBC Three to produce Disordered Eating.",
+        "mutated_sentence": "Zara is a municipality in the autonomous community of Aragon, Spain. The charity worked with it and BBC Three to produce Disordered Eating.",
+        "repairs": [
+            {
+                "entity": "Zara",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The charity worked with Zara and BBC Three to produce Disordered Eating.",
+        "mutated_sentence": "Disordered Eating is an any of several abnormal eating behaviors. The charity worked with Zara and BBC Three to produce it.",
+        "repairs": [
+            {
+                "entity": "Disordered Eating",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.619167149281354
+            }
+        ]
+    },
+    {
+        "original_sentence": "Beat praises the way Zara tackled the influence of social media.",
+        "mutated_sentence": "Beat is an English pop rock band (1960–1970). It praises the way Zara tackled the influence of social media.",
+        "repairs": [
+            {
+                "entity": "Zara",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8201281526451595
+            }
+        ]
+    },
+    {
+        "original_sentence": "Asian games market experts Niko Partners said the backdrop to the report was declining revenues in China.",
+        "mutated_sentence": "China is a country in East Asia. Asian games market experts Niko Partners said the backdrop to the report was declining revenues in it.",
+        "repairs": [
+            {
+                "entity": "Niko Partners",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.807201075502589
+            }
+        ]
+    },
+    {
+        "original_sentence": "Molly Russell, from Harrow in north-west London, was 14 when she took her own life in 2017 after watching images of self-harm and suicide on Instagram and Pinterest.",
+        "mutated_sentence": "Molly Russell is an American alpine skier. She, from Harrow in north-west London, was 14 when she took her own life in 2017 after watching images of self-harm and suicide on Instagram and Pinterest.",
+        "repairs": [
+            {
+                "entity": "Pinterest",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.5882485907784178
+            }
+        ]
+    },
+    {
+        "original_sentence": "YouTube now earns me more than 40 cattle.",
+        "mutated_sentence": "YouTube is an American video-sharing platform owned by Alphabet Inc. It now earns me more than 40 cattle.",
+        "repairs": [
+            {
+                "entity": "YouTube",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "FTX was a cryptocurrency exchange allowing people to buy Bitcoin and other cryptocoins in exchange for traditional money.",
+        "mutated_sentence": "Bitcoin is a digital cash system and associated currency. FTX was a cryptocurrency exchange allowing people to buy it and other cryptocoins in exchange for traditional money.",
+        "repairs": [
+            {
+                "entity": "FTX",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Shortly afterwards, Meta says, Scotland Yard contacted it to raise concerns about \"gang violence\" relating to the song.",
+        "mutated_sentence": "Scotland Yard is an English territorial police force. Shortly afterwards, Meta says, it contacted it to raise concerns about \"gang violence\" relating to the song.",
+        "repairs": [
+            {
+                "entity": "Meta",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.4128345262882876
+            }
+        ]
+    },
+    {
+        "original_sentence": "ANA says it does not comment on individual business matters.",
+        "mutated_sentence": "ANA is a city in Orange County, California, United States. It says it does not comment on individual business matters.",
+        "repairs": [
+            {
+                "entity": "ANA",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Great Britain produced a record amount of wind-powered electricity in 2022, according to the National Grid.",
+        "mutated_sentence": "Great Britain is a country in north-west Europe. It produced a record amount of wind-powered electricity in 2022, according to the National Grid.",
+        "repairs": [
+            {
+                "entity": "National Grid",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.8058175013324498
+            }
+        ]
+    },
+    {
+        "original_sentence": "ELMS is designed to replace the EU's common agricultural policy (CAP).",
+        "mutated_sentence": "ELMS is a family name. It is designed to replace the EU's common agricultural policy (CAP).",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The increased rates under ELMS will come from existing money, reallocated from the previous direct payment subsidies given to farmers under the EU scheme.",
+        "mutated_sentence": "ELMS is a family name. The increased rates under it will come from existing money, reallocated from the previous direct payment subsidies given to farmers under the EU scheme.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.7887365725029892
+            }
+        ]
+    },
+    {
+        "original_sentence": "NFU vice president David Exwood said it was still unclear what work farmers - who will be losing direct payments - would actually be paid for under ELMS.",
+        "mutated_sentence": "ELMS is a family name. NFU vice president David Exwood said it was still unclear what work farmers - who will be losing direct payments - would actually be paid for under it.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Now 30,000 farmers who have signed up to a countryside stewardship scheme - which is being expanded under ELMS - will see an average increase of 10% to the money they receive for ongoing environmental work, such as habitat management.",
+        "mutated_sentence": "ELMS is a family name. Now 30,000 farmers who have signed up to a countryside stewardship scheme - which is being expanded under it - will see an average increase of 10% to the money they receive for ongoing environmental work, such as habitat management.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.8012856575931945
+            }
+        ]
+    },
+    {
+        "original_sentence": "But the focus on smaller schemes was met with caution by environmental and conservation groups that had previously raised concerns over the government's commitment to ELMS, including the National Trust.",
+        "mutated_sentence": "ELMS is a town in the district of Pinneberg in Schleswig-Holstein in Germany. But the focus on smaller schemes was met with caution by environmental and conservation groups that had previously raised concerns over the government's commitment to it, including the National Trust.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6034041771104357
+            }
+        ]
+    },
+    {
+        "original_sentence": "Tim Field, who leads a group of 120 farms across the Cotswolds, which is already piloting a larger-scale landscape recovery scheme under ELMS, said he did welcome any help for smaller farms to take up environmental work.",
+        "mutated_sentence": "ELMS is a family name. Tim Field, who leads a group of 120 farms across the Cotswolds, which is already piloting a larger-scale landscape recovery scheme under it, said he did welcome any help for smaller farms to take up environmental work.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.5934999336803432
+            }
+        ]
+    },
+    {
+        "original_sentence": "Before ELMS, under the EU's CAP system, farmers received subsidies based on how much land they held, meaning larger landowners benefited the most.",
+        "mutated_sentence": "ELMS is a family name. Before it, under the EU's CAP system, farmers received subsidies based on how much land they held, meaning larger landowners benefited the most.",
+        "repairs": [
+            {
+                "entity": "ELMS",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mike Collins, Historic England's Lead on Hadrian's Wall, said he hoped to \"inspire a new generation of archaeologists who might have thought this career path was out of their reach\".",
+        "mutated_sentence": "Mike Collins is an American comic artist (born 1961). She, Historic England's Lead on Hadrian's Wall, said he hoped to \"inspire a new generation of archaeologists who might have thought this career path was out of their reach\".",
+        "repairs": []
+    },
+    {
+        "original_sentence": "Marta Alberti, Deputy Director of Excavations at The Vindolanda Trust, said: \"The bursary winners will not only receive expert archaeological tuition but will also have a chance to immerse themselves in a new environment and make lasting connections with excavation participants from all over the world.\"",
+        "mutated_sentence": "The Vindolanda Trust is an organisation. Marta Alberti, Deputy Director of Excavations at it, said: \"The bursary winners will not only receive expert archaeological tuition but will also have a chance to immerse themselves in a new environment and make lasting connections with excavation participants from all over the world.\"",
+        "repairs": [
+            {
+                "entity": "The Vindolanda Trust",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Paul Breed, chief executive of CV Life, which runs the Herbert, welcomed the chance to host the UK's \"most popular dinosaur\", adding it was \"a huge opportunity for Coventry and the wider economy\".",
+        "mutated_sentence": "Paul Breed is a person. She, chief executive of CV Life, which runs the Herbert, welcomed the chance to host the UK's \"most popular dinosaur\", adding it was \"a huge opportunity for Coventry and the wider economy\".",
+        "repairs": [
+            {
+                "entity": "Herbert",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.4022523305929404
+            }
+        ]
+    },
+    {
+        "original_sentence": "TSP Engineering says it will build small modular reactors, also known as SMRs, from its manufacturing facility in Workington.",
+        "mutated_sentence": "SMRs is a village in Bosnia and Herzegovina. TSP Engineering says it will build small modular reactors, also known as it, from its manufacturing facility in Workington.",
+        "repairs": [
+            {
+                "entity": "SMRs",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.5907235528858942
+            }
+        ]
+    },
+    {
+        "original_sentence": "Forestry England said the new beaver from Scotland seemed to be settling well into her new Gloucestershire home.",
+        "mutated_sentence": "Scotland is a country in north-west Europe, part of the United Kingdom. Forestry England said the new beaver from it seemed to be settling well into her new Gloucestershire home.",
+        "repairs": [
+            {
+                "entity": "Forestry England",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Zoological Society of East Anglia, which runs Africa Alive at Kessingland, Suffolk and Banham Zoo in Norfolk, said 2022 was a year of \"highs and lows\".",
+        "mutated_sentence": "Kessingland is a village in Suffolk, England, UK. The Zoological Society of East Anglia, which runs Africa Alive at it, Suffolk and Banham Zoo in Norfolk, said 2022 was a year of \"highs and lows\".",
+        "repairs": [
+            {
+                "entity": "Banham Zoo",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.595090104866461
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dan Simmonds, operations manager of the Zoological Society of London (ZSL), which runs the zoo, said: \"With more than 14,000 to count at ZSL London Zoo, our keepers all have their own ways of tallying up the animals in their care.",
+        "mutated_sentence": "ZSL London Zoo is a world's oldest scientific zoo, in London, England. Dan Simmonds, operations manager of the Zoological Society of London (ZSL), which runs the zoo, said: \"with more than 14,000 to count at it, our keepers all have their own ways of tallying up the animals in their care.",
+        "repairs": [
+            {
+                "entity": "ZSL London Zoo",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8075647417623856
+            }
+        ]
+    },
+    {
+        "original_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year.",
+        "mutated_sentence": "Egypt is a country in Northeast Africa and Southwest Asia. The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to it in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year.",
+        "repairs": [
+            {
+                "entity": "Metropolitan Museum of Art",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6041807745007698
+            }
+        ]
+    },
+    {
+        "original_sentence": "Her late father moved from England to work at Dounreay 60 years ago and he loved the area so much that he never left.",
+        "mutated_sentence": "England is a country in north-west Europe, part of the United Kingdom. Her late father moved from it to work at Dounreay 60 years ago and he loved the area so much that he never left.",
+        "repairs": [
+            {
+                "entity": "Dounreay",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6003825996151687
+            }
+        ]
+    },
+    {
+        "original_sentence": "Norrie believes securing Unesco status could offer new opportunities in sustainable tourism and branding of local produce, while at the same time highlighting the environmental value of the peatland.",
+        "mutated_sentence": "Norrie is an English record producer (1914–1979). She believes securing Unesco status could offer new opportunities in sustainable tourism and branding of local produce, while at the same time highlighting the environmental value of the peatland.",
+        "repairs": [
+            {
+                "entity": "Unesco",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jake Davies grew up on the Llyn Peninsula and is now the project coordinator for SIARC, helping to set up the underwater cameras.",
+        "mutated_sentence": "SIARC is a village in Masovian, Poland. Jake Davies grew up on the Llyn Peninsula and is now the project coordinator for it, helping to set up the underwater cameras.",
+        "repairs": [
+            {
+                "entity": "SIARC",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jefferson S Hall is a staff scientist at STRI who has led reforestation efforts which have protected the Panama Canal from floods.",
+        "mutated_sentence": "STRI is a country in Oceania. Jefferson S Hall is a staff scientist at it who has led reforestation efforts which have protected the Panama Canal from floods.",
+        "repairs": [
+            {
+                "entity": "STRI",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Sepa said levels at the River Nith reached the highest ever recorded, higher than Storm Frank in 2015 and flooding in December 1982.",
+        "mutated_sentence": "Sepa is a city in Isfahan Province, Iran. It said levels at the River Nith reached the highest ever recorded, higher than Storm Frank in 2015 and flooding in December 1982.",
+        "repairs": [
+            {
+                "entity": "Sepa",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ross Anderson, who runs the bike shop and cafe, the Frothy Bike company in Dumfries says his premises have been severely flooded.",
+        "mutated_sentence": "Ross Anderson is a British computer scientist, cryptographer (1956–2024). She, who runs the bike shop and cafe, the Frothy Bike company in Dumfries says his premises have been severely flooded.",
+        "repairs": [
+            {
+                "entity": "Frothy Bike company",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.8008497539513231
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ross Anderson, who runs the bike shop and cafe, the Frothy Bike company in Dumfries says his premises have been severely flooded.",
+        "mutated_sentence": "Dumfries is a historic county of Scotland. Ross Anderson, who runs the bike shop and cafe, the Frothy Bike company in it says his premises have been severely flooded.",
+        "repairs": [
+            {
+                "entity": "Frothy Bike company",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.8008497539513231
+            }
+        ]
+    },
+    {
+        "original_sentence": "In September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on The Dawnay Estates near Scarborough, North Yorkshire.",
+        "mutated_sentence": "The Dawnay Estates is a location. in September, fire crews were called to help another hedgehog, after it tumbled 25ft (7.62m) into an historic ice house on it near Scarborough, North Yorkshire.",
+        "repairs": [
+            {
+                "entity": "The Dawnay Estates",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"While you're a student living up in Queen's, you don't get to know the other people around Belfast, but through Handy Helpers and initiatives like helping out at the tree nursery, you really do get to meet new people and it's fantastic.\"",
+        "mutated_sentence": "Handy Helpers is an entity. \"While you're a student living up in Queen's, you don't get to know the other people around Belfast, but through it and initiatives like helping out at the tree nursery, you really do get to meet new people and it's fantastic.\"",
+        "repairs": [
+            {
+                "entity": "Handy Helpers",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "While we battened down the hatches for Storm Eunice which caused widespread flooding and damage, Wales was shaken by three disturbing court cases.",
+        "mutated_sentence": "Storm Eunice is a storm. While we battened down the hatches for it which caused widespread flooding and damage, Wales was shaken by three disturbing court cases.",
+        "repairs": [
+            {
+                "entity": "Storm Eunice",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6073458393847744
+            }
+        ]
+    },
+    {
+        "original_sentence": "Lifting Covid restrictions sparked an Easter getaway in April, only for many holidaymakers to be grounded by airline staff shortages and a ferry link from Fishguard was also suspended after P&O sacked 800 staff.",
+        "mutated_sentence": "Fishguard is a coastal town in Pembrokeshire, south-west Wales. Lifting Covid restrictions sparked an Easter getaway in April, only for many holidaymakers to be grounded by airline staff shortages and a ferry link from it was also suspended after P&O sacked 800 staff.",
+        "repairs": [
+            {
+                "entity": "Fishguard",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Gwent Police found itself being investigated after \"abhorrent\" messages between serving and retired officers emerged.",
+        "mutated_sentence": "Gwent Police is an UK Police Area for Gwent, England. It found itself being investigated after \"abhorrent\" messages between serving and retired officers emerged.",
+        "repairs": [
+            {
+                "entity": "Gwent Police",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.82769715100428
+            }
+        ]
+    },
+    {
+        "original_sentence": "Meantime, on the Moray Firth horizon, I'm watching shipping busy with supply of equipment to the massive windfarms being constructed off the east coast. Far bigger ones were included in plans that won competitive bidding for ScotWind - the next and much bigger wave of offshore wind.",
+        "mutated_sentence": "ScotWind is an entity. Meantime, on the Moray Firth horizon, I'm watching shipping busy with supply of equipment to the massive windfarms being constructed off the east coast. Far bigger ones were included in plans that won competitive bidding for it - the next and much bigger wave of offshore wind.",
+        "repairs": [
+            {
+                "entity": "ScotWind",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6020488358633941
+            }
+        ]
+    },
+    {
+        "original_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus and Neptune, will be better viewed with binoculars.",
+        "mutated_sentence": "Uranus is a seventh planet in the Solar System from the Sun. Five should be visible with the naked eye, while the two furthest away, it and Neptune, will be better viewed with binoculars.",
+        "repairs": [
+            {
+                "entity": "Uranus",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.802777614489788
+            },
+            {
+                "entity": "Neptune",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.8058861565846879
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mercury will also be more visible further south.",
+        "mutated_sentence": "Mercury is an automobile marque of the Ford Motor Company. It will also be more visible further south.",
+        "repairs": [
+            {
+                "entity": "Mercury",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Venus should appear the brightest, low in the south-west towards the horizon, but it will be a challenge from the UK.",
+        "mutated_sentence": "Venus is a planet second-closest to the Sun in the Solar System. It should appear the brightest, low in the south-west towards the horizon, but it will be a challenge from the UK.",
+        "repairs": [
+            {
+                "entity": "Venus",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8357915685833577
+            }
+        ]
+    },
+    {
+        "original_sentence": "When Covid lockdowns hit, Eleri - who says she has always been creative - found herself with time to expand her projects and it \"just blew up\".",
+        "mutated_sentence": "Eleri is a Welsh abbess and saint. When Covid lockdowns hit, she - who says she has always been creative - found herself with time to expand her projects and it \"just blew up\".",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Conservation charity Buglife wants to restore habitats across The Marches to boost key species.",
+        "mutated_sentence": "The Marches is a region in Italy. Conservation charity Buglife wants to restore habitats across it to boost key species.",
+        "repairs": [
+            {
+                "entity": "The Marches",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Installations took place at Five Rivers in Salisbury, Corsham's Springfield Campus and the Olympiad in Chippenham.",
+        "mutated_sentence": "Five Rivers is a River in Oregon, United States. Installations took place at it in Salisbury, Corsham's Springfield Campus and the Olympiad in Chippenham.",
+        "repairs": [
+            {
+                "entity": "Corsham",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.7969828195721566
+            }
+        ]
+    },
+    {
+        "original_sentence": "Chester Zoo said it was a \"big step\" to train more conservationists and empower people to live more sustainably.",
+        "mutated_sentence": "Chester Zoo is a zoological garden at Upton-by-Chester, in Cheshire, England. It said it was a \"big step\" to train more conservationists and empower people to live more sustainably.",
+        "repairs": [
+            {
+                "entity": "Chester Zoo",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8210244271797204
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hollywood star Leonardo DiCaprio recently praised Chester Zoo for its conservation work in helping to resurrecting a rare fish species.",
+        "mutated_sentence": "Chester Zoo is a zoological garden at Upton-by-Chester, in Cheshire, England. Hollywood star Leonardo DiCaprio recently praised it for its conservation work in helping to resurrecting a rare fish species.",
+        "repairs": [
+            {
+                "entity": "Chester Zoo",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.41704287446210675
+            }
+        ]
+    },
+    {
+        "original_sentence": "Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in England and Wales daily, says water industry economic regulator Ofwat.",
+        "mutated_sentence": "England is a country in north-west Europe, part of the United Kingdom. Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in it and Wales daily, says water industry economic regulator Ofwat.",
+        "repairs": [
+            {
+                "entity": "Ofwat",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colin Day from Essex and Suffolk Water said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\"",
+        "mutated_sentence": "Colin Day is a Ph.D. University of South Carolina 1992. She from Essex and Suffolk Water said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\"",
+        "repairs": [
+            {
+                "entity": "Suffolk Water",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The industry has committed to a government target of halving the amount of water lost by 2050. Water UK accepted that progress needed to \"accelerate\". \"We're adopting the latest technology, including special in-pipe cameras; satellite imaging; thermal drone technology, high-tech probes, and artificial intelligence,\" it told BBC News.",
+        "mutated_sentence": "BBC News is a news division of the publicly funded British Broadcasting Corporation. The industry has committed to a government target of halving the amount of water lost by 2050. Water UK accepted that progress needed to \"accelerate\". \"We're adopting the latest technology, including special in-pipe cameras; satellite imaging; thermal drone technology, high-tech probes, and artificial intelligence,\" it told it.",
+        "repairs": [
+            {
+                "entity": "Water UK",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8060087449371177
+            }
+        ]
+    },
+    {
+        "original_sentence": "Theo has been known to break into neighbours' homes through open windows or cat flaps and bring home any treasures he can find, from soft toys to cash and Christmas decorations.",
+        "mutated_sentence": "Theo is a Dutch architect, painter, draughtsman and writer (1883–1931). She has been known to break into neighbours' homes through open windows or cat flaps and bring home any treasures he can find, from soft toys to cash and Christmas decorations.",
+        "repairs": [
+            {
+                "entity": "Christmas",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6144084616396063
+            }
+        ]
+    },
+    {
+        "original_sentence": "India plans to launch the Chandrayaan 3 mission to the Moon in June 2023, taking a landing module and robotic rover to explore the surface. India first reached the moon in 2008 with Chandrayaan 1.",
+        "mutated_sentence": "India is a country in South Asia. It plans to launch the Chandrayaan 3 mission to the Moon in June 2023, taking a landing module and robotic rover to explore the surface. India first reached the moon in 2008 with Chandrayaan 1.",
+        "repairs": [
+            {
+                "entity": "Moon",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6167476877121381
+            }
+        ]
+    },
+    {
+        "original_sentence": "Russia plans to launch its Luna 25 mission in July 2023, putting a probe on the Moon to gather samples from its southern polar region.",
+        "mutated_sentence": "Russia is a country in Eastern Europe and Northern Asia. It plans to launch its Luna 25 mission in July 2023, putting a probe on the Moon to gather samples from its southern polar region.",
+        "repairs": [
+            {
+                "entity": "Moon",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6168824136715957
+            }
+        ]
+    },
+    {
+        "original_sentence": "The success at NIF will spur on the dozens of private companies which one day hope to build a commercial fusion reactor.",
+        "mutated_sentence": "NIF is a village in Fethiye, Muğla Province, Turkey. The success at it will spur on the dozens of private companies which one day hope to build a commercial fusion reactor.",
+        "repairs": [
+            {
+                "entity": "NIF",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.4007389067274218
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2023 the team will start work on Machine 4, a much bigger reactor, which it hopes will also break the magic barrier in fusion - getting more energy out than was put in.",
+        "mutated_sentence": "Machine 4 is an entity. In 2023 the team will start work on it, a much bigger reactor, which it hopes will also break the magic barrier in fusion - getting more energy out than was put in.",
+        "repairs": [
+            {
+                "entity": "Machine 4",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6027449976998812
+            }
+        ]
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "Moelfre is a community and village in Anglesey, Wales. The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from it and Penmon.",
+        "repairs": [
+            {
+                "entity": "rescue",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7749626627642714
+            }
+        ]
+    },
+    {
+        "original_sentence": "If the nightmare happens and Perseverance dies, the fetch mission will be directed straight to Three Forks.",
+        "mutated_sentence": "Perseverance is a person. If the nightmare happens and she dies, the fetch mission will be directed straight to Three Forks.",
+        "repairs": [
+            {
+                "entity": "Perseverance",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "It lifted away from Kourou at 22:47 local time on Tuesday (03:47 CET/02:47 GMT on Wednesday).",
+        "mutated_sentence": "Kourou is a commune in Guyane, France. It lifted away from it at 22:47 local time on Tuesday (03:47 CET/02:47 GMT on Wednesday).",
+        "repairs": [
+            {
+                "entity": "CET",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.581103958384592
+            }
+        ]
+    },
+    {
+        "original_sentence": "Spaceport Cornwall was granted an operating licence by the CAA in November.",
+        "mutated_sentence": "Spaceport Cornwall is a spaceport in the UK. It was granted an operating licence by the CAA in November.",
+        "repairs": [
+            {
+                "entity": "Spaceport Cornwall",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Demonstrating its rocket system is safe has been paramount of course, but Virgin has also had to pass environmental as well as fit and proper person tests.",
+        "mutated_sentence": "Virgin is a state of the United States of America. Demonstrating its rocket system is safe has been paramount of course, but it has also had to pass environmental as well as fit and proper person tests.",
+        "repairs": [
+            {
+                "entity": "Virgin",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6299039977175278
+            }
+        ]
+    },
+    {
+        "original_sentence": "He said: \"For me this is such an exciting opportunity for Cornwall and something I'm now desperate to see happen.\"",
+        "mutated_sentence": "Cornwall is a historic county of England and Celtic nation. He said: \"for me this is such an exciting opportunity for it and something I'm now desperate to see happen.\"",
+        "repairs": [
+            {
+                "entity": "Cornwall",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.8062741051754698
+            }
+        ]
+    }
+]

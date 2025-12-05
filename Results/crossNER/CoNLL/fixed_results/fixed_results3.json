@@ -1,0 +1,600 @@
+[
+    {
+        "original_sentence": "Kid A received a Grammy Award for Grammy Award for Best Alternative Music Album and a nomination for Grammy Award for Album of the Year in early 2001.",
+        "mutated_sentence": "Kid A is a 2000 studio album by Radiohead. It received a Grammy Award for Grammy Award for Best Alternative Music Album and a nomination for Grammy Award for Album of the Year in early 2001.",
+        "repairs": [
+            {
+                "entity": "Album of the Year",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6637514925887401,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After Gulf Winds (1976), an album of entirely self-composed songs and From Every Stage (1976), a live album that had Baez performing songs from every stage of her career, Baez again parted ways with a record label when she moved to CBS Records for Blowin 'Away (1977) and Honest Lullaby (1979).",
+        "mutated_sentence": "Baez is a person. after Gulf Winds (1976), an album of entirely self-composed songs and from Every Stage (1976), a live album that had she performing songs from every stage of her career, Baez again parted ways with a record label when she moved to CBS Records for Blowin 'Away (1977) and Honest Lullaby (1979).",
+        "repairs": [
+            {
+                "entity": "From Every Stage",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The journal is published by Taylor and Francis on behalf of the American Association of Geographers, of which it is one of four official journals, the others being The Professional Geographer, AAG Review of Books, GeoHumanities, and African Geographical Review.",
+        "mutated_sentence": "Taylor is a person. The journal is published by him and Francis on behalf of the American Association of Geographers, of which it is one of four official journals, the others being The Professional Geographer, AAG Review of Books, GeoHumanities, and African Geographical Review.",
+        "repairs": [
+            {
+                "entity": "and",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Manchester hosted the 2002 Commonwealth Games, which left it a legacy of sporting facilities including the City of Manchester Stadium, Manchester Aquatics Centre and the National Cycling Centre, headquarters of British Cycling.",
+        "mutated_sentence": "Manchester is a city in Greater Manchester, England. It hosted the 2002 Commonwealth Games, which left it a legacy of sporting facilities including the City of Manchester Stadium, Manchester Aquatics Centre and the National Cycling Centre, headquarters of British Cycling.",
+        "repairs": [
+            {
+                "entity": "British",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6204637978281281,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Distinct from Afrobeat is Afrobeats - a sound originating in West Africa in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as British house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music.",
+        "mutated_sentence": "West Africa is a westernmost region of the African continent. Distinct from Afrobeat is Afrobeats - a sound originating in it in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as British house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music.",
+        "repairs": [
+            {
+                "entity": "Afrobeat",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "This includes Pluto, which is constrained in its orbit by the gravity of Neptune and shares its orbital neighbourhood with many Kuiper belt objects.",
+        "mutated_sentence": "Pluto is a dwarf planet in the Solar System. This includes it, which is constrained in its orbit by the gravity of Neptune and shares its orbital neighbourhood with many Kuiper belt objects.",
+        "repairs": [
+            {
+                "entity": "Kuiper",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6440868391324274,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some exceptions are the Taraxacum officinale (Taraxacum officinale), which since its introduction to the region has proliferated on beaches and shores and near newly opened roads on Baffin Island, Barley (Hordeum vulgare), shepherd's purse (Capsella bursa-pastoris) and the opium poppy (Papaver somniferum).",
+        "mutated_sentence": "Baffin Island is a largest Arctic island in Nunavut, Canada. Some exceptions are the Taraxacum officinale (Taraxacum officinale), which since its introduction to the region has proliferated on beaches and shores and near newly opened roads on it, Barley (Hordeum vulgare), shepherd's purse (Capsella bursa-pastoris) and the opium poppy (Papaver somniferum).",
+        "repairs": [
+            {
+                "entity": "Taraxacum officinale",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Taraxacum officinale",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She later released a CD on Righteous Babe of the concert Til We Outnumber Em featuring artists such as DiFranco, Billy Bragg, Ramblin 'Jack Elliott, Arlo Guthrie, Indigo Girls, Dave Pirner, Tim Robbins, and Bruce Springsteen with 100 percent of proceeds going to the Woody Guthrie Foundation and Archives and the Rock and Roll Hall of Fame Museum educational department.",
+        "mutated_sentence": "Righteous Babe is an American record label owned by Ani DiFranco. She later released a CD on it of the concert Til We Outnumber Em featuring artists such as DiFranco, Billy Bragg, Ramblin 'Jack Elliott, Arlo Guthrie, Indigo Girls, Dave Pirner, Tim Robbins, and Bruce Springsteen with 100 percent of proceeds going to the Woody Guthrie Foundation and Archives and the Rock and Roll Hall of Fame Museum educational department.",
+        "repairs": [
+            {
+                "entity": "Righteous Babe",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Distinct from Afrobeat is Afrobeats - a sound originating in West Africa in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as British house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music.",
+        "mutated_sentence": "Afrobeat is a music genre. Distinct from it is Afrobeats - a sound originating in West Africa in the 21st century, one which takes in diverse influences and is an eclectic combination of genres such as British house music, hiplife, hip hop, dancehall, Soca music, Jùjú music, highlife, Rhythm and blues, Ndombolo, Naija beats, Azonto, and Palm-wine music.",
+        "repairs": [
+            {
+                "entity": "Afrobeat",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Data acquisition applications are usually controlled by software programs developed using various general purpose programming languages such as Assembly, BASIC, C, C + +, C #, Fortran, Java, LabVIEW, Lisp, Pascal, etc.",
+        "mutated_sentence": "Assembly is an any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Data acquisition applications are usually controlled by software programs developed using various general purpose programming languages such as it, BASIC, C, C + +, C #, Fortran, Java, LabVIEW, Lisp, Pascal, etc.",
+        "repairs": [
+            {
+                "entity": "Assembly",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "BASIC",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "C",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "C + +",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "C",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Aleksandr Solzhenitsyn, the Russian Nobel Prize in Literature -winning anti-Communist author of The Gulag Archipelago, argued that Soviet communism needed enslavement and forced labour to survive, and that this had been ... foreseen as far back as Thomas More, in his Utopia.",
+        "mutated_sentence": "Aleksandr Solzhenitsyn is a Russian writer, publicist, poet and politician (1918–2008). He, the Russian Nobel Prize in Literature -winning anti-Communist author of The Gulag Archipelago, argued that Soviet communism needed enslavement and forced labour to survive, and that this had been... foreseen as far back as Thomas More, in his Utopia.",
+        "repairs": [
+            {
+                "entity": "anti-Communist",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6641262104168183,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Benson also did a version of The Beatles's 1969 album Abbey Road called The Other Side of Abbey Road, also released in 1969, and a version of White Rabbit, originally written and recorded by San Francisco rock group Great Society, and made famous by Jefferson Airplane.",
+        "mutated_sentence": "Benson is an Italian painter (c.1500-1550). He also did a version of The Beatles's 1969 album Abbey Road called The Other Side of Abbey Road, also released in 1969, and a version of White Rabbit, originally written and recorded by San Francisco rock group Great Society, and made famous by Jefferson Airplane.",
+        "repairs": [
+            {
+                "entity": "Jefferson Airplane",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.34291756050145905,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hawkins is also seeking the 2020 Green Party presidential primaries presidential nomination, as well as that of various state-level parties such as the Peace and Freedom Party in California and Liberty Union Party in Vermont, in a bid to unite the non-sectarian independent Left behind a single campaign.",
+        "mutated_sentence": "California is a state of the United States of America. Hawkins is also seeking the 2020 Green Party presidential primaries presidential nomination, as well as that of various state-level parties such as the Peace and Freedom Party in it and Liberty Union Party in Vermont, in a bid to unite the non-sectarian independent Left behind a single campaign.",
+        "repairs": [
+            {
+                "entity": "Left",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6740230654809809,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was not long before Peña was touring the world, both as a soloist and an accompanist with performances at Carnegie Hall in New York City, the Royal Albert Hall in London and the Concertgebouw in Amsterdam.",
+        "mutated_sentence": "Carnegie Hall is a performing arts building in New York City. It was not long before Peña was touring the world, both as a soloist and an accompanist with performances at it in New York City, the Royal Albert Hall in London and the Concertgebouw in Amsterdam.",
+        "repairs": [
+            {
+                "entity": "Carnegie Hall",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He also appeared with RBX, Nas and KRS-One on East Coast Killer, West Coast Killer from Dr. Dre's Dr. Dre Presents the Aftermath album, and contributed to an album entitled The Psycho Realm with Psycho Realm.",
+        "mutated_sentence": "RBX is an organization. He also appeared with it, Nas and KRS-One on East Coast Killer, West Coast Killer from Dr. Dre's Dr. Dre Presents the Aftermath album, and contributed to an album entitled The Psycho Realm with Psycho Realm.",
+        "repairs": [
+            {
+                "entity": "Psycho Realm",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2011, the chairman and ranking member of the United States Senate Committee on Armed Services called for an alternative plan where Futenma aircraft would move to Kadena Air Base while the current aircraft at Kadena would move to Andersen Air Force Base.",
+        "mutated_sentence": "Kadena Air Base is an United States Air Force base in Japan, former Japanese WW2 airfield. In 2011, the chairman and ranking member of the United States Senate Committee on Armed Services called for an alternative plan where Futenma aircraft would move to it while the current aircraft at Kadena would move to Andersen Air Force Base.",
+        "repairs": [
+            {
+                "entity": "United States Senate Committee on Armed Services",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The band's biggest hit singles are Sentimental ballad such as Easy, Three Times a Lady, and Nightshift; and funky dance hits which include Brick House, Fancy Dancer, Lady (You Bring Me Up), and Too Hot ta Trot.",
+        "mutated_sentence": "Easy is an album by The Easybeats. The band's biggest hit singles are Sentimental ballad such as it, Three Times a Lady, and Nightshift; and funky dance hits which include Brick House, Fancy Dancer, Lady (You Bring Me Up), and Too Hot ta Trot.",
+        "repairs": [
+            {
+                "entity": "Lady",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "You Bring Me Up",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "LSI helps overcome synonymy by increasing recall, one of the most problematic constraints of Boolean keyword queries and vector space models.",
+        "mutated_sentence": "LSI is an entity. It helps overcome synonymy by increasing recall, one of the most problematic constraints of Boolean keyword queries and vector space models.",
+        "repairs": [
+            {
+                "entity": "LSI",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Gentle Shepherd, first published in 1725, was dedicated to her by Allan Ramsay and Hamilton of Bangour wrote flattering verse to Susanna, Lady Eglinton and her daughters.",
+        "mutated_sentence": "Allan Ramsay is a Scottish portrait painter (1713-1784). The Gentle Shepherd, first published in 1725, was dedicated to her by her and Hamilton of Bangour wrote flattering verse to Susanna, Lady Eglinton and her daughters.",
+        "repairs": [
+            {
+                "entity": "The Gentle Shepherd",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6754654215974776,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Nine Inch Nails covered the song Metal on The Fragile remix album Things Falling Apart as did Afrika Bambaataa (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "mutated_sentence": "Nine Inch Nails is an American musical group; industrial rock band. It covered the song Metal on The Fragile remix album Things Falling Apart as did Afrika Bambaataa (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "repairs": [
+            {
+                "entity": "Afrika Bambaataa",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "See Gubbinal and The Snow Man for other experiments in perspective.",
+        "mutated_sentence": "The Snow Man is a 1899 film directed by Georges Méliès. See Gubbinal and it for other experiments in perspective.",
+        "repairs": [
+            {
+                "entity": "Gubbinal",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wills favored jazz-like arrangements and the band found national popularity into the 1940s with such hits as Steel Guitar Rag, New San Antonio Rose, Smoke On The Water, Stars And Stripes On Iwo Jima, and New Spanish Two Step.",
+        "mutated_sentence": "Wills is a botanist. He favored jazz-like arrangements and the band found national popularity into the 1940s with such hits as Steel Guitar Rag, New San Antonio Rose, Smoke on The Water, Stars And Stripes on Iwo Jima, and New Spanish Two Step.",
+        "repairs": [
+            {
+                "entity": "Smoke On The Water",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Stars And Stripes On Iwo Jima",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On 19 September, he played with Korean artist PSY for opening ceremony of 2014 Asian Games in Incheon, South Korea.",
+        "mutated_sentence": "Incheon is a city in Seoul Capital Area, South Korea. On 19 September, he played with Korean artist PSY for opening ceremony of 2014 Asian Games in it, South Korea.",
+        "repairs": [
+            {
+                "entity": "2014 Asian Games",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6658428417517844,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But even an official language with a regulating academy, such as Standard French with the Académie française, is classified as a natural language (for example, in the field of natural language processing), as its prescriptive points do not make it either constructed enough to be classified as a constructed language or controlled enough to be classified as a controlled natural language.",
+        "mutated_sentence": "Standard French is a form of French used worldwide. But even an official language with a regulating academy, such as it with the Académie française, is classified as a natural language (for example, in the field of natural language processing), as its prescriptive points do not make it either constructed enough to be classified as a constructed language or controlled enough to be classified as a controlled natural language.",
+        "repairs": [
+            {
+                "entity": "Standard French",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6694157244725241,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Sakharov was discovered on 24 September 1960, by the Dutch astronomers Ingrid van Houten-Groeneveld and Cornelis van Houten, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory in California.",
+        "mutated_sentence": "Sakharov is a Soviet film director (1934-1999). He was discovered on 24 September 1960, by the Dutch astronomers Ingrid van Houten-Groeneveld and Cornelis van Houten, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory in California.",
+        "repairs": [
+            {
+                "entity": "U.S.",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6805586160805503,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Palomar Observatory",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.3677729863693731,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Lines was nominated for the best film in 2016 Tallinn Black Nights Film Festival, in 37th Fantasporto International Film Festival, in 2017 Los Angeles Greek Film Festival, in 30th Athens Panorama of European Cinema, in 10th this human world in Vienna, in 2018 Hellas FilmBox on Berlin, in 8th Philosophical IFF in Macedonia.",
+        "mutated_sentence": "Vienna is a capital of and state in Austria. Lines was nominated for the best film in 2016 Tallinn Black Nights Film Festival, in 37th Fantasporto International Film Festival, in 2017 Los Angeles Greek Film Festival, in 30th Athens Panorama of European Cinema, in 10th this human world in it, in 2018 Hellas FilmBox on Berlin, in 8th Philosophical IFF in Macedonia.",
+        "repairs": [
+            {
+                "entity": "10th this human world",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.670743814081817,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "mutated_sentence": "Bobby Rush is an American politician. Contemporary African-American performers who work in this style of the blues include he, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "repairs": [
+            {
+                "entity": "Dr. Feelgood Potts",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 0.6670109581266701,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Jody",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dwan helped launch the career of two other successful Hollywood directors, Victor Fleming, who went on to direct The Wizard of Oz and Gone With the Wind, and Marshall Neilan, who became an actor, director, writer and producer.",
+        "mutated_sentence": "Dwan is a doctoral candidate at the London School of Economics and Political Science. He helped launch the career of two other successful Hollywood directors, Victor Fleming, who went on to direct The Wizard of Oz and Gone with the Wind, and Marshall Neilan, who became an actor, director, writer and producer.",
+        "repairs": [
+            {
+                "entity": "Gone With the Wind",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "As the Hawke Labor opposition defeated the Fraser - Doug Anthony Liberal Party of Australia - National Party of Australia coalition, Labor retained its four Senate seats in New South Wales, with Richardson polling the third highest quota at the 1983 Australian federal election.",
+        "mutated_sentence": "New South Wales is a state of Australia. As the Hawke Labor opposition defeated the Fraser - Doug Anthony Liberal Party of Australia - National Party of Australia coalition, Labor retained its four Senate seats in it, with Richardson polling the third highest quota at the 1983 Australian federal election.",
+        "repairs": [
+            {
+                "entity": "Hawke Labor",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6859903692987658,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While there, Bugs meets Marvin the Martian who is trying to blow up Earth with the Illudium Q-36 Explosive Space Modulator (in reality a stick of dynamite; this is the same device he tried to use in his debut short Haredevil Hare, though that Space Modulator was Uranium rather than Illudium) because it obstructs his view of Venus.",
+        "mutated_sentence": "Earth is a third planet from the Sun in the Solar System. While there, Bugs meets Marvin the Martian who is trying to blow up it with the Illudium Q-36 Explosive Space Modulator (in reality a stick of dynamite; this is the same device he tried to use in his debut short Haredevil Hare, though that Space Modulator was Uranium rather than Illudium) because it obstructs his view of Venus.",
+        "repairs": [
+            {
+                "entity": "Marvin the Martian",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On August 27, Mercury and Venus were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "mutated_sentence": "Venus is a planet second-closest to the Sun in the Solar System. on August 27, Mercury and it were in conjunction, followed by a conjunction of Venus and Jupiter, meaning that the three planets were very close together in the evening sky.",
+        "repairs": [
+            {
+                "entity": "Mercury",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6466109085790792,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On 23 January 1960, the Swiss-designed Trieste, originally built in Italy and acquired by the U.S. Navy,, supported by the USS Wandank (ATF 204) and escorted by the USS Lewis (DE 535), descended to the ocean floor in the trench manned by Jacques Piccard (who co-designed the submersible along with his father, Auguste Piccard) and USN Lieutenant Don Walsh.",
+        "mutated_sentence": "Italy is a country in Southern Europe. On 23 January 1960, the Swiss-designed Trieste, originally built in it and acquired by the U.S. Navy,, supported by the USS Wandank (ATF 204) and escorted by the USS Lewis (DE 535), descended to the ocean floor in the trench manned by Jacques Piccard (who co-designed the submersible along with his father, Auguste Piccard) and USN Lieutenant Don Walsh.",
+        "repairs": [
+            {
+                "entity": "Trieste",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.672107224175827,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Taylor was a candidate for the social democratic New Democratic Party (NDP) in Mount Royal on three occasions in the 1960s, beginning with the 1962 Canadian federal election when he came in third behind Liberal Party of Canada Alan MacNaughton.",
+        "mutated_sentence": "Taylor is a person. He was a candidate for the social democratic New Democratic Party (NDP) in Mount Royal on three occasions in the 1960s, beginning with the 1962 Canadian federal election when he came in third behind Liberal Party of Canada Alan MacNaughton.",
+        "repairs": [
+            {
+                "entity": "Liberal Party",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6799728349110807,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Canada",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In July 2016, Nvidia demonstrated during SIGGRAPH a new method of foveated rendering claimed to be invisible to users.",
+        "mutated_sentence": "SIGGRAPH is an ACM group on computer graphics. in July 2016, Nvidia demonstrated during it a new method of foveated rendering claimed to be invisible to users.",
+        "repairs": [
+            {
+                "entity": "SIGGRAPH",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6807744429852617,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some historians such as John Julius Norwich, despite their admiration for his furthering of historical methodology, consider Gibbon's hostile views on the Byzantine Empire flawed and blame him somewhat for the lack of interest shown in the subject throughout the 19th and early 20th centuries. John Julius Norwich, Byzantium (New York: Knopf, 1989); Byzantium: the apogee (London and New York: Viking Press, 1991).",
+        "mutated_sentence": "John Julius Norwich is a British historian (1929–2018). Some historians such as he, despite their admiration for his furthering of historical methodology, consider Gibbon's hostile views on the Byzantine Empire flawed and blame him somewhat for the lack of interest shown in the subject throughout the 19th and early 20th centuries. John Julius Norwich, Byzantium (New York: Knopf, 1989); Byzantium: the apogee (London and New York: Viking Press, 1991).",
+        "repairs": [
+            {
+                "entity": "Byzantium",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Chinese Physics Letters is a part of a small group of four journals from the Chinese Physical Society, the other three are: Communications in Theoretical Physics (in English, subtitled Chinese Physics A), Chinese Physics B (in English), and Chinese Physics C (in English).",
+        "mutated_sentence": "Chinese Physics Letters is a journal. It is a part of a small group of four journals from the Chinese Physical Society, the other three are: Communications in Theoretical Physics (in English, subtitled Chinese Physics A), Chinese Physics B (in English), and Chinese Physics C (in English).",
+        "repairs": [
+            {
+                "entity": "Communications in Theoretical Physics",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Harper also contributed a recital of Jabberwocky for The Wildlife Album, an 18-track compilation CD to benefit the World Wide Fund for Nature and the Ulster Wildlife Trust.",
+        "mutated_sentence": "The Wildlife Album is an entity. Harper also contributed a recital of Jabberwocky for it, an 18-track compilation CD to benefit the World Wide Fund for Nature and the Ulster Wildlife Trust.",
+        "repairs": [
+            {
+                "entity": "The Wildlife Album",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

@@ -40,20 +40,24 @@ def process_suspicious_file(suspicious_file: str, tagger, rule_type="default", m
             if rule_type == "MR1":
                 corrected_tag, confidence = repair_entity_mr1(
                     original_sentence,
+                    mutated_sentence,              
                     entity_info["entity_text"],
+                    entity_info["entity_text"],    
                     entity_info["original_tag"],
                     entity_info["mutated_tag"],
                     tagger,
-                    model_type  # Pass model_type parameter
+                    model_type
                 )
             else:
                 corrected_tag, confidence = repair_entity(
                     original_sentence,
+                    mutated_sentence,   
                     entity_info["entity_text"],
+                    entity_info["entity_text"], 
                     entity_info["original_tag"],
                     entity_info["mutated_tag"],
                     tagger,
-                    model_type  # Pass model_type parameter
+                    model_type
                 )
 
             # Display the final result
@@ -79,16 +83,7 @@ def process_suspicious_file(suspicious_file: str, tagger, rule_type="default", m
 
 
 def run_repair_from_file(suspicious_file: str, output_file: str, model_path: str, rule_type="default", model_type="flair"):
-    """
-    Read suspicious entities from a file and perform repairs
 
-    Args:
-        suspicious_file: Path to the JSON file containing suspicious sentences
-        output_file: Path to save the repair results
-        model_path: Path to the NER model
-        rule_type: Mutation rule type ("MR1", "MR2", "MR3", or "default")
-        model_type: NER model type ("flair" or "cloud")
-    """
     from flair.models import SequenceTagger
     import json
     import os
@@ -151,16 +146,7 @@ def run_repair_from_file(suspicious_file: str, output_file: str, model_path: str
 
 def run_repair_from_file_with_tagger(suspicious_file: str, output_file: str, tagger, rule_type="default",
                                      model_type="cloud"):
-    """
-    Perform repairs directly using the provided tagger (enhanced version)
 
-    Args:
-        suspicious_file: Path to the JSON file containing suspicious sentences
-        output_file: Path to save the repair results
-        tagger: NER tagger
-        rule_type: Rule type
-        model_type: Model type ("flair" or "cloud")
-    """
     import json
     import os
 

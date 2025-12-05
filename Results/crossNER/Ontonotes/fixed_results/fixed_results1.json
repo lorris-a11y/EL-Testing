@@ -1,0 +1,904 @@
+[
+    {
+        "original_sentence": "The Adriatic Campaign of World War I was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom, France, the Kingdom of Italy, Australia and the United States.",
+        "mutated_sentence": "The Adriatic Campaign of World War I was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom.",
+        "repairs": [
+            {
+                "entity": "The Adriatic Campaign of World War I",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Powers",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In this interview conducted in Cambridge, Massachusetts on February 12, 2004, Chomsky starts by responding to Robert McNamara's comments about the World War II firebombing of Tokyo in The Fog of War by pointing out that definition of a war crime at the Nuremberg Trials was anything the enemy did that the Allies didn 't do and goes on to point out that this logic is central to the Bush doctrine.",
+        "mutated_sentence": "In this interview conducted in Cambridge on February 12,2004, Chomsky starts by responding to Robert McNamara's comments about the World War II firebombing of Tokyo in The Fog of War by pointing out that definition of a war crime at the Nuremberg Trials was anything the enemy dids that the Allies didn 't does and goes on to point out that this logic is central to the Bush doctrine.",
+        "repairs": [
+            {
+                "entity": "February 12, 2004",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Nuremberg Trials",
+                "original_tag": "EVENT",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Dominican Order (Order of Preachers",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Xuanxue was a philosophical school that combined elements of Confucianism and Taoism to reinterpret the I Ching, Tao Te Ching, and Zhuangzi.",
+        "mutated_sentence": "Xuanxue was a philosophical school that combined elements of Confucianism and Taoism to reinterpret the I Ching, Tao Te Ching.",
+        "repairs": [
+            {
+                "entity": "Te Ching",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Tao",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "NORP",
+                "confidence": 0.6338254262346521,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UK Independence Party (UKIP), Green Party of England and Wales and Plaid Cymru gained their first ever seats in the European Parliament.",
+        "mutated_sentence": "The UK Independence Party (UKIP), Green Party of England and Wales gained their first ever seats in the European Parliament.",
+        "repairs": [
+            {
+                "entity": "Green Party of England and Wales",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The UK Independence Party",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He is also a recipient of the AFI Life Achievement Award for his contributions to the cinema, and has won an Academy Awards, a Palme d'Or, Cannes Film Festival Best Director Award, Silver Lion, Grammy Award, Emmy Award, Golden Globes, British Academy Film Awards, and Directors Guild of America Awards.",
+        "mutated_sentence": "He is also a recipient of the AFI Life Achievement Award for his contributions to the cinema and has won an Academy Awards, a Palme d'Or, Cannes Film Festival Best Director Award, Silver Lion, Golden Globes Academy Film Awards and Directors Guild of America Awards.",
+        "repairs": [
+            {
+                "entity": "Film Awards",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Directors",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Academy",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Guild of America Awards",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ben-Gurion again formed the government with the support of Mizrachi, Hapoel HaMizrachi, Agudat Yisrael, Poalei Agudat Yisrael and the three Israeli Arab parties associated with Mapai, the Democratic List for Israeli Arabs, Progress and Work and Agriculture and Development.",
+        "mutated_sentence": "Ben-Gurion again formed the government with the support of Mizrachi, Hapoel HaMizrachi, Agudat Yisrael, Poalei Agudats Yisrael and the three Israeli Arab parties associated with Mapai.",
+        "repairs": [
+            {
+                "entity": "Agudat Yisrael",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Poalei Agudat Yisrael",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Israeli Arab",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On 23 September 2016, Thai Smile, Thai's subsidiary announced four new services to Gaya, Varanasi, Jaipur, and Lucknow in India marking the expansion of Thai's network in regional market.",
+        "mutated_sentence": "On 23 September 2016, Thai Smile's subsidiary announced four new services to Gaya, Varanasi, Jaipur and Lucknow in India marking the expansion of Thai's network in regional market.",
+        "repairs": [
+            {
+                "entity": "Thai Smile",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Australian Film Institute, Blockbuster Entertainment Awards, Empire Awards, Hollywood Film Festival, London Film Critics 'Circle, Russian Guild of Film Critics, Satellite Awards, and Southeastern Film Critics Association.",
+        "mutated_sentence": "Australian Film Institute, Blockbuster Entertainment Awards, Empire Awards, Hollywood Film Festival.",
+        "repairs": [
+            {
+                "entity": "Film Festival",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Empire Awards",
+                "original_tag": "ORG",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Hollywood",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Correspondents included former Baywatch actresses Donna D 'Errico, Carmen Electra, and Traci Bingham, former Playboy Playmate Heidi Mark, comedian Arj Barker and identical twins Randy and Jason Sklar.",
+        "mutated_sentence": "Correspondents included former Baywatch actresses Donna D 'Errico, , former Playboy Playmate Heidi Mark, comedian Arj Barker and identical twins Randy and Jason Sklar.",
+        "repairs": [
+            {
+                "entity": "Playboy",
+                "original_tag": "ORG",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hidden Markov models are known for their applications to reinforcement learning and temporal pattern recognition such as speech, handwriting recognition, gesture recognition, Thad Starner, Alex Pentland.",
+        "mutated_sentence": "Hidden Markov models are known for their applications to reinforcement learning and temporal pattern recognition such as speech, handwriting recognition, gesture recognition, Thad Starner.",
+        "repairs": [
+            {
+                "entity": "Thad Starner",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "mutated_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas and Valery Gergiev and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "repairs": [
+            {
+                "entity": "Lincoln Center",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Gewandhaus",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6713954304944558,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In Scotland, The Corries, Silly Wizard, Capercaillie, Runrig, Jackie Leven, Julie Fowlis, Karine Polwart, Alasdair Roberts, Dick Gaughan, Wolfstone, Boys of the Lough, and The Silencers have kept Scottish folk vibrant and fresh by mixing traditional Scottish and Gaelic folk songs with more contemporary genres.",
+        "mutated_sentence": "In Scotland, The Corries, Silly Wizard, Capercaillie, Wolfstone, Boys of the Lough and The Silencers have kept Scottish folk vibrant and fresh by mixing traditional Scottish and Gaelic folk songs with more contemporary genres.",
+        "repairs": [
+            {
+                "entity": "Capercaillie",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Corries",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Examples of major Christian democratic parties include the Christian Democratic Union of Germany, the Austrian People's Party, Ireland's Fine Gael, the Christian Democratic Party of Chile, the Aruban People's Party, the Dutch Christian Democratic Appeal, the Christian Democratic People's Party of Switzerland and the Spanish People's Party.",
+        "mutated_sentence": "Examples of major Christian democratic parties include the Christian Democratic Union of Germany, the Austrian People's Party, Ireland's Fine Gael, the Christian Democratic Party of Chile, the Aruban People's Party, the Dutch Christian Democratic Appeal of Switzerland and the Spanish People's Party.",
+        "repairs": [
+            {
+                "entity": "Christian Democratic Appeal",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Dutch",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Switzerland",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "mutated_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas and Valery Gergiev and she has appeared in many of the world's greatest venues, including the Wigmore Hall in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "repairs": [
+            {
+                "entity": "Leipzig",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Gewandhaus",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6713954304944558,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The speakers - all of whom were high schoolers or younger - included Marjory Stoneman Douglas students Cameron Kasky, David Hogg, Delaney Tarr, Sarah Chadwick, Alex Wind, Jaclyn Corin, Ryan Deitsch, Aalayah Eastmond, Samantha Fuentes, and Emma González.",
+        "mutated_sentence": "The speakers - all of whom were high schoolers or younger - included Marjory Stoneman Douglas students Cameron Kasky.",
+        "repairs": [
+            {
+                "entity": "Marjory Stoneman Douglas",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6726801486998896,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During the 1973 Yom Kippur War, Soviet-supplied surface-to-air missile batteries in Egypt and Syria caused heavy damage Israeli fighter jets.",
+        "mutated_sentence": "During the 1973 Yom Kippur War, Soviet-supplied surface-to-air missile batteries in Egypt caused heavy damage Israeli fighter jets.",
+        "repairs": [
+            {
+                "entity": "1973",
+                "original_tag": "EVENT",
+                "mutated_tag": "DATE",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room, and Compton Terrace.",
+        "mutated_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room and Compton Terrace.",
+        "repairs": [
+            {
+                "entity": "Ashley Furniture HomeStore Pavilion",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The focus of their activities in Europe became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Concertgebouw, Berliner Philharmonie, Carnegie Hall, Teatro Colón, Suntory Hall, etc.",
+        "mutated_sentence": "The focus of their activities in Europe became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Carnegie Hall, Teatro Colón, Suntory Hall, etc.",
+        "repairs": [
+            {
+                "entity": "La Scala",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "GPE",
+                "confidence": 0.33668490474109114,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "the",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Wiener Konzerthaus",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Arthur Schwartz and Howard Dietz first tried, and then Richard Rodgers and Oscar Hammerstein II attempted, but gave up and Hammerstein told Lerner, Pygmalion had no subplot.",
+        "mutated_sentence": "Arthur Schwartz first tried and then Richard Rodgers and Oscar Hammerstein II attempted, but gave up and Hammerstein told Lerner, Pygmalion hads no subplot.",
+        "repairs": [
+            {
+                "entity": "Pygmalion",
+                "original_tag": "EVENT",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UK Independence Party, Green Party of England and Wales and Plaid Cymru won their first ever seats in the European Parliament.",
+        "mutated_sentence": "The UK Independence Party won their first ever seats in the European Parliament.",
+        "repairs": [
+            {
+                "entity": "UK Independence Party",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the service of the Russian Empire, Clausewitz helped negotiate the Convention of Tauroggen (1812), which prepared the way for the coalition of Prussia, Russia, and the United Kingdom of Great Britain and Ireland that ultimately defeated Napoleon and his allies.",
+        "mutated_sentence": "In the service of the Russian Empire, Clausewitz helped negotiate the Convention of Tauroggen (1812), which prepared the way for the coalition of Prussia, Russia and the United Kingdom of Great Britain that ultimately defeated Napoleon and his allies.",
+        "repairs": [
+            {
+                "entity": "Great Britain",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the United Kingdom",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Starting in the early 1950s, and during the mid-1960s, Western singer-songwriters such as Michael Martin Murphey and Marty Robbins rose in prominence as did others, throughout Western music traditions, like New Mexico music's Al Hurricane.",
+        "mutated_sentence": "Starting in the early 1950s and during the mid-1960s, Western singer-songwriters such as Michael Martin Murphey rose in prominence as did others, throughout Western music traditions, like New Mexico music's Al Hurricane.",
+        "repairs": [
+            {
+                "entity": "the mid-1960s",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "John Ireland, Joanne Dru and Macdonald Carey starred in the Jack Broder color production Hannah Lee, which premiered June 19, 1953.",
+        "mutated_sentence": "John Ireland starred in the Jack Broder color production Hannah Lee, which premiered June 19,1953.",
+        "repairs": [
+            {
+                "entity": "June 19, 1953",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6756062402893096,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Pierre Teilhard de Chardin was born in the Château of Sarcenat, Orcines commune, some 4 km north-west of Clermont-Ferrand, Auvergne, French Third Republic, on 1 May 1881, as the fourth of eleven children of librarian Emmanuel Teilhard de Chardin (1844-1932) and of Berthe-Adèle, née de Dompierre d'Hornoys of Picardy, a great-grandniece of Voltaire.",
+        "mutated_sentence": "Pierre Teilhard de Chardin was born in the Château of Sarcenat, Orcines commune, some 4 km north-west of Clermont-Ferrand, French Third Republic, on 1 May 1881, as the fourth of eleven children of librarian Emmanuel Teilhard de Chardin (1844-1932) and of Berthe-Adèle, née de Dompierre d'Hornoys of Picardy, a great-grandniece of Voltaire.",
+        "repairs": [
+            {
+                "entity": "the Château of Sarcenat",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Third Republic",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "French",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "NORP",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In his spare time he also enjoyed reading about natural sciences and popular novels, such as Don Quixote and Robinson Crusoe.",
+        "mutated_sentence": "In his spare time he also enjoyed reading about natural sciences and popular novels, such as Don Quixote.",
+        "repairs": [
+            {
+                "entity": "Don Quixote",
+                "original_tag": "PERSON",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Gerry Sussman, Eugene Charniak, Seymour Papert and Terry Winograd visited the University of Edinburgh in 1971 spreading the news about Micro-Planner and SHRDLU and casting doubt on the resolution uniform proof procedure approach that had been the mainstay of the Edinburgh Logicists.",
+        "mutated_sentence": "Gerry Sussman visited the University of Edinburgh in 1971 spreading the news about Micro-Planner and SHRDLU and casting doubt on the resolution uniform proof procedure approach that had been the mainstay of the Edinburgh Logicists.",
+        "repairs": [
+            {
+                "entity": "Micro-Planner",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6616683846997573,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The rights to A. A. Milne's Pooh books were left to four beneficiaries: his family, the Royal Literary Fund, Westminster School and the Garrick Club at the beginning of the year after the 70th anniversary of the author's death (PMA -70), and has already expired in those countries with a PMA-50 rule.",
+        "mutated_sentence": "The rights to A. A. Milne's Pooh books were left to four beneficiaries: his family, the Royal Literary Fund at the beginning of the year after the 70th anniversary of the author's death (PMA -70) and has already expired in those countries with a PMA-50 rule.",
+        "repairs": [
+            {
+                "entity": "PMA-50",
+                "original_tag": "LAW",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He was the Minister of Finance (1976-1984), Minister of International Trade and Industry (1984-1987), former chairman of Asian Development Bank, former chairman of Islamic Development Bank, founding Chairman and Chief Executive of Malaysian oil company, PETRONAS, and chairman of the 33rd Board of Governors of the World Bank and IMF.",
+        "mutated_sentence": "He was the Minister of Finance (1976-1984), Minister of International Trade and Industry (1984-1987), former chairman of Asian Development Bank, former chairman of Islamic Development Bank, founding Chairman and Chief Executive of Malaysian oil company, PETRONAS and chairman of the 33rd Board of Governors of the World Bank.",
+        "repairs": [
+            {
+                "entity": "the World Bank",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Trade and Industry",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Board of Governors",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Minimum distances from the Earth, Venus, and Jupiter, are 0.5, 0.8, and 3.5 AU, respectively.",
+        "mutated_sentence": "Minimum distances from the Earth, , are 0.5,0.8 and 3.5 AU, respectively.",
+        "repairs": [
+            {
+                "entity": "0.5",
+                "original_tag": "CARDINAL",
+                "mutated_tag": "O",
+                "corrected_tag": "CARDINAL",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "0.8",
+                "original_tag": "CARDINAL",
+                "mutated_tag": "O",
+                "corrected_tag": "CARDINAL",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Armstrong had nineteen Top Ten records including Stardust, What a Wonderful World, When The Saints Go Marching In, Dream a Little Dream of Me, Ain 't Misbehavin', You Rascal You, and Stompin' at the Savoy.",
+        "mutated_sentence": "Armstrong hads nineteen Top Ten records including Stardust, What a Wonderful World, When The Saints Go Marching In, Dream a Little Dream of Me, Ain 't Misbehavins', You Rascal You.",
+        "repairs": [
+            {
+                "entity": "You Rascal You",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Top",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology and Current Protocols in Bioinformatics.",
+        "mutated_sentence": "Bateman served as Executive Editor of the journal Bioinformatics from 2004 to 2012 and has also served as Editor of Nucleic Acids Research, Genome Biology.",
+        "repairs": [
+            {
+                "entity": "Nucleic Acids Research",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Reggae en Español spread from mainland South American Caribbean from Venezuela and Guyana to the rest of South America.",
+        "mutated_sentence": "Reggae en Español spreads from mainland South American Caribbean from Venezuela to the rest of South America.",
+        "repairs": [
+            {
+                "entity": "Español",
+                "original_tag": "LANGUAGE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6608644855114705,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It includes collaborations with Pete Seeger, Ivan Neville, Cyril Neville, Skerik, Adam Levy, Righteous Babe recording artist Anaïs Mitchell, CC Adcock, and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama, and Rebirth Brass Band.",
+        "mutated_sentence": "It includes collaborations with Pete Seeger, Skerik, Adam Levy, Righteous Babe recording artist Anaïs Mitchell, CC Adcock and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama and Rebirth Brass Band.",
+        "repairs": [
+            {
+                "entity": "Skerik",
+                "original_tag": "ORG",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hamilton was a visiting professor at Harvard University and later spent nine months with the Royal Society's and the Royal Geographical Society's Xavantina-Cachimbo Expedition as a visiting professor at the University of São Paulo.",
+        "mutated_sentence": "Hamilton was a visiting professor at Harvard University and later spent nine months with the Royal Society's Xavantina-Cachimbo Expedition as a visiting professor at the University of São Paulo.",
+        "repairs": [
+            {
+                "entity": "Xavantina-Cachimbo Expedition",
+                "original_tag": "EVENT",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some of the most pronounced effects of Hellenization can be seen in Afghanistan and India, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, Pakistan, and Tajikistan) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "mutated_sentence": "Some of the most pronounced effects of Hellenization can be seen in Afghanistan and India, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, ) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "repairs": [
+            {
+                "entity": "the Indo-Greek Kingdom",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6765456282798072,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ben-Gurion again formed the government with the support of Mizrachi, Hapoel HaMizrachi, Agudat Yisrael, Poalei Agudat Yisrael and the three Israeli Arab parties associated with Mapai, the Democratic List for Israeli Arabs, Progress and Work and Agriculture and Development.",
+        "mutated_sentence": "Ben-Gurion again formed the government with the support of Mizrachi, Poalei Agudats Yisrael and the three Israeli Arab parties associated with Mapai, the Democratic List for Israeli Arabs, Progress and Work and Agriculture and Development.",
+        "repairs": [
+            {
+                "entity": "Poalei Agudat Yisrael",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Progress and Work",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Orders such as the Order of Friars Minor Capuchin, Discalced Carmelites, Discalced Augustinians, Augustinian Recollects, Cistercian Feuillants, Ursulines, Theatines, Barnabites, Congregation of the Oratory of Saint Philip Neri, and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "mutated_sentence": "Orders such as the Order of Friars Minor Capuchin, Discalced Carmelites, Discalced Augustinians, Augustinian Recollects, Cistercian Feuillants, Ursulines, Theatines, Barnabites and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "repairs": [
+            {
+                "entity": "Discalced Carmelites",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "NORP",
+                "confidence": 0.6464721305621868,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Discalced Augustinians",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6882487187979792,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Augustinian Recollects",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6889445853649413,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Cistercian Feuillants",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ursulines",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Other currently elected parties in Victorian politics include the Australian Greens Victoria, the Reason Party, the Justice Party, the Liberal Democratic Party, the Shooters, Fishers and Farmers Party, Sustainable Australia, the Animal Justice Party, and Transport Matters Party.",
+        "mutated_sentence": "Other currently elected parties in Victorian politics include the Australian Greens Victoria.",
+        "repairs": [
+            {
+                "entity": "the Australian Greens Victoria",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Green deputies Noël Mamère, Martine Billard and Yves Cochet on September 10, 2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "mutated_sentence": "Green deputies Noël Mamère on September 10,2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "repairs": [
+            {
+                "entity": "Green",
+                "original_tag": "PERSON",
+                "mutated_tag": "NORP",
+                "corrected_tag": "O",
+                "confidence": 0.6676561494710263,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "September 10, 2003",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Bubbles created sleeves for bands including the Damned, Elvis Costello, Ian Dury and Wreckless Eric.",
+        "mutated_sentence": "Bubbles created sleeves for bands including the Damned, Elvis Costello and Wreckless Eric.",
+        "repairs": [
+            {
+                "entity": "Bubbles",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Finally, every other year, ELRA organizes a major conference LREC, the International Language Resources and Evaluation Conference.",
+        "mutated_sentence": "Finally, every other year, ELRA organizes a major conference LREC.",
+        "repairs": [
+            {
+                "entity": "LREC",
+                "original_tag": "EVENT",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Dominican Order (Order of Preachers",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A subset called Micro-Planner was implemented by Gerald Jay Sussman, Eugene Charniak and Terry Winograd Sussman,, and Winograd 1971 and was used in Winograd's natural-language understanding program SHRDLU, Eugene Charniak's story understanding work, Thorne McCarty's work on legal reasoning, and some other projects.",
+        "mutated_sentence": "A subset called Micro-Planner was implemented by Gerald Jay Sussman, and Winograd 1971 and was used in Winograd's natural-language understanding program SHRDLU, Eugene Charniak's story understanding work, Thorne McCarty's work on legal reasoning and some other projects.",
+        "repairs": [
+            {
+                "entity": "Winograd",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During his lifetime, Walter Hallstein received honorary doctorates from nine European universities, including University of Padua, Sussex, University of Liège, Nancy, Leuven, University of Oviedo, and University of Tübingen, and nine American universities, including Georgetown, Harvard, and Johns Hopkins University.",
+        "mutated_sentence": "During his lifetime, Walter Hallstein received honorary doctorates from nine European universities, including University of Padua, Sussex, University of Liège, Nancy, Leuven, University of Oviedo and University of Tübingen and nine American universities, including Georgetown.",
+        "repairs": [
+            {
+                "entity": "University of Padua",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sussex",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

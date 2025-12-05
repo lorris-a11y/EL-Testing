@@ -1,0 +1,1214 @@
+[
+    {
+        "original_sentence": "This could include content promoting eating disorders or inciting hate on the basis of race, ethnicity, sexual orientation or gender reassignment- although, there will be exemptions to allow legitimate debate. Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "This could include content promoting eating disorders or inciting hate on the basis of race, ethnicity, sexual orientation or gender reassignment- although, there will be exemptions to allow legitimate Wildfires. debate on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "repairs": [
+            {
+                "entity": "debate",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6129200952846338,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Soon after, he sent Dr FitzGerald to Beijing as Australia's first ambassador to the country. \"I think gaming provides a level playing field, particularly for those who have barriers to access typical methods of play,\" said Heather Roberts of the Ty Hafan hospice, near Barry in Vale of Glamorgan.",
+        "mutated_sentence": "Soon after, he sent Dr FitzGerald to Barry in Vale of Glamorgan as Australia's first ambassador to the country. \"I think gaming provides a level playing field, particularly for those who have barriers to access typical methods of play,\" said Heather Roberts of the Ty Hafan hospice, near Beijing.",
+        "repairs": [
+            {
+                "entity": "Ty Hafan hospice",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.6747284794929851,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Barry in Vale of Glamorgan",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Barry",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Vale of Glamorgan",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Ty Hafan",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Location",
+                "confidence": 0.6341712896799818,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "hospice",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 0.3424774311386343,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The former Twitter manager also says Mr Musk's skewed experience on the site as a top influencer may prevent him understanding how to improve it and grow it. \"For more than three years (after buying the land) we never saw the frogs but now they are everywhere,\" Mr Lijo explains.",
+        "mutated_sentence": "The former Twitter manager also says Mr Musk's skewed experience on the site as a top Mr may prevent him understanding how to improve it and grow it. \"For more than three years (after buying the land) we never saw the frogs but now they are everywhere,\" influencer Lijo explains.",
+        "repairs": [
+            {
+                "entity": "Mr",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7474283402903066,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "three years",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6599401497324331,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "land",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "may",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "more than three years",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "DateTime",
+                "confidence": 0.7318505550158166,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Addey said a similar issue had been dealt with near the Tyne Bridge, linking Newcastle upon Tyne and Gateshead, and artificial nesting sites - towers with ledges - had been built to house the displaced birds. Why choose busy supermarkets or hospitals?",
+        "mutated_sentence": "Mr Addey said a similar issue had been dealt with near the Tyne Bridge, linking Newcastle upon supermarkets and Gateshead, and artificial nesting sites - towers with ledges - had been built to house the displaced birds. Why choose busy Tyne or hospitals?",
+        "repairs": [
+            {
+                "entity": "nesting sites",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Met Office has confirmed that 2022 was Scotland's hottest year on record. Supt Pache, head of specialist operations with Lincolnshire Police, said: \"History has shown us these are very dangerous people.\"",
+        "mutated_sentence": "The Lincolnshire Police has confirmed that 2022 was Scotland's hottest year on record. Supt Pache, head of specialist operations with Met Office, said: \"History has shown us these are very dangerous people.\"",
+        "repairs": [
+            {
+                "entity": "dangerous",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6679451790608606,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "people",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The zoo has been paying £750,000 annually to China for the pandas. Seven areas, amounting to a total of 469,500 acres of the Flow Country, would form the new site.",
+        "mutated_sentence": "The Flow Country has been paying £750,000 annually to China for the pandas. Seven areas, amounting to a total of 469,500 acres of the zoo, would form the new site.",
+        "repairs": [
+            {
+                "entity": "Flow Country",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.7111742358550328,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "pandas",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 0.7034845184473396,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The officers added that professional translation services were sought for more complex circumstances. Ms Roberts said: \"It was coming out of Covid to then go into that terrible storm in February - Storm Eunice - which knocked out our lion enclosure in Africa Alive and closed both our zoos, so we lost over £250,000 just from not being able to open for a period of time.\"",
+        "mutated_sentence": "The Ms added that professional translation services were sought for more complex circumstances. officers Roberts said: \"It was coming out of Covid to then go into that terrible storm in February - Storm Eunice - which knocked out our lion enclosure in Africa Alive and closed both our zoos, so we lost over £250,000 just from not being able to open for a period of time.\"",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6916540263182991,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Africa Alive",
+                "original_tag": "Location",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Further south, in Santa Barbara County, officials also ordered residents living near burn scars from previous forest fires to leave the area. The order affects the affluent community of Montecito, home of the Duke and Duchess of Sussex, Harry and Meghan, and Oprah Winfrey. Stephen Lyth, who lives just round the corner, said he and his wife feel like \"lab rats\".",
+        "mutated_sentence": "Further south, in Santa Barbara County, officials also ordered wife living near burn scars from previous forest fires to leave the area. The order affects the affluent community of Montecito, home of the Duke and Duchess of Sussex, Harry and Meghan, and Oprah Winfrey. Stephen Lyth, who lives just round the corner, said he and his residents feel like \"lab rats\".",
+        "repairs": [
+            {
+                "entity": "corner",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 0.5742265785981283,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colin says the sequel he produced involved making technical changes to make the game more \"structurally sound\" and moving the game from being set in the contemporary world. Prof Helen O'Sullivan, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "mutated_sentence": "Helen O'Sullivan says the sequel he produced involved making technical changes to make the game more \"structurally sound\" and moving the game from being set in the contemporary world. Prof Colin, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "repairs": [
+            {
+                "entity": "conservation",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.515891683867099,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "sustainability",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 0.6518324522448217,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The dry conditions affected natterjack toads, whose shallow ponds for breeding dried up, and bats that had to be rescued in the heatwave. Barnaby Rich, from Greenwich Leisure Limited which runs the centre, said: \"Unfortunately there are pools closing this winter because people can't afford to operate them.",
+        "mutated_sentence": "The dry conditions affected natterjack toads, whose shallow pools for breeding dried up, and bats that had to be rescued in the heatwave. Barnaby Rich, from Greenwich Leisure Limited which runs the centre, said: \"Unfortunately there are ponds closing this winter because people can't afford to operate them.",
+        "repairs": [
+            {
+                "entity": "centre",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 0.6952896821254912,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "people",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Luckily the pair managed to make online contact with Awareness Against Human Trafficking (Haart), a Kenyan charity that helps migrants in trouble, and they were eventually rescued and flown home with the help of UN and Kenyan authorities. It is staffed by academics and lawyers, with the remit of scrutinising and questioning the tech giant's actions.",
+        "mutated_sentence": "Luckily the pair managed to make online contact with Awareness Against Human Trafficking (Haart), a Kenyan charity that helps migrants in trouble, and they were eventually rescued and flown home with the help of UN and academics authorities. It is staffed by Kenyan and lawyers, with the remit of scrutinising and questioning the tech giant's actions.",
+        "repairs": [
+            {
+                "entity": "Kenyan",
+                "original_tag": "Location",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 0.6663982910921485,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "authorities",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6856704250727813,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "scrutinising",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "home",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Russian president later ordered the strengthening of Russia's borders and of social control within Russia. He said the security services should quickly thwart any attempt to violate Russia's borders, combat risks coming from abroad, and identify traitors and saboteurs. John Ward, leader of Babergh District Council in Suffolk, said he has had a death threat and someone tried to enter his house when his daughter was the only person in.",
+        "mutated_sentence": "The Russian president later ordered the strengthening of house's borders and of social control within Russia. He said the security services should quickly thwart any attempt to violate Russia's borders, combat risks coming from abroad, and identify traitors and saboteurs. John Ward, leader of Babergh District Council in Suffolk, said he has had a death threat and someone tried to enter his Russia when his daughter was the only person in.",
+        "repairs": [
+            {
+                "entity": "house",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A vast area of peatbog in Scotland's Flow Country could become one of Unesco's newest World Heritage sites. But why do some people believe the landscape deserves the attention? \"A lot of people didn't even know the gecko existed,\" Mr Gaymes says. \"We went house to house, held roadside meetings and school programmes to sensitise people. We had to go to the forest to capture one and bring it to the consultations so people knew what it was. Everyone was wowed - they were expecting something much bigger.",
+        "mutated_sentence": "A vast area of peatbog in house's Flow Country could become one of Unesco's newest World Heritage sites. But why do some people believe the landscape deserves the attention? \"A lot of people didn't even know the gecko existed,\" Mr Gaymes says. \"We went house to Scotland, held roadside meetings and school programmes to sensitise people. We had to go to the forest to capture one and bring it to the consultations so people knew what it was. Everyone was wowed - they were expecting something much bigger.",
+        "repairs": [
+            {
+                "entity": "house",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.7499250651530653,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "programmes",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"To have been given a second chance to see my grandchildren, my children and my wife has meant so much to me. Mr Musk had previously said no decision about banned accounts would be made until a moderation board had been appointed.",
+        "mutated_sentence": "\"To have been given a second chance to see my grandchildren, my Mr and my wife has meant so much to me. children Musk had previously said no decision about banned accounts would be made until a moderation board had been appointed.",
+        "repairs": [
+            {
+                "entity": "children",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "previously",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Joanna Barker from the Zoological Society of London said: \"We'll have a scientist reviewing all the footage, but the citizen scientists will be the validator. Tory politician Jamie Wallis was praised after becoming the first MP to come out as trans but was later fined and disqualified from driving after failing to stop at the scene of an accident.",
+        "mutated_sentence": "Joanna Barker from the Zoological Society of London said: \"We'll have a scientist reviewing all the footage, but the trans will be the validator. Tory politician Jamie Wallis was praised after becoming the first MP to come out as citizen scientists but was later fined and disqualified from driving after failing to stop at the scene of an accident.",
+        "repairs": [
+            {
+                "entity": "trans",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "scene",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.5149451901771501,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But what we do know is that were he to stick with Truth Social exclusively, and complete the Spac merger, he would likely earn a small fortune. The Scottish Environment Protection Agency has issued 13 flood alerts around Scotland.",
+        "mutated_sentence": "But what we do know is that were he to stick with Scottish Environment Protection Agency exclusively, and complete the Spac merger, he would likely earn a small fortune. The Truth Social has issued 13 flood alerts around Scotland.",
+        "repairs": [
+            {
+                "entity": "Truth Social",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6803343992874689,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "flood",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Truth Social",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "So young African doctors are encouraged to finish their training in India, meanwhile Indian healthcare firms are expanding all over Africa. On Twitter, Mr Musk posted a meme saying \"pay 30%.",
+        "mutated_sentence": "So young African Mr are encouraged to finish their training in India, meanwhile Indian healthcare firms are expanding all over Africa. On Twitter, doctors Musk posted a meme saying \"pay 30%.",
+        "repairs": [
+            {
+                "entity": "training",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Indian",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 0.6994438604501477,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "healthcare",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"I don't feel like a celeb, I don't want people to think that I look at myself as a celeb,\" says Cecilie, speaking at the series launch. Amanda Stephens, Olly's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "mutated_sentence": "\"I don't feel like a celeb, I don't want people to think that I look at myself as a celeb,\" says Olly, speaking at the series launch. Amanda Stephens, Cecilie's mum, said the government has to start taking the issues \"seriously\" and mirrored Mr Russell's call for the delays to stop.",
+        "repairs": [
+            {
+                "entity": "Mr",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She was one of the unlucky stars of The Tinder Swindler - the streaming giant's hit documentary about fraudster Simon Leviev. \"There's also a variety of sedimentary rocks that record different depositional environments, such as a river delta, or the bottom of an ancient lake,\" Perseverance mission scientist Meenakshi Wadhwa said. \"Some of these environments could have been habitable, and some of these rocks could preserve evidence of ancient microbial life.\"",
+        "mutated_sentence": "She was one of the unlucky stars of The Tinder Swindler - the streaming giant's hit documentary about fraudster Meenakshi Wadhwa. \"There's also a variety of sedimentary rocks that record different depositional environments, such as a river delta, or the bottom of an ancient lake,\" Perseverance mission scientist Simon Leviev said. \"Some of these environments could have been habitable, and some of these rocks could preserve evidence of ancient microbial life.\"",
+        "repairs": [
+            {
+                "entity": "Perseverance",
+                "original_tag": "PersonType",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "scientist",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "bottom",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 0.670092861391223,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "mission scientist",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He now attends the Wicked Wales organisation for young film makers and has \"produced my own show, I've had my own talent show, I've had a film done about my life and I've presented at festivals\". Mr Ray, who replaced the company's founder Sam Bankman-Fried, criticised what he called a \"complete absence of trustworthy financial information\".",
+        "mutated_sentence": "He now attends the Wicked Wales organisation for young Mr and has \"produced my own show, I've had my own talent show, I've had a film done about my life and I've presented at festivals\". film makers Ray, who replaced the company's founder Sam Bankman-Fried, criticised what he called a \"complete absence of trustworthy financial information\".",
+        "repairs": [
+            {
+                "entity": "financial",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6691899416994312,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A month before their departure they each had borrowed nearly $2,000 to pay their agents for the trip and underwent a short training session. A person can now have their body turned into soil after their death - which is seen as an environmentally friendly alternative to a burial or cremation.",
+        "mutated_sentence": "A month before their departure they each had borrowed nearly $2,000 to pay their agents for the cremation and underwent a short training session. A person can now have their body turned into soil after their death - which is seen as an environmentally friendly alternative to a burial or trip.",
+        "repairs": [
+            {
+                "entity": "person",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.5887309197822724,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Also on Thursday, during an interview with US conspiracy theorist Alex Jones and with his face covered in a mask, West praised Nazi leader Adolf Hitler and ranted about sin, pornography and the devil. \"Once built, she will be the largest clean cargo vessel in the world,\" says Ms Milmore.",
+        "mutated_sentence": "Also on Thursday, during an interview with US conspiracy theorist Alex Jones and with his face covered in a mask, West praised Ms Adolf Hitler and ranted about sin, pornography and the devil. \"Once built, she will be the largest clean cargo vessel in the world,\" says Nazi leader Milmore.",
+        "repairs": [
+            {
+                "entity": "Nazi leader",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6688965540410928,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ms",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Nazi",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.7468450341758176,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "leader",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Claire Lincoln, senior research physiotherapist at the hospital, said patients using the machine could do a lot more before becoming too tired. Director Phoebe Brown said: \"People can learn to fix them for themselves, and also be taught how to look after their items better.",
+        "mutated_sentence": "Claire Lincoln, senior research Director at the hospital, said patients using the machine could do a lot more before becoming too tired. physiotherapist Phoebe Brown said: \"People can learn to fix them for themselves, and also be taught how to look after their items better.",
+        "repairs": [
+            {
+                "entity": "Director",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6985769383614543,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "senior research Director",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The mission has offered Chinese citizens a chance to celebrate, as the country faces ongoing Covid lockdowns and protests. Officials say the rain is falling on ground already soaked by past rainfall.",
+        "mutated_sentence": "The mission has offered Chinese citizens a chance to celebrate, as the country faces ongoing Covid lockdowns and rainfall. Officials say the rain is falling on ground already soaked by past protests.",
+        "repairs": [
+            {
+                "entity": "Covid",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "Event",
+                "confidence": 0.6789764671581793,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Posting online at the time, a ransomware group had claimed it was possible to tamper with water supplies, however this was disputed by the water company. However, in protest at Russia's invasion of Ukraine, Esa will no longer use a Russian rocket to put its Euclid space telescope into orbit next year. It will instead use a SpaceX Falcon 9 rocket.",
+        "mutated_sentence": "Posting online at the time, a ransomware group had claimed it was possible to tamper with Russian rocket, however this was disputed by the water company. However, in protest at Russia's invasion of Ukraine, Esa will no longer use a water supplies to put its Euclid space telescope into orbit next year. It will instead use a SpaceX Falcon 9 rocket.",
+        "repairs": [
+            {
+                "entity": "water supplies",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Russian rocket",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Russian",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "rocket",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Russia's defence ministry announced that its troops stationed in Belarus would conduct joint military exercises with Belarus. NewsGuard also found that videos could be found on TikTok showing another Wagner murder involving an army deserter in Syria in 2017 and that they had reached millions of users.",
+        "mutated_sentence": "Syria's defence ministry announced that its troops stationed in Belarus would conduct joint military exercises with Belarus. NewsGuard also found that videos could be found on TikTok showing another Wagner murder involving an army deserter in Russia in 2017 and that they had reached millions of users.",
+        "repairs": [
+            {
+                "entity": "murder",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But getting a firm going in Kenya has not been easy. Following the gaming restrictions, Douyin, China's version of TikTok, banned under-14s from using the platform for more than 40 minutes a day.",
+        "mutated_sentence": "But getting a firm going in Douyin has not been easy. Following the gaming restrictions, Kenya, China's version of TikTok, banned under-14s from using the platform for more than 40 minutes a day.",
+        "repairs": [
+            {
+                "entity": "TikTok",
+                "original_tag": "Product",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 0.6613161569268567,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "I spoke to two women about their recent experiences. The death of seven-year-old Hanna Roap from Strep A sparked a public health fears among parents, though nurses went on strike for the first time in NHS history - swiftly followed by paramedics.",
+        "mutated_sentence": "I spoke to two paramedics about their recent experiences. The death of seven-year-old Hanna Roap from Strep A sparked a public health fears among parents, though nurses went on strike for the first time in NHS history - swiftly followed by women.",
+        "repairs": [
+            {
+                "entity": "women",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dropping the need to define what counts as \"legal but harmful\" content may have satisfied free speech advocates. Christmas cards were late due to a postal strike while holiday travel was hit by industrial action by both rail workers and airport staff.",
+        "mutated_sentence": "Dropping the need to define what counts as \"legal but harmful\" content may have satisfied rail workers. Christmas cards were late due to a postal strike while holiday travel was hit by industrial action by both free speech advocates and airport staff.",
+        "repairs": [
+            {
+                "entity": "free speech advocates",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Christmas",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.34740552205286673,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "cards",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Christmas cards",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 0.6001914787727284,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "industrial action",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "speech advocates",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.3393000914873586,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The company said recent years had also seen Christmas lights, footballs, t-shirts and cutlery cause problems. Unions and analysts have pointed at a host of factors causing the problems, including staffing shortfalls and outdated computer systems that did not connect crews with flights when cancellations started to pile up.",
+        "mutated_sentence": "The company said recent years had also seen Christmas lights, computer, t-shirts and cutlery cause problems. Unions and analysts have pointed at a host of factors causing the problems, including staffing shortfalls and outdated footballs systems that did not connect crews with flights when cancellations started to pile up.",
+        "repairs": [
+            {
+                "entity": "staffing shortfalls",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6826822151952069,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "staffing",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "Skill",
+                "confidence": 0.685011402046265,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dan Ives, senior equity analyst at Wedbush Securities, told the BBC before the poll closed that he believed the vote would ultimately lead to the ending of Mr Musk's reign as Twitter chief executive, and that he would probably name a new temporary CEO \"in the next 24 hours\". \"What started out a month ago as 3% iPhone 14 Pro shortages grew to 5% last week and now are roughly 10%+ of overall units with the potential to increase over the coming month depending on any production improvements from Foxconn,\" Dan Ives from investment firm Wedbush Securities said.",
+        "mutated_sentence": "Dan Ives, senior equity analyst at Wedbush Securities, told the BBC before the poll closed that he believed the vote would ultimately lead to the ending of Mr Musk's reign as Wedbush Securities chief executive, and that he would probably name a new temporary CEO \"in the next 24 hours\". \"What started out a month ago as 3% iPhone 14 Pro shortages grew to 5% last week and now are roughly 10%+ of overall units with the potential to increase over the coming month depending on any production improvements from Foxconn,\" Dan Ives from investment firm Twitter said.",
+        "repairs": [
+            {
+                "entity": "Wedbush Securities",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "poll",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6369637145582735,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mr",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Finding this hard to believe, she emailed the hotel and was told no payment had been made. Her body lay in the house for 24 hours before she was taken to a hospital.",
+        "mutated_sentence": "Finding this hard to believe, she emailed the house and was told no payment had been made. Her body lay in the hotel for 24 hours before she was taken to a hospital.",
+        "repairs": [
+            {
+                "entity": "house",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.37638930493190176,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Bankman-Fried, 30, also said his lawyers had advised him not to speak publicly, but he had ignored them. Mr Pullen says he reinvests every penny he makes online back into his farm.",
+        "mutated_sentence": "Mr Bankman-Fried, 30, also said his Mr had advised him not to speak publicly, but he had ignored them. lawyers Pullen says he reinvests every penny he makes online back into his farm.",
+        "repairs": [
+            {
+                "entity": "Mr",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Musk has also reactivated the Twitter accounts of rapper Ye (formerly Kanye West) and influencer Andrew Tate. Ms Jones said: \"It's amazing he didn't have more serious injuries like a ruptured diaphragm or something like that given the height he had fallen.",
+        "mutated_sentence": "Mr Jones has also reactivated the Twitter accounts of rapper Ye (formerly Kanye West) and influencer Andrew Tate. Ms Musk said: \"It's amazing he didn't have more serious injuries like a ruptured diaphragm or something like that given the height he had fallen.",
+        "repairs": [
+            {
+                "entity": "diaphragm",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "According to the UN Environment Programme, about 60% of material made into clothing is plastic, such as polyester or acrylic, and every time the clothes are washed they shed tiny plastic microfibres. In anticipation of travel disruptions, major airlines including United, Delta and American have offered to waive fees for travellers who wish to reschedule their flights.",
+        "mutated_sentence": "According to the American, about 60% of material made into clothing is plastic, such as polyester or acrylic, and every time the clothes are washed they shed tiny plastic microfibres. In anticipation of travel disruptions, major airlines including United, Delta and UN Environment Programme have offered to waive fees for travellers who wish to reschedule their flights.",
+        "repairs": [
+            {
+                "entity": "American",
+                "original_tag": "Organization",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "With 120 million followers, his account, @ElonMusk, is already the second most followed, after @BarackObama, the former US president's, which has 130 million. For Adriane Trofin, a Brazilian working mother of two who lives in London, the failure of her dream family holiday to Greece this year was more traumatic.",
+        "mutated_sentence": "With 120 million followers, his account, @Adriane Trofin, is already the second most followed, after @BarackObama, the former US president's, which has 130 million. For ElonMusk, a Brazilian working mother of two who lives in London, the failure of her dream family holiday to Greece this year was more traumatic.",
+        "repairs": [
+            {
+                "entity": "family holiday",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "O",
+                "confidence": 0.5719196480420621,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Maria says that as well as telling her he'd paid for the room, Rafael Bessa said he'd got her a free upgrade - but he hadn't, and the hotel charged the staggering full price for the super de luxe room. In Austria, the resorts around Salzburg last had snow a month ago. In Chamonix in France, the snow cannon are idle because the water to fuel them is in short supply.",
+        "mutated_sentence": "Maria says that as well as telling her he'd paid for the room, Rafael Bessa said he'd got her a free upgrade - but he hadn't, and the resorts charged the staggering full price for the super de luxe room. In Austria, the hotel around Salzburg last had snow a month ago. In Chamonix in France, the snow cannon are idle because the water to fuel them is in short supply.",
+        "repairs": [
+            {
+                "entity": "room",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Whitlam, then opposition leader, asked the China expert whether he would join him for a historic diplomatic mission to the country. Temperatures in the Netherlands, Liechtenstein, Lithuania, Latvia, Czech Republic, Poland, Denmark and Belarus broke national records.",
+        "mutated_sentence": "Mr Whitlam, then opposition leader, asked the Lithuania expert whether he would join him for a historic diplomatic mission to the country. Temperatures in the Netherlands, Liechtenstein, China, Latvia, Czech Republic, Poland, Denmark and Belarus broke national records.",
+        "repairs": [
+            {
+                "entity": "diplomatic",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6963959850695026,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mr",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "diplomatic mission",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She soon found the same model second-hand online and snapped it up. The sample tubes it acquires - either from the Three Forks store or directly from Perseverance at another location - would be brought home on a European freighter, due back in 2033.",
+        "mutated_sentence": "She soon found the same freighter second-hand online and snapped it up. The sample tubes it acquires - either from the Three Forks store or directly from Perseverance at another location - would be brought home on a European model, due back in 2033.",
+        "repairs": [
+            {
+                "entity": "model",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6770985616506378,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Three Forks store",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6674362046589529,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Three Forks",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Location",
+                "confidence": 0.6687191187637157,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "store",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 0.6993448411708179,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The name \"elaliite\" honours the fact that the meteorite was unearthed in the district of El Ali in Somalia, and \"elkinstantonite\" is named after Nasa expert Lindy Elkins-Tanton. Waste gases from a steelworks and household rubbish could be used to fuel aeroplanes for \"guilt-free flying\".",
+        "mutated_sentence": "The name \"elaliite\" honours the fact that the meteorite was unearthed in the district of steelworks in Somalia, and \"elkinstantonite\" is named after Nasa expert Lindy Elkins-Tanton. Waste gases from a El Ali and household rubbish could be used to fuel aeroplanes for \"guilt-free flying\".",
+        "repairs": [
+            {
+                "entity": "district",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"The people have spoken. \"Extremely icy road conditions\" are believed to have caused the vehicle to roll over near the town of Merritt on Saturday, police say.",
+        "mutated_sentence": "\"The police have spoken. \"Extremely icy road conditions\" are believed to have caused the vehicle to roll over near the town of Merritt on Saturday, people say.",
+        "repairs": [
+            {
+                "entity": "people",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Her self-belief started to flourish and mental health improved when Valleys Kids got her to help Welsh historical monuments organisation Cadw create a virtual reality model of the Welsh valleys. The Vindolanda Trust is offering 10 bursary places for people aged between 18 and 20 to join digs at the settlement near Hexham, Northumberland.",
+        "mutated_sentence": "Her self-belief started to flourish and mental health improved when Valleys Kids got her to help Welsh historical monuments organisation Cadw create a virtual reality model of the Hexham. The Vindolanda Trust is offering 10 bursary places for people aged between 18 and 20 to join digs at the settlement near Welsh valleys, Northumberland.",
+        "repairs": [
+            {
+                "entity": "Valleys Kids",
+                "original_tag": "Organization",
+                "mutated_tag": "Product",
+                "corrected_tag": "Organization",
+                "confidence": 0.3369317972238853,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Hexham",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Gordon added the problem with off-road bikes spanned the borough but there were \"corridors of activity where we would want to take targeted action\", according to the Local Democracy Reporting Service. \"I love being in nature, listening to the sounds of the birds. I look forward to going to work every day,\" the mother-of-two smiles.",
+        "mutated_sentence": "mother-of-two Gordon added the problem with off-road bikes spanned the borough but there were \"corridors of activity where we would want to take targeted action\", according to the Local Democracy Reporting Service. \"I love being in nature, listening to the sounds of the birds. I look forward to going to work every day,\" the Mr smiles.",
+        "repairs": [
+            {
+                "entity": "off-road bikes",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6335659120996485,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "-road bikes",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The suspect has been denied bail and is currently jailed at a local juvenile detention centre. Steven Keogh, a former detective with the Metropolitan Police, told the BBC that in his experience of investigating gang-related murders in London \"all bar none\" had \"some connection\" to drill tracks.",
+        "mutated_sentence": "The detective has been denied bail and is currently jailed at a local juvenile detention centre. Steven Keogh, a former suspect with the Metropolitan Police, told the BBC that in his experience of investigating gang-related murders in London \"all bar none\" had \"some connection\" to drill tracks.",
+        "repairs": [
+            {
+                "entity": "investigating",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 0.6725689006581873,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After August, as federal government forces took more territory, the Tigrayan authorities agreed to a ceasefire. The spokesman said the government had also launched a new energy saving campaign, raising awareness of simple actions people can take to bring down the amount of energy needed to keep homes warm this winter.",
+        "mutated_sentence": "After August, as federal government forces took more territory, the spokesman authorities agreed to a ceasefire. The Tigrayan said the government had also launched a new energy saving campaign, raising awareness of simple actions people can take to bring down the amount of energy needed to keep homes warm this winter.",
+        "repairs": [
+            {
+                "entity": "Tigrayan",
+                "original_tag": "PersonType",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 0.6974227917325077,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "authorities",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.37776471003269074,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "saving campaign",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.5739708137152288,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "homes",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "campaign",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "O",
+                "confidence": 0.5648085709752383,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"As soon as we were aware that we needed to notify our customers in compliance with our legal obligations we began to do so. Curator Briony Smith said: \"We hope Leia and Luka can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "mutated_sentence": "\"As soon as we were aware that we needed to notify our Curator in compliance with our legal obligations we began to do so. customers Briony Smith said: \"We hope Leia and Luka can boost the genetic diversity and number in the captive population, which acts as a safety net for the species.",
+        "repairs": [
+            {
+                "entity": "captive",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7056462993721676,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Niall Toru, lawyer at Friends of the Earth, said: \"With the world facing a climate emergency, we shouldn't have to take this challenge to court. Prof Helen O'Sullivan, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "mutated_sentence": "Niall Toru, lawyer at University of Chester, said: \"With the world facing a climate emergency, we shouldn't have to take this challenge to court. Prof Helen O'Sullivan, provost and deputy vice-chancellor at the Friends of the Earth, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "repairs": [
+            {
+                "entity": "world",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6934851598487811,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "sustainability",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Martha now volunteers at Valleys Kids and helps support young people in some of Wales' poorest areas who may not have games consoles or digital devices at home. China has announced plans with Russia to set up a joint base on the Moon by 2035, but no timeline has been drawn up for the project.",
+        "mutated_sentence": "Martha now volunteers at Valleys Kids and helps support young people in some of Moon' poorest areas who may not have games consoles or digital devices at home. China has announced plans with Russia to set up a joint base on the Wales by 2035, but no timeline has been drawn up for the project.",
+        "repairs": [
+            {
+                "entity": "support",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "games consoles",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "volunteers",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "games",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "consoles",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 0.6411020830307925,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "EU commissioner Thierry Breton made the comments in a meeting with Mr Musk on Wednesday, saying the social media site would have to address issues such as content moderation, disinformation and targeted adverts. Sarah Walker, nature and wellbeing project manager at RSPB England, said: \"I'm thrilled to see the project coming to life in the High Peak and can't wait to see how people in the area benefit.\"",
+        "mutated_sentence": "EU project manager Thierry Breton made the comments in a meeting with Mr Musk on Wednesday, saying the social media site would have to address issues such as content moderation, disinformation and targeted adverts. Sarah Walker, nature and wellbeing commissioner at RSPB England, said: \"I'm thrilled to see the project coming to life in the High Peak and can't wait to see how people in the area benefit.\"",
+        "repairs": [
+            {
+                "entity": "commissioner",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "EU",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Location",
+                "confidence": 0.3464876014705292,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "social media",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "nature and wellbeing commissioner",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Go To War\" with an arrow pointing to the latter. Her sailing ships can only carry a tiny fraction of the cargo of a modern container ship - some of which carry more than 20,000 containers.",
+        "mutated_sentence": "Go To War\" with an containers pointing to the latter. Her sailing ships can only carry a tiny fraction of the cargo of a modern container ship - some of which carry more than 20,000 arrow.",
+        "repairs": [
+            {
+                "entity": "War",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "arrow",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.40720303727574747,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "20,000",
+                "original_tag": "Quantity",
+                "mutated_tag": "O",
+                "corrected_tag": "Quantity",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "20,000 arrow",
+                "original_tag": "O",
+                "mutated_tag": "Quantity",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    }
+]

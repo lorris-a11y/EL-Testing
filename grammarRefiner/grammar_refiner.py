@@ -1,19 +1,20 @@
-
 import re
 from dataclasses import dataclass
-from typing import Dict, List
+from typing import Dict, List, Tuple, Optional
 
 import spacy
 from flair.data import Sentence
 
-from external.plural import (
+from findParallel.findParallel import ParallelEntityFinder
+from mutation.plural.addition import is_passive_structure
+from mutation.plural.mut import mutate_singular_to_plural, mutate_plural_to_singular
+from mutation.sentence import MutationSentence
+from mutation.syntax import recover_word
+from mutation.plural import (
     is_verb_plural, is_verb_singular, pluralize_verb, singularize_verb,
-    is_word_plural
+    is_word_plural, is_word_singular, is_plural, is_singular
 )
-from external.plural.addition import is_passive_structure
-from external.sentence import MutationSentence
-from external.syntax import recover_word
-from external.tense.detection import is_simple_past, is_past_participle
+from mutation.tense.detection import is_simple_past, is_past_participle
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_sm')
@@ -28,15 +29,11 @@ class WhoClause:
 
 @dataclass
 class NumericPatternManager:
-
     PATTERNS = [
-        #
         (r'\([^)]*\d+(?:,\d{3})*[^)]*\)', 'parenthesized'),
 
-        #
         (r'[£€$]\d+(?:,\d{3})*(?:\.\d+)?', 'currency'),
 
-        #  -
         (r'\b\d+(?:,\d{3})*(?:\.\d+)?\b', 'number')
     ]
 
@@ -46,24 +43,19 @@ class NumericPatternManager:
         self.protected_sentence = sentence
 
     def protect_patterns(self) -> str:
-        """"""
         self.protected_sentence = re.sub(r'(\d),\s+(\d)', r'\1,\2', self.protected_sentence)
 
-        # /
         for pattern, pattern_type in self.PATTERNS:
             matches = list(re.finditer(pattern, self.protected_sentence))
             for match in reversed(matches):
                 full_text = match.group(0)
 
-                #
                 if any(full_text == v for v in self.protected_map.values()):
                     continue
 
-                #
                 placeholder = f"__NUM_{len(self.protected_map)}__"
                 self.protected_map[placeholder] = full_text
 
-                #
                 self.protected_sentence = (
                         self.protected_sentence[:match.start()] +
                         placeholder +
@@ -73,56 +65,50 @@ class NumericPatternManager:
         return self.protected_sentence
 
     def restore_patterns(self, text: str) -> str:
-        """"""
         result = text
 
-        #
         placeholders = sorted(self.protected_map.keys(), key=len, reverse=True)
 
         for placeholder in placeholders:
             original = self.protected_map[placeholder]
 
-            #
             if placeholder in result:
                 result = result.replace(placeholder, original)
                 continue
 
-            # （）
             base_num = re.search(r'\d+', placeholder)
             if base_num:
                 num = base_num.group(0)
-                #
                 corrupted_pattern = fr'__[^_]*{num}[^_]*__'
                 for match in re.finditer(corrupted_pattern, result):
                     result = result.replace(match.group(0), original)
 
         return result.strip()
 
-
 def clean_punctuation(text: str) -> str:
     """Clean up punctuation while preserving number formatting"""
-    # First protect numbers from space normalization
     number_pattern = r'\b\d{1,3}(?:,\d{3})*\b'
     numbers = {}
     for i, match in enumerate(re.finditer(number_pattern, text)):
         placeholder = f'__NUM_{i}__'
         numbers[placeholder] = match.group(0)
-        text = text[:match.start()] + placeholder + text[match.end:]
+        text = text[:match.start()] + placeholder + text[match.end():]
 
-    # Clean up spaces and punctuation
     text = re.sub(r'\s+', ' ', text)
+
+    text = re.sub(r',\s*\.', '.', text)  # Fixes " ,."
+    text = re.sub(r',\.', '.', text)  # Fixes ",."
+
     text = re.sub(r'\s*\.\s*$', '.', text)
     text = re.sub(r'\s*,\s*and\s*', ' and ', text)
     text = re.sub(r'\s*,\s*or\s*', ' or ', text)
 
-    # Restore numbers
     for placeholder, number in numbers.items():
         text = text.replace(placeholder, number)
 
     return text.strip()
 
-#
-# """"""
+
 def find_who_clauses(doc: spacy.tokens.Doc) -> List[WhoClause]:
     who_clauses = []
     for token in doc:
@@ -144,25 +130,20 @@ def find_who_clauses(doc: spacy.tokens.Doc) -> List[WhoClause]:
 
     return who_clauses
 #
-#
-""""""
+
 def should_keep_conjunction(token: spacy.tokens.Token) -> bool:
     if token.text.lower() not in ['and', 'or']:
         return True
 
-    #
     if any(ent.label_ in ['GPE', 'LOC'] for ent in token.doc.ents):
         return True
 
-    #
     prev_text = token.doc[token.i - 2:token.i].text if token.i >= 2 else ""
     next_text = token.doc[token.i + 1:token.i + 3].text if token.i < len(token.doc) - 2 else ""
     if re.search(r'\b(?:part of|area|region)\b', prev_text):
         return True
 
-    #
     if token.text.lower() == 'and':
-        #  between
         prev_text = ''.join(t.text_with_ws for t in token.doc[:token.i]).lower()
         if 'between' in prev_text:
             return True
@@ -184,10 +165,7 @@ def should_keep_conjunction(token: spacy.tokens.Token) -> bool:
             )))
 
 
-
-# #new
 def restore_special_forms(text: str, original_sentence: str) -> str:
-    #
     contractions = re.findall(r"\w+n't|\w+'[sd]|\w+'ll|\w+'ve|\w+'re", original_sentence)
     for contraction in contractions:
         parts = contraction.split("'")
@@ -200,12 +178,11 @@ def restore_special_forms(text: str, original_sentence: str) -> str:
                 contraction.capitalize()
             )
 
-    # （）
     possessive_patterns = [r"\b(\w+)(\s+)['']s\b", r"\b(\w+\s+\w+)(\s+)['']s\b"]
     for pattern in possessive_patterns:
         for match in re.finditer(pattern, text):
             original = match.group(0)
-            fixed = match.group(1) + "'" + match.group(0)[-1]  #
+            fixed = match.group(1) + "'" + match.group(0)[-1]  # 移除空格
             text = text.replace(original, fixed)
 
 
@@ -213,12 +190,10 @@ def restore_special_forms(text: str, original_sentence: str) -> str:
     for name in multi_word_names:
         parts = name.split()
         if len(parts) == 2:
-            #
             joined_name = ''.join(parts)
             if joined_name in text:
                 text = text.replace(joined_name, name)
 
-    #
     hyphenated_words = re.findall(r'\b\w+(?:-\w+)+\b', original_sentence)
     for word in hyphenated_words:
         wrong_forms = [
@@ -236,24 +211,14 @@ def restore_special_forms(text: str, original_sentence: str) -> str:
 
 
 
-
-
-
-
-
-
 def refine_sentence_with_spacy(sentence: str, tagger) -> str:
-
-    # Step 1:
     pattern_manager = NumericPatternManager(sentence)
     protected_sentence = pattern_manager.protect_patterns()
 
-    # Step 2:
     doc = nlp(protected_sentence)
     flair_sentence = Sentence(sentence)
     tagger.predict(flair_sentence)
 
-    #
     original_tokens = []
     original_pos = []
     original_deps = []
@@ -273,45 +238,39 @@ def refine_sentence_with_spacy(sentence: str, tagger) -> str:
         original_deps.append(token.dep_)
         original_head.append(token.head)
 
-    #
     mutation_sentence = MutationSentence([token['text'] for token in original_tokens])
 
-    #
     noun_indices = []
     for i, token in enumerate(doc):
         if (token.pos_ in ["NOUN", "PROPN"]) and token.dep_ in ["nsubj", "nsubjpass"]:
             noun_indices.append(i)
 
-    #
     for noun_index in noun_indices:
         token = mutation_sentence[noun_index]
         verb = original_head[noun_index]
         verb_index = verb.i
 
-        #
         if is_passive_structure(doc, verb_index):
-            #
             aux_index = -1
             for i, dep in enumerate(original_deps):
                 if dep in ["aux", "auxpass"] and original_head[i].i == verb_index:
                     aux_index = i
-                    #
                     break
 
             if aux_index != -1:
                 aux_token = mutation_sentence[aux_index]
-                # ，
-                if not is_word_plural(token) and aux_token.lower() == "have":
+                if not is_word_plural(token) and aux_token.lower() == "were":
+                    mutation_sentence[aux_index] = recover_word("was", aux_token)
+                elif is_word_plural(token) and aux_token.lower() == "was":
+                    mutation_sentence[aux_index] = recover_word("were", aux_token)
+                elif not is_word_plural(token) and aux_token.lower() == "have":
                     mutation_sentence[aux_index] = recover_word("has", aux_token)
-                #
                 elif is_word_plural(token) and aux_token.lower() == "has":
                     mutation_sentence[aux_index] = recover_word("have", aux_token)
 
-            #
             continue
 
-        #
-        #
+
         aux_index = -1
         for i, dep in enumerate(original_deps):
             if dep == "aux" and original_head[i].i == verb_index:
@@ -320,40 +279,33 @@ def refine_sentence_with_spacy(sentence: str, tagger) -> str:
 
         if aux_index != -1:
             aux_token = mutation_sentence[aux_index]
-            #
             if not is_word_plural(token) and aux_token.lower() == "have":
                 mutation_sentence[aux_index] = recover_word("has", aux_token)
-            #
             elif is_word_plural(token) and aux_token.lower() == "has":
                 mutation_sentence[aux_index] = recover_word("have", aux_token)
+
         else:
-            #
             verb_token = mutation_sentence[verb_index]
 
-            #
-            if is_past_participle(verb_token) or is_simple_past(verb_token):
+            if is_past_participle(verb_token) and not is_simple_past(verb_token):
                 continue
 
-            # ，
             if not is_word_plural(token) and is_verb_plural(verb_token):
                 mutation_sentence[verb_index] = recover_word(
                     singularize_verb(verb_token),
                     verb_token
                 )
-            #
             elif is_word_plural(token) and is_verb_singular(verb_token):
                 mutation_sentence[verb_index] = recover_word(
                     pluralize_verb(verb_token),
                     verb_token
                 )
 
-    #
     who_clauses = find_who_clauses(doc)
     for clause in who_clauses:
         current_verb = mutation_sentence[clause.verb.i]
 
-        #
-        if is_past_participle(current_verb) or is_simple_past(current_verb):
+        if is_past_participle(current_verb) and not is_simple_past(current_verb):
             continue
 
         if clause.is_plural and is_verb_singular(current_verb):
@@ -365,32 +317,25 @@ def refine_sentence_with_spacy(sentence: str, tagger) -> str:
                 singularize_verb(current_verb), current_verb
             )
 
-    #
     result = ""
     for i, token_info in enumerate(original_tokens):
         current_token = mutation_sentence[i]
 
-        #
         if i > 0:
             prev_token = original_tokens[i - 1]
-            # ，
             if token_info['is_contraction_part']:
                 pass
-            # ，
             elif prev_token['whitespace_after']:
                 result += ' '
 
-        #
         result += current_token
 
         if i == len(original_tokens) - 1 and token_info['whitespace_after']:
             result += ' '
 
-    #
     result = restore_special_forms(result, sentence)
     result = clean_punctuation(result)
 
-    #
     result = pattern_manager.restore_patterns(result)
 
     return result.strip()

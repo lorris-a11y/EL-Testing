@@ -1,0 +1,1454 @@
+[
+    {
+        "original_sentence": "Det Supt Rance said the investigation remained active. \"It's something that is hard to talk about,\" Katie says.",
+        "mutated_sentence": "Katie Supt Rance said the investigation remained active. \"It's something that is hard to talk about,\" Det says.",
+        "repairs": [
+            {
+                "entity": "Supt Rance",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Katie",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7214817199374197,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Katie Supt Rance",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The money will go towards increasing biodiversity and encouraging wildlife once the project near the Express Park is completed. First he had to learn the basics, and for that, he turned to the indigenous people who have been managing Panama's forests for centuries.",
+        "mutated_sentence": "The money will go towards increasing biodiversity and encouraging wildlife once the project near the Panama is completed. First he had to learn the basics, and for that, he turned to the indigenous people who have been managing Express Park's forests for centuries.",
+        "repairs": [
+            {
+                "entity": "Express Park",
+                "original_tag": "LOCATION",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Deputy Prime Minister and Justice Secretary Dominic Raab said \"lives and families\" had been destroyed by \"those who encourage vulnerable internet users to self-harm\". \"They will deposit these little guys to go into the smaller pipes and collect them when they're done,\" explained Prof Cohen. \"We will need a whole society of these robots to work in all these kilometres of pipe.",
+        "mutated_sentence": "Deputy Prime Minister and Justice Secretary Prof said \"lives and families\" had been destroyed by \"those who encourage vulnerable internet users to self-harm\". \"They will deposit these little guys to go into the smaller pipes and collect them when they're done,\" explained Dominic Raab Cohen. \"We will need a whole society of these robots to work in all these kilometres of pipe.",
+        "repairs": [
+            {
+                "entity": "Dominic Raab",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Cohen",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Dominic Raab Cohen",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"I think gaming provides a level playing field, particularly for those who have barriers to access typical methods of play,\" said Heather Roberts of the Ty Hafan hospice, near Barry in Vale of Glamorgan. Skies are forecast to be clearest in the south-west of England and the south and west of Wales. But in the north of England and Scotland clouds could obscure the view.",
+        "mutated_sentence": "\"I think gaming provides a level playing field, particularly for those who have barriers to access typical methods of play,\" said Heather Roberts of the Ty Hafan hospice, near Barry in Vale of England. Skies are forecast to be clearest in the south-west of Glamorgan and the south and west of Wales. But in the north of England and Scotland clouds could obscure the view.",
+        "repairs": [
+            {
+                "entity": "Vale",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.7490215987160329,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "England",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Vale of England",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They were identified by scientists at the University of Alberta who looked at a 70g fragment from the 15-tonne meteorite, which is said to be the ninth-biggest to reach our planet and is about 90% iron and nickel. We were expecting a launch on 14 December, but this was pushed back when Virgin Orbit discovered a technical issue on one of its Newton rocket engines during testing in California.",
+        "mutated_sentence": "They were identified by scientists at the University of Virgin Orbit who looked at a 70g fragment from the 15-tonne meteorite, which is said to be the ninth-biggest to reach our planet and is about 90% iron and nickel. We were expecting a launch on 14 December, but this was pushed back when Alberta discovered a technical issue on one of its Newton rocket engines during testing in California.",
+        "repairs": [
+            {
+                "entity": "University",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "of",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.5001435645305229,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Virgin Orbit",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Newton",
+                "original_tag": "COMMERCIAL_ITEM",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "University of Virgin Orbit",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Newton rocket",
+                "original_tag": "O",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "COMMERCIAL_ITEM",
+                "confidence": 0.7018686570628394,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Even former Prime Minister Liz Truss turned to pre-used kit for her campaign office, according to the firm that says it was the supplier. It was looted from the Abu Sir necropolis in north Egypt by a global art trafficking network, which smuggled it through Germany into the US in 2008.",
+        "mutated_sentence": "Even former Abu Liz Truss turned to pre-used kit for her campaign office, according to the firm that says it was the supplier. It was looted from the Prime Minister Sir necropolis in north Egypt by a global art trafficking network, which smuggled it through Germany into the US in 2008.",
+        "repairs": [
+            {
+                "entity": "Liz Truss",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Abu",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sir",
+                "original_tag": "LOCATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Abu Liz Truss",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"Apple has mostly stopped advertising on Twitter. It ended in disappointment after the team failed to progress beyond the group stage, but that didn't stop us getting Yma o Hyd tattoos.",
+        "mutated_sentence": "\"Yma o Hyd has mostly stopped advertising on Twitter. It ended in disappointment after the team failed to progress beyond the group stage, but that didn't stop us getting Apple tattoos.",
+        "repairs": [
+            {
+                "entity": "Yma o Hyd",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Yma",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Hyd",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.6624971472107529,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mark Habben, Wildwood Trust director of zoological operations, said: \"The arrival of the bull marks the start of the Wilder Blean journey in earnest and it's incredibly fitting that it coincides with a new year. Nasa will launch its Psyche spacecraft in summer 2023 to explore an asteroid called 16 Psyche, thought to be the remnant of a planet created in the earliest days of the solar system.",
+        "mutated_sentence": "Mark Habben, Nasa director of zoological operations, said: \"The arrival of the bull marks the start of the Wilder Blean journey in earnest and it's incredibly fitting that it coincides with a new year. Wildwood Trust will launch its Psyche spacecraft in summer 2023 to explore an asteroid called 16 Psyche, thought to be the remnant of a planet created in the earliest days of the solar system.",
+        "repairs": [
+            {
+                "entity": "Psyche spacecraft",
+                "original_tag": "COMMERCIAL_ITEM",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7163632050871315,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "days",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Psyche",
+                "original_tag": "O",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.43102468989057313,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The areas worked on will be lowland heath and species-rich grassland and should help the Dingy Skipper butterfly and the Bilberry Bumblebee, Buglife said. New York State Governor Kathy Hochul - a native of Buffalo - said : \"This will go down in history as Buffalo's most devastating storm.\"",
+        "mutated_sentence": "The areas worked on will be lowland heath and species-rich grassland and should help the Dingy Skipper butterfly and the Bilberry Bumblebee, Kathy Hochul said. New York State Governor Buglife - a native of Buffalo - said : \"This will go down in history as Buffalo's most devastating storm.\"",
+        "repairs": [
+            {
+                "entity": "Bilberry Bumblebee",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Buglife",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Governor",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bumblebee",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6899201038922484,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Governor Buglife",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The board called on Meta to create a \"globally consistent system\" for content removal requests from official bodies - emphasising \"not every piece of content that law enforcement would prefer to have taken down should be taken down\". Cunningham was born in Creston, Iowa, and went on to earn a masters degree in physics from the University of California in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "mutated_sentence": "The board called on University of California to create a \"globally consistent system\" for content removal requests from official bodies - emphasising \"not every piece of content that law enforcement would prefer to have taken down should be taken down\". Cunningham was born in Creston, Iowa, and went on to earn a masters degree in physics from the Meta in Los Angeles. While working as a civilian at the time, he was one of three astronauts chosen for the first manned spaceflight in the Apollo programme.",
+        "repairs": [
+            {
+                "entity": "first manned",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Apollo",
+                "original_tag": "COMMERCIAL_ITEM",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6740674782489444,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "first manned spaceflight",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jess McFall, social prescribing manager at High Peak Community and Voluntary Support, said: \"To be the first area in England involved in Nature Prescriptions is exciting and inspiring. The year's third prime minister, Rishi Sunak, appointed Monmouth MP David TC Davies as Welsh secretary while police in Gwent unveiled their latest quirky crime-busting tool - three Tuk Tuks.",
+        "mutated_sentence": "Jess McFall, social prescribing manager at High Peak Community and Monmouth, said: \"To be the first area in England involved in Nature Prescriptions is exciting and inspiring. The year's third prime minister, Rishi Sunak, appointed Voluntary Support MP David TC Davies as Welsh secretary while police in Gwent unveiled their latest quirky crime-busting tool - three Tuk Tuks.",
+        "repairs": [
+            {
+                "entity": "Voluntary Support",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Tuk",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.3695806812518323,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Support",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Musk, who bought Twitter for $44bn (£36bn), said before the poll closed that he would abide by the result. Prof Helen O'Sullivan, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "mutated_sentence": "Mr Prof, who bought Twitter for $44bn (£36bn), said before the poll closed that he would abide by the result. Musk Helen O'Sullivan, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "repairs": [
+            {
+                "entity": "Musk",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "New York State Governor Kathy Hochul - a native of Buffalo - said : \"This will go down in history as Buffalo's most devastating storm.\" UK government Transport Secretary Mark Harper said: \"Using waste or by-products to refuel airliners sounds like a flight of fancy, but... it's going to help us make guilt-free flying a reality.",
+        "mutated_sentence": "New York State Mark Harper Kathy Hochul - a native of Buffalo - said : \"This will go down in history as Buffalo's most devastating storm.\" UK government Transport Secretary Governor said: \"Using waste or by-products to refuel airliners sounds like a flight of fancy, but... it's going to help us make guilt-free flying a reality.",
+        "repairs": [
+            {
+                "entity": "Kathy Hochul",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mark Harper",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Mark Harper Kathy Hochul",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "And 27 people were charged and 18 later put behind bars over the riot that took place in Swansea's Mayhill area the previous summer. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Abersoch - named the most expensive in Wales.",
+        "mutated_sentence": "And 27 people were charged and 18 later put behind bars over the riot that took place in Swansea's Wales area the previous summer. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Abersoch - named the most expensive in Mayhill.",
+        "repairs": [
+            {
+                "entity": "Swansea",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Wales",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year. Areas, including Swansea and Carmarthenshire, could experience high levels of surface water, while in north Wales, the A499 near Pwllheli in Gwynedd was closed earlier.",
+        "mutated_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pwllheli, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year. Areas, including Swansea and Carmarthenshire, could experience high levels of surface water, while in north Wales, the A499 near Pa-di-Sena in Gwynedd was closed earlier.",
+        "repairs": [
+            {
+                "entity": "Stele of",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.3599612064615549,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "New York",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.7486596366155074,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Pwllheli",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Stele of Pwllheli",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "York",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.7548139680788166,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Nevertheless, in partnership with the government and energy companies, Rwanda's EvPlugin charging network is planning to build 200 public chargers across the country over the next two years. Eleri Jones, from Ffostrasol, Ceredigion, now shares content with over 8,000 Instagram followers.",
+        "mutated_sentence": "Nevertheless, in partnership with the government and energy companies, Rwanda's Ffostrasol charging network is planning to build 200 public chargers across the country over the next two years. Eleri Jones, from EvPlugin, Ceredigion, now shares content with over 8,000 Instagram followers.",
+        "repairs": [
+            {
+                "entity": "followers",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.5858712351000149,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Last week, new FTX chief executive John Ray hit out at the way the failed crypto exchange was run, saying he had never \"seen such a complete failure of corporate controls\". During his time as prime minister, Boris Johnson took part in some pretty angry exchanges with Labour leader Sir Keir Starmer.",
+        "mutated_sentence": "Last week, new FTX Sir John Ray hit out at the way the failed crypto exchange was run, saying he had never \"seen such a complete failure of corporate controls\". During his time as prime minister, Boris Johnson took part in some pretty angry exchanges with Labour leader chief executive Keir Starmer.",
+        "repairs": [
+            {
+                "entity": "FTX",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6635601473813668,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "chief executive",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7044033300481038,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sir",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.5591764858053917,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "chief",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.500167447103941,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Kelly, the turkey farmer, said three of his premises had been affected. The areas worked on will be lowland heath and species-rich grassland and should help the Dingy Skipper butterfly and the Bilberry Bumblebee, Buglife said.",
+        "mutated_sentence": "Mr Kelly, the Bilberry Bumblebee farmer, said three of his premises had been affected. The areas worked on will be lowland heath and species-rich grassland and should help the Dingy Skipper butterfly and the turkey, Buglife said.",
+        "repairs": [
+            {
+                "entity": "Bilberry Bumblebee",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6737128186514489,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bilberry",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6369886120222514,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Bumblebee",
+                "original_tag": "O",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "O",
+                "confidence": 0.6768791504506166,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Dingy Skipper",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A Humber port is believed to be the first in the UK to use a hydrogen-fuelled truck in an attempt to cut greenhouse gases. Even Hollywood actor - and Wrexham FC owner - Ryan Reynolds was speaking Welsh at awards ceremonies.",
+        "mutated_sentence": "A Hollywood port is believed to be the first in the UK to use a hydrogen-fuelled truck in an attempt to cut greenhouse gases. Even Humber actor - and Wrexham FC owner - Ryan Reynolds was speaking Welsh at awards ceremonies.",
+        "repairs": [
+            {
+                "entity": "Hollywood",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6592036144833242,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Welsh",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Hollywood port",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year. Areas, including Swansea and Carmarthenshire, could experience high levels of surface water, while in north Wales, the A499 near Pwllheli in Gwynedd was closed earlier.",
+        "mutated_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Pwllheli in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year. Areas, including Swansea and Carmarthenshire, could experience high levels of surface water, while in north Wales, the A499 near Egypt in Gwynedd was closed earlier.",
+        "repairs": [
+            {
+                "entity": "Stele of",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.3599612064615549,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Pa-di-Sena",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.6804109320941022,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Stele of Pa-di-Sena",
+                "original_tag": "O",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America. Ms Bell said: \"The support for Gorgie Farm from the public has been tremendous, and I would like to thank every single person who has supported the Farm over the last few years.",
+        "mutated_sentence": "Bell Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America. Ms Prof said: \"The support for Gorgie Farm from the public has been tremendous, and I would like to thank every single person who has supported the Farm over the last few years.",
+        "repairs": [
+            {
+                "entity": "Dunn",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bell",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bell Dunn",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Adriane messaged Rafael Bessa for help. On Monday, US President Joe Biden approved an emergency declaration allowing federal support for New York State. \"My heart is with those who lost loved ones this holiday weekend,\" he tweeted.",
+        "mutated_sentence": "US President messaged Rafael Bessa for help. On Monday, Adriane Joe Biden approved an emergency declaration allowing federal support for New York State. \"My heart is with those who lost loved ones this holiday weekend,\" he tweeted.",
+        "repairs": [
+            {
+                "entity": "Adriane",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "US President",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Joe Biden",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "US",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6547774419231852,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "President",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Adriane Joe Biden",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "And 27 people were charged and 18 later put behind bars over the riot that took place in Swansea's Mayhill area the previous summer. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Abersoch - named the most expensive in Wales.",
+        "mutated_sentence": "And 27 people were charged and 18 later put behind bars over the riot that took place in Swansea's Abersoch area the previous summer. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Mayhill - named the most expensive in Wales.",
+        "repairs": [
+            {
+                "entity": "Swansea",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Hollywood",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Abersoch",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Belfast-based broadband company Fibrus has won its first major contract in Great Britain. Colin Day from Essex and Suffolk Water said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\"",
+        "mutated_sentence": "The Belfast-based broadband company Suffolk Water has won its first major contract in Great Britain. Colin Day from Essex and Fibrus said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\"",
+        "repairs": [
+            {
+                "entity": "Fibrus",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "China figures show no-one died of Covid on Wednesday but there is scepticism about the disease's real impact. Another refurbished vessel, the Vega Gamley, bought from a Swedish family who had owned the ship for decades, is ready to transport Fair Trade organic coffee between the Americas.",
+        "mutated_sentence": "Gamley figures show no-one died of Covid on Wednesday but there is scepticism about the disease's real impact. Another refurbished vessel, the Vega China, bought from a Swedish family who had owned the ship for decades, is ready to transport Fair Trade organic coffee between the Americas.",
+        "repairs": [
+            {
+                "entity": "Gamley",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "COMMERCIAL_ITEM",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Fair Trade",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Trade",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the moment, Mr Moodley uses YouTube clips of test matches to collect footage, but he hopes to work with Cricket South Africa to secure more videos. Mr Edelstyn told BBC Radio London that originally the couple had the ambitious goal to \"take Walthamstow off the grid\" completely, but then decided to start with their own street first.",
+        "mutated_sentence": "At the moment, Mr Edelstyn uses YouTube clips of test matches to collect footage, but he hopes to work with Cricket South Africa to secure more videos. Mr Moodley told BBC Radio London that originally the couple had the ambitious goal to \"take Walthamstow off the grid\" completely, but then decided to start with their own street first.",
+        "repairs": [
+            {
+                "entity": "Walthamstow",
+                "original_tag": "LOCATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "TITLE",
+                "confidence": 0.4489958678159407,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Flooding between Pwllheli and Penrhos on the Llyn Peninsula forced the A499 in Gwynedd to be closed for part of Wednesday morning, but has now reopened. An earlier flood warning for the area has also been lifted. The nod from Dublin was complicated in recent weeks by the changeover of prime minister, or Taoiseach.",
+        "mutated_sentence": "Flooding between Pwllheli and Penrhos on the Llyn Peninsula forced the A499 in Dublin to be closed for part of Wednesday morning, but has now reopened. An earlier flood warning for the area has also been lifted. The nod from Gwynedd was complicated in recent weeks by the changeover of prime minister, or Taoiseach.",
+        "repairs": [
+            {
+                "entity": "in",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "China figures show no-one died of Covid on Wednesday but there is scepticism about the disease's real impact. Another refurbished vessel, the Vega Gamley, bought from a Swedish family who had owned the ship for decades, is ready to transport Fair Trade organic coffee between the Americas.",
+        "mutated_sentence": "China figures show no-one died of Fair Trade on Wednesday but there is scepticism about the disease's real impact. Another refurbished vessel, the Vega Gamley, bought from a Swedish family who had owned the ship for decades, is ready to transport Covid organic coffee between the Americas.",
+        "repairs": [
+            {
+                "entity": "Vega",
+                "original_tag": "COMMERCIAL_ITEM",
+                "mutated_tag": "O",
+                "corrected_tag": "COMMERCIAL_ITEM",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Gamley",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "COMMERCIAL_ITEM",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Fair Trade",
+                "original_tag": "OTHER",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Vega Gamley",
+                "original_tag": "O",
+                "mutated_tag": "COMMERCIAL_ITEM",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Also speaking to MPs, Paul Kelly, the owner of a turkey hatchery that supplies farms around the UK, told the committee: \"I think it will just be a supply issue rather than the prices being hiked. \"All of the numbers have not caught up at this time,\" Buffalo Mayor Byron Brown said. \"We know that the [Erie] county number is larger.\"",
+        "mutated_sentence": "Also speaking to MPs, Mayor, the owner of a turkey hatchery that supplies farms around the UK, told the committee: \"I think it will just be a supply issue rather than the prices being hiked. \"All of the numbers have not caught up at this time,\" Buffalo Paul Kelly Byron Brown said. \"We know that the [Erie] county number is larger.\"",
+        "repairs": [
+            {
+                "entity": "Paul Kelly",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Byron Brown",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Paul Kelly Byron Brown",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "But the ZeroG Gait and Balance System, which NHS Greater Glasgow and Clyde said is the first of its kind in Scotland, has proved to be transformative. More than 23,000 people have given their views about plans to charge motorists to drive into and around Cambridge.",
+        "mutated_sentence": "But the ZeroG Gait and Balance System, which NHS Greater Glasgow and Clyde said is the first of its kind in Cambridge, has proved to be transformative. More than 23,000 people have given their views about plans to charge motorists to drive into and around Scotland.",
+        "repairs": [
+            {
+                "entity": "ZeroG",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.5771488056142329,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Gait",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "and Balance",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 0.6563322337375751,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "System",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6801034327449278,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "ZeroG Gait",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Balance System",
+                "original_tag": "O",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Spotify listeners showed a huge appetite for UK rap, with releases by Dave, Aitch and D-Block Europe all performing well. Workington's Conservative MP Mark Jenkinson said the announcement was \"fantastic news\".",
+        "mutated_sentence": "Spotify listeners showed a huge appetite for UK rap, with releases by Mark Jenkinson, Aitch and D-Block Europe all performing well. Workington's Conservative MP Dave said the announcement was \"fantastic news\".",
+        "repairs": [
+            {
+                "entity": "Conservative",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.5864983280593078,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "When Maria contacted Rafael Bessa to ask for help, she noticed he was unable to talk to the hotel manager in French, despite his claim to have attended an exclusive boarding school in the Alps. In a statement declaring a state of emergency on Wednesday, Governor Gavin Newsom said his order would \"allow the state to respond quickly as the storm develops and support local officials in their ongoing response\".",
+        "mutated_sentence": "When Maria contacted Governor to ask for help, she noticed he was unable to talk to the hotel manager in French, despite his claim to have attended an exclusive boarding school in the Alps. In a statement declaring a state of emergency on Wednesday, Rafael Bessa Gavin Newsom said his order would \"allow the state to respond quickly as the storm develops and support local officials in their ongoing response\".",
+        "repairs": [
+            {
+                "entity": "Rafael Bessa",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.582196317989551,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "French",
+                "original_tag": "OTHER",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 0.6783095865340117,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Gavin Newsom",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Rafael Bessa Gavin Newsom",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"Lockdowns prevent Covid outbreaks from spreading,\" William Hurst, professor of Chinese development at Cambridge University, told BBC News recently. \"But they also exert incredibly strict social control.\" Jo Hanney, ranger at the Peak District National Park, said: \"We have decades of experience of enabling people to connect with nature in the Peak District National Park, but the RSPB Nature Prescription is a new way of working for us.",
+        "mutated_sentence": "\"Lockdowns prevent Covid outbreaks from spreading,\" William Hurst, professor of Chinese development at Peak District National Park, told BBC News recently. \"But they also exert incredibly strict social control.\" Jo Hanney, ranger at the Cambridge University, said: \"We have decades of experience of enabling people to connect with nature in the Peak District National Park, but the RSPB Nature Prescription is a new way of working for us.",
+        "repairs": [
+            {
+                "entity": "Cambridge University",
+                "original_tag": "LOCATION",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.6746166958055254,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Cats in a clinical setting are probably not ideal, but for more than five years fluffy ginger cat Henry has been a regular visitor to Addenbrooke's Hospital in Cambridge - with more than 5,000 followers on his Facebook page. Big US airlines like United, American, Delta and Southwest have issued fee waivers to travellers who wish to reschedule their flights in anticipation of the big storm.",
+        "mutated_sentence": "Cats in a clinical setting are probably not ideal, but for more than five years fluffy ginger cat Henry has been a regular visitor to American in Cambridge - with more than 5,000 followers on his Facebook page. Big US airlines like United, Addenbrooke's Hospital, Delta and Southwest have issued fee waivers to travellers who wish to reschedule their flights in anticipation of the big storm.",
+        "repairs": [
+            {
+                "entity": "American",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Delta",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.6639261693645515,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Southwest",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Delta and Southwest",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6346129061003678,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "HVS is among five companies taking a share of a £73m pot raised between the UK government and the automobile industry to develop clean transport technology. In anticipation of travel disruptions, major airlines including United, Delta and American have offered to waive fees for travellers who wish to reschedule their flights.",
+        "mutated_sentence": "HVS is among five companies taking a share of a £73m pot raised between the Delta and the automobile industry to develop clean transport technology. In anticipation of travel disruptions, major airlines including United, UK government and American have offered to waive fees for travellers who wish to reschedule their flights.",
+        "repairs": [
+            {
+                "entity": "HVS",
+                "original_tag": "OTHER",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.5486910218652246,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "UK government",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7121498374678675,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "American",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "OTHER",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "UK",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Johnson called Sir Keir a \"pointless human bollard\" and \"Captain Crash-A-Roony Snooze Fest\". Sir Keir said Mr Johnson was \"totally deluded\" and \"totally failing\". \"This is a war with mother nature and she has been hitting us with everything she has\" since Thursday, state governor Kathy Hochul said.",
+        "mutated_sentence": "Mr Johnson called Kathy Hochul Keir a \"pointless human bollard\" and \"Captain Crash-A-Roony Snooze Fest\". Sir Keir said Mr Johnson was \"totally deluded\" and \"totally failing\". \"This is a war with mother nature and she has been hitting us with everything she has\" since Thursday, state governor Sir said.",
+        "repairs": [
+            {
+                "entity": "Kathy Hochul",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Kathy Hochul Keir",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Announcing the measures, Justice Secretary Dominic Raab said the government accepted there were gaps in the law and it needed to adapt to the changing use of technology. Meta took down the video by Chinx (OS) after being contacted by the London Metropolitan Police, which raised concerns about gang violence.",
+        "mutated_sentence": "Announcing the measures, Meta Dominic Raab said the government accepted there were gaps in the law and it needed to adapt to the changing use of technology. Justice Secretary took down the video by Chinx (OS) after being contacted by the London Metropolitan Police, which raised concerns about gang violence.",
+        "repairs": [
+            {
+                "entity": "Dominic Raab",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Meta",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7435415365543463,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Meta Dominic Raab",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "OS",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.6928968588445863,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On Monday, US President Joe Biden approved an emergency declaration allowing federal support for New York State. \"My heart is with those who lost loved ones this holiday weekend,\" he tweeted. \"It's known there's water at the south pole of the Moon,\" says Dr King. \"This could be broken down into hydrogen and oxygen, which could be used to refuel craft for journeys to Mars and elsewhere.\"",
+        "mutated_sentence": "On Monday, King Joe Biden approved an emergency declaration allowing federal support for New York State. \"My heart is with those who lost loved ones this holiday weekend,\" he tweeted. \"It's known there's water at the south pole of the Moon,\" says Dr US President. \"This could be broken down into hydrogen and oxygen, which could be used to refuel craft for journeys to Mars and elsewhere.\"",
+        "repairs": [
+            {
+                "entity": "Joe Biden",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Dr",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.693833370015185,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "King",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "King Joe Biden",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Ives said he believed Mr Musk had realised he \"cannot balance\" being the boss of Twitter as well as his Tesla and space rocket firm SpaceX. In the US, for example, the Air Force Research Laboratory (AFRL) is working on some of the critical technologies needed for such a system, in a project known as Space Solar Power Incremental Demonstrations and Research (SSPIDR).",
+        "mutated_sentence": "Mr Ives said he believed Mr Musk had realised he \"cannot balance\" being the boss of Twitter as well as his Tesla and space rocket firm Space Solar Power Incremental Demonstrations and Research. In the US, for example, the Air Force Research Laboratory (AFRL) is working on some of the critical technologies needed for such a system, in a project known as SpaceX (SSPIDR).",
+        "repairs": [
+            {
+                "entity": "SSPIDR",
+                "original_tag": "OTHER",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6731975356257784,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jo Hanney, ranger at the Peak District National Park, said: \"We have decades of experience of enabling people to connect with nature in the Peak District National Park, but the RSPB Nature Prescription is a new way of working for us. Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Jupiter and Mars, Dr Massey says.",
+        "mutated_sentence": "Jo Hanney, ranger at the Jupiter, said: \"We have decades of experience of enabling people to connect with nature in the Peak District National Park, but the RSPB Nature Prescription is a new way of working for us. Anyone looking through a telescope should be able to see details like the moons of Jupiter and perhaps cloud systems or dark markings on Peak District National Park and Mars, Dr Massey says.",
+        "repairs": [
+            {
+                "entity": "Dr",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In total 76 victims, including 10 Ugandans and one Burundian, have been repatriated since August with the help of officials at Kenya's embassy in Thailand. One of the first to be rescued in 2022 was Nacho, a six-month-old seal pup who appeared next to a riverbank by the Old Lock & Weird Inn in Keynsham, Bristol, on 2 January.",
+        "mutated_sentence": "In total 76 victims, including 10 Ugandans and one Burundian, have been repatriated since August with the help of officials at Kenya's embassy in Inn. One of the first to be rescued in 2022 was Nacho, a six-month-old seal pup who appeared next to a riverbank by the Old Lock & Weird Thailand in Keynsham, Bristol, on 2 January.",
+        "repairs": [
+            {
+                "entity": "Thailand",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Old",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Lock",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "& Weird",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 0.6873402500841176,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Old Lock & Weird Thailand",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wake caused by maritime traffic causes coastal degradation, shore erosion and loss of habitats. Artemis is allowed to operate close to the harbour, at higher speeds than other vessels, due to the lack of wake, promising significantly reduced journey times too. And at the end of the year, the south of Scotland fell under an amber warning for heavy rainfall which saw severe flooding in Dumfries and Galloway and major travel disruption.",
+        "mutated_sentence": "Wake caused by maritime traffic causes coastal degradation, shore erosion and loss of habitats. Dumfries is allowed to operate close to the harbour, at higher speeds than other vessels, due to the lack of wake, promising significantly reduced journey times too. And at the end of the year, the south of Scotland fell under an amber warning for heavy rainfall which saw severe flooding in Artemis and Galloway and major travel disruption.",
+        "repairs": [
+            {
+                "entity": "Dumfries",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Johnson called Sir Keir a \"pointless human bollard\" and \"Captain Crash-A-Roony Snooze Fest\". Sir Keir said Mr Johnson was \"totally deluded\" and \"totally failing\". \"This is a war with mother nature and she has been hitting us with everything she has\" since Thursday, state governor Kathy Hochul said.",
+        "mutated_sentence": "Mr governor called Sir Keir a \"pointless human bollard\" and \"Captain Crash-A-Roony Snooze Fest\". Sir Keir said Mr Johnson was \"totally deluded\" and \"totally failing\". \"This is a war with mother nature and she has been hitting us with everything she has\" since Thursday, state Johnson Kathy Hochul said.",
+        "repairs": [
+            {
+                "entity": "Johnson",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Kathy Hochul",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Johnson Kathy Hochul",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His Twitter account was suspended in 2021 on grounds that it risked inciting violence, after Trump supporters had stormed the US Capitol. They have been holding their breath in the Swiss resort of Adelboden, as New Year temperatures in Switzerland hit a record 20C - the highest ever north of the Alps in January.",
+        "mutated_sentence": "His Twitter account was suspended in 2021 on grounds that it risked inciting violence, after Trump supporters had stormed the Adelboden. They have been holding their breath in the Swiss resort of US Capitol, as New Year temperatures in Switzerland hit a record 20C - the highest ever north of the Alps in January.",
+        "repairs": [
+            {
+                "entity": "New Year",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Year",
+                "original_tag": "O",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "DATE",
+                "confidence": 0.699845605621934,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water, and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Wales struggle to pay their water bill. At least three others have died in Kentucky, Governor Andy Beshear said on Friday - two were killed in car accidents and another person described as \"housing insecure\" has died.",
+        "mutated_sentence": "Wasted water has been a particularly sensitive issue this year. According to Water UK, three companies - South East Water, South West Water, and Yorkshire Water - still have localised hosepipe bans in place following the summer drought. And, amid the cost of living crisis, Ofwat estimates 20% of customers in England and Kentucky struggle to pay their water bill. At least three others have died in Wales, Governor Andy Beshear said on Friday - two were killed in car accidents and another person described as \"housing insecure\" has died.",
+        "repairs": [
+            {
+                "entity": "At least three others",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "least three others",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Love Learning said it had \"tried everything\" to avoid this situation. A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state governor has said.",
+        "mutated_sentence": "governor said it had \"tried everything\" to avoid this situation. A severe winter storm that has swept across North America has left the city of Buffalo, New York, looking like a war zone, the state Love Learning has said.",
+        "repairs": [
+            {
+                "entity": "Love Learning",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Addey said a similar issue had been dealt with near the Tyne Bridge, linking Newcastle upon Tyne and Gateshead, and artificial nesting sites - towers with ledges - had been built to house the displaced birds. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Abersoch - named the most expensive in Wales.",
+        "mutated_sentence": "Mr Addey said a similar issue had been dealt with near the Tyne Bridge, linking Newcastle upon Wales and Gateshead, and artificial nesting sites - towers with ledges - had been built to house the displaced birds. Wrexham FC's Hollywood owners were given the freedom of the city and would be two of the few people who could afford to buy a house on a street in Abersoch - named the most expensive in Tyne.",
+        "repairs": [
+            {
+                "entity": "two of the few people",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "two",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.7174529427141791,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the few people",
+                "original_tag": "O",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.61921910408109,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "However Yoel Roth, the former head of Trust and Safety at Twitter, told the New York Times that moderation at the platform had largely remained the same or increased since the takeover. A change in ownership of a Newport microchip factory was deemed a national security risk while a change in policy will see Wales' highest mountain referred to by its Welsh name Yr Wyddfa.",
+        "mutated_sentence": "However Yoel Roth, the former head of Newport at Twitter, told the New York Times that moderation at the platform had largely remained the same or increased since the takeover. A change in ownership of a Trust and Safety microchip factory was deemed a national security risk while a change in policy will see Wales' highest mountain referred to by its Welsh name Yr Wyddfa.",
+        "repairs": [
+            {
+                "entity": "Trust and Safety",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6754921307641881,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "York Times",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.668482575203435,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Newport",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "OTHER",
+                "confidence": 0.3365252103825802,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "New York Times",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.69378492510951,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Safety",
+                "original_tag": "O",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6625171297111526,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Musk's private jet appears to be on its way back from the World Cup in Qatar, where he was pictured at the final next to Donald Trump's son-in-law Jared Kushner on Sunday. Ohio governor, Mike DeWine, called the weather a \"unique and dangerous situation\", particularly as people travel to be with loved ones over Christmas.",
+        "mutated_sentence": "Mr governor's private jet appears to be on its way back from the World Cup in Qatar, where he was pictured at the final next to Donald Trump's son-in-law Jared Kushner on Sunday. Ohio Musk, Mike DeWine, called the weather a \"unique and dangerous situation\", particularly as people travel to be with loved ones over Christmas.",
+        "repairs": [
+            {
+                "entity": "Ohio",
+                "original_tag": "LOCATION",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "O",
+                "confidence": 0.7240936079745064,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Prof Dunn, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America. Ms Bell said: \"The support for Gorgie Farm from the public has been tremendous, and I would like to thank every single person who has supported the Farm over the last few years.",
+        "mutated_sentence": "Prof Bell, director of the laboratory, said 83% of the world's population live under a light-polluted sky, which rises to 99% of people in the UK, Europe and North America. Ms Dunn said: \"The support for Gorgie Farm from the public has been tremendous, and I would like to thank every single person who has supported the Farm over the last few years.",
+        "repairs": [
+            {
+                "entity": "Farm",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

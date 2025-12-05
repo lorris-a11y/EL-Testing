@@ -1,0 +1,1004 @@
+[
+    {
+        "original_sentence": "Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "mutated_sentence": "Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology the Royal Society.",
+        "repairs": [
+            {
+                "entity": "Royal Society",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The settlements included Grytviken, Leith Harbour, King Edward Point, Stromness, Husvik, Prince Olav Harbour, Ocean Harbour and Godthul.",
+        "mutated_sentence": "The settlements included Grytviken.",
+        "repairs": [
+            {
+                "entity": "Grytviken",
+                "original_tag": "LOCATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It is based upon the 1980 Iranian Embassy siege in London and stars Jamie Bell, Abbie Cornish, Mark Strong and Martin Shaw.",
+        "mutated_sentence": "It is based upon the 1980 Iranian Embassy siege in London and stars Jamie Bell.",
+        "repairs": [
+            {
+                "entity": "Embassy",
+                "original_tag": "EVENT",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Scottish Labour, the Scottish National Party, Liberal Democrats, and Scottish Greens campaigned for a Yes vote for both proposals whilst the Conservatives opposed both proposals.",
+        "mutated_sentence": "Scottish Labour, the Scottish National Party, campaigned for a Yes vote for both proposals whilst the Conservatives opposed both proposals.",
+        "repairs": [
+            {
+                "entity": "Yes",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room, and Compton Terrace.",
+        "mutated_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room and Compton Terrace.",
+        "repairs": [
+            {
+                "entity": "Club Red",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "HomeStore",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6378412990169181,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Pavilion",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Modified Arts",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Paper Heart Gallery",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The third generation (1950s-1960s) started at the end of World War II with mountaineer string band music known as Bluegrass music, which emerged when Bill Monroe, along with Lester Flatt and Earl Scruggs were introduced by Roy Acuff at the Grand Ole Opry.",
+        "mutated_sentence": "The third generation (1950s-1960s) started at the end of World War II with mountaineer string band music known as Bluegrass music, which emerged when Bill Monroe, along with Lester Flatt was introduced by Roy Acuff at the Grand Ole Opry.",
+        "repairs": [
+            {
+                "entity": "Grand Ole Opry",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "All of these low-numbered asteroids have numbers between and were discovered between 1876 and the 1930s, predominantly by astronomers Auguste Charlois, Johann Palisa, Max Wolf and Karl Reinmuth (also see category).",
+        "mutated_sentence": "All of these low-numbered asteroids have numbers between and were discovered between 1876, predominantly by astronomers Auguste Charlois, Johann Palisa, Max Wolf and Karl Reinmuth (also see category).",
+        "repairs": [
+            {
+                "entity": "All of these low-numbered asteroids",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In addition to the lighthouse, there are four other sites in Point Loma listed on the National Register of Historic Places: Cabrillo National Monument, the Marine Corps Recruit Depot San Diego, Naval Training Center San Diego, and Rosecroft.",
+        "mutated_sentence": "In addition to the lighthouse, there are four other sites in Point Loma listed on the National Register of Historic Places: Cabrillo National Monument, the Marine Corps Recruit Depot San Diego.",
+        "repairs": [
+            {
+                "entity": "Cabrillo National",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Monument",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Since the band's 1960s heyday, the influence of the Byrds on successive generations of Rock music and Pop music musicians has grown steadily, with acts such as the Eagles, Big Star, Tom Petty & the Heartbreakers, R.E.M., the Bangles, the Smiths, and innumerable alternative rock bands of the post- Punk rock era all exhibiting signs of their influence.",
+        "mutated_sentence": "Since the band's 1960s heyday, the influence of the Byrds on successive generations of Rock music and Pop music musicians has grown steadily, with acts such as the Eagles and innumerable alternative rock bands of the post- Punk rock era all exhibiting signs of their influence.",
+        "repairs": [
+            {
+                "entity": "innumerable alternative rock",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Palm Beach, Florida; the Washington Jewish Film Festival, Washington, D.C.; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, Boston; and others.",
+        "mutated_sentence": "The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Palm Beach, Florida; the Washington Jewish Film Festival; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, Boston; and others.",
+        "repairs": [
+            {
+                "entity": "Palm Beach",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "San Francisco",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Israel",
+                "original_tag": "LOCATION",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "STAT6, IRF4, GATA3 are absolutely required for TsubH / sub9 cell development and other such as PU.1, BATF, NF-κB, NFAT1, STAT5, AP-1 transcription factor contribute to TsubH / sub9 sub-population commitment and to IL-9 production.",
+        "mutated_sentence": "STAT6 are absolutely required for TsubH / sub9 cell development and other such as PU.1, BATF, NF-κB, NFAT1, STAT5, AP-1 transcription factor contributes to TsubH / sub9 sub-population commitment and to IL-1 production.",
+        "repairs": [
+            {
+                "entity": "TsubH / sub9",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "IL-9",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room, and Compton Terrace.",
+        "mutated_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room and Compton Terrace.",
+        "repairs": [
+            {
+                "entity": "Pavilion",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Comerica",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ashley",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "HomeStore",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6378412990169181,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Marquee",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Theatre",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Furniture",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6836120054495366,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Modified Arts",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Paper Heart Gallery",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She later released a CD on Righteous Babe of the concert Til We Outnumber Em featuring artists such as DiFranco, Billy Bragg, Ramblin 'Jack Elliott, Arlo Guthrie, Indigo Girls, Dave Pirner, Tim Robbins, and Bruce Springsteen with 100 percent of proceeds going to the Woody Guthrie Foundation and Archives and the Rock and Roll Hall of Fame Museum educational department.",
+        "mutated_sentence": "She later released a CD on Righteous Babe of the concert Til We Outnumber Em featuring artists such as DiFranco, Indigo Girls, Dave Pirner, Tim Robbins and Bruce Springsteen with 100 percent of proceeds going to the Woody Guthrie Foundation and Archives and the Rock and Roll Hall of Fame Museum educational department.",
+        "repairs": [
+            {
+                "entity": "Til We Outnumber",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Em",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.646262957478754,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ultimately, Assyria conquered Babylonia, Chaldea, Elam, Media, Persia, Urartu (Armenia), Phoenicia, Aramea / Syria, Phrygia, the Neo-Hittite States, the Hurrian lands, Arabia, Gutium, Israel, Kingdom of Judah, and others.",
+        "mutated_sentence": "Ultimately, Assyria conquered Babylonia, Chaldea, Elam, Media, Persia, Urartu (Armenia), Phoenicia, Aramea / Syria, Phrygia, the Neo-Hittite States, the Hurrian lands and others.",
+        "repairs": [
+            {
+                "entity": "Hurrian lands",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2019 Widdecombe appeared on the celebrity version of The Crystal Maze, where alongside Sunetra Sarker, Wes Nelson, Matthew Wright and Nikki Sanderson, she won money for the Stand Up to Cancer initiative.",
+        "mutated_sentence": "In 2019 Widdecombe appeared on the celebrity version of The Crystal Maze, where alongside Sunetra Sarker, she won money for the Stand Up to Cancer initiative.",
+        "repairs": [
+            {
+                "entity": "Stand Up to",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Cancer",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Between the 1935 Canadian federal election and 1958 Canadian federal election elections, the top ranking was consistently held by either the Co-operative Commonwealth Federation or the Labor-Progressive Party.",
+        "mutated_sentence": "Between the 1935 Canadian federal election, the top ranking was consistently held by either the Co-operative Commonwealth Federation or the Labor-Progressive Party.",
+        "repairs": [
+            {
+                "entity": "Co-operative Commonwealth Federation",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "John Ireland, Joanne Dru and Macdonald Carey starred in the Jack Broder color production Hannah Lee, which premiered June 19, 1953.",
+        "mutated_sentence": "John Ireland starred in the Jack Broder color production Hannah Lee, which premiered June 19,1953.",
+        "repairs": [
+            {
+                "entity": "June 19, 1953",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6756062402893096,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Orders such as the Order of Friars Minor Capuchin, Discalced Carmelites, Discalced Augustinians, Augustinian Recollects, Cistercian Feuillants, Ursulines, Theatines, Barnabites, Congregation of the Oratory of Saint Philip Neri, and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "mutated_sentence": "Orders such as the Order of Friars Minor Capuchin, Discalced Carmelites, Discalced Augustinians, Augustinian Recollects, Cistercian Feuillants and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "repairs": [
+            {
+                "entity": "Friars Minor Capuchin",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The 2012 BRICS summit was the fourth annual BRICS summit, an international relations conference attended by the heads of state or heads of government of the five member states Brazil, Russia, India, China and South Africa.",
+        "mutated_sentence": "The 2012 BRICS summit was the fourth annual BRICS summit, an international relations conference attended by the heads of state or heads of government of the five member states Brazil, India, China and South Africa.",
+        "repairs": [
+            {
+                "entity": "Brazil",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "China",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "India",
+                "original_tag": "LOCATION",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Another absolute instrumental approach was also possible with the development of light scattering theory by Einstein, Raman, Peter Debye, Bruno H. Zimm, and others.",
+        "mutated_sentence": "Another absolute instrumental approach was also possible with the development of light scattering theory by Einstein and others.",
+        "repairs": [
+            {
+                "entity": "scattering",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker, Moby Dick and Immigrant Song, Black Sabbath's Hand of Doom, and Kiss 'Do You Love Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "mutated_sentence": "Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker's Hand of Doom and Kiss 'Do You Love Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "repairs": [
+            {
+                "entity": "Heartbreaker",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Doom",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Hand of",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Me",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the time of his sixteenth birthday on June 20, 1958, Brian Wilson shared a bedroom with his brothers, Dennis Wilson and Carl Wilson - aged thirteen and eleven, respectively - in their family home in Hawthorne.",
+        "mutated_sentence": "At the time of his sixteenth birthday on June 20,1958, Brian Wilson shared a bedroom with his brothers, Dennis Wilson - aged thirteen and eleven, respectively - in their family home in Hawthorne.",
+        "repairs": [
+            {
+                "entity": "thirteen and",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "June 20, 1958",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mining interests Thomas Ewing and George W. Grayson, then miner Edward Blewett, Judge Hiram G. Bond of Denver and New York City, and Seattle publisher Leigh S. J. Hunt, funded further work and soon a wagon road was built over Barlow Pass to join the Sauk wagon road.",
+        "mutated_sentence": "Mining interests Thomas Ewing, then miner Edward Blewett, Judge Hiram G. Bond of Denver and New York City and Seattle publisher Leigh S. J. Hunt, funded further work and soon a wagon road was built over Barlow Pass to join the Sauk wagon road.",
+        "repairs": [
+            {
+                "entity": "Sauk wagon road",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Robert B. Parker, The Godwulf Manuscript, Dell Books, 1987, page 163: I looked at them obliquely as I'd learned to do a long time ago in Korea.",
+        "mutated_sentence": "Robert B. Parker, The Godwulf Manuscript, 1987, page 163: I looked at them obliquely as I'd learned to do a long time ago in Korea.",
+        "repairs": [
+            {
+                "entity": "The Godwulf Manuscript",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Both rely on speech act theory developed by John Searle in the 1960s and enhanced by Terry Winograd and Flores in the 1970s.",
+        "mutated_sentence": "Both rely on speech act theory developed by John Searle in the 1960s and enhanced by Terry Winograd in the 1970s.",
+        "repairs": [
+            {
+                "entity": "Both",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A second meeting was held soon thereafter and included Klaus Clusius, Robert Döpel, Werner Heisenberg, and Carl Friedrich von Weizsäcker.",
+        "mutated_sentence": "A second meeting was held soon thereafter and included Klaus Clusius.",
+        "repairs": [
+            {
+                "entity": "soon",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While the Conservative Party had a plurality of seats, the Liberal Party of Canada and New Democratic Party, supported by The Bloc Québécois, agreed to defeat the Conservatives in favour of a Liberal / NDP coalition government.",
+        "mutated_sentence": "While the Conservative Party hads a plurality of seats, the Liberal Party of Canada, supported by The Bloc Québécois, agreed to defeat the Conservatives in favour of a Liberal / NDP coalition government.",
+        "repairs": [
+            {
+                "entity": "Liberal /",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "NDP",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Donna J. Haraway (born September 6, 1944) is an American Professor Emerita in the History of Consciousness Department and Feminist Studies Department at the University of California, Santa Cruz, United States.",
+        "mutated_sentence": "Donna J. Haraway (born September 6,1944) is an American Professor Emerita in the History of Consciousness Department at the University of California, Santa Cruz, United States.",
+        "repairs": [
+            {
+                "entity": "History of Consciousness Department",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "September 6, 1944",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the Republic of Ireland, all parties represented in the Oireachtas were in favour - Fianna Fáil, Fine Gael, Labour, Progressive Democrats, Democratic Left, Green Party, Sinn Féin and the Socialist Party.",
+        "mutated_sentence": "In the Republic of Ireland, all parties represented in the Oireachtas were in favour - Fianna Fáil and the Socialist Party.",
+        "repairs": [
+            {
+                "entity": "Fianna Fáil",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The revolt ignited a broader religious war across Germany, the Thirty Years 'War, which would involve not only the states of the empire but also Swedish Empire, the Dutch Republic, Kingdom of France, Denmark-Norway, Kingdom of England, Kingdom of Scotland, Habsburg Spain and Kingdom of Hungary and which would kill some eight million people before its end.",
+        "mutated_sentence": "The revolt ignited a broader religious war across Germany, the Thirty Years 'War, which would involve not only the states of the empire but also Swedish Empire, the Dutch Republic, Kingdom of France, Habsburg Spain and Kingdom of Hungary and which would kill some eight million people before its end.",
+        "repairs": [
+            {
+                "entity": "Kingdom of France",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Spain",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Habsburg",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "he was returned as MP for Reigate where he was returned again in 1727 British general election and 1734 British general election. He sponsored the Mortmain Act and the Gin Act 1736, and was noted for his opposition to intoxication, which annoyed the public so much that he was forced to have a guard at his house at all times.",
+        "mutated_sentence": "he was returned as MP for Reigate where he was returned again in 1727 British general election. He sponsored the Mortmain Act and the Gin Act 1736 and was noted for his opposition to intoxication, which annoyed the public so much that he was forced to have a guard at his house at all times.",
+        "repairs": [
+            {
+                "entity": "1727 British general election",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Norman Thomas, John Haynes Holmes, and Morris Ernst were anti-Communists who wanted to distance the ACLU from Communism; opposing them were Harry F. Ward, Corliss Lamont, and Elizabeth Gurley Flynn, who rejected any political test for ACLU leadership.",
+        "mutated_sentence": "Norman Thomas, John Haynes Holmes and Morris Ernst were anti-Communists who wanted to distance the ACLU from Communism; opposing them were Harry F. Ward, , who rejected any political test for ACLU leadership.",
+        "repairs": [
+            {
+                "entity": "John Haynes Holmes",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker, Moby Dick and Immigrant Song, Black Sabbath's Hand of Doom, and Kiss 'Do You Love Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "mutated_sentence": "Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker, Moby Dick and Immigrant Song, Black Sabbath's Hand of Doom, Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "repairs": [
+            {
+                "entity": "Me",
+                "original_tag": "TITLE",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Palm Beach, Florida; the Washington Jewish Film Festival, Washington, D.C.; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, Boston; and others.",
+        "mutated_sentence": "The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Florida; the Washington Jewish Film Festival, Washington, D.C.; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, Boston; and others.",
+        "repairs": [
+            {
+                "entity": "Washington, D.C.",
+                "original_tag": "EVENT",
+                "mutated_tag": "LOCATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "San Francisco",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Hong Kong",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "As a strong advocate of animal rights, Linda lent her support to many organizations such as People for the Ethical Treatment of Animals (PETA), the Campaign to Protect Rural England, and Friends of the Earth.",
+        "mutated_sentence": "As a strong advocate of animal rights, Linda lents her support to many organizations such as People for the Ethical Treatment of Animals (PETA), the Campaign to Protect Rural England.",
+        "repairs": [
+            {
+                "entity": "Campaign to Protect Rural England",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The British and blues musicians of the early 1960s inspired a number of American blues rock fusion performers, including the The Doors, Canned Heat, the early Jefferson Airplane, Janis Joplin, Johnny Winter, The J. Geils Band, Ry Cooder, and the Allman Brothers Band.",
+        "mutated_sentence": "The British and blues musicians of the early 1960s inspired a number of American blues rock fusion performers, including the The Doors, Canned Heat, the early Jefferson Airplane, Janis Joplin, The J. Geils Band, Ry Cooder and the Allman Brothers Band.",
+        "repairs": [
+            {
+                "entity": "Janis Joplin",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room, and Compton Terrace.",
+        "mutated_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, the Nile Theater, The Rhythm Room and Compton Terrace.",
+        "repairs": [
+            {
+                "entity": "HomeStore",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6378412990169181,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Marquee",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Pavilion",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Modified Arts",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Paper Heart Gallery",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Van Buren",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Green deputies Noël Mamère, Martine Billard and Yves Cochet on September 10, 2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "mutated_sentence": "Green deputies Noël Mamère on September 10,2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "repairs": [
+            {
+                "entity": "September 10, 2003",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Foreign Affairs Commission of the National Assembly",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Poor Clares",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Order of Saint",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "First",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "QUANTITY",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Brad Shoup of Stereogum surmised that, thanks to the Ramones' praise for the group, many punk, pop punk, or punk-adjacent artists showed influence from the Beach Boys, noting cover versions of the band's songs recorded by Slickee Boys, Agent Orange, Bad Religion, Shonen Knife, the Queers, Hi-Standard, the Descendents, the Donnas, M.O.D., and the Vandals.",
+        "mutated_sentence": "Brad Shoup of Stereogum surmised that, thanks to the Ramones' praise for the group, many punk, pop punk or punk-adjacent artists showed influence from the Beach Boys, noting cover versions of the band's songs recorded by Slickee Boys and the Vandals.",
+        "repairs": [
+            {
+                "entity": "Vandals",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Localized versions of the site available in the United Kingdom, India, and Australia were discontinued following the acquisition of Rotten Tomatoes by Fandango.",
+        "mutated_sentence": "Localized versions of the site available in the United Kingdom, India, were discontinued following the acquisition of Rotten Tomatoes by Fandango.",
+        "repairs": [
+            {
+                "entity": "United Kingdom",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After his death, some of his poems, notably Funeral Blues, Musée des Beaux Arts, Refugee Blues, The Unknown Citizen, and September 1, 1939, became known to a much wider public than during his lifetime through films, broadcasts, and popular media.",
+        "mutated_sentence": "After his death, some of his poems, notably Funeral Blues and September 1,1939, became known to a much wider public than during his lifetime through films, broadcasts and popular media.",
+        "repairs": [
+            {
+                "entity": "September 1, 1939",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean and Owen Teale in 1989; Our Own Kind (Bush, 1991); Deadly Advice (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007).",
+        "mutated_sentence": "She appeared in Catherine Cookson's The Fifteen Streets, alongside Sean Bean in 1989; Our Own Kind (Bush, 1991); Deadly Advice (Fletcher, 1993); Cabaret (Donmar Warehouse 1994); Macbeth (Greenwich Theatre, 1995); and Absurd Person Singular (Garrick Theatre, 2007).",
+        "repairs": [
+            {
+                "entity": "Fletcher",
+                "original_tag": "PERSON",
+                "mutated_tag": "TITLE",
+                "corrected_tag": "TITLE",
+                "confidence": 0.3817783123234387,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Warehouse",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Donmar",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Greenwich Theatre",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6663244998477884,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some of the many prestigious residents include: Academy Award winners Rustam Ibrahimbeyov and Vladimir Menshov, one of the founders and head of the Soviet space program Kerim Kerimov, Nobel Prize winner and physicist Lev Landau and famous musicians such as Gara Garayev, Uzeyir Hajibeyov, Muslim Magomayev, Vagif Mustafazadeh and Alim Qasimov.",
+        "mutated_sentence": "Some of the many prestigious residents include: Academy Award winners Rustam Ibrahimbeyov and Vladimir Menshov, one of the founders and head of the Soviet space program Kerim Kerimov, Nobel Prize winner and physicist Lev Landau and famous musicians such as Gara Garayev.",
+        "repairs": [
+            {
+                "entity": "the many prestigious residents",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The set includes the first round of the remastered series plus the long-awaited remastered versions of On Your Feet or on Your Knees (1975), Mirrors, Cultösaurus Erectus, Fire Of Unknown Origin, Extraterrestrial Live, The Revölution by Night, Club Ninja and Imaginos.",
+        "mutated_sentence": "The set includes the first round of the remastered series plus the long-awaited remastered versions of On Your Feet or on Your Knees (1975), Mirrors, Club Ninja and Imaginos.",
+        "repairs": [
+            {
+                "entity": "On Your Feet",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ninja",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Club",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Asked what democratic models Myanmar could look to, she said: We have many, many lessons to learn from various places, not just the Asian countries like South Korea, Mongolia, and Indonesia.",
+        "mutated_sentence": "Asked what democratic models Myanmar could look to, she said: We have many, many lessons to learn from various places, not just the Asian countries like South Korea.",
+        "repairs": [
+            {
+                "entity": "South Korea",
+                "original_tag": "LOCATION",
+                "mutated_tag": "ORGANIZATION",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "mutated_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Clarence Carter Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown and dozens of others.",
+        "repairs": [
+            {
+                "entity": "Feelgood Potts",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

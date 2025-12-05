@@ -1,0 +1,762 @@
+[
+    {
+        "original_sentence": "In 2003, Afshin-Jam became Miss World Canada and joined in the Miss World contest in Sanya, China, where she placed second.",
+        "mutated_sentence": "In 2003, Afshin-Jam becames Miss World Canada and joined in the Miss World contest in Sanya, where she placed second.",
+        "repairs": [
+            {
+                "entity": "Miss World Canada",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Of the local Northern Ireland parties represented in the Northern Ireland Peace Forum, the Ulster Unionist Party, Social Democratic and Labour Party, Sinn Féin, Alliance Party of Northern Ireland, Progressive Unionist Party, Ulster Democratic Party, Northern Ireland Women's Coalition and local Labour groups supported the proposals.",
+        "mutated_sentence": "Of the local Northern Ireland parties represented in the Northern Ireland Peace Forum, the Ulster Unionist Party, Social Democratic and Labour Party and local Labour groups supported the proposals.",
+        "repairs": [
+            {
+                "entity": "Social Democratic and",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Chinese reunification -leaning conservative Pan-Blue Coalition (consisting of the Kuomintang, People First Party, and New Party) retained its majority in the legislature, winning 114 seats, compared to 101 seats won by the Taiwan independence -leaning Pan-Green Coalition (consisting of the Democratic Progressive Party and Taiwan Solidarity Union).",
+        "mutated_sentence": "The Chinese reunification -leaning conservative Pan-Blue Coalition (consisting of the Kuomintang, ) retained its majority in the legislature, winning 114 seats, compared to 101 seats won by the Taiwan independence -leaning Pan-Green Coalition (consisting of the Democratic Progressive Party and Taiwan Solidarity Union).",
+        "repairs": [
+            {
+                "entity": "Pan-Green Coalition",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He was the Minister of Finance (1976-1984), Minister of International Trade and Industry (1984-1987), former chairman of Asian Development Bank, former chairman of Islamic Development Bank, founding Chairman and Chief Executive of Malaysian oil company, PETRONAS, and chairman of the 33rd Board of Governors of the World Bank and IMF.",
+        "mutated_sentence": "He was the Minister of Finance (1976-1984), Minister of International Trade and Industry (1984-1987), former chairman of Asian Development Bank, former chairman of Islamic Development Bank, founding Chairman and Chief Executive of Malaysian oil company, PETRONAS and chairman of the 33rd Board of Governors of the World Bank.",
+        "repairs": [
+            {
+                "entity": "World Bank",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Minister of International Trade and Industry",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "33rd Board of Governors of the",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Polka is still a popular genre of folk music in many European countries and is performed by folk artists in Poland, Latvia, Lithuania, Czech Republic, Netherlands, Croatia, Slovenia, Germany, Hungary, Austria, Switzerland, Italy, Ukraine, Belarus, Russia and Slovakia.",
+        "mutated_sentence": "Polka is still a popular genre of folk music in many European countries and is performed by folk artists in Poland.",
+        "repairs": [
+            {
+                "entity": "artists",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Belgium assumed control of the German colonies of Ruanda-Urundi (modern-day Rwanda and Burundi) during the war, and in 1924 the League of Nations mandated them to Belgium.",
+        "mutated_sentence": "Belgium assumed control of the German colonies of Ruanda-Urundi (modern-day Rwanda) during the war and in 1924 the League of Nations mandated them to Belgium.",
+        "repairs": [
+            {
+                "entity": "Ruanda-",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Green deputies Noël Mamère, Martine Billard and Yves Cochet on September 10, 2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "mutated_sentence": "Green deputies Noël Mamère on September 10,2003 requested a Parliamentary Commission on the role of France in the support of military regimes in Latin America from 1973 to 1984 before the Foreign Affairs Commission of the National Assembly, presided by Edouard Balladur.",
+        "repairs": [
+            {
+                "entity": "September 10, 2003",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It displays the mean time, sidereal, (or star), time and the motions of the sun, moon and the five then-known planets Venus, Mars, Saturn, Mercury, and Jupiter.",
+        "mutated_sentence": "It displays the mean time, sidereal, (or star), time and the motions of the sun and the five then-known planets Venus, Mars, Saturn, Mercury and Jupiter.",
+        "repairs": [
+            {
+                "entity": "sun",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some of the most pronounced effects of Hellenization can be seen in Afghanistan and India, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, Pakistan, and Tajikistan) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "mutated_sentence": "Some of the most pronounced effects of Hellenization can be seen in Afghanistan, in the region of the relatively late-rising Greco-Bactrian Kingdom (250-125 BC) (in modern Afghanistan, Pakistan and Tajikistan) and the Indo-Greek Kingdom (180 BC - 10 AD) in modern Afghanistan and India. and created a culture of Greco-Buddhist art.",
+        "repairs": [
+            {
+                "entity": "Hellenization",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.7034204276851969,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He studied law and political science at the universities of Goethe University Frankfurt, University of Burgundy, Ludwig Maximilian University of Munich, University of Königsberg, and University of Hamburg from 1933 to 1936, gaining a doctorate in 1938 and taking the Second Staatsexamen degree in 1939.",
+        "mutated_sentence": "He studied law and political science at the universities of Goethe University Frankfurt, from 1933 to 1936, gaining a doctorate in 1938 and taking the Second Staatsexamen degree in 1939.",
+        "repairs": [
+            {
+                "entity": "Second",
+                "original_tag": "Quantity",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In light of the economic and political challenges many countries in the region had faced since the 2001 Quebec City Summit of the Americas and because 14 Heads of State and Government in the Hemisphere had assumed office since then, the Government of Canada proposed holding a Special Summit of the Americas to reinforce hemispheric unity before the Fourth Summit of the Americas, which took place in Mar del Plata, Argentina, in 2005.",
+        "mutated_sentence": "In light of the economic and political challenges many countries in the region had faced since the 2001 Quebec City Summit of the Americas and because 14 Heads of State and Government in the Hemisphere had assumed office since then, the Government of Canada proposed holding a Special Summit of the Americas to reinforce hemispheric unity before the Fourth Summit of the Americas, which took place in Mar del Plata, in 2005.",
+        "repairs": [
+            {
+                "entity": "2001 Quebec City Summit of the Americas",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Social Democratic and Labour Party, which until recently was the largest nationalist party in Northern Ireland, promotes social democracy, while militant republican parties such as Sinn Féin, Éirígí, Republican Sinn Féin, and the 32 County Sovereignty Movement all promote their own varieties of democratic socialism intended to re-distribute wealth on an all-island basis once a united Ireland has been achieved.",
+        "mutated_sentence": "The Social Democratic and Labour Party, which until recently was the largest nationalist party in Northern Ireland, promotes social democracy, while militant republican parties such as Sinn Féin and the 32 County Sovereignty Movement all promotes their own varieties of democratic socialism intended to re-distribute wealth on an all-island basis once a united Ireland has been achieved.",
+        "repairs": [
+            {
+                "entity": "Social Democratic and Labour Party",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "socialism",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On June 3, 1968, radical feminist writer Valerie Solanas shot Warhol and Mario Amaya, art critic and curator, at Warhol's studio. a separatist feminist tract that advocated the elimination of men; and appeared in the 1968 Warhol film I, a Man.",
+        "mutated_sentence": "On June 3,1968, radical feminist writer Valerie Solanas shot Warhol and Mario Amaya, art critic, at Warhol's studio. a separatist feminist tract that advocated the elimination of men; and appeared in the 1968 Warhol film I, a Man.",
+        "repairs": [
+            {
+                "entity": "June 3, 1968",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The party refused to admit Arab members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work, Cooperation and Brotherhood, Progress and Development and Cooperation and Development.",
+        "mutated_sentence": "The party refused to admit Arab members until the late 1960s, instead setting up a succession of satellite parties for Israeli Arabs, including the Democratic List of Nazareth, the Democratic List for Israeli Arabs, Agriculture and Development, Progress and Work.",
+        "repairs": [
+            {
+                "entity": "Progress and Work",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Israeli",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Arabs",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Agriculture and Development,",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ultimately, Assyria conquered Babylonia, Chaldea, Elam, Media, Persia, Urartu (Armenia), Phoenicia, Aramea / Syria, Phrygia, the Neo-Hittite States, the Hurrian lands, Arabia, Gutium, Israel, Kingdom of Judah, and others.",
+        "mutated_sentence": "Ultimately, Assyria conquered Babylonia, Chaldea, Elam, Media, Persia, Urartu (Armenia), Phoenicia, Aramea / Syria, Phrygia, the Neo-Hittite States, the Hurrian lands and others.",
+        "repairs": [
+            {
+                "entity": "Hurrian lands",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Starting in the early 1950s, and during the mid-1960s, Western singer-songwriters such as Michael Martin Murphey and Marty Robbins rose in prominence as did others, throughout Western music traditions, like New Mexico music's Al Hurricane.",
+        "mutated_sentence": "Starting in the early 1950s and during the mid-1960s, Western singer-songwriters such as Michael Martin Murphey rose in prominence as did others, throughout Western music traditions, like New Mexico music's Al Hurricane.",
+        "repairs": [
+            {
+                "entity": "Al Hurricane",
+                "original_tag": "Organization",
+                "mutated_tag": "Person",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The current prime minister of Denmark is Mette Frederiksen who, since 27 June 2019, has led a one-party government consisting of the Social Democrats with parliamentary support from the Danish Social Liberal Party, Socialist People's Party, Red-Green Alliance, the Faroese Social Democratic Party and Greenland's Inuit Ataqatigiit and Siumut.",
+        "mutated_sentence": "The current prime minister of Denmark is Mette Frederiksen who, since 27 June 2019, has led a one-party government consisting of the Social Democrats with parliamentary support from the Danish Social Liberal Party, the Faroese Social Democratic Party and Greenland's Inuit Ataqatigiit and Siumut.",
+        "repairs": [
+            {
+                "entity": "Inuit",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.6737087259595302,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Democrats",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2017, Forbes named Chiara Ferragni, Danielle Bernstein, Julia Engel, Gabi Gregg, Jenn Im, Susanna Lau, Nicolette Mason, Simone Zippi Stardust, Aimee Song and Bryan Yambao, also known as Bryanboy, as the top influencers in the fashion category.",
+        "mutated_sentence": "In 2017, Forbes named Chiara Ferragni, Danielle Bernstein, Julia Engel, Gabi Gregg, Jenn Im, Susanna Lau, Nicolette Mason, Simone Zippi Stardust, Aimee Song, also known as Bryanboy, as the top influencers in the fashion category.",
+        "repairs": [
+            {
+                "entity": "Stardust",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Simone Zippi",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The focus of their activities in Europe became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Concertgebouw, Berliner Philharmonie, Carnegie Hall, Teatro Colón, Suntory Hall, etc.",
+        "mutated_sentence": "The focus of their activities in Europe became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Concertgebouw, etc.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "He received honorary doctorates and a number of professional honours, such the Royal Society's Royal Medal and Darwin Medal in 1868 and 1890 respectively, Above all, his role as the co-discoverer of natural selection and his work on zoogeography marked him out as an exceptional figure.",
+        "mutated_sentence": "He received honorary doctorates and a number of professional honours, such the Royal Society's Royal Medal and Darwin Medal in 1868 respectively, Above all, his role as the co-discoverer of natural selection and his work on zoogeography marked him out as an exceptional figure.",
+        "repairs": [
+            {
+                "entity": "Royal",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Orders such as the Order of Friars Minor Capuchin, Discalced Carmelites, Discalced Augustinians, Augustinian Recollects, Cistercian Feuillants, Ursulines, Theatines, Barnabites, Congregation of the Oratory of Saint Philip Neri, and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "mutated_sentence": "Orders such as the Order of Friars Minor Capuchin, Theatines, Barnabites, Congregation of the Oratory of Saint Philip Neri and especially Society of Jesus worked in rural parishes and set examples of Catholic renewal.",
+        "repairs": [
+            {
+                "entity": "Congregation of the Oratory of Saint Philip Neri",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.688103216961232,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Cory's work has been published in research journals including Blood (journal), The EMBO Journal, Nature (journal), Cell Death & Differentiation, and Proceedings of the National Academy of Sciences of the United States of America.",
+        "mutated_sentence": "Cory's work has been published in research journals including Blood (journal), The EMBO Journal (journal), Cell Death & Differentiation and Proceedings of the National Academy of Sciences of the United States of America.",
+        "repairs": [
+            {
+                "entity": "EMBO Journal",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "National Academy of Sciences",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "United States of America",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.358591975326849,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hank Williams, Jr (and, to an even greater extent, Hank Williams III), Gary Allan, Shania Twain, Brooks & Dunn, Faith Hill, Garth Brooks, Alan Jackson, Dwight Yoakam, Steve Earle, Dolly Parton, Rosanne Cash and Linda Ronstadt moved country further towards rock influence.",
+        "mutated_sentence": "Hank Williams, Jr (and, to an even greater extent, Hank Williams III), Gary Allan, Shania Twain, Brooks & Dunn, Faith Hill moved country further towards rock influence.",
+        "repairs": [
+            {
+                "entity": "Brooks & Dunn",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "After the assassination of Perdiccas in 321 BC, Macedonian unity collapsed, and 40 years of war between The Successors (Diadochi) ensued before the Hellenistic world settled into four stable power blocs: Ptolemaic Kingdom Egypt, Seleucid Empire Mesopotamia and Central Asia, Attalid dynasty Anatolia, and Antigonid dynasty Macedon.",
+        "mutated_sentence": "After the assassination of Perdiccas in 321 BC, Macedonian unity collapsed and 40 years of war between The Successors (Diadochi) ensued before the Hellenistic world settled into four stable power blocs: Ptolemaic Kingdom Egypt, Seleucid Empire Mesopotamia, Attalid dynasty Anatolia and Antigonid dynasty Macedon.",
+        "repairs": [
+            {
+                "entity": "Ptolemaic Kingdom",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Seleucid Empire",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Antigonid",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Adriatic Campaign of World War I was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom, France, the Kingdom of Italy, Australia and the United States.",
+        "mutated_sentence": "The Adriatic Campaign of World War I was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom, France, the Kingdom of Italy and the United States.",
+        "repairs": [
+            {
+                "entity": "Italy",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Kingdom",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Chess - concept album - with vocals by Elaine Paige, Barbara Dickson, Murray Head and Swedes Tommy Körberg and Björn Skifs - was released in October 1984, selling two million copies worldwide.",
+        "mutated_sentence": "The Chess - concept album - with vocals by Elaine Paige, Barbara Dickson, Murray Head and Swedes Tommy Körberg - was released in October 1984, sellings two million copies worldwide.",
+        "repairs": [
+            {
+                "entity": "Swedes",
+                "original_tag": "PersonType",
+                "mutated_tag": "Location",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis, Sylvester Stallone and Demi Moore.",
+        "mutated_sentence": "Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis.",
+        "repairs": [
+            {
+                "entity": "Rock Cafe",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Hard",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "House of Pain abruptly broke up in 1996 after the release of their third album, Truth Crushed to Earth Shall Rise Again, which featured guest appearances by rappers Sadat X of Brand Nubian, Guru of Gang Starr, Divine Styler and Cokni O 'Dire of the Scheme Team.",
+        "mutated_sentence": "House of Pain abruptly broke up in 1996 after the release of their third album, Truth Crushed to Earth Shall Rise Again, which featured guest appearances by rappers Sadat X of Brand Nubian, Guru of Gang Starr of the Scheme Team.",
+        "repairs": [
+            {
+                "entity": "Gang Starr",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Scheme Team",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Corin met with fellow students at Stoneman Douglas, including David Hogg, Emma González and Cameron Kasky, at Kasky's house; they formed the Never Again MSD movement during these meetings.",
+        "mutated_sentence": "Corin met with fellow students at Stoneman Douglas, including David Hogg, at Kasky's house; they formed the Never Again MSD movement during these meetings.",
+        "repairs": [
+            {
+                "entity": "Stoneman Douglas",
+                "original_tag": "Location",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater, The Rhythm Room, and Compton Terrace.",
+        "mutated_sentence": "Phoenix music venues have included Comerica Theatre, Ashley Furniture HomeStore Pavilion, Long Wong's, The Rebel Lounge (formerly The Mason Jar), Modified Arts, Trunk Space, Paper Heart Gallery, Club Red, Marquee Theatre, The Van Buren, Crescent Ball Room, Valley Bar, the Nile Theater.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "Hailed as a great innovator of rock and roll by contemporaries such as Little Richard and Johnny Otis, He is also inducted into the St. Louis Walk of Fame, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame, and the Rhythm and Blues Music Hall of Fame.",
+        "mutated_sentence": "Hailed as a great innovator of rock and roll by contemporaries such as Little Richard, He is also inducted into the St. Louis Walk of Fame, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame and the Rhythm and Blues Music Hall of Fame.",
+        "repairs": [
+            {
+                "entity": "Rhythm and Blues Music Hall",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Australian Film Institute, Blockbuster Entertainment Awards, Empire Awards, Hollywood Film Festival, London Film Critics 'Circle, Russian Guild of Film Critics, Satellite Awards, and Southeastern Film Critics Association.",
+        "mutated_sentence": "Australian Film Institute, Empire Awards Film Festival, London Film Critics 'Circle, Russian Guild of Film Critics, Satellite Awards and Southeastern Film Critics Association.",
+        "repairs": [
+            {
+                "entity": "Festival",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In a letter to P. Schuyler Miller and John Drury Clark in 1936, only three months before Howard's death, Conan is described as standing 6 ft / 183 cm and weighing when he takes part in an attack on Venarium at only 14 years old, though being far from fully grown.",
+        "mutated_sentence": "In a letter to P. Schuyler Miller in 1936, only three months before Howard's death, Conan is described as standing 6 ft / 183 cm and weighing when he takes part in an attack on Venarium at only 14 years old, though being far from fully grown.",
+        "repairs": [
+            {
+                "entity": "death",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "6 ft / 183 cm",
+                "original_tag": "Quantity",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2017, Forbes named Chiara Ferragni, Danielle Bernstein, Julia Engel, Gabi Gregg, Jenn Im, Susanna Lau, Nicolette Mason, Simone Zippi Stardust, Aimee Song and Bryan Yambao, also known as Bryanboy, as the top influencers in the fashion category.",
+        "mutated_sentence": "In 2017, Forbes named Chiara Ferragni, Nicolette Mason Stardust, Aimee Song and Bryan Yambao, also known as Bryanboy, as the top influencers in the fashion category.",
+        "repairs": [
+            {
+                "entity": "Stardust",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jihadi John is notorious for executing many US, UK, and Japanese citizens such as Steven Sotloff, David Haines, and Alan Henning.",
+        "mutated_sentence": "Jihadi John is notorious for executing many US, UK and Japanese citizens such as Steven Sotloff.",
+        "repairs": [
+            {
+                "entity": "Japanese",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "citizens",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "mutated_sentence": "The top 20 also included LPs by The Velvet Underground, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "repairs": [
+            {
+                "entity": "and Linda",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2014, the Robert David MacDonald and Jeremy Sams translation (previously used in 1994 at the Donmar Warehouse) toured the UK, presented by the Graeae Theatre Company with Nottingham Playhouse, New Wolsey Theatre Ipswich, Birmingham Repertory Theatre and West Yorkshire Playhouse.",
+        "mutated_sentence": "In 2014, the Robert David MacDonald translation (previously used in 1994 at the Donmar Warehouse) toured the UK, presented by the Graeae Theatre Company with Nottingham Playhouse, New Wolsey Theatre Ipswich, Birmingham Repertory Theatre and West Yorkshire Playhouse.",
+        "repairs": [
+            {
+                "entity": "Donmar Warehouse",
+                "original_tag": "Skill",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 0.6671023874099504,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Organizations that have argued against accommodationist policies in the United States include Americans United for Separation of Church and State, the Ayn Rand Institute, the Freedom From Religion Foundation, the Military Religious Freedom Foundation, People for the American Way, and the Secular Coalition for America.",
+        "mutated_sentence": "Organizations that have argued against accommodationist policies in the United States include Americans United for Separation of Church and State, the Ayn Rand Institute, the Freedom From Religion Foundation, the Military Religious Freedom Foundation and the Secular Coalition for America.",
+        "repairs": [
+            {
+                "entity": "Americans United for Separation of Church and State",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It includes collaborations with Pete Seeger, Ivan Neville, Cyril Neville, Skerik, Adam Levy, Righteous Babe recording artist Anaïs Mitchell, CC Adcock, and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama, and Rebirth Brass Band.",
+        "mutated_sentence": "It includes collaborations with Pete Seeger, Righteous Babe recording artist Anaïs Mitchell, CC Adcock and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama and Rebirth Brass Band.",
+        "repairs": [
+            {
+                "entity": "Galactic",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "mutated_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "repairs": [
+            {
+                "entity": "and Linda",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Many of the most prominent national leaders, such as Washington, John Adams, John Hancock, and Benjamin Franklin, retired from public life, served as foreign delegates, or held office in state governments; and for the general public, local government and self-rule seemed quite satisfactory.",
+        "mutated_sentence": "Many of the most prominent national leaders, such as Washington, John Adams, , retired from public life, served as foreign delegates or held office in state governments; and for the general public, local government and self-rule seemed quite satisfactory.",
+        "repairs": [
+            {
+                "entity": "foreign delegates",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The party became active participants in by-elections, contesting those held in City of London and Westminster, Beaconsfield, Penrith and the Border and 1983 Bermondsey by-election, as well as putting up two candidates in the general elections of 1979 United Kingdom general election and 1983 United Kingdom general election.",
+        "mutated_sentence": "The party becames active participants in by-elections, contesting those held in City of London and the Border and 1983 Bermondsey by-election, as well as putting up two candidates in the general elections of 1979 United Kingdom general election and 1983 United Kingdom general election.",
+        "repairs": [
+            {
+                "entity": "City of London",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "general elections",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bermondsey",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "1983",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "mutated_sentence": "Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown and dozens of others.",
+        "repairs": [
+            {
+                "entity": "African",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "American",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ms. Jody",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

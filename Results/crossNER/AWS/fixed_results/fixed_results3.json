@@ -1,0 +1,912 @@
+[
+    {
+        "original_sentence": "On February 12, 2005, he was given a Grammy Lifetime Achievement Award by The Recording Academy.",
+        "mutated_sentence": "Grammy Lifetime Achievement Award is a creative work. on February 12, 2005, he was given it by The Recording Academy.",
+        "repairs": [
+            {
+                "entity": "Recording Academy",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.673383620559413,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Audiences in Monte Carlo, Warsaw and Buenos Aires also heard Caruso sing during this pivotal phase of his career and, in 1899-1900, he appeared before the tsar and the Russian aristocracy at the Mariinsky Theatre in Saint Petersburg and the Bolshoi Theatre in Moscow as part of a touring company of first-class Italian singers.",
+        "mutated_sentence": "Monte Carlo is a ward in the Principality of Monaco. Audiences in it, Warsaw and Buenos Aires also heard Caruso sing during this pivotal phase of his career and, in 1899-1900, he appeared before the tsar and the Russian aristocracy at the Mariinsky Theatre in Saint Petersburg and the Bolshoi Theatre in Moscow as part of a touring company of first-class Italian singers.",
+        "repairs": [
+            {
+                "entity": "Monte Carlo",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Russian",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On February 3, 1865, Lincoln and Seward held a conference at Hampton Roads with three representatives of the Confederate government - Vice President Alexander H. Stephens, Senator Robert M. T. Hunter, and Assistant Secretary of War John Archibald Campbell - to discuss terms to end the war.",
+        "mutated_sentence": "Hampton Roads is a body of water and metropolitan area in the United States. on February 3, 1865, Lincoln and Seward held a conference at it with three representatives of the Confederate government - Vice President Alexander H. Stephens, Senator Robert M. T. Hunter, and Assistant Secretary of War John Archibald Campbell - to discuss terms to end the war.",
+        "repairs": [
+            {
+                "entity": "Assistant Secretary",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.694626891961347,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "National formed a minority government under John Key with confidence-and-supply support from the ACT New Zealand (5 seats), the Māori Party (5 seats) and United Future (1 seat).",
+        "mutated_sentence": "John Key is a college basketball player (1960–1963) North Carolina State. National formed a minority government under him with confidence-and-supply support from the ACT New Zealand (5 seats), the Māori Party (5 seats) and United Future (1 seat).",
+        "repairs": [
+            {
+                "entity": "National",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6814249611092548,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "ACT New Zealand",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dave Bush joined on keyboards for 1992's Code: Selfish, followed by the band's return to an independent record label for The Infotainment Scan (1993), Middle Class Revolt (1994), and Cerebral Caustic (1995).",
+        "mutated_sentence": "Dave Bush is an American baseball player. He joined on keyboards for 1992's Code: Selfish, followed by the band's return to an independent record label for The Infotainment Scan (1993), Middle Class Revolt (1994), and Cerebral Caustic (1995).",
+        "repairs": [
+            {
+                "entity": "Infotainment Scan",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Class Revolt",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6655578740042917,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Middle",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6465337321718652,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Harper also contributed a recital of Jabberwocky for The Wildlife Album, an 18-track compilation CD to benefit the World Wide Fund for Nature and the Ulster Wildlife Trust.",
+        "mutated_sentence": "Harper is a badminton player. He also contributed a recital of Jabberwocky for The Wildlife Album, an 18-track compilation CD to benefit the World Wide Fund for Nature and the Ulster Wildlife Trust.",
+        "repairs": [
+            {
+                "entity": "The Wildlife Album",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.673452842445303,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Alsufi was discovered on 24 September 1960, by Dutch astronomer couple Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory, California.",
+        "mutated_sentence": "Alsufi is an asteroid. It was discovered on 24 September 1960, by Dutch astronomer couple Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory, California.",
+        "repairs": [
+            {
+                "entity": "Alsufi",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7466737036112332,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "LSI helps overcome synonymy by increasing recall, one of the most problematic constraints of Boolean keyword queries and vector space models.",
+        "mutated_sentence": "LSI is an entity. It helps overcome synonymy by increasing recall, one of the most problematic constraints of Boolean keyword queries and vector space models.",
+        "repairs": [
+            {
+                "entity": "LSI",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "one of the most problematic constraints",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Highlights in 2002 included the premieres of several major works, including View From Olympus a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, Philip Smith and the Halle Orchestra conducted by Mark Elder at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "mutated_sentence": "View From Olympus is a creative work. Highlights in 2002 included the premieres of several major works, including it a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, Philip Smith and the Halle Orchestra conducted by Mark Elder at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "repairs": [
+            {
+                "entity": "several major works",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6830542134067126,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It is based upon the 1980 Iranian Embassy siege in London and stars Jamie Bell, Abbie Cornish, Mark Strong and Martin Shaw.",
+        "mutated_sentence": "Jamie Bell is an English actor (born 1986). It is based upon the 1980 Iranian Embassy siege in London and stars he, Abbie Cornish, Mark Strong and Martin Shaw.",
+        "repairs": [
+            {
+                "entity": "Embassy",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In a letter to P. Schuyler Miller and John Drury Clark in 1936, only three months before Howard's death, Conan is described as standing 6 ft / 183 cm and weighing when he takes part in an attack on Venarium at only 14 years old, though being far from fully grown.",
+        "mutated_sentence": "P. Schuyler Miller is an American novelist (1912–1974). in a letter to him and John Drury Clark in 1936, only three months before Howard's death, Conan is described as standing 6 ft / 183 cm and weighing when he takes part in an attack on Venarium at only 14 years old, though being far from fully grown.",
+        "repairs": [
+            {
+                "entity": "three months before",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "death",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 0.6937168593699584,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "6 ft / 183 cm",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Sosa performed in venues such as the Lincoln Center in New York City, the Théâtre Mogador in Paris and the Sistine Chapel in Vatican City, as well as sell-out shows in New York's Carnegie Hall and the Roman Colosseum during her final decade of life.",
+        "mutated_sentence": "Sosa is a Mexican botanist. She performed in venues such as the Lincoln Center in New York City, the Théâtre Mogador in Paris and the Sistine Chapel in Vatican City, as well as sell-out shows in New York's Carnegie Hall and the Roman Colosseum during her final decade of life.",
+        "repairs": [
+            {
+                "entity": "final decade",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The alkaline earth metals are named after their oxide s, the alkaline earths, whose old-fashioned names were beryllia, Magnesium oxide, Calcium oxide, strontia, and baryta.",
+        "mutated_sentence": "beryllia is a sorosilicate mineral. The alkaline earth metals are named after their oxide s, the alkaline earths, whose old-fashioned names were it, Magnesium oxide, Calcium oxide, strontia, and baryta.",
+        "repairs": [
+            {
+                "entity": "beryllia",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Magnesium oxide",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Calcium oxide",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Two other early works were Anelida and Arcite and The House of Fame.",
+        "mutated_sentence": "Anelida is a person. Two other early works were he and Arcite and The House of Fame.",
+        "repairs": [
+            {
+                "entity": "Two other early works",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Arakan Campaign of 1942-43 was the first tentative Allies of World War II attack into British rule in Burma, following the Japanese conquest of Burma earlier in 1942, during the Second World War.",
+        "mutated_sentence": "Burma is a country in Southeast Asia. The Arakan Campaign of 1942-43 was the first tentative Allies of World War II attack into British rule in it, following the Japanese conquest of Burma earlier in 1942, during the Second World War.",
+        "repairs": [
+            {
+                "entity": "1942-43",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 0.6727221379408321,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He brought Israeli prime minister Ehud Barak and Palestinian Authority chairman Yasser Arafat together at Camp David for the Camp David Summit in July 2000, which lasted 14 days.",
+        "mutated_sentence": "Camp David is a country retreat of the President of the United States. He brought Israeli prime minister Ehud Barak and Palestinian Authority chairman Yasser Arafat together at it for the Camp David Summit in July 2000, which lasted 14 days.",
+        "repairs": [
+            {
+                "entity": "Summit",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film was overwhelmingly lauded by critics when it finally appeared in 1979 and was selected for the 1979 Cannes Film Festival, winning the Palme d'Or along with The Tin Drum, directed by Volker Schlöndorff.",
+        "mutated_sentence": "Volker Schlöndorff is a German film director, screenwriter and film producer. The film was overwhelmingly lauded by critics when it finally appeared in 1979 and was selected for the 1979 Cannes Film Festival, winning the Palme d'Or along with The Tin Drum, directed by him.",
+        "repairs": [
+            {
+                "entity": "The Tin Drum",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6521475419294478,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She contested the seat of Burnley in Lancashire in the 1979 United Kingdom general election and then, against David Owen, the Plymouth Devonport seat in the 1983 United Kingdom general election.",
+        "mutated_sentence": "Lancashire is a historic county of England. She contested the seat of Burnley in it in the 1979 United Kingdom general election and then, against David Owen, the Plymouth Devonport seat in the 1983 United Kingdom general election.",
+        "repairs": [
+            {
+                "entity": "Plymouth Devonport seat",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A few of Hardy's poems, such as The Blinded Bird, a melancholy polemic against the sport of, reflect his firm stance against animal cruelty, exhibited in his antivivisectionist views and his membership in The Royal Society for the Prevention of Cruelty to Animals.",
+        "mutated_sentence": "The Royal Society for the Prevention of Cruelty to Animals is a nonprofit organisation from Australia. A few of Hardy's poems, such as The Blinded Bird, a melancholy polemic against the sport of, reflect his firm stance against animal cruelty, exhibited in his antivivisectionist views and his membership in it.",
+        "repairs": [
+            {
+                "entity": "few",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6824458498830956,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Royal Society for the Prevention of Cruelty to Animals",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Capp also freelanced very successfully as a magazine writer and newspaper columnist, in a wide variety of publications including Life, Show, Pageant, The Atlantic, Esquire, Coronet, and The Saturday Evening Post.",
+        "mutated_sentence": "Capp is a person. He also freelanced very successfully as a magazine writer and newspaper columnist, in a wide variety of publications including Life, Show, Pageant, The Atlantic, Esquire, Coronet, and The Saturday Evening Post.",
+        "repairs": [
+            {
+                "entity": "Life, Show",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She visited Hill Top at every opportunity, and her books written during this period (such as The Tale of Ginger and Pickles, about the local shop in Near Sawrey and The Tale of Mrs. Tittlemouse, a wood mouse) reflect her increasing participation in village life and her delight in country living.Taylor, ed.",
+        "mutated_sentence": "Hill Top is a writer's house museum in Hawkshead, Cumbria, England, UK. She visited it at every opportunity, and her books written during this period (such as The Tale of Ginger and Pickles, about the local shop in Near Sawrey and The Tale of Mrs. Tittlemouse, a wood mouse) reflect her increasing participation in village life and her delight in country living.Taylor, ed.",
+        "repairs": [
+            {
+                "entity": "Hill Top",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6726242457558971,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "every opportunity",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6606060542053457,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The journal is published by Taylor and Francis on behalf of the American Association of Geographers, of which it is one of four official journals, the others being The Professional Geographer, AAG Review of Books, GeoHumanities, and African Geographical Review.",
+        "mutated_sentence": "The Professional Geographer is a journal. The journal is published by Taylor and Francis on behalf of the American Association of Geographers, of which it is one of four official journals, the others being it, AAG Review of Books, GeoHumanities, and African Geographical Review.",
+        "repairs": [
+            {
+                "entity": "AAG",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6666171826219478,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "one of four official journals",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Professional Geographer",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Review of Books",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "African Geographical Review",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Simon Fuller has championed many good causes through his working life including The Prince's Trust, Amnesty International, Save the Children, United Nations Foundation, UNICEF, Greenpeace, World Wide Fund for Nature and Comic Relief.",
+        "mutated_sentence": "Simon Fuller is a British entrepreneur, artist manager, and film and television producer. He has championed many good causes through his working life including The Prince's Trust, Amnesty International, Save the Children, United Nations Foundation, UNICEF, Greenpeace, World Wide Fund for Nature and Comic Relief.",
+        "repairs": [
+            {
+                "entity": "many good causes",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Frances Yates in her 1966 study The Art of Memory argues that a brief passage of the Confessions, 10.8.12, in which Augustine writes of walking up a flight of stairs and entering the vast fields of memory technique for organizing large amounts of information.",
+        "mutated_sentence": "Frances Yates is an English historian of the Renaissance (1899–1981). She in her 1966 study The Art of Memory argues that a brief passage of the Confessions, 10.8.12, in which Augustine writes of walking up a flight of stairs and entering the vast fields of memory technique for organizing large amounts of information.",
+        "repairs": [
+            {
+                "entity": "large amounts of information",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Philip Roth's novel, The Plot Against America (2004), looks at an America where Franklin D. Roosevelt is defeated in 1940 in his bid for a third term as President of the United States, and Charles Lindbergh is elected, leading to a US that features increasing fascism and anti-Semitism.",
+        "mutated_sentence": "US is a country located primarily in North America. Philip Roth's novel, The Plot Against America (2004), looks at an America where Franklin D. Roosevelt is defeated in 1940 in his bid for a third term as President of the United States, and Charles Lindbergh is elected, leading to it that features increasing fascism and anti-Semitism.",
+        "repairs": [
+            {
+                "entity": "President of the United States",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6932961473614768,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "US",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In Poland he is best known for his Trilogy of historical novels - With Fire and Sword, The Deluge, and Fire in the Steppe - set in the 17th-century Polish-Lithuanian Commonwealth; internationally he is best known for Quo Vadis, set in Nero's Ancient Rome.",
+        "mutated_sentence": "Poland is a country in Central Europe. in it he is best known for his Trilogy of historical novels - with Fire and Sword, The Deluge, and Fire in the Steppe - set in the 17th-century Polish-Lithuanian Commonwealth; internationally he is best known for Quo Vadis, set in Nero's Ancient Rome.",
+        "repairs": [
+            {
+                "entity": "Ancient Rome",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6711193280844145,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "With Fire and Sword",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ilić was nominated for president in 2008 Serbian presidential election by New Serbia with support of Democratic Party of Serbia, United Serbia and List for Sandžak.",
+        "mutated_sentence": "New Serbia is a Serbian political party. Ilić was nominated for president in 2008 Serbian presidential election by it with support of Democratic Party of Serbia, United Serbia and List for Sandžak.",
+        "repairs": [
+            {
+                "entity": "Sandžak",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Alessandra Becatti (born 30 April 1965) is an Italy female retired heptathlete, which participated at the 1987 World Championships in Athletics.",
+        "mutated_sentence": "Athletics is a location. Alessandra Becatti (born 30 April 1965) is an Italy female retired heptathlete, which participated at the 1987 World Championships in it.",
+        "repairs": [
+            {
+                "entity": "Italy",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "OTHER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Athletics",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ben Gurion returned as Prime Minister, and formed a coalition with the National Religious Front (which later changed its name to the National Religious Party), Mapam, Ahdut HaAvoda, and the three Israeli Arab parties, the Democratic List for Israeli Arabs, Progress and Work and Agriculture and Development.",
+        "mutated_sentence": "Ben Gurion is an Israeli politician, Zionist leader, prime minister of Israel (1948–1953, 1955–1963) - (born1886–1973). He returned as Prime Minister, and formed a coalition with the National Religious Front (which later changed its name to the National Religious Party), Mapam, Ahdut HaAvoda, and the three Israeli Arab parties, the Democratic List for Israeli Arabs, Progress and Work and Agriculture and Development.",
+        "repairs": [
+            {
+                "entity": "Mapam",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Democratic List",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In August 1938 Waugh, with Laura, made a three-month trip to Mexico after which he wrote Robbery Under Law, based on his experiences there.",
+        "mutated_sentence": "Mexico is a country in North America. in August 1938 Waugh, with Laura, made a three-month trip to it after which he wrote Robbery under Law, based on his experiences there.",
+        "repairs": [
+            {
+                "entity": "Robbery Under Law",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6636629145920233,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was discovered on 24 September 1960, by Ingrid van Houten-Groeneveld and Cornelis Johannes van Houten at Leiden, on photographic plates taken by Tom Gehrels at Palomar Observatory in the United States.",
+        "mutated_sentence": "Leiden is a city and municipality in South Holland, the Netherlands. It was discovered on 24 September 1960, by Ingrid van Houten-Groeneveld and Cornelis Johannes van Houten at it, on photographic plates taken by Tom Gehrels at Palomar Observatory in the United States.",
+        "repairs": [
+            {
+                "entity": "Palomar",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Observatory",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6853777047519766,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mathis has undergone rehabilitation for both alcohol and prescription drug addictions, and he has supported many organizations through the years, including the American Cancer Society, the March of Dimes, the YWCA and YMCA, the Muscular Dystrophy Association and the NAACP.",
+        "mutated_sentence": "Mathis is a particle physicist. He has undergone rehabilitation for both alcohol and prescription drug addictions, and he has supported many organizations through the years, including the American Cancer Society, the March of Dimes, the YWCA and YMCA, the Muscular Dystrophy Association and the NAACP.",
+        "repairs": [
+            {
+                "entity": "many organizations",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Assyria (This vast span of time is divided in Early Period (2500 BCE-2025 BCE), Old Assyrian Empire (2025 BCE - 1378 BCE), Middle Assyrian Empire (1392 BCE - 934 BCE) and Neo-Assyrian Empire (911 BCE - 609 BCE)).",
+        "mutated_sentence": "Assyria is a Roman province (116–118 AD). It (This vast span of time is divided in Early Period (2500 BCE-2025 BCE), Old Assyrian Empire (2025 BCE - 1378 BCE), Middle Assyrian Empire (1392 BCE - 934 BCE) and Neo-Assyrian Empire (911 BCE - 609 BCE)).",
+        "repairs": [
+            {
+                "entity": "1392 BCE",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mary Baker Eddy made the Boston Mother Church of Christian Science the world headquarters.",
+        "mutated_sentence": "Mary Baker Eddy is an American founder of Christian Science (1821–1910). She made the Boston Mother Church of Christian Science the world headquarters.",
+        "repairs": [
+            {
+                "entity": "Boston Mother Church of Christian Science",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6614079271077965,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The focus of their activities in Europe became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Concertgebouw, Berliner Philharmonie, Carnegie Hall, Teatro Colón, Suntory Hall, etc.).",
+        "mutated_sentence": "Europe is a continent in the Northern Hemisphere. The focus of their activities in it became annual concert cycles at the Wiener Konzerthaus, at London's Queen Elizabeth Hall, the Frankfurt Alte Oper, the Théâtre des Champs Elysées in Paris, the Philharmonic Hall in Cologne, the Zurich Opera, as well as regular concerts at most major halls and venues around the world (among them La Scala, Concertgebouw, Berliner Philharmonie, Carnegie Hall, Teatro Colón, Suntory Hall, etc.).",
+        "repairs": [
+            {
+                "entity": "annual",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He represented his country at the 2017 World Championships in Athletics without reaching the semifinals.",
+        "mutated_sentence": "Athletics is a location. He represented his country at the 2017 World Championships in it without reaching the semifinals.",
+        "repairs": [
+            {
+                "entity": "Athletics",
+                "original_tag": "LOCATION",
+                "mutated_tag": "O",
+                "corrected_tag": "LOCATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Nine Inch Nails covered the song Metal on The Fragile remix album Things Falling Apart as did Afrika Bambaataa (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "mutated_sentence": "Afrika Bambaataa is an American DJ, record producer and rapper. Nine Inch Nails covered the song Metal on The Fragile remix album Things Falling Apart as did he (with Numan himself) on the album Dark Matter Moving at the Speed of Light.",
+        "repairs": [
+            {
+                "entity": "Nine",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The first USA edition of Campus Party will take place from 20 to 22 of August at TCF Center in Detroit, Michigan.",
+        "mutated_sentence": "TCF Center is a convention center in Detroit, Michigan. The first USA edition of Campus Party will take place from 20 to 22 of August at it in Detroit, Michigan.",
+        "repairs": [
+            {
+                "entity": "first USA",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Helmer was elected to the European Parliament in 1999 European Parliament election in the United Kingdom, 2004 European Parliament election in the United Kingdom, and 2009 European Parliament election in the United Kingdom as a member of the Conservative Party and in 2014 as a member of the UK Independence Party (UKIP), having defected from the Conservatives to UKIP in March 2012.",
+        "mutated_sentence": "Helmer is a Norwegian chemist and professor at University of Oslo. He was elected to the European Parliament in 1999 European Parliament election in the United Kingdom, 2004 European Parliament election in the United Kingdom, and 2009 European Parliament election in the United Kingdom as a member of the Conservative Party and in 2014 as a member of the UK Independence Party (UKIP), having defected from the Conservatives to UKIP in March 2012.",
+        "repairs": [
+            {
+                "entity": "European Parliament",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "European Parliament",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "European Parliament",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "1999",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 0.6634044529151958,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2004",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2009",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Pausch received two awards from Association for Computing Machinery in 2007 for his achievements in computing education: the Karl V. Karlstrom Outstanding Educator Award and the ACM SIGCSE Award for Outstanding Contributions to Computer Science Education.",
+        "mutated_sentence": "Pausch is a person. He received two awards from Association for Computing Machinery in 2007 for his achievements in computing education: the Karl V. Karlstrom Outstanding Educator Award and the ACM SIGCSE Award for Outstanding Contributions to Computer Science Education.",
+        "repairs": [
+            {
+                "entity": "Outstanding Contributions to Computer Science Education",
+                "original_tag": "TITLE",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Adapted by Altman and Sam Shepard for The Cannon Group from the latter's Pulitzer Prize -nominated play, Fool for Love (1985) featured the playwright-actor alongside Kim Basinger, Harry Dean Stanton and Randy Quaid; it fared better than most of his films from the era, earning $ 900,000 domestically on a $ 2 million budget and positive reviews from Roger Ebert and Vincent Canby.",
+        "mutated_sentence": "The Cannon Group is a film studio. Adapted by Altman and Sam Shepard for it from the latter's Pulitzer Prize -nominated play, Fool for Love (1985) featured the playwright-actor alongside Kim Basinger, Harry Dean Stanton and Randy Quaid; it fared better than most of his films from the era, earning $ 900,000 domestically on a $ 2 million budget and positive reviews from Roger Ebert and Vincent Canby.",
+        "repairs": [
+            {
+                "entity": "The Cannon Group",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "films",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Van Bentum competed in three consecutive Summer Olympics for her native country, starting in Swimming at the 1980 Summer Olympics.",
+        "mutated_sentence": "Van Bentum is a Dutch artist (1670–1727). She competed in three consecutive Summer Olympics for her native country, starting in Swimming at the 1980 Summer Olympics.",
+        "repairs": [
+            {
+                "entity": "three",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Parsons acted as Assistant Engineer on the Beatles' albums Abbey Road (1969) and Let It Be (1970), engineered Pink Floyd's The Dark Side of the Moon (1973), and produced several acts for EMI Records.",
+        "mutated_sentence": "Parsons is a botanist and entomologist. He acted as Assistant Engineer on the Beatles' albums Abbey Road (1969) and Let It Be (1970), engineered Pink Floyd's The Dark Side of the Moon (1973), and produced several acts for EMI Records.",
+        "repairs": [
+            {
+                "entity": "several acts",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1998 Warp signed Boards Of Canada, a duo that would go on to release some of the most highly revered electronic music albums of their time: Music Has the Right to Children (1998), Geogaddi (2002), The Campfire Headphase (2005) and Tomorrow's Harvest (2013).",
+        "mutated_sentence": "Boards Of Canada is a Scottish electronic music duo. In 1998 Warp signed it, a duo that would go on to release some of the most highly revered electronic music albums of their time: Music Has the Right to Children (1998), Geogaddi (2002), The Campfire Headphase (2005) and Tomorrow's Harvest (2013).",
+        "repairs": [
+            {
+                "entity": "most highly",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 0.6928178743688219,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "With William Butler Yeats and Edward Martyn, she co-founded the Irish Literary Theatre and the Abbey Theatre, and wrote numerous short works for both companies.",
+        "mutated_sentence": "William Butler Yeats is an Irish poet and playwright (1865–1939). with her and Edward Martyn, she co-founded the Irish Literary Theatre and the Abbey Theatre, and wrote numerous short works for both companies.",
+        "repairs": [
+            {
+                "entity": "short works",
+                "original_tag": "QUANTITY",
+                "mutated_tag": "O",
+                "corrected_tag": "QUANTITY",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "There Novick threw a political jab, challenging Merkley's statements that he had been an opponent of the war from the start by pointing to his support of a Republican-drafted non-binding resolution in 2003, two days after the invasion began, that praised President George W. Bush for the invasion of Iraq and the efforts of the troops and prayed for their safety.",
+        "mutated_sentence": "Novick is an entomologist (*1902). There he threw a political jab, challenging Merkley's statements that he had been an opponent of the war from the start by pointing to his support of a Republican-drafted non-binding resolution in 2003, two days after the invasion began, that praised President George W. Bush for the invasion of Iraq and the efforts of the troops and prayed for their safety.",
+        "repairs": [
+            {
+                "entity": "two days after the invasion",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.674306422227601,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He initially supported the new government of Burhanuddin Rabbani in Kabul but in 1994 switched sides and allied with Gulbuddin Hekmatyar.",
+        "mutated_sentence": "Kabul is a capital and the largest city of Afghanistan. He initially supported the new government of Burhanuddin Rabbani in it but in 1994 switched sides and allied with Gulbuddin Hekmatyar.",
+        "repairs": [
+            {
+                "entity": "Burhanuddin Rabbani",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORGANIZATION",
+                "confidence": 0.6506161765393017,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rethink Robotics - founded by Rodney Brooks, previously with iRobot - introduced Baxter in September 2012; as an industrial robot designed to safely interact with neighboring human workers, and be programmable for performing simple tasks.",
+        "mutated_sentence": "Rodney Brooks is an Australian roboticist. Rethink Robotics - founded by him, previously with iRobot - introduced Baxter in September 2012; as an industrial robot designed to safely interact with neighboring human workers, and be programmable for performing simple tasks.",
+        "repairs": [
+            {
+                "entity": "Robotics",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "TITLE",
+                "confidence": 0.6532538935002763,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Baxter",
+                "original_tag": "ORGANIZATION",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Topics included matter creation and annihilation, the fundamental interactions, elementary particles and their currents, hadronic and leptonic physics, and the parton model, published in professional peer-reviewed scientific journals including Nuclear Physics B, Australian Journal of Physics, Nuovo Cimento, and Physical Review D.",
+        "mutated_sentence": "Nuclear Physics B is a journal. Topics included matter creation and annihilation, the fundamental interactions, elementary particles and their currents, hadronic and leptonic physics, and the parton model, published in professional peer-reviewed scientific journals including it, Australian Journal of Physics, Nuovo Cimento, and Physical Review D.",
+        "repairs": [
+            {
+                "entity": "hadronic",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "leptonic",
+                "original_tag": "OTHER",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

@@ -1,0 +1,940 @@
+[
+    {
+        "original_sentence": "The paper's editors were major figures in the Jewish-American anarchist movement: David Edelstadt, Saul Yanovsky, Joseph J. Cohen, Hillel Solotaroff, Roman Lewis, and Moshe Katz. As part of the 2006 European Conference on Computer Vision (ECCV), Dalal and Triggs teamed up with Cordelia Schmid to apply HOG detectors to the problem of human detection in films and videos.",
+        "mutated_sentence": "The paper's editors were major figures in the Jewish-American anarchist movement: David Edelstadt, Saul Yanovsky, Triggs, Hillel Solotaroff, Roman Lewis, and Moshe Katz. As part of the 2006 European Conference on Computer Vision (ECCV), Dalal and Joseph J. Cohen teamed up with Cordelia Schmid to apply HOG detectors to the problem of human detection in films and videos.",
+        "repairs": [
+            {
+                "entity": "HOG detectors",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During his career he held academic posts at the universities of University of Manchester (1951-6), Durham University (1956-92), the University of Ceylon and the University of Hong Kong, and was head of department at Durham where he remains an emeritus professor. Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "mutated_sentence": "During his career he held academic posts at the universities of University of Manchester (1951-6), Durham University (1956-92), the University of Ceylon and the Society, and was head of department at Durham where he remains an emeritus professor. Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal University of Hong Kong.",
+        "repairs": [
+            {
+                "entity": "Durham",
+                "original_tag": "Organization",
+                "mutated_tag": "Location",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "University of Hong Kong",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Royal",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 0.6127156774335055,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1968 United States presidential election, Alabama supported native son and American Independent Party candidate George Wallace over both Richard Nixon and Hubert Humphrey. The next year, in 1995, a film adaptation of the book, Apollo 13, was released, directed by Ron Howard and starring Tom Hanks as Lovell, Bill Paxton as Haise, Kevin Bacon as Swigert, Gary Sinise as Mattingly, Ed Harris as Kranz, and Kathleen Quinlan as Marilyn Lovell.",
+        "mutated_sentence": "In 1968 United States presidential election, Alabama supported native son and American Independent Party candidate Marilyn Lovell over both Richard Nixon and Hubert Humphrey. The next year, in 1995, a film adaptation of the book, Apollo 13, was released, directed by Ron Howard and starring Tom Hanks as Lovell, Bill Paxton as Haise, Kevin Bacon as Swigert, Gary Sinise as Mattingly, Ed Harris as Kranz, and Kathleen Quinlan as George Wallace.",
+        "repairs": [
+            {
+                "entity": "Apollo 13,",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6957960517433224,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "book",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6548196234524906,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His philosophy was expressed in many ways, but most famously in founding and sustaining the Albert Schweitzer Hospital in Lambaréné, which up to 1958 was situated in French Equatorial Africa, and after this in Gabon. He proposed that Germany be reunified and accept the Oder-Neisse line as its border, and that a neutral zone be established in Central Europe, consisting at the minimum of Germany, Poland, Hungary, and Czechoslovakia, with each of these countries being free of foreign troops and influence, and prohibited from forming alliances with countries outside the zone.",
+        "mutated_sentence": "His philosophy was expressed in many ways, but most famously in founding and sustaining the Albert Schweitzer Hospital in Lambaréné, which up to 1958 was situated in Oder-Neisse line, and after this in Gabon. He proposed that Germany be reunified and accept the French Equatorial Africa as its border, and that a neutral zone be established in Central Europe, consisting at the minimum of Germany, Poland, Hungary, and Czechoslovakia, with each of these countries being free of foreign troops and influence, and prohibited from forming alliances with countries outside the zone.",
+        "repairs": [
+            {
+                "entity": "foreign",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.3697481890115603,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "foreign troops",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "247 Many lyricists worked on the show, including James Agee, Dorothy Parker, John Latouche, Richard Wilbur, Leonard and Felicia Bernstein, and Hellman. For the 2018 Mexican general election, the National Regeneration Movement proposed having Senator Rabindranath Salazar Solorio as the candidate under the coalition Juntos Haremos Historia for the Governor of Morelos but PES, also part of the coalition, argued Blanco was the better choice for the coalition's candidate.",
+        "mutated_sentence": "247 Many lyricists worked on the show, including James Agee, Rabindranath Salazar Solorio, John Latouche, Richard Wilbur, Leonard and Felicia Bernstein, and Hellman. For the 2018 Mexican general election, the National Regeneration Movement proposed having Senator Dorothy Parker as the candidate under the coalition Juntos Haremos Historia for the Governor of Morelos but PES, also part of the coalition, argued Blanco was the better choice for the coalition's candidate.",
+        "repairs": [
+            {
+                "entity": "Senator",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "O",
+                "confidence": 0.6659689739591662,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Incumbent Democrat Max Baucus, who was first elected in 1978 United States Senate election in Montana and was re-elected in 1984 United States Senate election in Montana and 1990 United States Senate election in Montana, ran for re-election. The purification of penicillin was achieved by Ernst Chain, Norman Heatley and Edward Abraham, with Chain and Abraham eventually developing a theoretical model for its chemical structure, which was later confirmed by Dorothy Hodgkin using X-ray crystallography.",
+        "mutated_sentence": "Incumbent Democrat Abraham, who was first elected in 1978 United States Senate election in Montana and was re-elected in 1984 United States Senate election in Montana and 1990 United States Senate election in Montana, ran for re-election. The purification of penicillin was achieved by Ernst Chain, Norman Heatley and Edward Abraham, with Chain and Max Baucus eventually developing a theoretical model for its chemical structure, which was later confirmed by Dorothy Hodgkin using X-ray crystallography.",
+        "repairs": [
+            {
+                "entity": "1990 United States Senate election",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "See The Snow Man and Gubbinal for some references. Artificial neural networks have been used on a variety of tasks, including computer vision, speech recognition, machine translation, social network filtering, playing board and video games and medical diagnosis.",
+        "mutated_sentence": "See The Snow Man and video games for some references. Artificial neural networks have been used on a variety of tasks, including computer vision, speech recognition, machine translation, social network filtering, playing board and Gubbinal and medical diagnosis.",
+        "repairs": [
+            {
+                "entity": "Gubbinal",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 0.6648916862242504,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "board",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.3673199359183686,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "diagnosis",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Artificial neural networks",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 0.7334179482187021,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "playing board",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 0.6482128194434741,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The album was produced by Mike Chapman, also known for his work with The Sweet, Mud, Suzi Quatro, Blondie, Pat Benatar and The Knack. Bangladesh is a member of the UN, World Trade Organization, International Monetary Fund, the World Bank, Asian Development Bank, OIC, Islamic Development Bank, SAARC, BIMSTEC and the Islamic Military Counter Terrorism Coalition.",
+        "mutated_sentence": "The album was produced by Mike Chapman, also known for his work with The Sweet, Mud, Islamic Development Bank, Blondie, Pat Benatar and The Knack. Bangladesh is a member of the UN, World Trade Organization, International Monetary Fund, the World Bank, Asian Development Bank, OIC, Suzi Quatro, SAARC, BIMSTEC and the Islamic Military Counter Terrorism Coalition.",
+        "repairs": [
+            {
+                "entity": "Pat Benatar",
+                "original_tag": "Organization",
+                "mutated_tag": "Person",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The All India Mahila Empowerment Party was launched at The Lalit in New Delhi on 12 November 2017 in the presence of important personalities from different fields, including cricketer Mohammed Azharuddin, tennis player Sania Mirza, film stars Suniel Shetty, Bobby Deol, Aftab Shivdaasani, Zeenat Aman, Poonam Dhillon, choreographer Farah Khan, and Urdu poetess Lata Haya. The Politics of War: The Story of Two Wars Which Altered Forever the Political Life of the American Republic 1890-1920 (1979) reports how William McKinley impelled the United States to fight the Spanish-American War (April to August 1898) and how Woodrow Wilson compelled intervention to the First World War (1914-18) as well as how they determined the US's emergence as an imperial world power.",
+        "mutated_sentence": "The All India Mahila Empowerment Party was launched at The Lalit in New Delhi on 12 November 2017 in the presence of important personalities from different fields, including cricketer Mohammed Azharuddin, tennis player Sania Mirza, film stars Woodrow Wilson, Bobby Deol, Aftab Shivdaasani, Zeenat Aman, Poonam Dhillon, choreographer Farah Khan, and Urdu poetess Lata Haya. The Politics of War: The Story of Two Wars Which Altered Forever the Political Life of the American Republic 1890-1920 (1979) reports how William McKinley impelled the United States to fight the Spanish-American War (April to August 1898) and how Suniel Shetty compelled intervention to the First World War (1914-18) as well as how they determined the US's emergence as an imperial world power.",
+        "repairs": [
+            {
+                "entity": "Urdu poetess",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Celebrated Puerto Rican novelists who write in English and Spanish include Giannina Braschi, author of the Spanglish classic Yo-Yo Boing! and Rosario Ferré, best known for Eccentric Neighborhoods Puerto Rico has also produced important playwrights such as René Marqués, Luis Rafael Sánchez, and José Rivera and New York based poets such as Julia de Burgos, Giannina Braschi and Pedro Pietri, as well as various members of the Nuyorican Poets Café. Contemporary African-American performers who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "mutated_sentence": "Celebrated Puerto Rican novelists who write in English and Spanish include Giannina Braschi, performers of the Spanglish classic Yo-Yo Boing! and Rosario Ferré, best known for Eccentric Neighborhoods Puerto Rico has also produced important playwrights such as René Marqués, Luis Rafael Sánchez, and José Rivera and New York based poets such as Julia de Burgos, Giannina Braschi and Pedro Pietri, as well as various members of the Nuyorican Poets Café. Contemporary African-American author who work in this style of the blues include Bobby Rush, Denise LaSalle, Sir Charles Jones, Bettye LaVette, Marvin Sease, Peggy Scott-Adams, Mel Waiters, Clarence Carter, Dr. Feelgood Potts, O.B. Buchana, Ms. Jody, Shirley Brown, and dozens of others.",
+        "repairs": [
+            {
+                "entity": "American",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ms. Jody",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 0.6658441908641308,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Landing in Boston, he devoted the rest of the month to a round of dinners with such notables as Ralph Waldo Emerson, Henry Wadsworth Longfellow, and his American publisher, James Thomas Fields. As demonstrated by Temin and Baltimore, who shared the Nobel Prize in Physiology or Medicine with Dulbecco, the transfer of viral genes to the cell is mediated by an enzyme called reverse transcriptase (or, more precisely, RNA-dependent DNA polymerase), which replicates the viral genome (in this case made of RNA) into DNA, which is later incorporated in the host genome.",
+        "mutated_sentence": "Landing in Boston, he devoted the rest of the month to a round of dinners with such notables as Dulbecco, Henry Wadsworth Longfellow, and his American publisher, James Thomas Fields. As demonstrated by Temin and Baltimore, who shared the Nobel Prize in Physiology or Medicine with Ralph Waldo Emerson, the transfer of viral genes to the cell is mediated by an enzyme called reverse transcriptase (or, more precisely, RNA-dependent DNA polymerase), which replicates the viral genome (in this case made of RNA) into DNA, which is later incorporated in the host genome.",
+        "repairs": [
+            {
+                "entity": "the rest of the month",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "rest of the month",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "O",
+                "confidence": 0.6566330173019658,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Philip Roth's novel, The Plot Against America (2004), looks at an America where Franklin D. Roosevelt is defeated in 1940 in his bid for a third term as President of the United States, and Charles Lindbergh is elected, leading to a US that features increasing fascism and anti-Semitism. The group included the physicists Walther Bothe, Robert Döpel, Hans Geiger, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Georg Joos; Peter Debye was invited, but he did not attend.",
+        "mutated_sentence": "Philip Roth's novel, The Plot Against America (2004), looks at an America where Georg Joos is defeated in 1940 in his bid for a third term as President of the United States, and Charles Lindbergh is elected, leading to a US that features increasing fascism and anti-Semitism. The group included the physicists Walther Bothe, Robert Döpel, Hans Geiger, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Franklin D. Roosevelt; Peter Debye was invited, but he did not attend.",
+        "repairs": [
+            {
+                "entity": "Against America",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the Southwestern United States, it was the Rocky Mountains, American frontier, and Rio Grande that acted as a similar backdrop for Indigenous music of North America, Mexican, and cowboy ballads, which resulted in New Mexico music and the development of Western music, and its directly related Red Dirt, Texas country music, and Tejano music styles. The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Palm Beach, Florida; the Washington Jewish Film Festival, Washington, D.C.; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, Boston; and others.",
+        "mutated_sentence": "In the Southwestern Boston, it was the Rocky Mountains, American frontier, and Rio Grande that acted as a similar backdrop for Indigenous music of North America, Mexican, and cowboy ballads, which resulted in New Mexico music and the development of Western music, and its directly related Red Dirt, Texas country music, and Tejano music styles. The film has been screened at various film festivals, including: the Palm Beach Jewish Film Festival, Palm Beach, Florida; the Washington Jewish Film Festival, Washington, D.C.; the Haifa International Film Festival, Haifa, Israel; the San Francisco Jewish Film Festival, San Francisco; the Hong Kong Jewish Film Festival, Hong Kong; the Boston Jewish Film Festival, United States; and others.",
+        "repairs": [
+            {
+                "entity": "New Mexico",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 0.6696712064142853,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Western music",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "Location",
+                "confidence": 0.35011390401581655,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1642 parliament seized control of the Tower mint and after Charles I tried to arrest the Five Members he was forced to flee London, establishing at least 16 emergency mints across the British Isles in Colchester, Chester, Cork, Edinburgh, Dublin, Exeter, Salisbury, parts of Cornwall including Truro, Weymouth, Worcester, York, Carlisle, Newark, Pontefract and Scarborough. According to the French newspaper, only La Paz, El Alto, Sucre, Potosí, Camiri and Santa Cruz de la Sierra are now connected to the gas network; making an interior network which would reach all Bolivians would cost $ 1.5 billion, notwithstanding a central gas pipeline to link the various regions together.",
+        "mutated_sentence": "In 1642 parliament seized control of the Tower mint and after Charles I tried to arrest the Five Members he was forced to flee London, establishing at least 16 emergency mints across the British Isles in Colchester, Chester, Cork, Edinburgh, Dublin, Exeter, Salisbury, parts of Cornwall including Truro, Sucre, Worcester, York, Carlisle, Newark, Pontefract and Scarborough. According to the French newspaper, only La Paz, El Alto, Weymouth, Potosí, Camiri and Santa Cruz de la Sierra are now connected to the gas network; making an interior network which would reach all Bolivians would cost $ 1.5 billion, notwithstanding a central gas pipeline to link the various regions together.",
+        "repairs": [
+            {
+                "entity": "French",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "newspaper",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6357250771810454,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 1970s, Pohl re-emerged as a novel writer in his own right, with books such as Man Plus and the Heechee series. The National Union party won seven seats, and was included in Ariel Sharon's coalition, alongside Likud, Shinui, the National Religious Party, and Yisrael BaAliyah.",
+        "mutated_sentence": "In the 1970s, Ariel Sharon re-emerged as a novel writer in his own right, with books such as Man Plus and the Heechee series. The National Union party won seven seats, and was included in Pohl's coalition, alongside Likud, Shinui, the National Religious Party, and Yisrael BaAliyah.",
+        "repairs": [
+            {
+                "entity": "Yisrael BaAliyah",
+                "original_tag": "Person",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 0.6693639913561061,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They were honored with the rank of a marquis 35 times since Gaozu of the Han dynasty, and they were promoted to the rank of duke 42 times from the Tang dynasty to the Qing dynasty. For example, in the Canada 1993 Canadian federal election, the Progressive Conservative Party of Canada attacked Liberal Party of Canada leader Jean Chrétien by implicitly mocking his Bell's Palsy partial facial paralysis.",
+        "mutated_sentence": "They were honored with the rank of a marquis 35 times since Gaozu of the Han dynasty, and they were promoted to the rank of duke 42 times from the Progressive Conservative Party to the Qing dynasty. For example, in the Canada 1993 Canadian federal election, the Tang dynasty of Canada attacked Liberal Party of Canada leader Jean Chrétien by implicitly mocking his Bell's Palsy partial facial paralysis.",
+        "repairs": [
+            {
+                "entity": "Canadian",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Event",
+                "confidence": 0.6907167311925992,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The National Union party won seven seats, and was included in Ariel Sharon's coalition, alongside Likud, Shinui, the National Religious Party, and Yisrael BaAliyah. The Vital-IT infrastructure is distributed to three sites: University of Lausanne, EPFL and University of Geneva.",
+        "mutated_sentence": "The National Union party won seven seats, and was included in Ariel Sharon's coalition, alongside Likud, Shinui, the University of Lausanne, and Yisrael BaAliyah. The Vital-IT infrastructure is distributed to three sites: National Religious Party, EPFL and University of Geneva.",
+        "repairs": [
+            {
+                "entity": "Likud",
+                "original_tag": "Organization",
+                "mutated_tag": "Person",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Shinui",
+                "original_tag": "Organization",
+                "mutated_tag": "Person",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At the 2012 Pride of Britain Awards shown on ITV on 30 October, Fry, along with Michael Caine, Elton John, Richard Branson and Simon Cowell, recited Rudyard Kipling's poem If - in tribute to the 2012 British Olympic and Paralympic athletes. This resulted in the recordings of successful and critically acclaimed albums such as Marvin Gaye's What's Going On (1971) and Let's Get it On (1973), and Stevie Wonder's Music of My Mind (1972), Talking Book (1972), and Innervisions (1973).",
+        "mutated_sentence": "At the 2012 Pride of Britain Awards shown on ITV on 30 October, Fry, along with Michael Caine, Elton John, Marvin Gaye and Simon Cowell, recited Rudyard Kipling's poem If - in tribute to the 2012 British Olympic and Paralympic athletes. This resulted in the recordings of successful and critically acclaimed albums such as Richard Branson's What's Going On (1971) and Let's Get it On (1973), and Stevie Wonder's Music of My Mind (1972), Talking Book (1972), and Innervisions (1973).",
+        "repairs": [
+            {
+                "entity": "Pride of Britain Awards",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6731951168834613,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "recordings",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6864046494332741,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2012 Pride of Britain Awards",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "Event",
+                "confidence": 0.6780351402091277,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Olympic and Paralympic athletes",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "Event",
+                "confidence": 0.6676639054364261,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A few of those include bagad (Breton pipe bands), Fairport Convention, Pentangle, Steeleye Span and Horslips. After releasing only one album on a major label, Black Elvis / Lost in Space, Kool Keith subsequently returned to independently releasing music, producing further efforts as a solo artist and in collaboration with groups such as Analog Brothers, Masters of Illusion, Thee Undatakerz and Project Polaroid.",
+        "mutated_sentence": "A few of those include bagad (Breton pipe bands), Project Polaroid, Pentangle, Steeleye Span and Horslips. After releasing only one album on a major label, Black Elvis / Lost in Space, Kool Keith subsequently returned to independently releasing music, producing further efforts as a solo artist and in collaboration with groups such as Analog Brothers, Masters of Illusion, Thee Undatakerz and Fairport Convention.",
+        "repairs": [
+            {
+                "entity": "Breton",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Reggae en Español spread from the Spanish-speaking Central American country of Panama to the mainland South American countries of Venezuela and Guyana then to the rest of South America. Hailed as a great innovator of rock and roll by contemporaries such as Little Richard and Johnny Otis, He is also inducted into the St. Louis Walk of Fame, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame, and the Rhythm and Blues Music Hall of Fame.",
+        "mutated_sentence": "Reggae en Español spread from the Spanish-speaking Central American country of Panama to the mainland South American countries of Venezuela and St. Louis Walk of Fame then to the rest of South America. Hailed as a great innovator of rock and roll by contemporaries such as Little Richard and Johnny Otis, He is also inducted into the Guyana, the Clarksdale Walk of Fame, the Mississippi Musicians Hall of Fame, the Blues Hall of Fame, and the Rhythm and Blues Music Hall of Fame.",
+        "repairs": [
+            {
+                "entity": "Rhythm and Blues Music Hall of Fame",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 0.6804836724099748,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A different account in Virgil's Aeneid (3.163f) has Aeneas in a dream learn from his ancestral Penates that Dardanus and Father Iasius and the Penates themselves originally came from Hesperia, afterwards renamed as Italy. Although Chamberlain left DA in late 1983, he did return on a few later albums including MotorCycle (1993) (which he co-produced), BibleLand (1994) and Songs of the Heart (1995).",
+        "mutated_sentence": "A different account in Virgil's Aeneid (3.163f) has Chamberlain in a dream learn from his ancestral Penates that Dardanus and Father Iasius and the Penates themselves originally came from Hesperia, afterwards renamed as Italy. Although Aeneas left DA in late 1983, he did return on a few later albums including MotorCycle (1993) (which he co-produced), BibleLand (1994) and Songs of the Heart (1995).",
+        "repairs": [
+            {
+                "entity": "DA",
+                "original_tag": "Location",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 0.6678719743987824,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Penates",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6678196145340736,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), National Front (NF) and the White Nationalist Party, as a splinter group from the Nationalist Alliance. In 1987, Tocibai Machine, a subsidiary of Toshiba, was accused of illegally selling CNC millings used to produce very quiet submarine propellers to the Soviet Union in violation of the CoCom agreement, an international embargo on certain countries to COMECON countries.",
+        "mutated_sentence": "The British People's Party was a neo-Nazi political party in the United Kingdom, launched in 2005 by Kevin Watmough, Eddy Morrison, John G. Wood and Sid Williamson, former members of Combat 18, British National Party (BNP), Toshiba (NF) and the White Nationalist Party, as a splinter group from the Nationalist Alliance. In 1987, Tocibai Machine, a subsidiary of National Front, was accused of illegally selling CNC millings used to produce very quiet submarine propellers to the Soviet Union in violation of the CoCom agreement, an international embargo on certain countries to COMECON countries.",
+        "repairs": [
+            {
+                "entity": "submarine propellers",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dune was parodied in 1984's National Lampoon's Doon by Ellis Weiner, which William F. Touponce called something of a tribute to Herbert's success on college campuses, noting that the only other book to have been so honored is J. R. R. Tolkien's Lord of the Rings, which Bored of the Rings by The Harvard Lampoon in 1969. Highlights in 2002 included the premieres of several major works, including View From Olympus a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, Philip Smith and the Halle Orchestra conducted by Mark Elder at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "mutated_sentence": "Dune was parodied in 1984's National Lampoon's Doon by Ellis Weiner, which Mark Elder called something of a tribute to Herbert's success on college campuses, noting that the only other book to have been so honored is J. R. R. Tolkien's Lord of the Rings, which Bored of the Rings by The Harvard Lampoon in 1969. Highlights in 2002 included the premieres of several major works, including View From Olympus a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, Philip Smith and the Halle Orchestra conducted by William F. Touponce at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "repairs": [
+            {
+                "entity": "piano",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2002 Commonwealth Games",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6737268415960923,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Harvard Lampoon",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 0.6632318721773238,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1968 United States presidential election, Alabama supported native son and American Independent Party candidate George Wallace over both Richard Nixon and Hubert Humphrey. The next year, in 1995, a film adaptation of the book, Apollo 13, was released, directed by Ron Howard and starring Tom Hanks as Lovell, Bill Paxton as Haise, Kevin Bacon as Swigert, Gary Sinise as Mattingly, Ed Harris as Kranz, and Kathleen Quinlan as Marilyn Lovell.",
+        "mutated_sentence": "In 1968 United States presidential election, Alabama supported native son and American Independent Party candidate George Wallace over both Richard Nixon and Lovell. The next year, in 1995, a film adaptation of the book, Apollo 13, was released, directed by Ron Howard and starring Tom Hanks as Hubert Humphrey, Bill Paxton as Haise, Kevin Bacon as Swigert, Gary Sinise as Mattingly, Ed Harris as Kranz, and Kathleen Quinlan as Marilyn Lovell.",
+        "repairs": [
+            {
+                "entity": "Apollo 13,",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6957960517433224,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "13,",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "Quantity",
+                "confidence": 0.6066132782132976,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The ACLU was founded in 1920 by a committee including Helen Keller, Roger Baldwin, Crystal Eastman, Walter Nelles, Morris Ernst, Albert DeSilver, Arthur Garfield Hays, Jane Addams, Felix Frankfurter, Elizabeth Gurley Flynn, and Rose Schneiderman. Gold coins bearing portraits of Chandragupta and Kumaradevi have been discovered at Mathura, Ayodhya, Lucknow, Sitapur, Tanda, Ghazipur, and Varanasi in Uttar Pradesh; Bayana in Rajasthan; and Hajipur in Bihar.",
+        "mutated_sentence": "The ACLU was founded in 1920 by a committee including Helen Keller, Roger Baldwin, Kumaradevi, Walter Nelles, Morris Ernst, Albert DeSilver, Arthur Garfield Hays, Jane Addams, Felix Frankfurter, Elizabeth Gurley Flynn, and Rose Schneiderman. Gold coins bearing portraits of Chandragupta and Crystal Eastman have been discovered at Mathura, Ayodhya, Lucknow, Sitapur, Tanda, Ghazipur, and Varanasi in Uttar Pradesh; Bayana in Rajasthan; and Hajipur in Bihar.",
+        "repairs": [
+            {
+                "entity": "Gold coins",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He founded Toffler Associates, a management consulting company, and was a visiting scholar at the Russell Sage Foundation, visiting professor at Cornell University, faculty member of the New School for Social Research, a White House correspondent, and a business consultant .. Butcher was a member of the centre-right Progressive Conservative Party of Canada before that party merged with the more right-wing Canadian Alliance to create the Conservative Party of Canada in 2003.",
+        "mutated_sentence": "He founded Toffler Associates, a management consulting company, and was a visiting scholar at the Canadian Alliance, visiting professor at Cornell University, faculty member of the New School for Social Research, a White House correspondent, and a business consultant .. Butcher was a member of the centre-right Progressive Conservative Party of Canada before that party merged with the more right-wing Russell Sage Foundation to create the Conservative Party of Canada in 2003.",
+        "repairs": [
+            {
+                "entity": "visiting professor",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6744410921736737,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Deana Carter, LeAnn Rimes, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. Mikhail Rabinovich published over 250 peer reviewed articles in leading scientific journals (Science, Neuron, Journal of Neuroscience, PLoS Computational Biology, Reviews of Modern Physics, Physics of Fluids, Physical Review Letters) that are actively cited (over 3000 citations).",
+        "mutated_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Mikhail Rabinovich, LeAnn Rimes, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. Deana Carter published over 250 peer reviewed articles in leading scientific journals (Science, Neuron, Journal of Neuroscience, PLoS Computational Biology, Reviews of Modern Physics, Physics of Fluids, Physical Review Letters) that are actively cited (over 3000 citations).",
+        "repairs": [
+            {
+                "entity": "Fluids",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Modern Physics",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "PLoS Computational Biology",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Dune was parodied in 1984's National Lampoon's Doon by Ellis Weiner, which William F. Touponce called something of a tribute to Herbert's success on college campuses, noting that the only other book to have been so honored is J. R. R. Tolkien's Lord of the Rings, which Bored of the Rings by The Harvard Lampoon in 1969. Highlights in 2002 included the premieres of several major works, including View From Olympus a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, Philip Smith and the Halle Orchestra conducted by Mark Elder at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "mutated_sentence": "Dune was parodied in 1984's National Lampoon's Doon by Ellis Weiner, which Philip Smith called something of a tribute to Herbert's success on college campuses, noting that the only other book to have been so honored is J. R. R. Tolkien's Lord of the Rings, which Bored of the Rings by The Harvard Lampoon in 1969. Highlights in 2002 included the premieres of several major works, including View From Olympus a double concerto for piano, percussion and orchestra performed by Evelyn Glennie, William F. Touponce and the Halle Orchestra conducted by Mark Elder at the Royal Gala finale of the 2002 Commonwealth Games 'Pulse' music festival in Manchester, UK.",
+        "repairs": [
+            {
+                "entity": "book",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6800848522340683,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "festival",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "piano",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2002 Commonwealth Games",
+                "original_tag": "O",
+                "mutated_tag": "Event",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6737268415960923,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 2000 presidential election, the party's candidate, incumbent president Abdou Diouf, was defeated by the leader of the Senegalese Democratic Party, Abdoulaye Wade, in a second round of voting. Other key speakers included Mrs F.T. Swanwick, suffragist and editor of the NUWSS paper the Common Cause: Kathleen Courtney, secretary of the North of England Society for Women's Suffrage; Lisbeth Simms of the Women's Labour League; Margaret Robertson BA Manchester Society / NUWSS organiser: and a Manchester councillor, Margaret Ashton, founder member of the Women's Trade Union League and chairperson of the NUWSS.",
+        "mutated_sentence": "In the 2000 presidential election, the party's chairperson, incumbent president Abdou Diouf, was defeated by the leader of the Senegalese Democratic Party, Abdoulaye Wade, in a second round of voting. Other key speakers included Mrs F.T. Swanwick, suffragist and editor of the NUWSS paper the Common Cause: Kathleen Courtney, secretary of the North of England Society for Women's Suffrage; Lisbeth Simms of the Women's Labour League; Margaret Robertson BA Manchester Society / NUWSS organiser: and a Manchester councillor, Margaret Ashton, founder member of the Women's Trade Union League and candidate of the NUWSS.",
+        "repairs": [
+            {
+                "entity": "a",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "second",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6799441737741109,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "a second",
+                "original_tag": "O",
+                "mutated_tag": "DateTime",
+                "corrected_tag": "Quantity",
+                "confidence": 0.6655733407992969,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "founder member",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ford worked as a managing editor and editorial writer from 1872 to 1905, at six different newspapers in three cities Baltimore, New York City, and Pittsburgh. Sakharov was discovered on 24 September 1960, by the Dutch astronomers Ingrid van Houten-Groeneveld and Cornelis van Houten, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory in California.",
+        "mutated_sentence": "Ford worked as a managing editor and editorial writer from 1872 to 1905, at six different newspapers in three cities Baltimore, Sakharov, and Pittsburgh. New York City was discovered on 24 September 1960, by the Dutch astronomers Ingrid van Houten-Groeneveld and Cornelis van Houten, on photographic plates taken by Dutch-American astronomer Tom Gehrels at the U.S. Palomar Observatory in California.",
+        "repairs": [
+            {
+                "entity": "newspapers",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6715222095237308,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hunt won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in The Sessions (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting Actress. The 2015 edition was hosted by Molly McGrath, with Chris Rose and former UFC fighter Kenny Florian as commentators.",
+        "mutated_sentence": "Hunt won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in The Sessions (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting fighter. The 2015 edition was hosted by Molly McGrath, with Chris Rose and former UFC Actress Kenny Florian as commentators.",
+        "repairs": [
+            {
+                "entity": "fighter",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Supporting",
+                "original_tag": "O",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6913214805701421,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In a nod to the deep US political divide between Republicans led by Mitt Romney and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise. Corsi had scheduled a press conference to announce the claim that Obama had raised a million dollars for the election campaign of Kenyan prime minister Raila Odinga, and had helped run Odinga's campaign as a strategist, including setting the stage for the campaign of violence and bloodshed that had brought Odinga to power after a disputed election.",
+        "mutated_sentence": "In a nod to the deep US political divide between Republicans led by Corsi and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise. Mitt Romney had scheduled a press conference to announce the claim that Obama had raised a million dollars for the election campaign of Kenyan prime minister Raila Odinga, and had helped run Odinga's campaign as a strategist, including setting the stage for the campaign of violence and bloodshed that had brought Odinga to power after a disputed election.",
+        "repairs": [
+            {
+                "entity": "a million dollars",
+                "original_tag": "Quantity",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "negotiated",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Closer to the city, several sporting complexes are located, including the Hobart Aquatic Centre, Hobart International Tennis Centre the Domain Athletic Centre, and the Hobart TCA Ground. The rings of Uranus are a system of rings around the planet Uranus, intermediate in complexity between the more extensive set around Saturn and the simpler systems around Jupiter and Neptune.",
+        "mutated_sentence": "Closer to the city, several sporting complexes are located, including the Hobart Aquatic Centre, Hobart International Tennis Centre the Saturn, and the Hobart TCA Ground. The rings of Uranus are a system of rings around the planet Uranus, intermediate in complexity between the more extensive set around Domain Athletic Centre and the simpler systems around Jupiter and Neptune.",
+        "repairs": [
+            {
+                "entity": "city",
+                "original_tag": "O",
+                "mutated_tag": "Location",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Two decades after Frank Herbert's death, his son Brian Herbert, along with Kevin J. Anderson, published two sequels - Hunters of Dune (2006) and Sandworms of Dune (2007) - based on notes left behind by Frank Herbert for what he referred to as Dune 7, his own planned seventh novel in the Dune series. The series starred Ben Platt, Gwyneth Paltrow, Jessica Lange, Zoey Deutch, Lucy Boynton, Bob Balaban, Laura Dreyfuss, David Corenswet, Julia Schlaepfer, Theo Germaine, Rahne Jones, and Benjamin Barrett.",
+        "mutated_sentence": "Two decades after Lucy Boynton's death, his son Brian Herbert, along with Kevin J. Anderson, published two sequels - Hunters of Dune (2006) and Sandworms of Dune (2007) - based on notes left behind by Frank Herbert for what he referred to as Dune 7, his own planned seventh novel in the Dune series. The series starred Ben Platt, Gwyneth Paltrow, Jessica Lange, Zoey Deutch, Frank Herbert, Bob Balaban, Laura Dreyfuss, David Corenswet, Julia Schlaepfer, Theo Germaine, Rahne Jones, and Benjamin Barrett.",
+        "repairs": [
+            {
+                "entity": "death",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6896330762152385,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In addition Alexander Ovechkin, the PutinTeam movement also included many Russian sportsmen, actors, musicians and social activists: Evgeni Malkin, Yelena Isinbayeva, Sergey Karjakin, Sergey Tetyukhin, Nikolay Rastorguyev, Polina Gagarina, Dima Bilan, Ilya Kovalchuk, Nyusha, Andrey Merzlikin, Pavel Bure, Evgeni Plushenko, Nikolay Baskov, Sergei Krikalev, Mikhail Galustyan, Alexander Legkov, Anton Shipulin, Ivan Tcherezov, Alexandr Karelin and others. The others: William Henry Bragg (1915) and William Lawrence Bragg (1915); J. J. Thomson (1906) and George Paget Thomson (1937); and Manne Siegbahn (1924) and Kai M. Siegbahn (1981).",
+        "mutated_sentence": "In addition Alexander Ovechkin, the PutinTeam movement also included many Russian sportsmen, actors, musicians and social activists: Evgeni Malkin, Yelena Isinbayeva, Sergey Karjakin, Sergey Tetyukhin, Nikolay Rastorguyev, Polina Gagarina, Dima Bilan, Ilya Kovalchuk, Nyusha, Andrey Merzlikin, Pavel Bure, Evgeni Plushenko, Nikolay Baskov, Sergei Krikalev, Mikhail Galustyan, Alexander Legkov, Kai M. Siegbahn, Ivan Tcherezov, Alexandr Karelin and others. The others: William Henry Bragg (1915) and William Lawrence Bragg (1915); J. J. Thomson (1906) and George Paget Thomson (1937); and Manne Siegbahn (1924) and Anton Shipulin (1981).",
+        "repairs": [
+            {
+                "entity": "social activists",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Deana Carter, LeAnn Rimes, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. Mikhail Rabinovich published over 250 peer reviewed articles in leading scientific journals (Science, Neuron, Journal of Neuroscience, PLoS Computational Biology, Reviews of Modern Physics, Physics of Fluids, Physical Review Letters) that are actively cited (over 3000 citations).",
+        "mutated_sentence": "Female artists such as Reba McEntire, Patty Loveless, Faith Hill, Martina McBride, Deana Carter, Mikhail Rabinovich, Mindy McCready, Lorrie Morgan, Shania Twain, and Mary Chapin Carpenter all released platinum-selling albums in the 1990s. LeAnn Rimes published over 250 peer reviewed articles in leading scientific journals (Science, Neuron, Journal of Neuroscience, PLoS Computational Biology, Reviews of Modern Physics, Physics of Fluids, Physical Review Letters) that are actively cited (over 3000 citations).",
+        "repairs": [
+            {
+                "entity": "Fluids",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Modern Physics",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "PLoS Computational Biology",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "MacKay was the final leader of the Progressive Conservative Party of Canada (PC Party), and he agreed to merge the party with Stephen Harper's Canadian Alliance in 2003, forming the Conservative Party of Canada. He was a journal reviewer for Cell, Science, Nature, Nature Genetics, Nature Immunology, Nature Biotechnology, Proceedings of the National Academy of Sciences, Public Library of Science, Development, Genes Development, Journal of Clinical Investigation and Blood.",
+        "mutated_sentence": "MacKay was the final leader of the Nature Genetics (PC Party), and he agreed to merge the party with Stephen Harper's Canadian Alliance in 2003, forming the Conservative Party of Canada. He was a journal reviewer for Cell, Science, Nature, Progressive Conservative Party of Canada, Nature Immunology, Nature Biotechnology, Proceedings of the National Academy of Sciences, Public Library of Science, Development, Genes Development, Journal of Clinical Investigation and Blood.",
+        "repairs": [
+            {
+                "entity": "Journal of Clinical Investigation",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Public Library of Science,",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Public Library of Science",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "Organization",
+                "confidence": 0.6826024930195728,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967. Brooks and Dunn have more Country Music Association awards and Academy of Country Music awards than any act in the history of country music.",
+        "mutated_sentence": "He toured with his band Brooks and Dunn (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967. Les Mistigris have more Country Music Association awards and Academy of Country Music awards than any act in the history of country music.",
+        "repairs": [
+            {
+                "entity": "Brooks and Dunn",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Music",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 0.6922951006054926,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "These have been used in clay shooting and were suggested for use in the Modern pentathlon at the 2012 Summer Olympics after a successful trial at the 2010 Summer Youth Olympics in Singapore. Democratic candidates won by large margins in the Southern states in every presidential election from the 1876 United States presidential election to 1948 United States presidential election except for 1928 United States presidential election, when the Democratic candidate was Al Smith, a Catholic New Yorker; and even in that election, the divided South provided Smith with nearly three-fourths of his electoral votes.",
+        "mutated_sentence": "These have been used in clay shooting and were suggested for use in the Modern pentathlon at the 2012 Summer Olympics after a successful trial at the election in Singapore. Democratic candidates won by large margins in the Southern states in every presidential election from the 1876 United States presidential election to 1948 United States presidential election except for 1928 United States presidential election, when the Democratic candidate was Al Smith, a Catholic New Yorker; and even in that 2010 Summer Youth Olympics, the divided South provided Smith with nearly three-fourths of his electoral votes.",
+        "repairs": [
+            {
+                "entity": "2010 Summer Youth Olympics",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2012 Summer Olympics",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6755993392211788,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "election",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6924453098455289,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 1970s, Pohl re-emerged as a novel writer in his own right, with books such as Man Plus and the Heechee series. Tamsin Greig narrated, and the cast included Nicky Henson as Napoleon, Toby Jones as the propagandist Squealer, and Ralph Ineson as Boxer.",
+        "mutated_sentence": "In the 1970s, Nicky Henson re-emerged as a novel writer in his own right, with books such as Man Plus and the Heechee series. Tamsin Greig narrated, and the cast included Pohl as Napoleon, Toby Jones as the propagandist Squealer, and Ralph Ineson as Boxer.",
+        "repairs": [
+            {
+                "entity": "Squealer",
+                "original_tag": "Person",
+                "mutated_tag": "PersonType",
+                "corrected_tag": "Person",
+                "confidence": 0.6729871622276651,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "propagandist",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6659874947905364,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "books",
+                "original_tag": "O",
+                "mutated_tag": "Product",
+                "corrected_tag": "O",
+                "confidence": 0.6726742117070608,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Artists who typified this sound included Travis Tritt, Reba McEntire, George Strait, Keith Whitley, Alan Jackson, Ricky Skaggs, Patty Loveless, Kathy Mattea, Randy Travis, Dwight Yoakam, and The Judds. Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis, Sylvester Stallone and Demi Moore.",
+        "mutated_sentence": "Artists who typified this sound included Travis Tritt, Reba McEntire, George Strait, Keith Whitley, Alan Jackson, Sylvester Stallone, Patty Loveless, Kathy Mattea, Randy Travis, Dwight Yoakam, and The Judds. Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis, Ricky Skaggs and Demi Moore.",
+        "repairs": [
+            {
+                "entity": "Hard Rock Cafe",
+                "original_tag": "O",
+                "mutated_tag": "Organization",
+                "corrected_tag": "O",
+                "confidence": 0.6626637847050996,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Their first child, a daughter, Maria Teresa, was born on 9 March 1938 and a son, Auberon Waugh, on 17 November 1939 Hastings. Singers such as Blind Willie McTell and Blind Boy Fuller performed in the southeastern delicate and lyrical Piedmont blues tradition, which used an elaborate ragtime-based fingerpicking guitar technique.",
+        "mutated_sentence": "Their first child, a daughter, Maria Teresa, was born on 9 March 1938 and a son, Blind Willie McTell, on 17 November 1939 Hastings. Singers such as Auberon Waugh and Blind Boy Fuller performed in the southeastern delicate and lyrical Piedmont blues tradition, which used an elaborate ragtime-based fingerpicking guitar technique.",
+        "repairs": [
+            {
+                "entity": "blues",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Pre-commission training of Gentlemen Cadets is carried out at the Indian Military Academy at Dehradun and the Officers Training Academy at Chennai. He calculated the orbits of the moons of Uranus and Saturn, obtaining the first value for Uranus' mass.",
+        "mutated_sentence": "Pre-commission training of Gentlemen Cadets is carried out at the Indian Military Academy at Dehradun and the Officers Training Academy at Saturn. He calculated the orbits of the moons of Uranus and Chennai, obtaining the first value for Uranus' mass.",
+        "repairs": [
+            {
+                "entity": "Pre",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "commission training",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6871973796685036,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "training",
+                "original_tag": "O",
+                "mutated_tag": "Skill",
+                "corrected_tag": "Skill",
+                "confidence": 0.3626377074359151,
+                "issue_type": "new_entity"
+            }
+        ]
+    }
+]

@@ -1,0 +1,932 @@
+[
+    {
+        "original_sentence": "Copeland's Conservative elected mayor, Mike Starkie, described the Whitehaven mine as \"a huge economic investment\", while Copeland's Conservative MP, Trudy Harrison, also welcomed the decision for its go-ahead. That is why countries like China and India have become space powers in recent years, alongside the US, Russia and Europe, he says.",
+        "mutated_sentence": "Russia's Conservative elected mayor, Mike Starkie, described the Whitehaven mine as \"a huge economic investment\", while Copeland's Conservative MP, Trudy Harrison, also welcomed the decision for its go-ahead. That is why countries like China and India have become space powers in recent years, alongside the US, Copeland and Europe, he says.",
+        "repairs": [
+            {
+                "entity": "Copeland",
+                "original_tag": "LOC",
+                "mutated_tag": "PER",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta. Meta's announcement confirms previous reporting by the Washington Post.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, Washington Post, Telegram, VKontakte and Odnoklassniki, according to Meta. Meta's announcement confirms previous reporting by the YouTube.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6687059056123997,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Canterbury, Kent, in July. Amur leopards are found in the wild in far-eastern Russia in the Amur valley.",
+        "mutated_sentence": "The Kent Wildlife Trust and Wildwood Trust released the three female bison to naturally manage West Blean Woods near Amur, Kent, in July. Canterbury leopards are found in the wild in far-eastern Russia in the Amur valley.",
+        "repairs": [
+            {
+                "entity": "Canterbury",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was \"legislating for hurt feelings\", former Conservative leadership candidate Kemi Badenoch said. In picking a fight with Apple, Mr Musk is wading into a wider debate over the clout that Apple wields over online activity via its app store, which is the way that iPhone owners download games and other apps.",
+        "mutated_sentence": "It was \"legislating for hurt feelings\", former iPhone leadership candidate Kemi Badenoch said. In picking a fight with Apple, Mr Musk is wading into a wider debate over the clout that Apple wields over online activity via its app store, which is the way that Conservative owners download games and other apps.",
+        "repairs": [
+            {
+                "entity": "iPhone",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Police believe 59,000 potential suspects may have used the iSpoof service, but are prioritising those in the UK who have spent at least 100 Bitcoin to get access, believing they were anonymous. The vehicle - known as MS-22 - flew Russian cosmonauts Dmitry Petelin and Sergey Prokopyev, as well as Nasa astronaut Frank Rubio, to the station in September.",
+        "mutated_sentence": "Police believe 59,000 potential suspects may have used the iSpoof service, but are prioritising those in the UK who have spent at least 100 Russian to get access, believing they were anonymous. The vehicle - known as MS-22 - flew Bitcoin cosmonauts Dmitry Petelin and Sergey Prokopyev, as well as Nasa astronaut Frank Rubio, to the station in September.",
+        "repairs": [
+            {
+                "entity": "Bitcoin",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Their correspondence began when they were in their 20s as part of an educational project to put British and American students in contact. One set, called Drowning World, features portraits documenting floods in countries like Nigeria and Pakistan, while the other, named Burning World, looks at the increase in the extremity of wildfires across the world.",
+        "mutated_sentence": "Their correspondence began when they were in their 20s as part of an educational project to put Burning World and American students in contact. One set, called Drowning World, features portraits documenting floods in countries like Nigeria and Pakistan, while the other, named British, looks at the increase in the extremity of wildfires across the world.",
+        "repairs": [
+            {
+                "entity": "Burning World",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "As a result, anxiety is mounting across the Alps. After two years of reduced income because of the pandemic, winter resorts have been banking on a return to normal. \"This one wasn't visible - we detected it through monitoring flow in our network,\" said Colin Day from Essex and Suffolk Water.",
+        "mutated_sentence": "As a result, anxiety is mounting across the Essex. After two years of reduced income because of the pandemic, winter resorts have been banking on a return to normal. \"This one wasn't visible - we detected it through monitoring flow in our network,\" said Colin Day from Alps and Suffolk Water.",
+        "repairs": [
+            {
+                "entity": "Alps",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6749165260477734,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Suffolk Water",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Alps and Suffolk Water",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Typhoons batter the islands with growing frequency and severity. There have been a total of 16 severe storms this year which have destroyed or partially damaged more than $225m (£186m) worth of agricultural land, according to the latest figures from the Department of Agriculture. The sample tubes it acquires - either from the Three Forks store or directly from Perseverance at another location - would be brought home on a European freighter, due back in 2033.",
+        "mutated_sentence": "Typhoons batter the islands with growing frequency and severity. There have been a total of 16 severe storms this year which have destroyed or partially damaged more than $225m (£186m) worth of agricultural land, according to the latest figures from the Perseverance. The sample tubes it acquires - either from the Three Forks store or directly from Department of Agriculture at another location - would be brought home on a European freighter, due back in 2033.",
+        "repairs": [
+            {
+                "entity": "Perseverance",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 0.33589934993257836,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Ditjak Ilunga from Gaithersburg, Maryland, told CBS News he was on his way to visit relatives in Hamilton, Ontario, with his daughters when their SUV was trapped in Buffalo. It has already landed probes and robotic rovers on the Moon and Mars, and it has put a scientific research station into space, called Tiangong.",
+        "mutated_sentence": "Ditjak Ilunga from Moon, Maryland, told CBS News he was on his way to visit relatives in Hamilton, Ontario, with his daughters when their SUV was trapped in Buffalo. It has already landed probes and robotic rovers on the Gaithersburg and Mars, and it has put a scientific research station into space, called Tiangong.",
+        "repairs": [
+            {
+                "entity": "Gaithersburg",
+                "original_tag": "LOC",
+                "mutated_tag": "MISC",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Meta executive Elizabeth Lagone said she believed posts seen by Molly, which her family say \"encourage\" suicide, were safe, but the firm agreed that regulation was needed. As part of its investigation, Meta's Oversight Board said it filed multiple freedom of information requests with the Met Police.",
+        "mutated_sentence": "Oversight Board executive Elizabeth Lagone said she believed posts seen by Molly, which her family say \"encourage\" suicide, were safe, but the firm agreed that regulation was needed. As part of its investigation, Meta's Meta said it filed multiple freedom of information requests with the Met Police.",
+        "repairs": [
+            {
+                "entity": "Meta",
+                "original_tag": "ORG",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6504243071249184,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In total 76 victims, including 10 Ugandans and one Burundian, have been repatriated since August with the help of officials at Kenya's embassy in Thailand. A flood warning was also issued at about 15:30 for the River Towy, isolated properties between Llandeilo and Abergwili in Carmarthenshire, with river levels expected to rise until 17:00.",
+        "mutated_sentence": "In total 76 victims, including 10 Ugandans and one Burundian, have been repatriated since August with the help of officials at Llandeilo's embassy in Thailand. A flood warning was also issued at about 15:30 for the River Towy, isolated properties between Kenya and Abergwili in Carmarthenshire, with river levels expected to rise until 17:00.",
+        "repairs": [
+            {
+                "entity": "Llandeilo",
+                "original_tag": "LOC",
+                "mutated_tag": "PER",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Historic England, which is providing £10,000, said Vindolanda, close to Hadrian's Wall, was the \"most exciting archaeological site in Europe\". In 2023, Russia, India and the European Space Agency will be launching missions to the Moon, and further into deep space.",
+        "mutated_sentence": "Historic England, which is providing £10,000, said Vindolanda, close to India, was the \"most exciting archaeological site in Europe\". In 2023, Russia, Hadrian's Wall and the European Space Agency will be launching missions to the Moon, and further into deep space.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "The UK government said it would be inappropriate for the business secretary to meet Nexperia while the period for legal challenge remains open. Yang Guang and Tian Tian have to return to China under the terms of a 10 year loan, which was extended by two years due to the Covid pandemic.",
+        "mutated_sentence": "The UK government said it would be inappropriate for the business secretary to meet Yang Guang while the period for legal challenge remains open. Nexperia and Tian Tian have to return to China under the terms of a 10 year loan, which was extended by two years due to the Covid pandemic.",
+        "repairs": [
+            {
+                "entity": "Nexperia",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PER",
+                "confidence": 0.6538122912415076,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Tian Tian",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6700082377651063,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "China has been vaccinating its domestic poultry flocks. Four fatalities earlier occurred when a bus rolled over on an icy road near the town of Merritt, in the western province of British Columbia.",
+        "mutated_sentence": "Merritt has been vaccinating its domestic poultry flocks. Four fatalities earlier occurred when a bus rolled over on an icy road near the town of China, in the western province of British Columbia.",
+        "repairs": [
+            {
+                "entity": "Merritt",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta. Meta's announcement confirms previous reporting by the Washington Post.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, Meta and Odnoklassniki, according to Meta. VKontakte's announcement confirms previous reporting by the Washington Post.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6687059056123997,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Meta",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Acceleration Increase subscription is listed as \"coming soon\" on the US Mercedes storefront, with no exact date given for its release. Rather than using rotors like Vertical Aerospace and Volocopter, Lilium uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "mutated_sentence": "The Acceleration Increase subscription is listed as \"coming soon\" on the US Vertical Aerospace storefront, with no exact date given for its release. Rather than using rotors like Mercedes and Volocopter, Lilium uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "repairs": [
+            {
+                "entity": "US",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Vertical Aerospace",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Volocopter",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Lilium",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6810040984016037,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "US Vertical Aerospace",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Two months ago, the DPC issued Instagram, also owned by Meta, a record fine for violating children's privacy. \"This one wasn't visible - we detected it through monitoring flow in our network,\" said Colin Day from Essex and Suffolk Water.",
+        "mutated_sentence": "Two months ago, the DPC issued Suffolk Water, also owned by Meta, a record fine for violating children's privacy. \"This one wasn't visible - we detected it through monitoring flow in our network,\" said Colin Day from Essex and Instagram.",
+        "repairs": [
+            {
+                "entity": "Essex",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A human won the annual Man versus Horse race in Llanwrtyd Wells, Powys, for only the third time in the event's 42-year history. The market for receiving hydrogen and using it in heavy transport and in industry is being fast prepared on continental Europe. The Scottish government talks up the prospects of exporting to Germany, which fits with the political agenda of integrating into European energy markets.",
+        "mutated_sentence": "A human won the annual Man European race in Llanwrtyd Wells, Powys, for only the third time in the event's 42-year history. The market for receiving hydrogen and using it in heavy transport and in industry is being fast prepared on continental Europe. The Scottish government talks up the prospects of exporting to Germany, which fits with the political agenda of integrating into versus Horse energy markets.",
+        "repairs": [
+            {
+                "entity": "versus Horse",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6655200937802512,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "European",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Man European",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "I just don't see the same level of engagement on Facebook or LinkedIn for example. Sir Mark told BBC Radio 4's Today programme the Met was contacting mobile numbers that were connected to the fraudsters for longer than a minute, suggesting a fraud or attempted fraud had taken place.",
+        "mutated_sentence": "I just don't see the same level of engagement on Facebook or Met for example. Sir Mark told BBC Radio 4's Today programme the LinkedIn was contacting mobile numbers that were connected to the fraudsters for longer than a minute, suggesting a fraud or attempted fraud had taken place.",
+        "repairs": [
+            {
+                "entity": "Today",
+                "original_tag": "O",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Meta official said the platform had implemented changes to reduce the potential for data to be scraped using phone numbers. \"The unevenness in road infrastructure and the height of speed-bumps turned out to be too challenging for the e-Golf, which has a relatively low ground clearance,\" says Allan Kweli, head of operations at Volkswagen Mobility Solutions Rwanda.",
+        "mutated_sentence": "The Volkswagen Mobility Solutions Rwanda official said the platform had implemented changes to reduce the potential for data to be scraped using phone numbers. \"The unevenness in road infrastructure and the height of speed-bumps turned out to be too challenging for the e-Golf, which has a relatively low ground clearance,\" says Allan Kweli, head of operations at Meta.",
+        "repairs": [
+            {
+                "entity": "Meta",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "ORG",
+                "confidence": 0.6730680265234199,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "e-Golf",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Digital travel scams are a growing \"systemic and global\" problem, according to the World Tourism Organization, a branch of the UN. The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "Digital travel scams are a growing \"systemic and global\" problem, according to the YouTube, a branch of the UN. The operation ran across many internet services, including Twitter, World Tourism Organization, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6698590021955796,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The UN's World Food Programme (WFP) has a target of getting emergency food aid to 2.1 million people in Tigray over the next six months. It was here they learnt that instead of customer service roles, they were there to engage in cyber-crime activities - namely to target Americans by creating enticing profiles on Tinder, Instagram and Facebook.",
+        "mutated_sentence": "The UN's Instagram (WFP) has a target of getting emergency food aid to 2.1 million people in Tigray over the next six months. It was here they learnt that instead of customer service roles, they were there to engage in cyber-crime activities - namely to target Americans by creating enticing profiles on Tinder, World Food Programme and Facebook.",
+        "repairs": [
+            {
+                "entity": "WFP",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 0.6581530563606101,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Instagram",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6771520823906622,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Facebook",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Puerto Rican rapper Bad Bunny was the most-played artist overall on Spotify for the third year running, thanks largely to his Grammy-nominated double album Un Verano Sin Ti (A Summer Without You). Following the gaming restrictions, Douyin, China's version of TikTok, banned under-14s from using the platform for more than 40 minutes a day.",
+        "mutated_sentence": "Douyin rapper Bad Bunny was the most-played artist overall on Spotify for the third year running, thanks largely to his Grammy-nominated double album Un Verano Sin Ti (A Summer Without You). Following the gaming restrictions, Puerto Rican, China's version of TikTok, banned under-14s from using the platform for more than 40 minutes a day.",
+        "repairs": [
+            {
+                "entity": "Douyin",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "LOC",
+                "confidence": 0.5004436243409769,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Preston has also shifted some unusual items - including a climbing wall and 100 biscuit tins shaped like Stormtrooper helmets from Star Wars. Her self-belief started to flourish and mental health improved when Valleys Kids got her to help Welsh historical monuments organisation Cadw create a virtual reality model of the Welsh valleys.",
+        "mutated_sentence": "Mr Preston has also shifted some unusual items - including a climbing wall and 100 biscuit tins shaped like Welsh helmets from Star Wars. Her self-belief started to flourish and mental health improved when Valleys Kids got her to help Welsh historical monuments organisation Cadw create a virtual reality model of the Stormtrooper valleys.",
+        "repairs": [
+            {
+                "entity": "Stormtrooper",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 0.6736733604363553,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Stormtrooper valleys",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "NewsGuard found that TikTok's algorithm appeared to push users towards violent Wagner Group content. A spokeswoman for Historic England said places on digs at Vindolanda usually filled up fast and the \"costs of taking part\" could be a \"barrier to some young people\", adding there was \"an urgent need to tackle this issue\" to \"address the anticipated shortage of young people going into an archaeological career in the future\".",
+        "mutated_sentence": "Historic England found that TikTok's algorithm appeared to push users towards violent Wagner Group content. A spokeswoman for NewsGuard said places on digs at Vindolanda usually filled up fast and the \"costs of taking part\" could be a \"barrier to some young people\", adding there was \"an urgent need to tackle this issue\" to \"address the anticipated shortage of young people going into an archaeological career in the future\".",
+        "repairs": [
+            {
+                "entity": "Historic England",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "England",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While Styles' hit was uniformly loved across the three streaming services, there was a huge divergence further down the chart. The vehicle - known as MS-22 - flew Russian cosmonauts Dmitry Petelin and Sergey Prokopyev, as well as Nasa astronaut Frank Rubio, to the station in September.",
+        "mutated_sentence": "While Frank Rubio hit was uniformly loved across the three streaming services, there was a huge divergence further down the chart. The vehicle - known as MS-22 - flew Russian cosmonauts Dmitry Petelin and Sergey Prokopyev, as well as Nasa astronaut Styles', to the station in September.",
+        "repairs": [
+            {
+                "entity": "Styles",
+                "original_tag": "O",
+                "mutated_tag": "PER",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "South Staffordshire PLC, the parent company of South Staffs Water and Cambridge Water, said it had started informing customers involved. He told several news outlets that he had asked Southwest to automatically issue vouchers for hotel stays and other costs to passengers whose flights were cancelled.",
+        "mutated_sentence": "South Staffordshire PLC, the parent company of South Staffs Water and Southwest, said it had started informing customers involved. He told several news outlets that he had asked Cambridge Water to automatically issue vouchers for hotel stays and other costs to passengers whose flights were cancelled.",
+        "repairs": [
+            {
+                "entity": "South Staffs Water",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6646385553460041,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Southwest",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6675151894258795,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "South Staffs Water and Southwest",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rounding out the list are Canadian hitmakers Drake and The Weeknd, as well as K-pop group BTS. Chester Zoo and the University of Chester have joined forces to offer a \"game changing\" new course \"vital to saving our planet\".",
+        "mutated_sentence": "Rounding out the list are Canadian hitmakers Drake and Chester Zoo, as well as K-pop group BTS. The Weeknd and the University of Chester have joined forces to offer a \"game changing\" new course \"vital to saving our planet\".",
+        "repairs": [
+            {
+                "entity": "Drake",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6696280523513751,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Molly Rose Foundation set up by Molly Russell's family believes the bill's been watered down. Prof Helen O'Sullivan, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "mutated_sentence": "The Molly Rose Foundation set up by Helen O'Sullivan's family believes the bill's been watered down. Prof Molly Russell, provost and deputy vice-chancellor at the University of Chester, said: \"This powerhouse partnership will be a game changer for how the vital topics of conservation and sustainability are ultimately taught in conservation organisations, schools, colleges and universities around the world.\"",
+        "repairs": []
+    },
+    {
+        "original_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from New York's Metropolitan Museum of Art last year. Alongside the weather extremes this year, wild birds were also hit by avian flu, with thousands of seabirds dying in colonies on the Farne Islands off the coast of Northumberland, where they had returned to breed.",
+        "mutated_sentence": "The network was also responsible for trafficking the \"Gold Coffin\", which was which was returned to Egypt in 2019, the Stele of Pa-di-Sena, which is also from the Late Dynastic Period and was handed over in 2020, and five pieces seized from Farne Islands's Metropolitan Museum of Art last year. Alongside the weather extremes this year, wild birds were also hit by avian flu, with thousands of seabirds dying in colonies on the New York off the coast of Northumberland, where they had returned to breed.",
+        "repairs": [
+            {
+                "entity": "Metropolitan Museum of Art",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.34100717497568545,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Metropolitan",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Museum of Art",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 0.6756891598421387,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the film, Zara also opens up about her concerns about whether she was influencing her followers in a negative way by sharing her meals and exercise routines. Chinx (OS) told the BBC he was pleased the video would be restored and had not understood why it had been taken down in the first place.",
+        "mutated_sentence": "In the film, Chinx also opens up about her concerns about whether she was influencing her followers in a negative way by sharing her meals and exercise routines. Zara (OS) told the BBC he was pleased the video would be restored and had not understood why it had been taken down in the first place.",
+        "repairs": [
+            {
+                "entity": "OS",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mr Mousley, 45, a former builder who now works in marketing, set up the Facebook group a month ago and already has more than 200 followers. Mr Louden said: \"I've gone from hardly being able to move to being able to walk 20 metres non-stop on the bars. My record on the ZeroG system is 57 metres.",
+        "mutated_sentence": "Mr Mousley, 45, a former builder who now works in marketing, set up the ZeroG group a month ago and already has more than 200 followers. Mr Louden said: \"I've gone from hardly being able to move to being able to walk 20 metres non-stop on the bars. My record on the Facebook system is 57 metres.",
+        "repairs": [
+            {
+                "entity": "ZeroG",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 0.3364125608481252,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "If Apple wanted to, it could stop Twitter from being downloaded on iPhones around the world - which would be a devastating blow for Twitter. Truth Social is already struggling to attract users.",
+        "mutated_sentence": "If Apple wanted to, it could stop Truth Social from being downloaded on iPhones around the world - which would be a devastating blow for Twitter. Twitter is already struggling to attract users.",
+        "repairs": [
+            {
+                "entity": "Truth Social",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 0.655144124036626,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The delegation was hosted by Newport West Labour MP Ruth Jones, who said she would be seeking a meeting with the business secretary as soon as possible. In his first address following the death of his mother, King Charles III named Prince William and his wife Catherine as the new Prince and Princess of Wales.",
+        "mutated_sentence": "The delegation was hosted by Newport West Labour MP Catherine, who said she would be seeking a meeting with the business secretary as soon as possible. In his first address following the death of his mother, King Charles III named Prince William and his wife Ruth Jones as the new Prince and Princess of Wales.",
+        "repairs": [
+            {
+                "entity": "Newport",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.6613062779105529,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "West Labour",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Newport West",
+                "original_tag": "O",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 0.6640858572459143,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Labour",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 0.6673328065972997,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Prince",
+                "original_tag": "O",
+                "mutated_tag": "PER",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Last December Maria (not her real name) decided to have a break from the heat of the Australian summer, and to take her family on a skiing holiday to Europe. The delegation was hosted by Newport West Labour MP Ruth Jones, who said she would be seeking a meeting with the business secretary as soon as possible.",
+        "mutated_sentence": "Last December Maria (not her real name) decided to have a break from the heat of the Australian summer, and to take her family on a skiing holiday to Newport. The delegation was hosted by Europe West Labour MP Ruth Jones, who said she would be seeking a meeting with the business secretary as soon as possible.",
+        "repairs": [
+            {
+                "entity": "Europe",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "West Labour",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Europe West Labour",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Mekelle remains under the control of the Tigrayan government though federal forces control areas in the north around Shire. The children's hospice in south Wales where Seth receives care for his condition Duchenne Muscular Dystrophy has a games room where he can escape to a world of virtual reality.",
+        "mutated_sentence": "Mekelle remains under the control of the Duchenne Muscular Dystrophy government though federal forces control areas in the north around Shire. The children's hospice in south Wales where Seth receives care for his condition Tigrayan has a games room where he can escape to a world of virtual reality.",
+        "repairs": [
+            {
+                "entity": "Tigrayan",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 0.660095931497541,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Duchenne Muscular Dystrophy",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The local Labour MP, Newport West's Ruth Jones, is backing moves by Nexperia to appeal. The National Trust said conservation work to improve habitats was helping make the environment and species more resilient to the changes brought by rising temperatures.",
+        "mutated_sentence": "The local National Trust MP, Newport West's Ruth Jones, is backing moves by Nexperia to appeal. The Labour said conservation work to improve habitats was helping make the environment and species more resilient to the changes brought by rising temperatures.",
+        "repairs": [
+            {
+                "entity": "Nexperia",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Steven, who grew up on the margins of the Flow Country, hopes Unesco can help raise the profile of the Flows and other peatlands. Meanwhile Wales' footballers ended an even longer wait, beating Ukraine 1-0 in Cardiff to qualify for the World Cup in Qatar.",
+        "mutated_sentence": "Steven, who grew up on the margins of the Flow Country, hopes Unesco can help raise the profile of the Wales' and other peatlands. Meanwhile Flows footballers ended an even longer wait, beating Ukraine 1-0 in Cardiff to qualify for the World Cup in Qatar.",
+        "repairs": [
+            {
+                "entity": "Flows",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colin Day from Essex and Suffolk Water said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\" The Norfolk Offshore Wind Zone consists of two farms, the Vanguard and the Boreas.",
+        "mutated_sentence": "Colin Day from Boreas and Suffolk Water said: \"In [this region] alone, we look after more than 8,500km (5,282 miles) of pipe and only about half the leaks in those pipes are visible, which means it's complicated to pinpoint where [the rest] are.\" The Norfolk Offshore Wind Zone consists of two farms, the Vanguard and the Essex.",
+        "repairs": [
+            {
+                "entity": "Suffolk Water",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Boreas",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Boreas and Suffolk Water",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "When Maria contacted Rafael Bessa to ask for help, she noticed he was unable to talk to the hotel manager in French, despite his claim to have attended an exclusive boarding school in the Alps. Rather than using rotors like Vertical Aerospace and Volocopter, Lilium uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "mutated_sentence": "When Maria contacted Rafael Bessa to ask for help, she noticed he was unable to talk to the hotel manager in Lilium, despite his claim to have attended an exclusive boarding school in the Alps. Rather than using rotors like Vertical Aerospace and Volocopter, French uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "repairs": [
+            {
+                "entity": "Lilium",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Earthwatch trains volunteers like John Pratt to test for nitrates and phosphates - chemicals found in fertiliser, sewage and farm slurry. \"I'm sorry,\" said ChatGPT, \"but I am not programmed to create content that is inflammatory.\"",
+        "mutated_sentence": "Earthwatch trains volunteers like ChatGPT to test for nitrates and phosphates - chemicals found in fertiliser, sewage and farm slurry. \"I'm sorry,\" said John Pratt, \"but I am not programmed to create content that is inflammatory.\"",
+        "repairs": [
+            {
+                "entity": "ChatGPT",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Earthwatch",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A narrow strip around geostationary Earth orbit receives more than 100 times the amount of energy per year than all of humanity is forecast to use in 2050,\" Mr Soltau says. China plans to put a telescope called Xuntian into low Earth orbit in December 2023, to map distant stars and black holes.",
+        "mutated_sentence": "A narrow strip around geostationary China orbit receives more than 100 times the amount of energy per year than all of humanity is forecast to use in 2050,\" Mr Soltau says. Earth plans to put a telescope called Xuntian into low Earth orbit in December 2023, to map distant stars and black holes.",
+        "repairs": [
+            {
+                "entity": "Earth",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "LOC",
+                "confidence": 0.3415131406117756,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"There is a big gap between demand and supply of medicines in Africa, with a huge disparity among rich and poor,\" says Mr Dubey. Det Supt Helen Rance, from the Met's Cyber Crime unit, said victims would not have known the phone call was coming from iSpoof.",
+        "mutated_sentence": "\"There is a big gap between demand and supply of medicines in Africa, with a huge disparity among rich and poor,\" says Mr Helen Rance. Det Supt Dubey, from the Met's Cyber Crime unit, said victims would not have known the phone call was coming from iSpoof.",
+        "repairs": [
+            {
+                "entity": "Dubey",
+                "original_tag": "PER",
+                "mutated_tag": "O",
+                "corrected_tag": "PER",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Supt Dubey",
+                "original_tag": "O",
+                "mutated_tag": "PER",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "\"We are under constant cyber-attack and we are trying to defend against these attacks,\" Mr Bromley said. Mr Musk says that more people than ever are logging on to Twitter - but there is no official confirmation of this, as there is no longer a communications team.",
+        "mutated_sentence": "\"We are under constant cyber-attack and we are trying to defend against these attacks,\" Mr Musk said. Mr Bromley says that more people than ever are logging on to Twitter - but there is no official confirmation of this, as there is no longer a communications team.",
+        "repairs": [
+            {
+                "entity": "Twitter",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 0.6924461907725206,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The two 37-year-olds allegedly got people to invest in a cryptocurrency mining service called HashFlare and a fake virtual bank called Polybius. John Ward, leader of Babergh District Council in Suffolk, said he has had a death threat and someone tried to enter his house when his daughter was the only person in.",
+        "mutated_sentence": "The two 37-year-olds allegedly got people to invest in a cryptocurrency mining service called HashFlare and a fake virtual bank called Babergh District Council. John Ward, leader of Polybius in Suffolk, said he has had a death threat and someone tried to enter his house when his daughter was the only person in.",
+        "repairs": [
+            {
+                "entity": "HashFlare",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Jessica Powell died in August 2020 days after she suffered an injury while she was an inpatient at Summerlands Hospital in Yeovil. In 2019, Washington was the first US state to legalise it. Colorado, Oregon, Vermont and California followed suit.",
+        "mutated_sentence": "Jessica Powell died in August 2020 days after she suffered an injury while she was an inpatient at Colorado in Yeovil. In 2019, Washington was the first US state to legalise it. Summerlands Hospital, Oregon, Vermont and California followed suit.",
+        "repairs": [
+            {
+                "entity": "Summerlands Hospital",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 0.6648270228138222,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Colorado",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was \"legislating for hurt feelings\", former Conservative leadership candidate Kemi Badenoch said. The annual State of the UK Climate report said higher temperatures were the new normal and highlighted the ways that climate change was affecting the UK.",
+        "mutated_sentence": "It was \"legislating for hurt feelings\", former State of the UK Climate report leadership candidate Kemi Badenoch said. The annual Conservative said higher temperatures were the new normal and highlighted the ways that climate change was affecting the UK.",
+        "repairs": [
+            {
+                "entity": "State of the UK Climate report",
+                "original_tag": "MISC",
+                "mutated_tag": "O",
+                "corrected_tag": "MISC",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In September, Meta lodged an appeal in the High Court against a record fine of €405m imposed on Instagram by the DPC. Katie Jarvis from the National Farmers' Union in Gloucestershire believes the industry would benefit from having more vlogging farmers.",
+        "mutated_sentence": "In September, Meta lodged an appeal in the High Court against a record fine of €405m imposed on National Farmers' Union by the DPC. Katie Jarvis from the Instagram in Gloucestershire believes the industry would benefit from having more vlogging farmers.",
+        "repairs": [
+            {
+                "entity": "Meta",
+                "original_tag": "PER",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta. Meta's announcement confirms previous reporting by the Washington Post.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter, YouTube, Washington Post, VKontakte and Odnoklassniki, according to Meta. Meta's announcement confirms previous reporting by the Telegram.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.6687059056123997,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Department of Transport said the project will also produce 300,000 tonnes of sustainable aviation fuel a year. Spaceport Cornwall was granted an operating licence by the CAA in November.",
+        "mutated_sentence": "The Spaceport Cornwall said the project will also produce 300,000 tonnes of sustainable aviation fuel a year. Department of Transport was granted an operating licence by the CAA in November.",
+        "repairs": [
+            {
+                "entity": "Spaceport Cornwall",
+                "original_tag": "ORG",
+                "mutated_tag": "LOC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    }
+]

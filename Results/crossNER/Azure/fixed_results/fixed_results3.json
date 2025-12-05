@@ -1,0 +1,716 @@
+[
+    {
+        "original_sentence": "Despite his opposition to partial-birth abortion, Clyburn is regarded to be pro-abortion rights on the issue of abortion, as shown by his high ratings from Planned Parenthood and NARAL Pro-Choice America, and low rating from the National Right to Life Committee.",
+        "mutated_sentence": "Planned Parenthood is an organization that provides reproductive health services in the United States and internationally. Despite his opposition to partial-birth abortion, Clyburn is regarded to be pro-abortion rights on the issue of abortion, as shown by his high ratings from it and NARAL Pro-Choice America, and low rating from the National Right to Life Committee.",
+        "repairs": [
+            {
+                "entity": "birth",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6865430377891298,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Clyburn",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 0.6052142715125183,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A trial by RET in 2011 with Facial recognition system cameras mounted on trams made sure that people were banned from the city trams did not sneak on anyway.",
+        "mutated_sentence": "RET is a transport company. A trial by it in 2011 with Facial recognition system cameras mounted on trams made sure that people were banned from the city trams did not sneak on anyway.",
+        "repairs": [
+            {
+                "entity": "Facial recognition system cameras",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6772225175270677,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "From the 1970s through the 1990s, Terry performed at Carnegie Hall, Town Hall, and Lincoln Center, toured with the Newport Jazz All Stars and Jazz at the Philharmonic, and was featured with Skitch Henderson's New York Pops Orchestra.",
+        "mutated_sentence": "Carnegie Hall is a performing arts building in New York City. from the 1970s through the 1990s, Terry performed at it, Town Hall, and Lincoln Center, toured with the Newport Jazz All Stars and Jazz at the Philharmonic, and was featured with Skitch Henderson's New York Pops Orchestra.",
+        "repairs": [
+            {
+                "entity": "From",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6236245491251619,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the 1970s through the 1990s",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6617354608090324,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Jazz at the Philharmonic",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.6733150565650996,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rohani was commissioned in 1998 by the government of Thailand and the committee of the 1998 Asian Games to compose and conduct the music for opening ceremonies.",
+        "mutated_sentence": "Rohani is a researcher. He was commissioned in 1998 by the government of Thailand and the committee of the 1998 Asian Games to compose and conduct the music for opening ceremonies.",
+        "repairs": [
+            {
+                "entity": "opening ceremonies",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6668530458323548,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Adapted by Altman and Sam Shepard for The Cannon Group from the latter's Pulitzer Prize -nominated play, Fool for Love (1985) featured the playwright-actor alongside Kim Basinger, Harry Dean Stanton and Randy Quaid; it fared better than most of his films from the era, earning $ 900,000 domestically on a $ 2 million budget and positive reviews from Roger Ebert and Vincent Canby.",
+        "mutated_sentence": "The Cannon Group is a film studio. Adapted by Altman and Sam Shepard for it from the latter's Pulitzer Prize -nominated play, Fool for Love (1985) featured the playwright-actor alongside Kim Basinger, Harry Dean Stanton and Randy Quaid; it fared better than most of his films from the era, earning $ 900,000 domestically on a $ 2 million budget and positive reviews from Roger Ebert and Vincent Canby.",
+        "repairs": [
+            {
+                "entity": "The Cannon Group",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6673650262274327,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Gustave Flaubert, recently attacked in a similar fashion for Madame Bovary (and acquitted), was impressed and wrote to Baudelaire: You have found a way to rejuvenate Romanticism ... You are as unyielding as marble, and as penetrating as an English mist.",
+        "mutated_sentence": "Gustave Flaubert is a French novelist (1821–1880). He, recently attacked in a similar fashion for Madame Bovary (and acquitted), was impressed and wrote to Baudelaire: You have found a way to rejuvenate Romanticism... You are as unyielding as marble, and as penetrating as an English mist.",
+        "repairs": [
+            {
+                "entity": "Madame Bovary",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6353356017829721,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Like its competitor The Globe and Mail, the Post publishes a separate edition in Toronto, Ontario, Canada's largest city and the fourth largest English-language media centre in North America after New York City, Los Angeles and Chicago.",
+        "mutated_sentence": "Toronto is a capital and largest city of the province of Ontario, Canada. Like its competitor The Globe and Mail, the Post publishes a separate edition in it, Ontario, Canada's largest city and the fourth largest English-language media centre in North America after New York City, Los Angeles and Chicago.",
+        "repairs": [
+            {
+                "entity": "English",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "At an international student peace conference held in Paris on April 20, 1949, Robeson made the widely publicized controversial comments that American blacks would not support the United States in a post-World War II Cold War with the Soviet Union.",
+        "mutated_sentence": "Paris is a capital city and largest city of France. at an international student peace conference held in it on April 20, 1949, Robeson made the widely publicized controversial comments that American blacks would not support the United States in a post-World War II Cold War with the Soviet Union.",
+        "repairs": [
+            {
+                "entity": "student peace conference",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Russia has also been engaged on its own, also largely internally focused, counter-terrorism campaign often termed a war on terror, during the Second Chechen War, the Insurgency in the North Caucasus, and the Russian military intervention in the Syrian Civil War.",
+        "mutated_sentence": "war on terror is an international military campaign that started after 11 September 2001. Russia has also been engaged on its own, also largely internally focused, counter-terrorism campaign often termed it, during the Second Chechen War, the Insurgency in the North Caucasus, and the Russian military intervention in the Syrian Civil War.",
+        "repairs": [
+            {
+                "entity": "Caucasus",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6142661390319458,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "military intervention",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It works by blocking Type I topoisomerase which results in DNA damage and cell death.",
+        "mutated_sentence": "cell death is an event. It works by blocking Type I topoisomerase which results in DNA damage and it.",
+        "repairs": [
+            {
+                "entity": "cell death",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6619203566173548,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Lines was nominated for the best film in 2016 Tallinn Black Nights Film Festival, in 37th Fantasporto International Film Festival, in 2017 Los Angeles Greek Film Festival, in 30th Athens Panorama of European Cinema, in 10th this human world in Vienna, in 2018 Hellas FilmBox on Berlin, in 8th Philosophical IFF in Macedonia.",
+        "mutated_sentence": "Vienna is a capital of and state in Austria. Lines was nominated for the best film in 2016 Tallinn Black Nights Film Festival, in 37th Fantasporto International Film Festival, in 2017 Los Angeles Greek Film Festival, in 30th Athens Panorama of European Cinema, in 10th this human world in it, in 2018 Hellas FilmBox on Berlin, in 8th Philosophical IFF in Macedonia.",
+        "repairs": [
+            {
+                "entity": "37th Fantasporto International Film Festival",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6865576074732664,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "8th",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6809590084283523,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Workers 'Party had its best performance at the polls in 1989 when it won seven seats in the 1989 Irish general election and party president Proinsias De Rossa won a seat in Dublin in the 1989 European Parliament election in Ireland held on the same day, sitting with the communist Left Unity group.",
+        "mutated_sentence": "Dublin is a capital and largest city of Ireland. The Workers 'Party had its best performance at the polls in 1989 when it won seven seats in the 1989 Irish general election and party president Proinsias De Rossa won a seat in it in the 1989 European Parliament election in Ireland held on the same day, sitting with the communist Left Unity group.",
+        "repairs": [
+            {
+                "entity": "European Parliament election",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Muse released another live DVD on 12 December 2005, Absolution Tour, containing edited and remastered highlights from their Glastonbury performance unseen footage from their performances at London Earls Court Exhibition Centre, Wembley Arena, and the Wiltern Theatre in Los Angeles.",
+        "mutated_sentence": "London Earls Court Exhibition Centre is a location. Muse released another live DVD on 12 December 2005, Absolution Tour, containing edited and remastered highlights from their Glastonbury performance unseen footage from their performances at it, Wembley Arena, and the Wiltern Theatre in Los Angeles.",
+        "repairs": [
+            {
+                "entity": "Glastonbury",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.3398529313624315,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "London Earls Court Exhibition Centre",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "That first evening session was organized by Jack Yardley from Johns Hopkins University, and included Henry Appelman (University of Michigan), Harvey Goldman (Beth Israel Deaconess Medical Center and Harvard Medical School), Bill Hawk (The Cleveland Clinic), Tom Kent (University of Iowa), Si-Chun Ming (Temple University), Tom Norris (University of Washington), and Robert Riddell (University of Chicago).",
+        "mutated_sentence": "Johns Hopkins University is a private university in Baltimore, Maryland, USA. That first evening session was organized by Jack Yardley from it, and included Henry Appelman (University of Michigan), Harvey Goldman (Beth Israel Deaconess Medical Center and Harvard Medical School), Bill Hawk (The Cleveland Clinic), Tom Kent (University of Iowa), Si-Chun Ming (Temple University), Tom Norris (University of Washington), and Robert Riddell (University of Chicago).",
+        "repairs": [
+            {
+                "entity": "Beth Israel Deaconess Medical Center",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The 1997 RoboCup 2D Soccer Simulation League was the first RoboCup competition promoted in conjunction with International Joint Conference on Artificial Intelligence held in Nagoya, Japan, from 23 to 29 August 1997.",
+        "mutated_sentence": "Nagoya is a capital city of Aichi prefecture, Japan. The 1997 RoboCup 2D Soccer Simulation League was the first RoboCup competition promoted in conjunction with International Joint Conference on Artificial Intelligence held in it, Japan, from 23 to 29 August 1997.",
+        "repairs": [
+            {
+                "entity": "1997 RoboCup 2D Soccer Simulation League",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "WordNet has been used for a number of purposes in information systems, including word-sense disambiguation, information retrieval, automatic text classification, Automatic summarization, machine translation and even automatic crossword puzzle generation.",
+        "mutated_sentence": "WordNet is a book edition published in 1998 with Fellbaum as editor. It has been used for a number of purposes in information systems, including word-sense disambiguation, information retrieval, automatic text classification, Automatic summarization, machine translation and even automatic crossword puzzle generation.",
+        "repairs": [
+            {
+                "entity": "automatic text classification",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His first story to attract major attention was A Rose for Ecclesiastes, published in The Magazine of Fantasy & Science Fiction, with cover art by Hannes Bok.",
+        "mutated_sentence": "The Magazine of Fantasy & Science Fiction is a digest magazine. His first story to attract major attention was A Rose for Ecclesiastes, published in it, with cover art by Hannes Bok.",
+        "repairs": [
+            {
+                "entity": "The Magazine of Fantasy & Science Fiction",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Furry made important contributions to the early development of Quantum Field Theory with J. Robert Oppenheimer, Vladimir Fock, and others.",
+        "mutated_sentence": "Furry is a Cuban politician. He made important contributions to the early development of Quantum Field Theory with J. Robert Oppenheimer, Vladimir Fock, and others.",
+        "repairs": [
+            {
+                "entity": "Quantum Field Theory",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6762512436188995,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Owen's experiences with religion also heavily influenced his poetry, notably in poems such as Anthem for Doomed Youth, in which the ceremony of a funeral is re-enacted not in a church, but on the battlefield itself, and At a Calvary near the Ancre, which comments on the Crucifixion of Christ.",
+        "mutated_sentence": "church is a location. Owen's experiences with religion also heavily influenced his poetry, notably in poems such as Anthem for Doomed Youth, in which the ceremony of a funeral is re-enacted not in it, but on the battlefield itself, and at a Calvary near the Ancre, which comments on the Crucifixion of Christ.",
+        "repairs": [
+            {
+                "entity": "Christ",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Crucifixion of",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6812193513150431,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In interviews with Oliver Stone in 2017, Russian president Vladimir Putin said that in trying to persuade Russia to accept US withdrawal from the treaty, both Bill Clinton and George W. Bush had tried, without evidence, to convince him of an emerging nuclear threat from Iran.",
+        "mutated_sentence": "Oliver Stone is an American film director, screenwriter, and producer (born 1946). in interviews with him in 2017, Russian president Vladimir Putin said that in trying to persuade Russia to accept US withdrawal from the treaty, both Bill Clinton and George W. Bush had tried, without evidence, to convince him of an emerging nuclear threat from Iran.",
+        "repairs": [
+            {
+                "entity": "Russian",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6917491085137245,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rob Sheffield in an AllMusic review feels that, like Mellow Gold, Odelay incorporates elements from various genres, including Folk music and Country music, grungy garage rock, stiff-boned electro, louche exotica, Old-school hip hop and noise rock.",
+        "mutated_sentence": "Rob Sheffield is an American music journalist (born 1966). He in an AllMusic review feels that, like Mellow Gold, Odelay incorporates elements from various genres, including Folk music and Country music, grungy garage rock, stiff-boned electro, louche exotica, Old-school hip hop and noise rock.",
+        "repairs": [
+            {
+                "entity": "Mellow",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6479695670408597,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Odelay",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Corsi had scheduled a press conference to announce the claim that Obama had raised a million dollars for the election campaign of Kenyan prime minister Raila Odinga, and had helped run Odinga's campaign as a strategist, including setting the stage for the campaign of violence and bloodshed that had brought Odinga to power after a disputed election.",
+        "mutated_sentence": "Corsi is a person. He had scheduled a press conference to announce the claim that Obama had raised a million dollars for the election campaign of Kenyan prime minister Raila Odinga, and had helped run Odinga's campaign as a strategist, including setting the stage for the campaign of violence and bloodshed that had brought Odinga to power after a disputed election.",
+        "repairs": [
+            {
+                "entity": "a million dollars",
+                "original_tag": "Quantity",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A lexical dictionary such as WordNet can then be used for understanding the context.",
+        "mutated_sentence": "WordNet is a book edition published in 1998 with Fellbaum as editor. A lexical dictionary such as it can then be used for understanding the context.",
+        "repairs": [
+            {
+                "entity": "dictionary",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6740093399435663,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He unsuccessfully stood as a parliamentary candidate for Washington (in the 1987 United Kingdom general election), Gateshead East (in the 1992 United Kingdom general election), and Tynemouth (in the 1997 United Kingdom general election).",
+        "mutated_sentence": "Washington is a state of the United States of America. He unsuccessfully stood as a parliamentary candidate for it (in the 1987 United Kingdom general election), Gateshead East (in the 1992 United Kingdom general election), and Tynemouth (in the 1997 United Kingdom general election).",
+        "repairs": [
+            {
+                "entity": "1992 United Kingdom",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6786023019564074,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Before receiving his Ph.D. for atomic models of alkali metals from Massachusetts Institute of Technology in 1924, he spent the 1922-23 academic year as a Fellow of The American-Scandinavian Foundation at the University of Copenhagen under Niels Bohr and Hans Kramers.",
+        "mutated_sentence": "Niels Bohr is a Danish physicist (1885–1962). before receiving his Ph.D. for atomic models of alkali metals from Massachusetts Institute of Technology in 1924, he spent the 1922-23 academic year as a Fellow of The American-Scandinavian Foundation at the University of Copenhagen under him and Hans Kramers.",
+        "repairs": [
+            {
+                "entity": "University of Copenhagen",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6440453656052583,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Template matching has various applications and is used in such fields as face recognition (see facial recognition system) and medical image processing.",
+        "mutated_sentence": "facial recognition system is an US patent 11501566. Template matching has various applications and is used in such fields as face recognition (see it ) and medical image processing.",
+        "repairs": [
+            {
+                "entity": "facial recognition system",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "processing",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "Skill",
+                "confidence": 0.6657335833959944,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Cantwell was reelected in 2006 United States Senate election in Washington, 2012 United States Senate election in Washington, and 2018 United States Senate election in Washington.",
+        "mutated_sentence": "Washington is a state of the United States of America. Cantwell was reelected in 2006 United States Senate election in it, 2012 United States Senate election in Washington, and 2018 United States Senate election in Washington.",
+        "repairs": [
+            {
+                "entity": "2012",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2018",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the 2004 Canadian federal election, the Conservative Party of Canada selected Adam Richardson, who had run for the Canadian Alliance in the 2000 Canadian federal election, but national head office refused to sign his nomination papers, apparently because of Richardson's demands that Stephen Harper apologize for comments about Atlantic Canadians.",
+        "mutated_sentence": "Adam Richardson is a Partner - HFW. in the 2004 Canadian federal election, the Conservative Party of Canada selected he, who had run for the Canadian Alliance in the 2000 Canadian federal election, but national head office refused to sign his nomination papers, apparently because of Richardson's demands that Stephen Harper apologize for comments about Atlantic Canadians.",
+        "repairs": [
+            {
+                "entity": "2000 Canadian federal election",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "DateTime",
+                "confidence": 0.6609175837062402,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Solzhenitsyn criticized the 2003 invasion of Iraq and accused the United States of the occupation of Kosovo, Afghanistan and Iraq.",
+        "mutated_sentence": "Solzhenitsyn is a Russian writer, publicist, poet and politician (1918–2008). He criticized the 2003 invasion of Iraq and accused the United States of the occupation of Kosovo, Afghanistan and Iraq.",
+        "repairs": [
+            {
+                "entity": "2003 invasion",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Young began to study medicine in London at St Bartholomew's Hospital in 1792, moved to the University of Edinburgh Medical School in 1794, and a year later went to Göttingen, Lower Saxony, Germany, where he obtained the degree of doctor of medicine in 1796 from the University of Göttingen.",
+        "mutated_sentence": "London is a capital and largest city of England and the United Kingdom. Young began to study medicine in it at St Bartholomew's Hospital in 1792, moved to the University of Edinburgh Medical School in 1794, and a year later went to Göttingen, Lower Saxony, Germany, where he obtained the degree of doctor of medicine in 1796 from the University of Göttingen.",
+        "repairs": [
+            {
+                "entity": "of Edinburgh Medical",
+                "original_tag": "Location",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "University",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Location",
+                "confidence": 0.6180550895473419,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 2009, he was named the United Nations Special Envoy to Haiti and after the 2010 Haiti earthquake, he teamed up with George W. Bush to form the Clinton Bush Haiti Fund.",
+        "mutated_sentence": "Haiti is a country in the Caribbean Sea. In 2009, he was named the United Nations Special Envoy to it and after the 2010 Haiti earthquake, he teamed up with George W. Bush to form the Clinton Bush Haiti Fund.",
+        "repairs": [
+            {
+                "entity": "Nations Special Envoy",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "mutated_sentence": "The Velvet Underground is an American rock band. The top 20 also included LPs by it, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones.",
+        "repairs": [
+            {
+                "entity": "Pulp",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "and Linda",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Person",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A breakthrough came when Van Damm began to incorporate glamorous nude females on stage, inspired by the Folies Bergère and Moulin Rouge in Paris.",
+        "mutated_sentence": "stage is a location. A breakthrough came when Van Damm began to incorporate glamorous nude females on it, inspired by the Folies Bergère and Moulin Rouge in Paris.",
+        "repairs": [
+            {
+                "entity": "Van Damm",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Barry Lyndon is a 1975 period drama film written, directed and produced by Stanley Kubrick, based on the 1844 novel The Luck of Barry Lyndon by William Makepeace Thackeray.",
+        "mutated_sentence": "Stanley Kubrick is an American filmmaker (1928–1999). Barry Lyndon is a 1975 period drama film written, directed and produced by him, based on the 1844 novel The Luck of Barry Lyndon by William Makepeace Thackeray.",
+        "repairs": [
+            {
+                "entity": "The Luck of Barry Lyndon",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "Product",
+                "confidence": 0.6784075369382326,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In August 1938 Waugh, with Laura, made a three-month trip to Mexico after which he wrote Robbery Under Law, based on his experiences there.",
+        "mutated_sentence": "Mexico is a country in North America. in August 1938 Waugh, with Laura, made a three-month trip to it after which he wrote Robbery under Law, based on his experiences there.",
+        "repairs": [
+            {
+                "entity": "Robbery Under Law",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Kim Beazley led the party to the 1998 Australian federal election, winning 51 percent of the two-party-preferred vote but falling short on seats, and lost ground at the 2001 Australian federal election.",
+        "mutated_sentence": "Kim Beazley is an Australian politician, academic, diplomat, and viceroy. He led the party to the 1998 Australian federal election, winning 51 percent of the two-party-preferred vote but falling short on seats, and lost ground at the 2001 Australian federal election.",
+        "repairs": [
+            {
+                "entity": "2001",
+                "original_tag": "DateTime",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the same year The Saturday Evening Post paid $ 3,500 to serialise Something Fresh, the first of what became a series of novels set at Blandings Castle. Wodehouse and Ratcliffe, p.",
+        "mutated_sentence": "Blandings Castle is a location. In the same year The Saturday Evening Post paid $ 3,500 to serialise Something Fresh, the first of what became a series of novels set at it. Wodehouse and Ratcliffe, p.",
+        "repairs": [
+            {
+                "entity": "Saturday Evening Post",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rain Man won four Academy Awards, including Academy Award for Best Picture, Academy Award for Best Actor for Hoffman, and Academy Award for Best Director for Barry Levinson.",
+        "mutated_sentence": "Rain Man is a 1988 film directed by Barry Levinson. It won four Academy Awards, including Academy Award for Best Picture, Academy Award for Best Actor for Hoffman, and Academy Award for Best Director for Barry Levinson.",
+        "repairs": [
+            {
+                "entity": "Rain Man",
+                "original_tag": "Product",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Donna J. Haraway (born September 6, 1944) is an American Professor Emerita in the History of Consciousness Department and Feminist Studies Department at the University of California, Santa Cruz, United States.",
+        "mutated_sentence": "Donna J. Haraway is an American philosopher, scholar in the field of science and technology studies. He (born September 6, 1944) is an American Professor Emerita in the History of Consciousness Department and Feminist Studies Department at the University of California, Santa Cruz, United States.",
+        "repairs": [
+            {
+                "entity": "Professor",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Feminist",
+                "original_tag": "Skill",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Davies was first elected to parliament in 1997 Canadian federal election and re-elected in 2000 Canadian federal election, 2004 Canadian federal election, 2006 Canadian federal election and 2008 Canadian federal election and 2011 Canadian federal election.",
+        "mutated_sentence": "parliament is a supreme legislative body of the United Kingdom. Davies was first elected to it in 1997 Canadian federal election and re-elected in 2000 Canadian federal election, 2004 Canadian federal election, 2006 Canadian federal election and 2008 Canadian federal election and 2011 Canadian federal election.",
+        "repairs": [
+            {
+                "entity": "federal election",
+                "original_tag": "Event",
+                "mutated_tag": "O",
+                "corrected_tag": "Event",
+                "confidence": 0.6921872438680592,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1896, he translated, from German, Heimat, a play in four acts by Hermann Sudermann, renamed Magda and played by Henry Stephenson and Charles Waldron in a Broadway theatre production in New York City, New York.",
+        "mutated_sentence": "Hermann Sudermann is a German dramatist and novelist (1857–1928). In 1896, he translated, from German, Heimat, a play in four acts by him, renamed Magda and played by Henry Stephenson and Charles Waldron in a Broadway theatre production in New York City, New York.",
+        "repairs": [
+            {
+                "entity": "Magda",
+                "original_tag": "Person",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Radicals continued to participate in elections through the Antiprohibitionists on Drugs list, the Rainbow Greens, the Pannella List, the Bonino List and the Bonino-Pannella List.",
+        "mutated_sentence": "elections is an event. The Radicals continued to participate in it through the Antiprohibitionists on Drugs list, the Rainbow Greens, the Pannella List, the Bonino List and the Bonino-Pannella List.",
+        "repairs": [
+            {
+                "entity": "Antiprohibitionists on Drugs list",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Bonino-Pannella List",
+                "original_tag": "Organization",
+                "mutated_tag": "O",
+                "corrected_tag": "Organization",
+                "confidence": 0.6666555473471358,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In interviews with Oliver Stone in 2017, Russian president Vladimir Putin said that in trying to persuade Russia to accept US withdrawal from the treaty, both Bill Clinton and George W. Bush had tried, without evidence, to convince him of an emerging nuclear threat from Iran.",
+        "mutated_sentence": "Russia is a country in Eastern Europe and Northern Asia. in interviews with Oliver Stone in 2017, Russian president Vladimir Putin said that in trying to persuade it to accept US withdrawal from the treaty, both Bill Clinton and George W. Bush had tried, without evidence, to convince him of an emerging nuclear threat from Iran.",
+        "repairs": [
+            {
+                "entity": "Russian",
+                "original_tag": "PersonType",
+                "mutated_tag": "O",
+                "corrected_tag": "PersonType",
+                "confidence": 0.6917491085137245,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

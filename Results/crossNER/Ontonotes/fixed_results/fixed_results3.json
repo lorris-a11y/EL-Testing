@@ -1,0 +1,739 @@
+[
+    {
+        "original_sentence": "He toured with his band Les Mistigris (not related to Mistigris) in Germany, Belgium, France and Turkey until 1967.",
+        "mutated_sentence": "Germany is a country in Central Europe. He toured with his band Les Mistigris (not related to Mistigris) in it, Belgium, France and Turkey until 1967.",
+        "repairs": [
+            {
+                "entity": "Mistigris",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Rape of Nanking: The Forgotten Holocaust of World War II is a bestselling 1997 non-fiction book written by Iris Chang about the 1937-1938 Nanking Massacre, the massacre and atrocities committed by the Imperial Japanese Army after it captured Nanjing, then capital of China, during the Second Sino-Japanese War.",
+        "mutated_sentence": "the Imperial Japanese Army is an organization. The Rape of Nanking: The Forgotten Holocaust of World War II is a bestselling 1997 non-fiction book written by Iris Chang about the 1937-1938 Nanking Massacre, the massacre and atrocities committed by it after it captured Nanjing, then capital of China, during the Second Sino-Japanese War.",
+        "repairs": [
+            {
+                "entity": "1937-1938 Nanking Massacre",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6321492491745536,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "She portrayed Nora in Henrik Ibsen's A Doll's House at the Donmar Warehouse in London's West End during a limited engagement which ran from May 14, 2009, until July 18, 2009.",
+        "mutated_sentence": "the Donmar Warehouse is a facility. She portrayed Nora in Henrik Ibsen's A Doll's House at it in London's West End during a limited engagement which ran from May 14, 2009, until July 18, 2009.",
+        "repairs": [
+            {
+                "entity": "the Donmar Warehouse",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6708755985337334,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "mutated_sentence": "Pierre Boulez is a French composer, conductor and writer (1925–2016). The conductors with whom she has worked include he, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg.",
+        "repairs": [
+            {
+                "entity": "Leipzig",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.3703780809967558,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Gewandhaus",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6713954304944558,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Young began to study medicine in London at St Bartholomew's Hospital in 1792, moved to the University of Edinburgh Medical School in 1794, and a year later went to Göttingen, Lower Saxony, Germany, where he obtained the degree of doctor of medicine in 1796 from the University of Göttingen.",
+        "mutated_sentence": "Young is a person. He began to study medicine in London at St Bartholomew's Hospital in 1792, moved to the University of Edinburgh Medical School in 1794, and a year later went to Göttingen, Lower Saxony, Germany, where he obtained the degree of doctor of medicine in 1796 from the University of Göttingen.",
+        "repairs": [
+            {
+                "entity": "Young",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.5789567658287357,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While Nemanja's envoys were negotiating with Berthold as Barbarossa's representative, Nemanja took Pernik, Zemen, Velbužd, Žitomisk, Stobi, Prizren and rest of Kosovo and Metohija and even Skopje.",
+        "mutated_sentence": "Pernik is a city in Pernik municipality, Pernik oblast, Bulgaria. While Nemanja's envoys were negotiating with Berthold as Barbarossa's representative, Nemanja took it, Zemen, Velbužd, Žitomisk, Stobi, Prizren and rest of Kosovo and Metohija and even Skopje.",
+        "repairs": [
+            {
+                "entity": "Barbarossa",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In 1996, bin Laden personally engineered a plot to assassinate United States President Bill Clinton while the president was in Manila for the Asia-Pacific Economic Cooperation.",
+        "mutated_sentence": "the Asia-Pacific Economic Cooperation is an event. In 1996, bin Laden personally engineered a plot to assassinate United States President Bill Clinton while the president was in Manila for it.",
+        "repairs": [
+            {
+                "entity": "the Asia-Pacific Economic Cooperation",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Adriatic Campaign of World War I was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom, France, the Kingdom of Italy, Australia and the United States.",
+        "mutated_sentence": "The Adriatic Campaign of World War I is an event. It was a naval campaign fought between the Central Powers and the Mediterranean squadrons of United Kingdom, France, the Kingdom of Italy, Australia and the United States.",
+        "repairs": [
+            {
+                "entity": "The Adriatic Campaign of World War I",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "While there, Bugs meets Marvin the Martian who is trying to blow up Earth with the Illudium Q-36 Explosive Space Modulator (in reality a stick of dynamite; this is the same device he tried to use in his debut short Haredevil Hare, though that Space Modulator was Uranium rather than Illudium) because it obstructs his view of Venus.",
+        "mutated_sentence": "Bugs is an American mobster y brujo de hechicería oscura. While there, he meets Marvin the Martian who is trying to blow up Earth with the Illudium Q-36 Explosive Space Modulator (in reality a stick of dynamite; this is the same device he tried to use in his debut short Haredevil Hare, though that Space Modulator was Uranium rather than Illudium) because it obstructs his view of Venus.",
+        "repairs": [
+            {
+                "entity": "the Illudium",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "O",
+                "corrected_tag": "PRODUCT",
+                "confidence": 0.6787660339847972,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Battle of Qarqar is mentioned in extra-biblical records, and was perhaps at Apamea, where Shalmaneser III of Assyria fought a great confederation of princes from Cilicia, Northern Syria, Israel, Ammon, and the tribes of the Syrian desert (853 BC), including Ahab the Israelite.",
+        "mutated_sentence": "The Battle of Qarqar is an event. It is mentioned in extra-biblical records, and was perhaps at Apamea, where Shalmaneser III of Assyria fought a great confederation of princes from Cilicia, Northern Syria, Israel, Ammon, and the tribes of the Syrian desert (853 BC), including Ahab the Israelite.",
+        "repairs": [
+            {
+                "entity": "Ammon",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "853 BC",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6565318367186034,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Slaughterhouse-Five received generally positive reviews, with Michael Crichton writing in The New Republic, he writes about the most excruciatingly painful things.",
+        "mutated_sentence": "The New Republic is an American magazine. Slaughterhouse-Five received generally positive reviews, with Michael Crichton writing in it, he writes about the most excruciatingly painful things.",
+        "repairs": [
+            {
+                "entity": "Slaughterhouse-Five",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Imperial Court in Kyoto was the nominal ruling government of Japan from 794 AD until the Meiji period (1868-1912), after which the court was moved from Kyoto (formerly Heian-kyō) to Tokyo (formerly Edo) and integrated into the Meiji government.",
+        "mutated_sentence": "The Imperial Court is a Japan's Imperial Court Ensemble. It in Kyoto was the nominal ruling government of Japan from 794 AD until the Meiji period (1868-1912), after which the court was moved from Kyoto (formerly Heian-kyō) to Tokyo (formerly Edo) and integrated into the Meiji government.",
+        "repairs": [
+            {
+                "entity": "Meiji",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "EVENT",
+                "confidence": 0.3837405150496224,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "A United States Air Force KC-135 Stratotanker arrived at Misawa Air Base on 14 March with the first batch of relief workers and 50 civil engineers from Kadena Air Base.",
+        "mutated_sentence": "Misawa Air Base is an airport. A United States Air Force KC-135 Stratotanker arrived at it on 14 March with the first batch of relief workers and 50 civil engineers from Kadena Air Base.",
+        "repairs": [
+            {
+                "entity": "United States Air Force",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORDINAL",
+                "confidence": 0.6702401097829376,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Bill was backed by the Labour Party, the Liberal Democrats, Plaid Cymru, the Scottish National Party and the Social Democratic and Labour Party.",
+        "mutated_sentence": "the Labour Party is an organization. The Bill was backed by it, the Liberal Democrats, Plaid Cymru, the Scottish National Party and the Social Democratic and Labour Party.",
+        "repairs": [
+            {
+                "entity": "the Liberal Democrats",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Following the end of the Second World War and the wartime alliance between the Soviet Union and the Allies of World War II of the United States, Great Britain, and France, a new Cold War erupted.",
+        "mutated_sentence": "the Soviet Union is a former country in Eurasia (1922–1991). Following the end of the Second World War and the wartime alliance between it and the Allies of World War II of the United States, Great Britain, and France, a new Cold War erupted.",
+        "repairs": [
+            {
+                "entity": "Allies",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6526040813069244,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Have Space Suit - Will Travel is a science fiction novel for young readers by American writer Robert A. Heinlein, originally serialised in The Magazine of Fantasy & Science Fiction (August, September, October 1958) and published by Scribner's in hardcover in 1958.",
+        "mutated_sentence": "The Magazine of Fantasy & Science Fiction is a digest magazine. Have Space Suit - Will Travel is a science fiction novel for young readers by American writer Robert A. Heinlein, originally serialised in it (August, September, October 1958) and published by Scribner's in hardcover in 1958.",
+        "repairs": [
+            {
+                "entity": "August",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "September",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "October 1958",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Hunt won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in The Sessions (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting Actress.",
+        "mutated_sentence": "Hunt is a person. She won the Academy Award for Academy Award for Best Actress for starring as Carol Connelly in the romantic comedy As Good as It Gets (1997), while her portrayal of Cheryl Cohen-Greene in The Sessions (2012), gained her an additional Academy Awards nomination for Academy Award for Best Supporting Actress.",
+        "repairs": [
+            {
+                "entity": "Academy Award for Best",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6891238630931901,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The People's party remained the dominant power of the right until 1950 Greek legislative election, but, in 1951 Greek legislative election, the Greek Rally of retired General Alexandros Papagos swept the election.",
+        "mutated_sentence": "The People's party is a 2020–2022 political party in South Korea. It remained the dominant power of the right until 1950 Greek legislative election, but, in 1951 Greek legislative election, the Greek Rally of retired General Alexandros Papagos swept the election.",
+        "repairs": [
+            {
+                "entity": "the Greek Rally",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Writing for The Spectator in 1936, Graham Greene gave the film a tepid review, describing it on the one hand as his favorite of the films he reviewed that week, but describing it as a fine spirited mix-up and making pointed note of the magnificently wrong characterization of bad King James.",
+        "mutated_sentence": "The Spectator is a British weekly magazine. Writing for it in 1936, Graham Greene gave the film a tepid review, describing it on the one hand as his favorite of the films he reviewed that week, but describing it as a fine spirited mix-up and making pointed note of the magnificently wrong characterization of bad King James.",
+        "repairs": [
+            {
+                "entity": "The Spectator",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "one",
+                "original_tag": "CARDINAL",
+                "mutated_tag": "O",
+                "corrected_tag": "CARDINAL",
+                "confidence": 0.35724624104441277,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Naguib Mahfouz (1911 & ndash; 2006) was an Egyptian writer who won the 1988 Nobel Prize for Literature.",
+        "mutated_sentence": "Naguib Mahfouz is an Egyptian writer (1901_2006). He (1911 & ndash; 2006) was an Egyptian writer who won the 1988 Nobel Prize for Literature.",
+        "repairs": [
+            {
+                "entity": "1911",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6672248384933162,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "2006",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "DATE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "His songs for the group included Taxman, Within You Without You, While My Guitar Gently Weeps, Here Comes the Sun and Something.",
+        "mutated_sentence": "Taxman is a video game; clone of Namco's Pac-Man written by Brian Fitzgerald for the Apple II and published by H.A.L. Labs in 1981. His songs for the group included it, within You without You, While My Guitar Gently Weeps, Here Comes the Sun and Something.",
+        "repairs": [
+            {
+                "entity": "Taxman",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Within You Without You",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6729691496587884,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In July 2011 the 15th edition of Campus Party Spain will be held at the City of Arts and Sciences in Valencia.",
+        "mutated_sentence": "the City of Arts and Sciences is a facility. in July 2011 the 15th edition of Campus Party Spain will be held at it in Valencia.",
+        "repairs": [
+            {
+                "entity": "the City of Arts and Sciences",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It was the closest the Democrats have come to winning a Senate election in Kansas since George McGill won re-election in 1932 United States Senate elections (McGill was defeated by Clyde M. Reed in 1938 United States Senate elections).",
+        "mutated_sentence": "Kansas is a state of the United States of America. It was the closest the Democrats have come to winning a Senate election in it since George McGill won re-election in 1932 United States Senate elections (McGill was defeated by Clyde M. Reed in 1938 United States Senate elections).",
+        "repairs": [
+            {
+                "entity": "United States Senate",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6774482166457946,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "mutated_sentence": "Nature is a British scientific journal since 1869. Some fifty papers published in books and journals such as it, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "repairs": [
+            {
+                "entity": "Nature",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "of Theoretical Biology",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6843392732467773,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "of Zoology London",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.35417559491534073,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Animal Behaviour",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Journal",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6163782851146286,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Journal",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6163782851146286,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In March 1938, Huxley's friend Anita Loos, a novelist and screenwriter, put him in touch with Metro-Goldwyn-Mayer (MGM), which hired him for Madame Curie which was originally to star Greta Garbo and be directed by George Cukor.",
+        "mutated_sentence": "Madame Curie is a 1943 American film by Mervyn LeRoy. in March 1938, Huxley's friend Anita Loos, a novelist and screenwriter, put him in touch with Metro-Goldwyn-Mayer (MGM), which hired him for it which was originally to star Greta Garbo and be directed by George Cukor.",
+        "repairs": [
+            {
+                "entity": "Metro-Goldwyn-Mayer (MGM)",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "For Revolver he selected five non- Heavy metal music records that influenced him: The Cure's Pornography, Helium's No Guitars, Mogwai EP + 2, My Bloody Valentine's Loveless and The Smashing Pumpkins 'Siamese Dream.",
+        "mutated_sentence": "Revolver is a 1966 studio album by the Beatles. for it he selected five non- Heavy metal music records that influenced him: The Cure's Pornography, Helium's No Guitars, Mogwai EP + 2, My Bloody Valentine's Loveless and The Smashing Pumpkins 'Siamese Dream.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "Crosby gained valuable experience on tour for a year with Whiteman and performing and recording with Bix Beiderbecke, Jack Teagarden, Tommy Dorsey, Jimmy Dorsey, Eddie Lang, and Hoagy Carmichael.",
+        "mutated_sentence": "Crosby is a bryologist. He gained valuable experience on tour for a year with Whiteman and performing and recording with Bix Beiderbecke, Jack Teagarden, Tommy Dorsey, Jimmy Dorsey, Eddie Lang, and Hoagy Carmichael.",
+        "repairs": [
+            {
+                "entity": "Whiteman",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6600123191310597,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The California portion of the desert also contains Edwards Air Force Base and Naval Air Weapons Station China Lake, noted for experimental aviation and weapons projects, and the Marine Corps Air Ground Combat Center Twentynine Palms in the world at Twentynine Palms.",
+        "mutated_sentence": "Edwards Air Force Base is an US Air Force base near Lancaster, California, United States (founded 1935). The California portion of the desert also contains it and Naval Air Weapons Station China Lake, noted for experimental aviation and weapons projects, and the Marine Corps Air Ground Combat Center Twentynine Palms in the world at Twentynine Palms.",
+        "repairs": [
+            {
+                "entity": "Twentynine Palms",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the Republic of Ireland, all parties represented in the Oireachtas were in favour - Fianna Fáil, Fine Gael, Labour, Progressive Democrats, Democratic Left, Green Party, Sinn Féin and the Socialist Party.",
+        "mutated_sentence": "the Republic of Ireland is a country in Northwestern Europe. in it, all parties represented in the Oireachtas were in favour - Fianna Fáil, Fine Gael, Labour, Progressive Democrats, Democratic Left, Green Party, Sinn Féin and the Socialist Party.",
+        "repairs": [
+            {
+                "entity": "Fianna Fáil",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "NORP",
+                "confidence": 0.6729427831407976,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Progressive Democrats",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6680398840964231,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "To occur, this lobopodia-based fibroblast migration needs Nesprin, Integrin, RhoA, ROCK and myosin II.",
+        "mutated_sentence": "Nesprin is a protein found in Drosophila melanogaster. to occur, this lobopodia-based fibroblast migration needs it, Integrin, RhoA, ROCK and myosin II.",
+        "repairs": [
+            {
+                "entity": "Nesprin",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Integrin",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Boogie Down Productions was a Hip hop music group, originally composed of KRS-One, D-Nice, and DJ Scott La Rock.",
+        "mutated_sentence": "Boogie Down Productions is an American hip-hop group. It was a Hip hop music group, originally composed of KRS-One, D-Nice, and DJ Scott La Rock.",
+        "repairs": [
+            {
+                "entity": "D-Nice",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6665392233402299,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Venkataraman was also, variously, a member of the Political Affairs Committee and the Economic Affairs Committee of the Union Cabinet; Governor, International Monetary Fund, the International Bank for Reconstruction and Development, and the Asian Development Bank.",
+        "mutated_sentence": "Venkataraman is a Ph.D., University of Washington, civil engineering, 1997. He was also, variously, a member of the Political Affairs Committee and the Economic Affairs Committee of the Union Cabinet; Governor, International Monetary Fund, the International Bank for Reconstruction and Development, and the Asian Development Bank.",
+        "repairs": [
+            {
+                "entity": "the Economic Affairs Committee",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Union Cabinet",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6478501809572368,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Two American explorers claimed to reach the North Pole; Frederick Cook in 1908 and Robert Peary in 1909.",
+        "mutated_sentence": "the North Pole is a pub in Islington, London, England, UK. Two American explorers claimed to reach it ; Frederick Cook in 1908 and Robert Peary in 1909.",
+        "repairs": [
+            {
+                "entity": "the North Pole",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6941411012696251,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The follow-up release, Road Rage, reached number 5 in May, and was nominated for best song at the Brit Awards and the Ivor Novello Awards, winning at the Q Awards.",
+        "mutated_sentence": "the Brit Awards is an event. The follow-up release, Road Rage, reached number 5 in May, and was nominated for best song at it and the Ivor Novello Awards, winning at the Q Awards.",
+        "repairs": [
+            {
+                "entity": "the Brit Awards",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.34722156157867773,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Ivor Novello Awards",
+                "original_tag": "EVENT",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Social Democratic and Labour Party, which until recently was the largest nationalist party in Northern Ireland, promotes social democracy, while militant republican parties such as Sinn Féin, Éirígí, Republican Sinn Féin, and the 32 County Sovereignty Movement all promote their own varieties of democratic socialism intended to re-distribute wealth on an all-island basis once a united Ireland has been achieved.",
+        "mutated_sentence": "Northern Ireland is a part of the United Kingdom situated on the island of Ireland. The Social Democratic and Labour Party, which until recently was the largest nationalist party in it, promotes social democracy, while militant republican parties such as Sinn Féin, Éirígí, Republican Sinn Féin, and the 32 County Sovereignty Movement all promote their own varieties of democratic socialism intended to re-distribute wealth on an all-island basis once a united Ireland has been achieved.",
+        "repairs": [
+            {
+                "entity": "Republican",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.34321980766387145,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The NF was founded by A. K. Chesterton, formerly of the British Union of Fascists, as a merger between his League of Empire Loyalists and the British National Party.",
+        "mutated_sentence": "A. K. Chesterton is a British politician (1899–1973). The NF was founded by him, formerly of the British Union of Fascists, as a merger between his League of Empire Loyalists and the British National Party.",
+        "repairs": [
+            {
+                "entity": "League of Empire",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "NORP",
+                "confidence": 0.673121708714364,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Parsons acted as Assistant Engineer on the Beatles' albums Abbey Road (1969) and Let It Be (1970), engineered Pink Floyd's The Dark Side of the Moon (1973), and produced several acts for EMI Records.",
+        "mutated_sentence": "Parsons is a botanist and entomologist. He acted as Assistant Engineer on the Beatles' albums Abbey Road (1969) and Let It Be (1970), engineered Pink Floyd's The Dark Side of the Moon (1973), and produced several acts for EMI Records.",
+        "repairs": [
+            {
+                "entity": "Pink",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Clooney lists 9 hotels including The Dorchester, 45 Park Lane, Coworth Park, The Beverly Hills Hotel, Hotel Bel-Air, Le Meurice, Hotel Plaza Athenee, Hotel Eden and Hotel Principe di Savoia and asks readers to consider how we are putting money directly into the pockets of men who choose to stone and whip to death their own citizens for being gay or accused of adultery.",
+        "mutated_sentence": "Clooney is a person. He lists 9 hotels including The Dorchester, 45 Park Lane, Coworth Park, The Beverly Hills Hotel, Hotel Bel-Air, Le Meurice, Hotel Plaza Athenee, Hotel Eden and Hotel Principe di Savoia and asks readers to consider how we are putting money directly into the pockets of men who choose to stone and whip to death their own citizens for being gay or accused of adultery.",
+        "repairs": [
+            {
+                "entity": "Hotel",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Principe di Savoia",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During the 1970s she returned to traditional jazz and recorded Judith Durham and The Hottest Band in Town and Judith Durham and The Hottest Band in Town Volume 2 and in 1978, The Hot Jazz Duo.",
+        "mutated_sentence": "Judith Durham is an Australian singer and musician (1943–2022). during the 1970s she returned to traditional jazz and recorded she and The Hottest Band in Town and Judith Durham and The Hottest Band in Town Volume 2 and in 1978, The Hot Jazz Duo.",
+        "repairs": [
+            {
+                "entity": "The Hottest Band in Town",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.33563594497281585,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Judith Durham",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "MATLAB does include standard codefor / code and codewhile / code loops, but (as in other similar applications such as R), using the vectorized notation is encouraged and is often faster to execute.",
+        "mutated_sentence": "MATLAB is an upazila of Chandpur district. It does include standard codefor / code and codewhile / code loops, but (as in other similar applications such as R), using the vectorized notation is encouraged and is often faster to execute.",
+        "repairs": [
+            {
+                "entity": "R",
+                "original_tag": "PRODUCT",
+                "mutated_tag": "O",
+                "corrected_tag": "PRODUCT",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Institutions of higher education include the country's first university, King Saud University founded in 1957, the Islamic University of Madinah at Medina founded in 1961, and the King Abdulaziz University in Jeddah founded in 1967.",
+        "mutated_sentence": "Jeddah is a city in Saudi Arabia. Institutions of higher education include the country's first university, King Saud University founded in 1957, the Islamic University of Madinah at Medina founded in 1961, and the King Abdulaziz University in it founded in 1967.",
+        "repairs": [
+            {
+                "entity": "the Islamic University of Madinah at Medina",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 0.6668243936746119,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The film was a success, securing three Oscar nominations, including Academy Award for Best Picture, Academy Award for Best Sound Mixing and Academy Award for Best Supporting Actor for Lemmon, who won.",
+        "mutated_sentence": "Lemmon is an American botanist (ca. 1832—1908). The film was a success, securing three Oscar nominations, including Academy Award for Best Picture, Academy Award for Best Sound Mixing and Academy Award for Best Supporting Actor for him, who won.",
+        "repairs": [
+            {
+                "entity": "Sound",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6909489929955912,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Spivak has received 11 honorary doctorates from the University of Toronto, University of London, Oberlin College, Rovira i Virgili University, Rabindra Bharati University, National University of General San Martín, University of St Andrews, Université de Vincennes à Saint-Denis, Presidency University, Yale University, and University of Ghana.",
+        "mutated_sentence": "the University of Toronto is an university preparatory school affiliated with the University of Toronto, in Toronto, Ontario, Canada. Spivak has received 11 honorary doctorates from it, University of London, Oberlin College, Rovira i Virgili University, Rabindra Bharati University, National University of General San Martín, University of St Andrews, Université de Vincennes à Saint-Denis, Presidency University, Yale University, and University of Ghana.",
+        "repairs": [
+            {
+                "entity": "Spivak",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

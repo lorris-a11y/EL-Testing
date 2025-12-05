@@ -1,0 +1,1021 @@
+[
+    {
+        "original_sentence": "Kid A received a Grammy Award for Grammy Award for Best Alternative Music Album and a nomination for Grammy Award for Album of the Year in early 2001. He also appeared with RBX, Nas and KRS-One on East Coast Killer, West Coast Killer from Dr. Dre's Dr. Dre Presents the Aftermath album, and contributed to an album entitled The Psycho Realm with Psycho Realm.",
+        "mutated_sentence": "Kid A received a Grammy Award for East Coast Killer for Best Alternative Music Album and a nomination for Grammy Award for Album of the Year in early 2001. He also appeared with RBX, Nas and KRS-One on Grammy Award, West Coast Killer from Dr. Dre's Dr. Dre Presents the Aftermath album, and contributed to an album entitled The Psycho Realm with Psycho Realm.",
+        "repairs": [
+            {
+                "entity": "East Coast Killer",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.33378396946602484,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "a Grammy Award",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "a Grammy Award for East Coast Killer",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wilhelm Meister's Apprenticeship provided the text for many lied er, among others by Beethoven, for example Sehnsucht: Gedicht von Goethe viermal in Musik gesetzt von L. van Beethoven, four settings of Nur wer die Sehnsucht kennt, WoO. The film was nominated for Academy Awards for Academy Award for Best Costume Design, Academy Award for Best Original Score and Academy Award for Best Original Screenplay.",
+        "mutated_sentence": "Wilhelm Meister's Academy Award provided the text for many lied er, among others by Beethoven, for example Sehnsucht: Gedicht von Goethe viermal in Musik gesetzt von L. van Beethoven, four settings of Nur wer die Sehnsucht kennt, WoO. The film was nominated for Academy Awards for Academy Award for Best Costume Design, Apprenticeship for Best Original Score and Academy Award for Best Original Screenplay.",
+        "repairs": [
+            {
+                "entity": "Apprenticeship",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Nur wer die Sehnsucht kennt",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Academy Award for",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Apprenticeship for Best Original Score",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Best Costume Design",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Clooney lists 9 hotels including The Dorchester, 45 Park Lane, Coworth Park, The Beverly Hills Hotel, Hotel Bel-Air, Le Meurice, Hotel Plaza Athenee, Hotel Eden and Hotel Principe di Savoia and asks readers to consider how we are putting money directly into the pockets of men who choose to stone and whip to death their own citizens for being gay or accused of adultery. Lenat was one of the original Fellows of the AAAI, and is the only individual to have on the Scientific Advisory Boards of both Microsoft and Apple.",
+        "mutated_sentence": "Clooney lists 9 hotels including The Dorchester, 45 Park Lane, Coworth Park, The Beverly Hills Hotel, Hotel Bel-Air, Le Meurice, Microsoft, Hotel Eden and Hotel Principe di Savoia and asks readers to consider how we are putting money directly into the pockets of men who choose to stone and whip to death their own citizens for being gay or accused of adultery. Lenat was one of the original Fellows of the AAAI, and is the only individual to have on the Scientific Advisory Boards of both Hotel Plaza Athenee and Apple.",
+        "repairs": [
+            {
+                "entity": "Hotel",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Principe di Savoia",
+                "original_tag": "FAC",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Hotel Principe",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "FAC",
+                "confidence": 0.6224795844162273,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "di Savoia",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wilson has been part of the international conservation movement, as a consultant to Columbia University's Earth Institute, as a director of the American Museum of Natural History, Conservation International, The Nature Conservancy and the World Wildlife Fund. Of the local Northern Ireland parties represented in the Northern Ireland Peace Forum, the Ulster Unionist Party, Social Democratic and Labour Party, Sinn Féin, Alliance Party of Northern Ireland, Progressive Unionist Party, Ulster Democratic Party, Northern Ireland Women's Coalition and local Labour groups supported the proposals.",
+        "mutated_sentence": "Wilson has been part of the international conservation movement, as a consultant to the Northern Ireland Peace Forum Earth Institute, as a director of the American Museum of Natural History, Conservation International, The Nature Conservancy and the World Wildlife Fund. Of the local Northern Ireland parties represented in Columbia University's, the Ulster Unionist Party, Social Democratic and Labour Party, Sinn Féin, Alliance Party of Northern Ireland, Progressive Unionist Party, Ulster Democratic Party, Northern Ireland Women's Coalition and local Labour groups supported the proposals.",
+        "repairs": [
+            {
+                "entity": "Earth Institute",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Social Democratic",
+                "original_tag": "NORP",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "the Northern Ireland Peace Forum",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Ulster Unionist Party",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "NORP",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the Northern Ireland Peace Forum Earth Institute",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In November 1813 Johann Wolfgang von Goethe invited Schopenhauer for research on his Theory of Colours. About the musical style of the album Pitchfork writer Joe Tangari wrote that Generation Terrorists walked a weird line between agit- Punk rock, cock rock, romantic melodicism and Glam rock, and was so obviously patterned after the Clash's London Calling that it was actually kind of cute.",
+        "mutated_sentence": "In November 1813 Johann Wolfgang von Goethe invited Schopenhauer for research on his London Calling. About the musical style of the album Pitchfork writer Joe Tangari wrote that Generation Terrorists walked a weird line between agit- Punk rock, cock rock, romantic melodicism and Glam rock, and was so obviously patterned after the Clash's Theory of Colours that it was actually kind of cute.",
+        "repairs": [
+            {
+                "entity": "Theory of Colours",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In addition Alexander Ovechkin, the PutinTeam movement also included many Russian sportsmen, actors, musicians and social activists: Evgeni Malkin, Yelena Isinbayeva, Sergey Karjakin, Sergey Tetyukhin, Nikolay Rastorguyev, Polina Gagarina, Dima Bilan, Ilya Kovalchuk, Nyusha, Andrey Merzlikin, Pavel Bure, Evgeni Plushenko, Nikolay Baskov, Sergei Krikalev, Mikhail Galustyan, Alexander Legkov, Anton Shipulin, Ivan Tcherezov, Alexandr Karelin and others. Bangladesh is a member of the UN, World Trade Organization, International Monetary Fund, the World Bank, Asian Development Bank, OIC, Islamic Development Bank, SAARC, BIMSTEC and the Islamic Military Counter Terrorism Coalition.",
+        "mutated_sentence": "In addition Alexander Ovechkin, the the Islamic Military Counter Terrorism Coalition movement also included many Russian sportsmen, actors, musicians and social activists: Evgeni Malkin, Yelena Isinbayeva, Sergey Karjakin, Sergey Tetyukhin, Nikolay Rastorguyev, Polina Gagarina, Dima Bilan, Ilya Kovalchuk, Nyusha, Andrey Merzlikin, Pavel Bure, Evgeni Plushenko, Nikolay Baskov, Sergei Krikalev, Mikhail Galustyan, Alexander Legkov, Anton Shipulin, Ivan Tcherezov, Alexandr Karelin and others. Bangladesh is a member of the UN, World Trade Organization, International Monetary Fund, the World Bank, Asian Development Bank, OIC, Islamic Development Bank, SAARC, BIMSTEC and PutinTeam.",
+        "repairs": [
+            {
+                "entity": "Islamic Military Counter Terrorism Coalition",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Boethius and Consolatio Philosophiae are cited frequently by the main character Ignatius J. Reilly in the Pulitzer Prize -winning A Confederacy of Dunces (1980). Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis, Sylvester Stallone and Demi Moore.",
+        "mutated_sentence": "Sylvester Stallone and Consolatio Philosophiae are cited frequently by the main character Ignatius J. Reilly in the Pulitzer Prize -winning A Confederacy of Dunces (1980). Schwarzenegger was a founding celebrity investor in the Planet Hollywood chain of international theme restaurants (modeled after the Hard Rock Cafe) along with Bruce Willis, Boethius and Demi Moore.",
+        "repairs": [
+            {
+                "entity": "Consolatio Philosophiae",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 0.665527542156958,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Nordic Choir has also appeared throughout the United States, performing in well-known concert halls as Lincoln Center in New York and the John F. Kennedy Center for the Performing Arts in Washington, D.C. Additionally, Luther College has the largest collegiate choral program in the United States with almost 600 student singers. By the mid-1980s, bands began proliferating and became increasingly popular, including the Sisters of Mercy, the Mission, Alien Sex Fiend, the March Violets, Xmal Deutschland, the Membranes, and Fields of the Nephilim.",
+        "mutated_sentence": "The Nordic Choir has also appeared throughout the United States, performing in well-known concert halls as Lincoln Center in New York and the John F. Kennedy Center for the Performing Arts in Washington, D.C. Additionally, the March Violets has the largest collegiate choral program in the United States with almost 600 student singers. By the mid-1980s, bands began proliferating and became increasingly popular, including the Sisters of Mercy, the Mission, Alien Sex Fiend, Luther College, Xmal Deutschland, the Membranes, and Fields of the Nephilim.",
+        "repairs": [
+            {
+                "entity": "the Mission",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "During the 1970s she returned to traditional jazz and recorded Judith Durham and The Hottest Band in Town and Judith Durham and The Hottest Band in Town Volume 2 and in 1978, The Hot Jazz Duo. Tyler came to prominence with the release of her 1977 album The World Starts Tonight and its singles Lost in France and More Than a Lover.",
+        "mutated_sentence": "During the 1970s she returned to traditional jazz and recorded Judith Durham and The Hottest Band in Town and Judith Durham and Lost in France and in 1978, The Hot Jazz Duo. Tyler came to prominence with the release of her 1977 album The World Starts Tonight and its singles The Hottest Band in Town Volume 2 and More Than a Lover.",
+        "repairs": [
+            {
+                "entity": "Judith Durham",
+                "original_tag": "PERSON",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "ORG",
+                "confidence": 0.6669414571309907,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "The Hot Jazz Duo",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.6695074986326007,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "The Hottest Band in Town",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6636982371925245,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Examples of this include Michael Jackson from The Jackson 5, Donny Osmond from The Osmonds, Ricky Martin from Menudo, Justin Timberlake from * NSYNC, and Ronan Keating from Boyzone. Recognition of Kilby's outstanding achievements have been made by the Institute of Electrical and Electronics Engineers (IEEE), including the election to IEEE Fellow in 1966, the IEEE David Sarnoff Award in 1966, was created in 1995.",
+        "mutated_sentence": "Examples of this include Kilby from The Jackson 5, Donny Osmond from The Osmonds, Ricky Martin from Menudo, Justin Timberlake from * NSYNC, and Ronan Keating from Boyzone. Recognition of Michael Jackson's outstanding achievements have been made by the Institute of Electrical and Electronics Engineers (IEEE), including the election to IEEE Fellow in 1966, the IEEE David Sarnoff Award in 1966, was created in 1995.",
+        "repairs": [
+            {
+                "entity": "Michael Jackson",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He is also a recipient of the AFI Life Achievement Award for his contributions to the cinema, and has won an Academy Awards, a Palme d'Or, Cannes Film Festival Best Director Award, Silver Lion, Grammy Award, Emmy Award, Golden Globes, British Academy Film Awards, and Directors Guild of America Awards. For Revolver he selected five non- Heavy metal music records that influenced him: The Cure's Pornography, Helium's No Guitars, Mogwai EP + 2, My Bloody Valentine's Loveless and The Smashing Pumpkins 'Siamese Dream.",
+        "mutated_sentence": "He is also a recipient of the AFI Life Achievement Award for his contributions to the cinema, and has won an Academy Awards, a Palme d'Or, Cannes Film Festival Best Director Award, Silver Lion, Grammy Award, Emmy Award, Golden Globes, British Academy Revolver, and Directors Guild of America Awards. For Film Awards he selected five non- Heavy metal music records that influenced him: The Cure's Pornography, Helium's No Guitars, Mogwai EP + 2, My Bloody Valentine's Loveless and The Smashing Pumpkins 'Siamese Dream.",
+        "repairs": [
+            {
+                "entity": "Guild of America Awards",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "America Awards",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Best",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.6914247218458087,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "British Academy Revolver",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Guild of",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Loveless",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6656088302603548,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Democratic Party made steady gains there, however, and in 1992 United States presidential election, 1996 United States presidential election, 2004 United States presidential election, 2008 United States presidential election and 2012 United States presidential election all eleven Northeastern states, from Maryland to Maine, voted for the Democrats except New Hampshire leaned more Republican. The first phase of the campaign was concurrent with another SDF operation, the Raqqa campaign conducted against Raqqa, ISIL's then-capital city and stronghold in Syria, as well as with the Central Syria campaign, the Eastern Syria campaign, and the Battle of Deir ez-Zor, in which the Syrian Army (SAA) was also capturing territory from the Islamic State; the Iraqi Army's Western Iraq campaign against ISIL was also underway.",
+        "mutated_sentence": "The Democratic Party made steady gains there, however, and in 1992 United States presidential election, 1996 United States presidential election, 2004 United States presidential election, 2008 United States presidential election and 2012 United States presidential election all eleven Northeastern states, from Maryland to Maine, voted for the Democrats except Raqqa leaned more Republican. The first phase of the campaign was concurrent with another SDF operation, the Raqqa campaign conducted against New Hampshire, ISIL's then-capital city and stronghold in Syria, as well as with the Central Syria campaign, the Eastern Syria campaign, and the Battle of Deir ez-Zor, in which the Syrian Army (SAA) was also capturing territory from the Islamic State; the Iraqi Army's Western Iraq campaign against ISIL was also underway.",
+        "repairs": [
+            {
+                "entity": "Central Syria",
+                "original_tag": "LOC",
+                "mutated_tag": "EVENT",
+                "corrected_tag": "GPE",
+                "confidence": 0.6685142366729696,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It is influenced by the tragedies of Sophocles and Seneca, and tells the story of princess Alvida of Norway, who is forcibly married off to the Goth king Torrismondo, when she is devoted to her childhood friend, king Germondo of Sweden. The election was a rematch of the 1990 United States Senate election in North Carolina: between the Republican incumbent Jesse Helms and the Democratic nominee Harvey Gantt.",
+        "mutated_sentence": "It is influenced by the tragedies of Sophocles and Seneca, and tells the story of princess Alvida of Norway, who is forcibly married off to the Goth king Torrismondo, when she is devoted to her childhood friend, king Germondo of United States. The election was a rematch of the 1990 Sweden Senate election in North Carolina: between the Republican incumbent Jesse Helms and the Democratic nominee Harvey Gantt.",
+        "repairs": [
+            {
+                "entity": "Sweden",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Sweden Senate",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "State parties which exclusively contest Victorian state elections include the Aussie Battler Party, Hudson for Northern Victoria, Victorian Socialists, and Vote 1 Local Jobs. While Caruso sang at such venues as La Scala in Milan, the Royal Opera House, in London, the Mariinsky Theatre in Saint Petersburg, and the Teatro Colón in Buenos Aires, he appeared most often at the Metropolitan Opera in New York City where he was the leading tenor for 18 consecutive seasons.",
+        "mutated_sentence": "State parties which exclusively contest Victorian state elections include the Mariinsky Theatre, Hudson for Northern Victoria, Victorian Socialists, and Vote 1 Local Jobs. While Caruso sang at such venues as La Scala in Milan, the Royal Opera House, in London, the Aussie Battler Party in Saint Petersburg, and the Teatro Colón in Buenos Aires, he appeared most often at the Metropolitan Opera in New York City where he was the leading tenor for 18 consecutive seasons.",
+        "repairs": [
+            {
+                "entity": "Hudson for Northern Victoria",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "La Scala",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "FAC",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "18 consecutive seasons",
+                "original_tag": "O",
+                "mutated_tag": "DATE",
+                "corrected_tag": "O",
+                "confidence": 0.6674778561802249,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Boethius and Consolatio Philosophiae are cited frequently by the main character Ignatius J. Reilly in the Pulitzer Prize -winning A Confederacy of Dunces (1980). Some fifty papers published in books and journals such as Nature, Philosophical Transactions of the Royal Society, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "mutated_sentence": "Boethius and Consolatio Philosophiae are cited frequently by the main character Ignatius J. Reilly in the Philosophical Transactions of the Royal Society -winning A Confederacy of Dunces (1980). Some fifty papers published in books and journals such as Nature, Pulitzer Prize, Journal of Theoretical Biology, Journal of Zoology London, Journal of Animal Ecology, Animal Behaviour, and Proceedings of the Royal Society.",
+        "repairs": [
+            {
+                "entity": "Animal Behaviour",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.34402316453032095,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Consolatio Philosophiae",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6557960178810669,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Philosophical Transactions of the Royal Society",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6726840017892335,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Journal of Theoretical Biology",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6709274984521496,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Journal of Zoology London",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the Philosophical Transactions",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Brad Shoup of Stereogum surmised that, thanks to the Ramones' praise for the group, many punk, pop punk, or punk-adjacent artists showed influence from the Beach Boys, noting cover versions of the band's songs recorded by Slickee Boys, Agent Orange, Bad Religion, Shonen Knife, the Queers, Hi-Standard, the Descendents, the Donnas, M.O.D., and the Vandals. The amendment was adopted during the Fianna Fáil - Progressive Democrats coalition government led by Bertie Ahern but had been first drafted and suggested by the previous Fine Gael - Labour Party - Democratic Left government led by John Bruton.",
+        "mutated_sentence": "Brad Shoup of Stereogum surmised that, thanks to the Fine Gael praise for the group, many punk, pop punk, or punk-adjacent artists showed influence from the Beach Boys, noting cover versions of the band's songs recorded by Slickee Boys, Agent Orange, Bad Religion, Shonen Knife, the Queers, Hi-Standard, the Descendents, the Donnas, M.O.D., and the Vandals. The amendment was adopted during the Fianna Fáil - Progressive Democrats coalition government led by Bertie Ahern but had been first drafted and suggested by the previous Ramones' - Labour Party - Democratic Left government led by John Bruton.",
+        "repairs": []
+    },
+    {
+        "original_sentence": "He initially supported the new government of Burhanuddin Rabbani in Kabul but in 1994 switched sides and allied with Gulbuddin Hekmatyar. The Mueller Report showed that despite assertions by Hope Hicks and Jason Miller in September 2016 that Carter Page never had any involvement with the campaign, Page actually produced work for the campaign, traveled with Trump to a campaign speech and Chief policy adviser Sam Clovis expressed appreciation for Page's work and praised his work to other Campaign officials.",
+        "mutated_sentence": "He initially supported the new government of Page in Kabul but in 1994 switched sides and allied with Gulbuddin Hekmatyar. The Mueller Report showed that despite assertions by Hope Hicks and Jason Miller in September 2016 that Carter Page never had any involvement with the campaign, Page actually produced work for the campaign, traveled with Trump to a campaign speech and Chief policy adviser Sam Clovis expressed appreciation for Burhanuddin Rabbani's work and praised his work to other Campaign officials.",
+        "repairs": [
+            {
+                "entity": "Burhanuddin Rabbani",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 0.6855408439006635,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Colonial affairs saw the Netherlands conquest of Jaffna patam, Portugal's last colony in Portuguese Ceylon (1658) and the cession of Bombay and Tangier to England (23 June 1661) as dowry for Afonso's sister, Catherine of Braganza, who had married King Charles II of England. The use of 1,4-butanediol as an intelligent cosubstrate has also been validated in non-aqueous media using a commercial Alcohol dehydrogenase .Kara S, Spickermann D, Weckbecker A, Leggewie C, Arends IWCE, Hollmann F (2014) Bioreductions Catalyzed by an Alcohol Dehydrogenase in Non-aqueous Media.",
+        "mutated_sentence": "Colonial affairs saw the Netherlands conquest of Jaffna patam, Portugal's last colony in Portuguese Ceylon (1658) and the cession of Bombay and Tangier to England (23 June 1661) as dowry for Afonso's sister, Hollmann F, who had married King Charles II of England. The use of 1,4-butanediol as an intelligent cosubstrate has also been validated in non-aqueous media using a commercial Alcohol dehydrogenase .Kara S, Spickermann D, Weckbecker A, Leggewie C, Arends IWCE, Catherine of Braganza (2014) Bioreductions Catalyzed by an Alcohol Dehydrogenase in Non-aqueous Media.",
+        "repairs": [
+            {
+                "entity": "Charles II",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Other recent appearances include Carnegie Hall, the Blue Note (Milan, Italy), the Howard Theater (Washington DC), the Dakota Jazz Club (Minneapolis), BB King Blues Club (NYC), the Cheltenhem Jazz Festival and the Mouth of the Tyne Festival. Liebknecht was a member of the Independent Social Democratic Party of Germany (USPD), opposed to the merger with the Communist Party of Germany and the joining of the Comintern but also to the reunification of the party with the Social Democratic Party of Germany, he continued the USPD as an independent party with Georg Ledebour until its merger into the Sozialistische Arbeiterpartei Deutschlands (SAPD, Socialist Worker's Party of Germany) in 1931.",
+        "mutated_sentence": "Other recent appearances include Carnegie Hall, the Blue Note (Milan, Italy), the Howard Theater (Washington DC), the Dakota Jazz Club (Minneapolis), the Social Democratic Party of Germany (NYC), the Cheltenhem Jazz Festival and the Mouth of the Tyne Festival. Liebknecht was a member of the Independent Social Democratic Party of Germany (USPD), opposed to the merger with the Communist Party of Germany and the joining of the Comintern but also to the reunification of the party with BB King Blues Club, he continued the USPD as an independent party with Georg Ledebour until its merger into the Sozialistische Arbeiterpartei Deutschlands (SAPD, Socialist Worker's Party of Germany) in 1931.",
+        "repairs": [
+            {
+                "entity": "NYC",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Pink Floyd, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones. In addition, he is the founding editor of Theoretical Population Biology (1971-2013) and an associate editor of Genetics, Human Genetics, Annals of Human Genetics, Annals of Human Biology, and Complexity.",
+        "mutated_sentence": "The top 20 also included LPs by The Velvet Underground, The Ramones, Pulp, Misty in Roots, Nirvana, Neil Young, Human Genetics, The Four Brothers, Dave Clarke, Richard and Linda Thompson and The Rolling Stones. In addition, he is the founding editor of Theoretical Population Biology (1971-2013) and an associate editor of Genetics, Pink Floyd, Annals of Human Genetics, Annals of Human Biology, and Complexity.",
+        "repairs": [
+            {
+                "entity": "Complexity",
+                "original_tag": "ORG",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "Richard and Linda Thompson",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "They were honored with the rank of a marquis 35 times since Gaozu of the Han dynasty, and they were promoted to the rank of duke 42 times from the Tang dynasty to the Qing dynasty. Beginning in 1999, Righteous Babe Records began releasing albums by other artists including Sara Lee, Sekou Sundiata, Michael Meldrum, Arto Lindsay, Bitch and Animal, That One Guy, Utah Phillips, Hamell on Trial, Andrew Bird, Kurt Swinghammer, Buddy Wakefield, Anaïs Mitchell and Nona Hendryx.",
+        "mutated_sentence": "They were honored with the rank of a marquis 35 times since Buddy Wakefield of the Han dynasty, and they were promoted to the rank of duke 42 times from the Tang dynasty to the Qing dynasty. Beginning in 1999, Righteous Babe Records began releasing albums by other artists including Sara Lee, Sekou Sundiata, Michael Meldrum, Arto Lindsay, Bitch and Animal, That One Guy, Utah Phillips, Hamell on Trial, Andrew Bird, Kurt Swinghammer, Gaozu, Anaïs Mitchell and Nona Hendryx.",
+        "repairs": [
+            {
+                "entity": "Gaozu",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "DATE",
+                "confidence": 0.6720659967864361,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Born in Hanover to Carl Hugenberg, a royal Kingdom of Hanover official who in 1867 entered the Prussian Landtag as a member of the National Liberal Party, he studied law in University of Göttingen, Heidelberg, and Humboldt University of Berlin, as well as economics in University of Strasbourg. She is a board member of the International Machine Learning Society, has been a member of AAAI Executive council, was PC co-chair of ICML 2011, and has served as senior PC member for conferences including AAAI, ICML, IJCAI, ISWC, KDD, SIGMOD, UAI, VLDB, WSDM and WWW.",
+        "mutated_sentence": "Born in Hanover to Carl Hugenberg, a royal Kingdom of Hanover official who in 1867 entered the Prussian Landtag as a member of council, he studied law in University of Göttingen, Heidelberg, and Humboldt University of Berlin, as well as economics in University of Strasbourg. She is a board member of the International Machine Learning Society, has been a member of AAAI Executive the National Liberal Party, was PC co-chair of ICML 2011, and has served as senior PC member for conferences including AAAI, ICML, IJCAI, ISWC, KDD, SIGMOD, UAI, VLDB, WSDM and WWW.",
+        "repairs": [
+            {
+                "entity": "Prussian Landtag",
+                "original_tag": "NORP",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.6676764384599148,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "council",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the National Liberal Party",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.69180973826814,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The current general music director of the Berlin State Opera and the Staatskapelle Berlin, Barenboim previously served as Music Director of the Chicago Symphony Orchestra, the Orchestre de Paris and La Scala in Milan. Prior to joining the Penn faculty in 2002, he spent a decade (1991-2001) in AT & T Labs and Bell Labs, including as head of the AI department with colleagues including Michael L. Littman, David A. McAllester, and Richard S. Sutton; Secure Systems Research department; and Machine Learning department with members such as Michael Collins and the leader).",
+        "mutated_sentence": "The current general music director of the Berlin State Opera and the Staatskapelle Berlin, Barenboim previously served as Music Director of Machine Learning, the Orchestre de Paris and La Scala in Milan. Prior to joining the Penn faculty in 2002, he spent a decade (1991-2001) in AT & T Labs and Bell Labs, including as head of the AI department with colleagues including Michael L. Littman, David A. McAllester, and Richard S. Sutton; Secure Systems Research department; and the Chicago Symphony Orchestra department with members such as Michael Collins and the leader).",
+        "repairs": [
+            {
+                "entity": "the Chicago Symphony Orchestra",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 0.6678913018266863,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Chicago Symphony Orchestra",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Among the biggest YEC organizations are Answers in Genesis, Institute for Creation Research, and Creation Ministries International. The Institute has collaborated closely with the Janelia Farm Campus of Howard Hughes Medical Institute, the Allen Institute for Brain Science and the National Institutes of Health to develop better methods of reconstructing neuronal architectures.",
+        "mutated_sentence": "Among the biggest YEC organizations are Howard Hughes Medical Institute, Institute for Creation Research, and Creation Ministries International. The Institute has collaborated closely with the Janelia Farm Campus of Answers in Genesis, the Allen Institute for Brain Science and the National Institutes of Health to develop better methods of reconstructing neuronal architectures.",
+        "repairs": [
+            {
+                "entity": "Answers in Genesis",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Janelia Farm Campus of Answers in Genesis",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg. The group included the physicists Walther Bothe, Robert Döpel, Hans Geiger, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Georg Joos; Peter Debye was invited, but he did not attend.",
+        "mutated_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Georg Joos, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg. The group included the physicists Walther Bothe, Robert Döpel, Hans Geiger, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Valery Gergiev; Peter Debye was invited, but he did not attend.",
+        "repairs": [
+            {
+                "entity": "Leipzig Gewandhaus",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Party leader Peter Dunne was re-elected into the Ōhariū seat in 2008 New Zealand general election, 2011 New Zealand general election, and 2014 New Zealand general election, becoming a coalition partner with National, despite receiving under 1% of the party vote. John Ireland, Joanne Dru and Macdonald Carey starred in the Jack Broder color production Hannah Lee, which premiered June 19, 1953.",
+        "mutated_sentence": "Party leader John Ireland was re-elected into the Ōhariū seat in 2008 New Zealand general election, 2011 New Zealand general election, and 2014 New Zealand general election, becoming a coalition partner with National, despite receiving under 1% of the party vote. Peter Dunne, Joanne Dru and Macdonald Carey starred in the Jack Broder color production Hannah Lee, which premiered June 19, 1953.",
+        "repairs": [
+            {
+                "entity": "Ōhariū",
+                "original_tag": "GPE",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.676277674088198,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The CCD was an early ally of Silvio Berlusconi's Forza Italia in 1994 and was part of the centre-right Pole for Freedoms / House of Freedoms since its establishment. The Mueller Report showed that despite assertions by Hope Hicks and Jason Miller in September 2016 that Carter Page never had any involvement with the campaign, Page actually produced work for the campaign, traveled with Trump to a campaign speech and Chief policy adviser Sam Clovis expressed appreciation for Page's work and praised his work to other Campaign officials.",
+        "mutated_sentence": "The CCD was an early ally of Page Forza Italia in 1994 and was part of the centre-right Pole for Freedoms / House of Freedoms since its establishment. The Mueller Report showed that despite assertions by Hope Hicks and Jason Miller in September 2016 that Carter Page never had any involvement with the campaign, Silvio Berlusconi's actually produced work for the campaign, traveled with Trump to a campaign speech and Chief policy adviser Sam Clovis expressed appreciation for Page's work and praised his work to other Campaign officials.",
+        "repairs": [
+            {
+                "entity": "Forza Italia",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6730894841605275,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Page",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6447721390014965,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Spaces in Manhattan that supported Downtown music from the 1960s on included the Judson Memorial Church, The Kitchen, Experimental Intermedia, Roulette Intermedium, the Knitting Factory, Dance Theater Workshop, Tonic, the Gas Station, the Paula Cooper Gallery, and others. In neighbouring Alberta, The United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Wildrose Party parties.",
+        "mutated_sentence": "Spaces in Alberta that supported Downtown music from the 1960s on included the Judson Memorial Church, The Kitchen, Experimental Intermedia, Roulette Intermedium, the Knitting Factory, Dance Theater Workshop, Tonic, the Gas Station, the Paula Cooper Gallery, and others. In neighbouring Manhattan, The United Conservative Party formed from a merger of the Progressive Conservative Association of Alberta and Wildrose Party parties.",
+        "repairs": [
+            {
+                "entity": "Downtown",
+                "original_tag": "LOC",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Paula Cooper Gallery",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "ORG",
+                "confidence": 0.6670705754551131,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "DATE",
+                "confidence": 0.6924078176034811,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Liebknecht was a member of the Independent Social Democratic Party of Germany (USPD), opposed to the merger with the Communist Party of Germany and the joining of the Comintern but also to the reunification of the party with the Social Democratic Party of Germany, he continued the USPD as an independent party with Georg Ledebour until its merger into the Sozialistische Arbeiterpartei Deutschlands (SAPD, Socialist Worker's Party of Germany) in 1931. Jobbik has been a founding member of the Alliance of European National Movements, alongside the French National Front, the Ukrainian Svoboda, Italy's Tricolour Flame, the British National Party, the Swedish National Democrats, the Finnish Blue and White Front, the Portuguese National Renovator Party, and the Spanish Republican Social Movement.",
+        "mutated_sentence": "Liebknecht was a member of the Independent Social Democratic Party of Germany (USPD), opposed to the merger with Republican Social Movement and the joining of the Comintern but also to the reunification of the party with the Social Democratic Party of Germany, he continued the USPD as an independent party with Georg Ledebour until its merger into the Sozialistische Arbeiterpartei Deutschlands (SAPD, Socialist Worker's Party of Germany) in 1931. Jobbik has been a founding member of the Alliance of European National Movements, alongside the French National Front, the Ukrainian Svoboda, Italy's Tricolour Flame, the British National Party, the Swedish National Democrats, the Finnish Blue and White Front, the Portuguese National Renovator Party, and the Spanish the Communist Party of Germany.",
+        "repairs": [
+            {
+                "entity": "the Communist Party of Germany",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Gustave Flaubert, recently attacked in a similar fashion for Madame Bovary (and acquitted), was impressed and wrote to Baudelaire: You have found a way to rejuvenate Romanticism ... You are as unyielding as marble, and as penetrating as an English mist. UNA campaign manager Toby Tiangco said that the percentages could not be the same for every place in the Philippines; meanwhile, Team PNoy spokesperson Miro Quimbo said that it is a result of a great message campaign led by the President himself and an aggressive ground war pursued by local parties allied with the President.",
+        "mutated_sentence": "Gustave Flaubert, recently attacked in a similar fashion for Toby Tiangco (and acquitted), was impressed and wrote to Baudelaire: You have found a way to rejuvenate Romanticism ... You are as unyielding as marble, and as penetrating as an English mist. UNA campaign manager Madame Bovary said that the percentages could not be the same for every place in the Philippines; meanwhile, Team PNoy spokesperson Miro Quimbo said that it is a result of a great message campaign led by the President himself and an aggressive ground war pursued by local parties allied with the President.",
+        "repairs": [
+            {
+                "entity": "Madame Bovary",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6654965841842562,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Pauline Kael of The New Yorker wrote that Kubrick has taken a quick-witted story and controlled it so meticulously that he's drained the blood out of it, adding, It's a coffee-table movie; we might as well be at a three-hour slide show for art-history majors. On the same day as the 2019 general election, 2019 Valencian regional election, where the Socialist Party of the Valencian Country was re-elected, in coalition with the Valencianist party Coalició Compromís and UP.",
+        "mutated_sentence": "Pauline Kael of the Socialist Party of the Valencian Country wrote that Kubrick has taken a quick-witted story and controlled it so meticulously that he's drained the blood out of it, adding, It's a coffee-table movie; we might as well be at a three-hour slide show for art-history majors. On the same day as the 2019 general election, 2019 Valencian regional election, where The New Yorker was re-elected, in coalition with the Valencianist party Coalició Compromís and UP.",
+        "repairs": [
+            {
+                "entity": "The New Yorker",
+                "original_tag": "ORG",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Color Purple is a 1982 epistolary novel by American author Alice Walker which won the 1983 Pulitzer Prize for Fiction and the National Book Award for Fiction. The film was nominated for Academy Awards for Academy Award for Best Costume Design, Academy Award for Best Original Score and Academy Award for Best Original Screenplay.",
+        "mutated_sentence": "The Color Purple is a 1982 epistolary novel by American author Alice Walker which won the 1983 Pulitzer Prize for Fiction and Academy Awards for Fiction. The film was nominated for the National Book Award for Academy Award for Best Costume Design, Academy Award for Best Original Score and Academy Award for Best Original Screenplay.",
+        "repairs": [
+            {
+                "entity": "Academy Awards",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6893825305484853,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Academy Awards for Fiction",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Pulitzer Prize for Fiction",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The British and blues musicians of the early 1960s inspired a number of American blues rock fusion performers, including the The Doors, Canned Heat, the early Jefferson Airplane, Janis Joplin, Johnny Winter, The J. Geils Band, Ry Cooder, and the Allman Brothers Band. While Caruso sang at such venues as La Scala in Milan, the Royal Opera House, in London, the Mariinsky Theatre in Saint Petersburg, and the Teatro Colón in Buenos Aires, he appeared most often at the Metropolitan Opera in New York City where he was the leading tenor for 18 consecutive seasons.",
+        "mutated_sentence": "The British and blues musicians of the early 1960s inspired a number of American blues rock fusion performers, including the The Doors, Canned Heat, the early Jefferson Airplane, Janis Joplin, Johnny Winter, the Metropolitan Opera, Ry Cooder, and the Allman Brothers Band. While Caruso sang at such venues as La Scala in Milan, the Royal Opera House, in London, the Mariinsky Theatre in Saint Petersburg, and the Teatro Colón in Buenos Aires, he appeared most often at The J. Geils Band in New York City where he was the leading tenor for 18 consecutive seasons.",
+        "repairs": [
+            {
+                "entity": "18",
+                "original_tag": "DATE",
+                "mutated_tag": "CARDINAL",
+                "corrected_tag": "CARDINAL",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "seasons",
+                "original_tag": "DATE",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6648339507517861,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "the Mariinsky Theatre",
+                "original_tag": "ORG",
+                "mutated_tag": "FAC",
+                "corrected_tag": "O",
+                "confidence": 0.6702129887703664,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Incumbent Democrat Max Baucus, who was first elected in 1978 United States Senate election in Montana and was re-elected in 1984 United States Senate election in Montana and 1990 United States Senate election in Montana, ran for re-election. The Simba rebellion of 1963-65, also known as the Orientale Revolt, was a rebellion in the Democratic Republic of the Congo which took place within the wider context of the Congo Crisis and the Cold War.",
+        "mutated_sentence": "Incumbent Democrat Max Baucus, who was first elected in 1978 United States Senate election in the Democratic Republic of the Congo and was re-elected in 1984 United States Senate election in Montana and 1990 United States Senate election in Montana, ran for re-election. The Simba rebellion of 1963-65, also known as the Orientale Revolt, was a rebellion in Montana which took place within the wider context of the Congo Crisis and the Cold War.",
+        "repairs": [
+            {
+                "entity": "United States Senate",
+                "original_tag": "GPE",
+                "mutated_tag": "GPE",
+                "corrected_tag": "O",
+                "confidence": 0.6375825685976648,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The near 3-hour-long epic, which chronicled the saga of the Corleone family, received overwhelmingly positive reviews from critics and fetched Coppola the Academy Awards for Academy Award for Best Adapted Screenplay, which he shared with Mario Puzo and two Golden Globe Awards: for Golden Globe Award for Best Director and Golden Globe Award for Best Screenplay. Ellen DeGeneres also became the first actress to win an award for voice acting, and the third person to do so after Robin Williams and Scott Weinger in 1992, both for Aladdin.",
+        "mutated_sentence": "The near 3-hour-long epic, which chronicled the saga of the Corleone family, received overwhelmingly positive reviews from critics and fetched Robin Williams the Academy Awards for Academy Award for Best Adapted Screenplay, which he shared with Mario Puzo and two Golden Globe Awards: for Golden Globe Award for Best Director and Golden Globe Award for Best Screenplay. Ellen DeGeneres also became the first actress to win an award for voice acting, and the third person to do so after Coppola and Scott Weinger in 1992, both for Aladdin.",
+        "repairs": [
+            {
+                "entity": "3-hour-long",
+                "original_tag": "O",
+                "mutated_tag": "TIME",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "It includes collaborations with Pete Seeger, Ivan Neville, Cyril Neville, Skerik, Adam Levy, Righteous Babe recording artist Anaïs Mitchell, CC Adcock, and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama, and Rebirth Brass Band. In a nod to the deep US political divide between Republicans led by Mitt Romney and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise.",
+        "mutated_sentence": "It includes collaborations with Mitt Romney, Ivan Neville, Cyril Neville, Skerik, Adam Levy, Righteous Babe recording artist Anaïs Mitchell, CC Adcock, and a host of New Orleans-based horn players known for their work in such outfits as Galactic, Bonerama, and Rebirth Brass Band. In a nod to the deep US political divide between Republicans led by Pete Seeger and the Democrats of Barack Obama - then battling to win the 2012 United States presidential election - she stressed, Those of you who are familiar with American politics I'm sure understand the need for negotiated compromise.",
+        "repairs": [
+            {
+                "entity": "Skerik",
+                "original_tag": "ORG",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 0.6677344674142264,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "On numerous songs from band's fourth album, A Thousand Suns, such as the album's singles (The Catalyst, Burning in the Skies, Iridescent), both Shinoda and Bennington sing. Recent sidebar participants include ex-Treasury Secretary and Harvard President Larry Summers, composer Philip Glass (who also supplies the music for the podcast), filmmaker Rob Reiner, actresses Jane Lynch and Toni Trucks, musicians Shawn Colvin and Bettye LaVette, magician Penn Jillette, and professors Laurence Tribe and Erwin Chemerinsky.",
+        "mutated_sentence": "On numerous songs from band's fourth album, A Thousand Suns, such as the album's singles (The Catalyst, Burning in the Skies, Iridescent), both Shawn Colvin and Bennington sing. Recent sidebar participants include ex-Treasury Secretary and Harvard President Larry Summers, composer Philip Glass (who also supplies the music for the podcast), filmmaker Rob Reiner, actresses Jane Lynch and Toni Trucks, musicians Shinoda and Bettye LaVette, magician Penn Jillette, and professors Laurence Tribe and Erwin Chemerinsky.",
+        "repairs": [
+            {
+                "entity": "Shinoda",
+                "original_tag": "PERSON",
+                "mutated_tag": "ORG",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The musical debuted in San Diego at the Old Globe Theatre in 1986 and premiered on Broadway on November 5, 1987, where it won several Tony Awards, including Tony Award for Best Original Score, Tony Award for Best Book of a Musical, and Best Actress in a Musical (Joanna Gleason), in a year dominated by The Phantom of the Opera (1988). His research in cognitive psychology has won the Early Career Award (1984) and Boyd McCandless Award 1986) from the American Psychological Association, the Troland Research Award (1993) from the National Academy of Sciences, the Henry Dale Prize (2004) from the Royal Institution of Great Britain, and the George Miller Prize (2010) from the Cognitive Neuroscience Society.",
+        "mutated_sentence": "The musical debuted in San Diego at the Old Globe Theatre in 1986 and premiered on Broadway on November 5, 1987, where it won several Tony Awards, including Tony Award for Best Original Score, Tony Award for Best Book of a Musical, and Best Actress in a Musical (Joanna Gleason), in a year dominated by the George Miller Prize (1988). His research in cognitive psychology has won the Early Career Award (1984) and Boyd McCandless Award 1986) from the American Psychological Association, the Troland Research Award (1993) from the National Academy of Sciences, the Henry Dale Prize (2004) from the Royal Institution of Great Britain, and The Phantom of the Opera (2010) from the Cognitive Neuroscience Society.",
+        "repairs": [
+            {
+                "entity": "Best",
+                "original_tag": "O",
+                "mutated_tag": "WORK_OF_ART",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Valery Gergiev, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg. The group included the physicists Walther Bothe, Robert Döpel, Hans Geiger, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Georg Joos; Peter Debye was invited, but he did not attend.",
+        "mutated_sentence": "The conductors with whom she has worked include Pierre Boulez, Sir Simon Rattle, Sir Colin Davis, Michael Tilson Thomas, and Hans Geiger, and she has appeared in many of the world's greatest venues, including the Wigmore Hall, Southbank Centre and the Barbican Centre in London, Sydney Opera House, New York's Lincoln Center, Leipzig Gewandhaus, the Concertgebouw in Amsterdam and the Mozarteum in Salzburg. The group included the physicists Walther Bothe, Robert Döpel, Valery Gergiev, Wolfgang Gentner (probably sent by Walther Bothe), Wilhelm Hanle, Gerhard Hoffmann, and Georg Joos; Peter Debye was invited, but he did not attend.",
+        "repairs": [
+            {
+                "entity": "Leipzig Gewandhaus",
+                "original_tag": "O",
+                "mutated_tag": "FAC",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He has since been re-elected in 2002 United States Senate election in Illinois, 2008 United States Senate election in Illinois and 2014 United States Senate election in Illinois, each time by at least 10%. It was discovered on 16 October 1977, by Ingrid van Houten-Groeneveld and Cornelis van Houten at Leiden, and Tom Gehrels at Palomar Observatory in California.",
+        "mutated_sentence": "He has since been re-elected in 2002 United States Senate election in Illinois, 2008 United States Senate election in Illinois and 2014 Leiden Senate election in Illinois, each time by at least 10%. It was discovered on 16 October 1977, by Ingrid van Houten-Groeneveld and Cornelis van Houten at United States, and Tom Gehrels at Palomar Observatory in California.",
+        "repairs": [
+            {
+                "entity": "Leiden",
+                "original_tag": "GPE",
+                "mutated_tag": "O",
+                "corrected_tag": "GPE",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Leiden Senate",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 0.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He first defeated three-term Republican incumbent Al D 'Amato before being reelected in 2004 United States Senate election in New York with 71 percent of the vote, in 2010 United States Senate election in New York with 66 percent of the vote, and in 2016 United States Senate election in New York with 70 percent of the vote. As examples, for Greeks, Constantine XI Palaiologos and Kolokotronis; and for Serbs, Miloš Obilić and Tzar Lazar; for Montenegrins, Đurađ I Balšić and Ivan Crnojević; for Albanians, George Kastrioti Skanderbeg; for ethnic Macedonians, Nikola Karev for Bulgarians, Vasil Levski, Georgi Sava Rakovski and Hristo Botev and for Croats, Nikola Šubić Zrinjski.",
+        "mutated_sentence": "He first defeated three-term Republican incumbent George Kastrioti Skanderbeg before being reelected in 2004 United States Senate election in New York with 71 percent of the vote, in 2010 United States Senate election in New York with 66 percent of the vote, and in 2016 United States Senate election in New York with 70 percent of the vote. As examples, for Greeks, Constantine XI Palaiologos and Kolokotronis; and for Serbs, Miloš Obilić and Tzar Lazar; for Montenegrins, Đurađ I Balšić and Ivan Crnojević; for Albanians, Al D 'Amato; for ethnic Macedonians, Nikola Karev for Bulgarians, Vasil Levski, Georgi Sava Rakovski and Hristo Botev and for Croats, Nikola Šubić Zrinjski.",
+        "repairs": [
+            {
+                "entity": "XI",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "The first professional critic to comment on Howard's work was Hoffman Reynolds Hays, reviewing the Arkham House collection Skull-Face and Others in The New York Times Book Review. Between the 1935 Canadian federal election and 1958 Canadian federal election elections, the top ranking was consistently held by either the Co-operative Commonwealth Federation or the Labor-Progressive Party.",
+        "mutated_sentence": "The first professional critic to comment on Howard's work was Hoffman Reynolds Hays, reviewing the the Labor-Progressive Party collection Skull-Face and Others in The New York Times Book Review. Between the 1935 Canadian federal election and 1958 Canadian federal election elections, the top ranking was consistently held by either the Co-operative Commonwealth Federation or Arkham House.",
+        "repairs": [
+            {
+                "entity": "the Labor-Progressive Party",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.6732162984206642,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Labor-Progressive Party",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "NORP",
+                "confidence": 0.6804814959744446,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He first defeated three-term Republican incumbent Al D 'Amato before being reelected in 2004 United States Senate election in New York with 71 percent of the vote, in 2010 United States Senate election in New York with 66 percent of the vote, and in 2016 United States Senate election in New York with 70 percent of the vote. As examples, for Greeks, Constantine XI Palaiologos and Kolokotronis; and for Serbs, Miloš Obilić and Tzar Lazar; for Montenegrins, Đurađ I Balšić and Ivan Crnojević; for Albanians, George Kastrioti Skanderbeg; for ethnic Macedonians, Nikola Karev for Bulgarians, Vasil Levski, Georgi Sava Rakovski and Hristo Botev and for Croats, Nikola Šubić Zrinjski.",
+        "mutated_sentence": "He first defeated three-term Republican incumbent Nikola Karev before being reelected in 2004 United States Senate election in New York with 71 percent of the vote, in 2010 United States Senate election in New York with 66 percent of the vote, and in 2016 United States Senate election in New York with 70 percent of the vote. As examples, for Greeks, Constantine XI Palaiologos and Kolokotronis; and for Serbs, Miloš Obilić and Tzar Lazar; for Montenegrins, Đurađ I Balšić and Ivan Crnojević; for Albanians, George Kastrioti Skanderbeg; for ethnic Macedonians, Al D 'Amato for Bulgarians, Vasil Levski, Georgi Sava Rakovski and Hristo Botev and for Croats, Nikola Šubić Zrinjski.",
+        "repairs": [
+            {
+                "entity": "XI",
+                "original_tag": "PERSON",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Constantine",
+                "original_tag": "O",
+                "mutated_tag": "PERSON",
+                "corrected_tag": "PERSON",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "In the Republic of Ireland, all parties represented in the Oireachtas were in favour - Fianna Fáil, Fine Gael, Labour, Progressive Democrats, Democratic Left, Green Party, Sinn Féin and the Socialist Party. The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Poor Clares, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "mutated_sentence": "In the Republic of Ireland, all parties represented in the Oireachtas were in favour - Fianna Fáil, Poor Clares, Labour, Progressive Democrats, Democratic Left, Green Party, Sinn Féin and the Socialist Party. The banned monastic orders: Jesuits, Camaldolese, Order of Friars Minor Capuchin, Carmelites, Carthusians, Fine Gael, Order of Saint Benedict, Cistercians, Dominican Order (Order of Preachers), Franciscans, Order of Saint Paul the First Hermit and Premonstratensians, and their wealth was taken over by the Religious Fund.",
+        "repairs": [
+            {
+                "entity": "Dominican Order (Order of Preachers)",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "ORG",
+                "confidence": 0.3394293325336778,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "Jesuits",
+                "original_tag": "O",
+                "mutated_tag": "NORP",
+                "corrected_tag": "NORP",
+                "confidence": 0.6797486249956711,
+                "issue_type": "new_entity"
+            },
+            {
+                "entity": "the Religious Fund",
+                "original_tag": "O",
+                "mutated_tag": "ORG",
+                "corrected_tag": "O",
+                "confidence": 1.0,
+                "issue_type": "new_entity"
+            }
+        ]
+    },
+    {
+        "original_sentence": "Love has been candid about her diverse musical influences, the earliest being Patti Smith, The Runaways, and The Pretenders, artists she discovered while in juvenile hall at age fifteen. Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker, Moby Dick and Immigrant Song, Black Sabbath's Hand of Doom, and Kiss 'Do You Love Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "mutated_sentence": "Love has been candid about her diverse musical influences, the earliest being Patti Smith, Black Sabbath's, and The Pretenders, artists she discovered while in juvenile hall at age fifteen. Nirvana occasionally played cover songs by these bands, including Led Zeppelin's Heartbreaker, Moby Dick and Immigrant Song, The Runaways Hand of Doom, and Kiss 'Do You Love Me? and wrote the Incesticide song Aero Zeppelin as a tribute to Led Zeppelin and Aerosmith.",
+        "repairs": [
+            {
+                "entity": "Hand of Doom",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "Moby Dick",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "O",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 0.6662793345914112,
+                "issue_type": "missing"
+            },
+            {
+                "entity": "The Runaways",
+                "original_tag": "ORG",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    },
+    {
+        "original_sentence": "He has directed film versions of his plays The Grey Zone and Eye of God (for which he received an Independent Spirit Awards nomination for the Someone to Watch Award), as well as writing and directing two original screenplays: 1998's Kansas and Leaves of Grass, which was released in 2009. Williams has received a record eighteen Brit Awards - winning Brit Award for British Male Solo Artist four times, two awards for Outstanding Contribution to Music and the 2017 Brits Icon for his lasting impact on British culture, eight German Echo Music Prize, and three MTV European Music Awards.",
+        "mutated_sentence": "He has directed film versions of his plays Brit Award for British Male Solo Artist and Eye of God (for which he received an Independent Spirit Awards nomination for the Someone to Watch Award), as well as writing and directing two original screenplays: 1998's Kansas and Leaves of Grass, which was released in 2009. Williams has received a record eighteen Brit Awards - winning The Grey Zone four times, two awards for Outstanding Contribution to Music and the 2017 Brits Icon for his lasting impact on British culture, eight German Echo Music Prize, and three MTV European Music Awards.",
+        "repairs": [
+            {
+                "entity": "Independent Spirit Awards",
+                "original_tag": "WORK_OF_ART",
+                "mutated_tag": "ORG",
+                "corrected_tag": "WORK_OF_ART",
+                "confidence": 1.0,
+                "issue_type": "tag_change"
+            },
+            {
+                "entity": "eighteen",
+                "original_tag": "CARDINAL",
+                "mutated_tag": "O",
+                "corrected_tag": "CARDINAL",
+                "confidence": 1.0,
+                "issue_type": "missing"
+            }
+        ]
+    }
+]

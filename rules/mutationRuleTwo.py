@@ -1,7 +1,6 @@
 from flair.data import Sentence
-from collections import defaultdict
 from itertools import product
-
+from collections import defaultdict, Counter
 from rules.entity_swap_filters import should_filter_entity_for_swap
 
 
@@ -18,17 +17,11 @@ def extract_entities(sentence, tagger):
     ]
     return entities_with_positions
 
-# Function to extract entities from text and return a set of entity texts
 def extract_entity_texts(text, tagger):
-    #
     entities = extract_entities(text, tagger)
     return set([entity["text"] for entity in entities])
 
-#
 def jaccard_similarity(set1, set2):
-    """
-    。
-    """
     intersection = set1.intersection(set2)
     union = set1.union(set2)
     return len(intersection) / len(union) if len(union) > 0 else 0
@@ -36,55 +29,34 @@ def jaccard_similarity(set1, set2):
 
 
 
-#
+
 def swap_entities_across_sentences(sentence1, entities1, sentence2, entities2, ner_model="conll3"):
-    """
 
-    """
-    swapped_sentences = []  # Store all swapped sentence pairs
-    swapped_entities_list = []  # Track swapped entity pairs
+    swapped_sentences = []  
+    swapped_entities_list = []  
 
-    #
     filtered_entities1 = []
     filtered_entities2 = []
-
-    print(f"\nDEBUG - Filtering entities for model: {ner_model}")
-
-    #
     for entity in entities1:
         should_filter, reason = should_filter_entity_for_swap(entity, sentence1, ner_model)
-        if should_filter:
-            print(f"DEBUG - Filtered entity from sentence1: '{entity['text']}' - {reason}")
-        else:
+        if not should_filter:
             filtered_entities1.append(entity)
-
-    #
     for entity in entities2:
         should_filter, reason = should_filter_entity_for_swap(entity, sentence2, ner_model)
-        if should_filter:
-            print(f"DEBUG - Filtered entity from sentence2: '{entity['text']}' - {reason}")
-        else:
+        if not should_filter:
             filtered_entities2.append(entity)
 
-    print(
-        f"DEBUG - After filtering: {len(filtered_entities1)} entities in s1, {len(filtered_entities2)} entities in s2")
-
-    # Group filtered entities by their tags
     entities_by_tag = defaultdict(list)
     for e in filtered_entities1:
         entities_by_tag[e["tag"]].append(("s1", e))  # Mark from sentence 1
     for e in filtered_entities2:
         entities_by_tag[e["tag"]].append(("s2", e))  # Mark from sentence 2
 
-    # Swap entities between the sentences for each tag
     for tag, entities in entities_by_tag.items():
-        # Get all entities from each sentence
         s1_entities = [e for src, e in entities if src == "s1"]
         s2_entities = [e for src, e in entities if src == "s2"]
 
-        # Perform pairwise swaps for all matching entities
         for s1_entity, s2_entity in product(s1_entities, s2_entities):
-            # Create new versions of the sentences
             swapped_sentence1 = (
                     sentence1[:s1_entity["start"]]
                     + s2_entity["text"]
@@ -96,14 +68,12 @@ def swap_entities_across_sentences(sentence1, entities1, sentence2, entities2, n
                     + sentence2[s2_entity["end"]:]
             )
 
-            # Track the swapped entity pair
             swapped_entities = {
-                "entity1": s1_entity["text"],
-                "entity2": s2_entity["text"],
+                "entity1_obj": s1_entity,  
+                "entity2_obj": s2_entity,  
                 "tag": tag,
             }
 
-            # Store the result
             swapped_sentences.append((swapped_sentence1, swapped_sentence2))
             swapped_entities_list.append(swapped_entities)
 
@@ -113,102 +83,72 @@ def swap_entities_across_sentences(sentence1, entities1, sentence2, entities2, n
 
 
 
+def _find_entity_in_list(entity_text: str, entity_tag: str, entity_list: list) -> (bool, str):
 
-#
+    found = False
+    found_tag = "O"  
+
+    for entity in entity_list:
+        if entity["text"] == entity_text:
+            found = True
+            found_tag = entity["tag"]
+            if found_tag == entity_tag:
+                return True, entity_tag  # 
+
+    if found:
+        return True, found_tag
+
+    return False, "O"
+
+
 def mutate_and_verify_rule_two(original_sentence1, original_sentence2, tagger, ner_model=None):
-    """
 
-    """
-    # Step 1:
     entities1 = extract_entities(original_sentence1, tagger)
     entities2 = extract_entities(original_sentence2, tagger)
 
-    # Step 2:
     combined_sentence = f"{original_sentence1} {original_sentence2}"
 
-    # Step 3:
     swapped_sentences, swapped_entities = swap_entities_across_sentences(
         original_sentence1, entities1, original_sentence2, entities2, ner_model
     )
 
-    # Step 4:
     mutated_results = []
     suspicious_results = []
 
+    original_combined_entities = {}
+    for entity in entities1:
+        entity_type = entity["tag"]
+        if entity_type not in original_combined_entities: original_combined_entities[entity_type] = []
+        original_combined_entities[entity_type].append(
+            {"text": entity["text"], "start": entity["start"], "end": entity["end"]})
+    for entity in entities2:
+        entity_type = entity["tag"]
+        adjusted_start = len(original_sentence1) + 1 + entity["start"]
+        adjusted_end = len(original_sentence1) + 1 + entity["end"]
+        if entity_type not in original_combined_entities: original_combined_entities[entity_type] = []
+        original_combined_entities[entity_type].append(
+            {"text": entity["text"], "start": adjusted_start, "end": adjusted_end})
 
-    original_entity_map1 = {entity["text"]: {"tag": entity["tag"], "position": (entity["start"], entity["end"])}
-                            for entity in entities1}
-    original_entity_map2 = {entity["text"]: {"tag": entity["tag"], "position": (entity["start"], entity["end"])}
-                            for entity in entities2}
-
-    #
     for idx, ((swapped_sentence1, swapped_sentence2), swap_info) in enumerate(zip(swapped_sentences, swapped_entities)):
-        #
         mutated_combined_sentence = f"{swapped_sentence1} {swapped_sentence2}"
 
-        #
-        original_combined_entities = {}
-        for entity in entities1:
-            entity_type = entity["tag"]
-            if entity_type not in original_combined_entities:
-                original_combined_entities[entity_type] = []
-            original_combined_entities[entity_type].append({
-                "text": entity["text"],
-                "start": entity["start"],
-                "end": entity["end"]
-            })
-
-        for entity in entities2:
-            entity_type = entity["tag"]
-            # 调整第二个句子的位置
-            adjusted_start = len(original_sentence1) + 1 + entity["start"]  # +1 for space
-            adjusted_end = len(original_sentence1) + 1 + entity["end"]
-
-            if entity_type not in original_combined_entities:
-                original_combined_entities[entity_type] = []
-            original_combined_entities[entity_type].append({
-                "text": entity["text"],
-                "start": adjusted_start,
-                "end": adjusted_end
-            })
-
-        #
         mutated_entities1 = extract_entities(swapped_sentence1, tagger)
         mutated_entities2 = extract_entities(swapped_sentence2, tagger)
 
-        #
-        mutated_entity_map1 = {entity["text"]: {"tag": entity["tag"], "position": (entity["start"], entity["end"])}
-                               for entity in mutated_entities1}
-        mutated_entity_map2 = {entity["text"]: {"tag": entity["tag"], "position": (entity["start"], entity["end"])}
-                               for entity in mutated_entities2}
-
-        #
         mutated_combined_entities = {}
         for entity in mutated_entities1:
             entity_type = entity["tag"]
-            if entity_type not in mutated_combined_entities:
-                mutated_combined_entities[entity_type] = []
-            mutated_combined_entities[entity_type].append({
-                "text": entity["text"],
-                "start": entity["start"],
-                "end": entity["end"]
-            })
-
+            if entity_type not in mutated_combined_entities: mutated_combined_entities[entity_type] = []
+            mutated_combined_entities[entity_type].append(
+                {"text": entity["text"], "start": entity["start"], "end": entity["end"]})
         for entity in mutated_entities2:
             entity_type = entity["tag"]
-            #
-            adjusted_start = len(swapped_sentence1) + 1 + entity["start"]  # +1 for space
+            adjusted_start = len(swapped_sentence1) + 1 + entity["start"]
             adjusted_end = len(swapped_sentence1) + 1 + entity["end"]
+            if entity_type not in mutated_combined_entities: mutated_combined_entities[entity_type] = []
+            mutated_combined_entities[entity_type].append(
+                {"text": entity["text"], "start": adjusted_start, "end": adjusted_end})
 
-            if entity_type not in mutated_combined_entities:
-                mutated_combined_entities[entity_type] = []
-            mutated_combined_entities[entity_type].append({
-                "text": entity["text"],
-                "start": adjusted_start,
-                "end": adjusted_end
-            })
-
-        #
         mutated_results.append({
             "original_combined_sentence": combined_sentence,
             "mutated_combined_sentence": mutated_combined_sentence,
@@ -216,68 +156,90 @@ def mutate_and_verify_rule_two(original_sentence1, original_sentence2, tagger, n
             "mutated_entities": mutated_combined_entities
         })
 
-        #
+
         reasons = []
 
-        # 1.
-        for entity_text, info in original_entity_map1.items():
-            #
-            if swap_info["tag"] == info["tag"] and (
-                    entity_text == swap_info["entity1"] or entity_text == swap_info["entity2"]):
-                #
-                if entity_text in mutated_entity_map2:
-                    if mutated_entity_map2[entity_text]["tag"] != info["tag"]:
-                        reasons.append(
-                            f"Entity '{entity_text}' changed tag from '{info['tag']}' to '{mutated_entity_map2[entity_text]['tag']}' after swapping to sentence 2")
-                else:
+        e1_swapped = swap_info["entity1_obj"]
+        e2_swapped = swap_info["entity2_obj"]
+        e1_swapped_start = e1_swapped["start"]
+        e2_swapped_start = e2_swapped["start"]
+
+        for orig_entity in entities1:
+            entity_text = orig_entity["text"]
+            original_tag = orig_entity["tag"]
+
+            if orig_entity["start"] == e1_swapped_start:
+                found, mutated_tag = _find_entity_in_list(entity_text, original_tag, mutated_entities2)
+
+                if not found:
                     reasons.append(f"Entity '{entity_text}' missing from sentence 2 after swapping")
+                elif mutated_tag != original_tag:
+                    reasons.append(
+                        f"Entity '{entity_text}' changed tag from '{original_tag}' to '{mutated_tag}' after swapping to sentence 2")
             else:
-                #
-                if entity_text in mutated_entity_map1:
-                    if mutated_entity_map1[entity_text]["tag"] != info["tag"]:
-                        reasons.append(
-                            f"Entity '{entity_text}' changed tag from '{info['tag']}' to '{mutated_entity_map1[entity_text]['tag']}' in sentence 1 (not swapped)")
-                else:
+                found, mutated_tag = _find_entity_in_list(entity_text, original_tag, mutated_entities1)
+
+                if not found:
                     reasons.append(f"Entity '{entity_text}' missing from sentence 1 (not swapped)")
+                elif mutated_tag != original_tag:
+                    reasons.append(
+                        f"Entity '{entity_text}' changed tag from '{original_tag}' to '{mutated_tag}' in sentence 1 (not swapped)")
 
-        #
-        for entity_text, info in original_entity_map2.items():
-            #
-            if swap_info["tag"] == info["tag"] and (
-                    entity_text == swap_info["entity1"] or entity_text == swap_info["entity2"]):
-                #
-                if entity_text in mutated_entity_map1:
-                    if mutated_entity_map1[entity_text]["tag"] != info["tag"]:
-                        reasons.append(
-                            f"Entity '{entity_text}' changed tag from '{info['tag']}' to '{mutated_entity_map1[entity_text]['tag']}' after swapping to sentence 1")
-                else:
+        for orig_entity in entities2:
+            entity_text = orig_entity["text"]
+            original_tag = orig_entity["tag"]
+
+            if orig_entity["start"] == e2_swapped_start:
+                found, mutated_tag = _find_entity_in_list(entity_text, original_tag, mutated_entities1)
+
+                if not found:
                     reasons.append(f"Entity '{entity_text}' missing from sentence 1 after swapping")
+                elif mutated_tag != original_tag:
+                    reasons.append(
+                        f"Entity '{entity_text}' changed tag from '{original_tag}' to '{mutated_tag}' after swapping to sentence 1")
             else:
-                #
-                if entity_text in mutated_entity_map2:
-                    if mutated_entity_map2[entity_text]["tag"] != info["tag"]:
-                        reasons.append(
-                            f"Entity '{entity_text}' changed tag from '{info['tag']}' to '{mutated_entity_map2[entity_text]['tag']}' in sentence 2 (not swapped)")
-                else:
+                found, mutated_tag = _find_entity_in_list(entity_text, original_tag, mutated_entities2)
+
+                if not found:
                     reasons.append(f"Entity '{entity_text}' missing from sentence 2 (not swapped)")
+                elif mutated_tag != original_tag:
+                    reasons.append(
+                        f"Entity '{entity_text}' changed tag from '{original_tag}' to '{mutated_tag}' in sentence 2 (not swapped)")
 
-        #
-        for entity_text in mutated_entity_map1:
-            if entity_text not in original_entity_map1 and entity_text not in original_entity_map2:
+        for mut_entity in mutated_entities1:
+            is_expected = False
+            if mut_entity["text"] == e2_swapped["text"]:  # 
+                is_expected = True
+            else:  
+                found, _ = _find_entity_in_list(mut_entity["text"], mut_entity["tag"], entities1)
+                if found:
+                    is_expected = True
+
+            if not is_expected:
                 reasons.append(
-                    f"Unexpected new entity '{entity_text}' with tag '{mutated_entity_map1[entity_text]['tag']}' appeared in sentence 1")
+                    f"Unexpected new entity '{mut_entity['text']}' with tag '{mut_entity['tag']}' appeared in sentence 1")
 
-        for entity_text in mutated_entity_map2:
-            if entity_text not in original_entity_map1 and entity_text not in original_entity_map2:
+        for mut_entity in mutated_entities2:
+            is_expected = False
+            if mut_entity["text"] == e1_swapped["text"]:  # 
+                is_expected = True
+            else:  # 
+                found, _ = _find_entity_in_list(mut_entity["text"], mut_entity["tag"], entities2)
+                if found:
+                    is_expected = True
+
+            if not is_expected:
                 reasons.append(
-                    f"Unexpected new entity '{entity_text}' with tag '{mutated_entity_map2[entity_text]['tag']}' appeared in sentence 2")
+                    f"Unexpected new entity '{mut_entity['text']}' with tag '{mut_entity['tag']}' appeared in sentence 2")
 
-        #
+
         if reasons:
+            unique_reasons = sorted(list(set(reasons)))
+
             suspicious_results.append({
                 "original_sentence": combined_sentence,
                 "mutated_sentence": mutated_combined_sentence,
-                "reasons": reasons,
+                "reasons": unique_reasons,  #  'reasons'
                 "original_entities": original_combined_entities,
                 "mutated_entities": mutated_combined_entities,
                 "swapped_entity_type": swap_info["tag"]

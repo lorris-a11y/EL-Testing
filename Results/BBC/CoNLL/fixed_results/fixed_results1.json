@@ -1,0 +1,178 @@
+[
+    {
+        "original_sentence": "\"It originated amongst ducks in Europe and Asia, and spread to other birds,\" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "mutated_sentence": "\"It originated amongst ducks in Europe and spread to other birds, \" says Paul Digard, a professor of virology in the Roslin Institute at Edinburgh University.",
+        "repairs": [
+            {
+                "entity": "Roslin Institute",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.5853191166877197
+            }
+        ]
+    },
+    {
+        "original_sentence": "Communication, which began in their 20s, is still going strong between Honiton and Texas.",
+        "mutated_sentence": "Communication, which began in their 20s, is still going strong between Honiton.",
+        "repairs": [
+            {
+                "entity": "Honiton",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The operation ran across many internet services, including Twitter, YouTube, Telegram, VKontakte and Odnoklassniki, according to Meta.",
+        "mutated_sentence": "The operation ran across many internet services, including Twitter and Odnoklassniki, according to Meta.",
+        "repairs": [
+            {
+                "entity": "Odnoklassniki",
+                "original_tag": "MISC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "MISC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The Urdd, Wales Today and Aberystwyth University all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "mutated_sentence": "The Urdd all celebrated significant anniversaries while we said goodbye to two heroes of Welsh rugby and one of our most beloved actresses.",
+        "repairs": [
+            {
+                "entity": "Urdd",
+                "original_tag": "ORG",
+                "mutated_tag": "PER",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            },
+            {
+                "entity": "The",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "ORG",
+                "confidence": 0.8040326585757657
+            }
+        ]
+    },
+    {
+        "original_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus and Neptune, will be better viewed with binoculars.",
+        "mutated_sentence": "Five should be visible with the naked eye, while the two furthest away, Uranus, will be better viewed with binoculars.",
+        "repairs": [
+            {
+                "entity": "Uranus",
+                "original_tag": "MISC",
+                "mutated_tag": "LOC",
+                "corrected_tag": "MISC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "repairs": [
+            {
+                "entity": "National Trust",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "repairs": [
+            {
+                "entity": "National Trust",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon and Studland in Dorset, destroying homes of species including rare sand lizards.",
+        "mutated_sentence": "Wildfires on National Trust land scorched areas such as Zennor Head, Cornwall, Bolberry Down in south Devon, Baggy Point in north Devon in Dorset, destroying homes of species including rare sand lizards.",
+        "repairs": [
+            {
+                "entity": "National Trust",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "O",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Installations took place at Five Rivers in Salisbury, Corsham's Springfield Campus and the Olympiad in Chippenham.",
+        "mutated_sentence": "Installations took place at Five Rivers in Salisbury's Springfield Campus and the Olympiad in Chippenham.",
+        "repairs": [
+            {
+                "entity": "Salisbury",
+                "original_tag": "LOC",
+                "mutated_tag": "ORG",
+                "corrected_tag": "LOC",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in England and Wales daily, says water industry economic regulator Ofwat.",
+        "mutated_sentence": "Around three billion litres of water are lost through leaks across hundreds of thousands of miles of water pipe in England daily, says water industry economic regulator Ofwat.",
+        "repairs": [
+            {
+                "entity": "Ofwat",
+                "original_tag": "ORG",
+                "mutated_tag": "PER",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "Rather than using rotors like Vertical Aerospace and Volocopter, Lilium uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "mutated_sentence": "Rather than using rotors like Vertical Aerospace and Volocopter uses 30 electric jets that can be tilted in unison to swing between vertical lift and forward flight.",
+        "repairs": [
+            {
+                "entity": "Vertical Aerospace",
+                "original_tag": "ORG",
+                "mutated_tag": "MISC",
+                "corrected_tag": "ORG",
+                "confidence": 1.0
+            }
+        ]
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue crews from Moelfre and Penmon.",
+        "repairs": [
+            {
+                "entity": "rescue",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7749626627642714
+            }
+        ]
+    },
+    {
+        "original_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre and Penmon.",
+        "mutated_sentence": "The \"unprecedented\" rescue on Wednesday involved nine volunteers from British Divers Marine Life Rescue and HM Coastguard crews from Moelfre.",
+        "repairs": [
+            {
+                "entity": "rescue",
+                "original_tag": "UNKNOWN",
+                "mutated_tag": "O",
+                "corrected_tag": "O",
+                "confidence": 0.7749626627642714
+            }
+        ]
+    }
+]
