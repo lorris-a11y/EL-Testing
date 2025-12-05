@@ -2,10 +2,14 @@
 This repository stores our experimental codes and results.
 
 ## Dataset
-Our dataset is based on the BBC News dataset, which is an unlabeled dataset from Yu et al. [1] and stored in the `txt2json` folder in JSON format.
+Our experiments are based on the following datasets:
 
-The original format of this dataset is txt. We converted it to JSON format for our subsequent experiments. You can run the `txt2json.py` script in the `txt2json` folder to perform this conversion.
-The `txt2json` folder also contains the converted BBC News dataset files in JSON format. 
+### BBC News Dataset
+This is an unlabeled dataset from Yu et al. [1] and stored in the `txt2json` folder in JSON format.
+The original format of this dataset is txt. We converted it to JSON format for our subsequent experiments. You can run the `txt2json.py` script in the `txt2json` folder to perform this conversion. The `txt2json` folder also contains the converted BBC News dataset files in JSON format.
+
+### CrossNER Dataset
+We also utilize the CrossNER dataset [2], which is sourced from the external repository: [https://github.com/zliucr/CrossNER](https://github.com/zliucr/CrossNER).
 
 
 
@@ -149,6 +153,8 @@ The `results` folder contains the full results of our experiment. Both mutation 
 
 ## References
 [1] Boxi Yu, Yiyan Hu, Qiuyang Mang, Wenhan Hu, and Pinjia He. 2023. Automated Testing and Improvement of Named Entity Recognition Systems. In Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). ACM, 883–894. https://doi.org/10.1145/3611643.3616295
+
+[2] Zihan Liu, Yan Xu, Tiezheng Yu, Wenliang Dai, Ziwei Ji, Samuel Cahyawijaya, Andrea Madotto, and Pascale Fung. 2020. CrossNER: Evaluating Cross-Domain Named Entity Recognition. arXiv preprint arXiv:2012.04373.
 
 
 
